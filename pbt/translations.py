@@ -18,10 +18,10 @@ def translation(f):
     return wrapper
 
 class T():
-    def __init__(self, tag, text, context=None):
+    def __init__(self, tag, context, text):
         self.tag = tag
         self.text = text
-        self.context = context
+        self.context = context or None
         self.warnings = []
     
     def __repr__(self):
