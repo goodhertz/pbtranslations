@@ -182,3 +182,4 @@ ts.append(T("Parameter/option", "Treble", "TiltLoudnessMode")
     .ar("الصوت العالي")
     .he(0)
 )
+
