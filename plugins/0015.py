@@ -3,7 +3,8 @@ from pbt.translations import *
 
 ts = TranslationSet()
 
-ts.append(T("ClumpLabel/text", None, "ADV FILTER")
+ts.append(T(tag="ClumpLabel/text",
+    text="ADV FILTER")
     .es("FILTRO EXT")
     .pt("FILTRO +")
     .fr("FILTRE EXT")
@@ -15,7 +16,8 @@ ts.append(T("ClumpLabel/text", None, "ADV FILTER")
     .he(0)
 )
 
-ts.append(T("ClumpLabel/text", None, "FILTER")
+ts.append(T(tag="ClumpLabel/text",
+    text="FILTER")
     .es("FILTRO")
     .pt("FILTRO")
     .fr("FILTRE")
@@ -27,7 +29,8 @@ ts.append(T("ClumpLabel/text", None, "FILTER")
     .he(0)
 )
 
-ts.append(T("ClumpLabel/text", None, "G|A|I|N")
+ts.append(T(tag="ClumpLabel/text",
+    text="G|A|I|N")
     # Set vertically
     .es("GA|NAN|CIA")
     .pt("GA|NH|O")
@@ -40,7 +43,8 @@ ts.append(T("ClumpLabel/text", None, "G|A|I|N")
     .he(0)
 )
 
-ts.append(T("ClumpLabel/text", None, "HIGH")
+ts.append(T(tag="ClumpLabel/text",
+    text="HIGH")
     .es("ALTOS")
     .pt("AGUDO")
     .fr("AIGUS")
@@ -52,7 +56,8 @@ ts.append(T("ClumpLabel/text", None, "HIGH")
     .he(0)
 )
 
-ts.append(T("ClumpLabel/text", None, "LOW")
+ts.append(T(tag="ClumpLabel/text",
+    text="LOW")
     .es("BAJOS")
     .pt("GRAVE")
     .fr("GRAVES")
@@ -64,7 +69,8 @@ ts.append(T("ClumpLabel/text", None, "LOW")
     .he(0)
 )
 
-ts.append(T("ClumpLabel/text", None, "R|A|N|G|E")
+ts.append(T(tag="ClumpLabel/text",
+    text="R|A|N|G|E")
     # Set vertically
     .es("R|A|N|G|O")
     .pt("EX|TE|NS|ÃO")
@@ -77,7 +83,8 @@ ts.append(T("ClumpLabel/text", None, "R|A|N|G|E")
     .he(0)
 )
 
-ts.append(T("ClumpLabel/text", None, "TILT")
+ts.append(T(tag="ClumpLabel/text",
+    text="TILT")
     .es("INCLINACIÓN")
     .pt("INCLINAÇÃO")
     .fr("INCLINAISON")
@@ -89,7 +96,8 @@ ts.append(T("ClumpLabel/text", None, "TILT")
     .he(0)
 )
 
-ts.append(T("ParamLabel/text", None, "Loudness")
+ts.append(T(tag="ParamLabel/text",
+    text="Loudness")
     .es("Sonoridad")
     .pt("Intensidade")
     .fr("Sonie")
@@ -101,7 +109,8 @@ ts.append(T("ParamLabel/text", None, "Loudness")
     .he(0)
 )
 
-ts.append(T("ParamLabel/text", None, "Output Gain")
+ts.append(T(tag="ParamLabel/text",
+    text="Output Gain")
     .es("Ganancia salida")
     .pt("Ganho de Saída")
     .fr("Gain de Sortie")
@@ -113,7 +122,8 @@ ts.append(T("ParamLabel/text", None, "Output Gain")
     .he(0)
 )
 
-ts.append(T("ParamLabel/text", None, "Resonance")
+ts.append(T(tag="ParamLabel/text",
+    text="Resonance")
     .es("Resonancia")
     .pt("Ressonância")
     .fr("Résonance")
@@ -125,7 +135,8 @@ ts.append(T("ParamLabel/text", None, "Resonance")
     .he(0)
 )
 
-ts.append(T("ParamLabel/text", None, "Slope")
+ts.append(T(tag="ParamLabel/text",
+    text="Slope")
     .es("Pendiente")
     .pt("Declive")
     .fr("Ordre")
@@ -137,8 +148,10 @@ ts.append(T("ParamLabel/text", None, "Slope")
     .he(0)
 )
 
-ts.append(T("Parameter/option", "TiltLoudnessMode", "Auto")
-    # i.e. automatic
+ts.append(T(tag="Parameter/option",
+    context="TiltLoudnessMode",
+    text="Auto")
+    # in the sense of 'automatic'
     .es("Automático")
     .pt("Automático")
     .fr("Automatique")
@@ -150,7 +163,9 @@ ts.append(T("Parameter/option", "TiltLoudnessMode", "Auto")
     .he(0)
 )
 
-ts.append(T("Parameter/option", "TiltLoudnessMode", "Bass")
+ts.append(T(tag="Parameter/option",
+    context="TiltLoudnessMode",
+    text="Bass")
     .es("Bajos")
     .pt("Grave")
     .fr("Grave")
@@ -162,7 +177,9 @@ ts.append(T("Parameter/option", "TiltLoudnessMode", "Bass")
     .he(0)
 )
 
-ts.append(T("Parameter/option", "TiltLoudnessMode", "Standard")
+ts.append(T(tag="Parameter/option",
+    context="TiltLoudnessMode",
+    text="Standard")
     .es("Estándar")
     .pt("Padrão")
     .fr("Normal")
@@ -174,7 +191,9 @@ ts.append(T("Parameter/option", "TiltLoudnessMode", "Standard")
     .he(0)
 )
 
-ts.append(T("Parameter/option", "TiltLoudnessMode", "Treble")
+ts.append(T(tag="Parameter/option",
+    context="TiltLoudnessMode",
+    text="Treble")
     .es("Altos")
     .pt("Agudo")
     .fr("Aigu")
@@ -183,6 +202,19 @@ ts.append(T("Parameter/option", "TiltLoudnessMode", "Treble")
     .zhHans(1)
     .zhHant(1)
     .ar("الصوت العالي")
+    .he(0)
+)
+
+ts.append(T(tag="Tagline",
+    text="Superior tone-shaping, from mix to master.")
+    .es("Esculpe tu tono con claridad, de la mezcla al máster.")
+    .pt("Modelagem excelente de tonalidade, da mix à master.")
+    .fr("Excellent tone-shaping, du mix au master.")
+    .ja("周波数の鋭利なピックアップとトーンシェーピング")
+    .ko("믹싱에서 마스터링까지 아우르는 간결한 톤 쉐이핑")
+    .zhHans("从混音到母带的超级音色塑造")
+    .zhHant("從混音到母帶的超級音色塑造")
+    .ar("تسوية نِغم ممتازة،من الميكس إِلَى الماستر")
     .he(0)
 )
 

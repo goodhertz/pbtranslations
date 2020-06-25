@@ -18,7 +18,7 @@ def translation(f):
     return wrapper
 
 class T():
-    def __init__(self, tag, context, text):
+    def __init__(self, tag=None, context=None, text=None):
         self.tag = tag
         self.text = text
         self.context = context or None

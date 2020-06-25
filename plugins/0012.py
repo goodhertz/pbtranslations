@@ -3,7 +3,8 @@ from pbt.translations import *
 
 ts = TranslationSet()
 
-ts.append(T("ParamLabel/text", "0", "Auto|Blanking")
+ts.append(T(tag="ParamLabel/text",
+    text="Auto|Blanking")
     .es("Supresión|automática")
     .pt("Desligamento|Automático")
     .fr("Silence|Automatique")
@@ -15,7 +16,8 @@ ts.append(T("ParamLabel/text", "0", "Auto|Blanking")
     .he(0)
 )
 
-ts.append(T("ParamLabel/text", "0", "Bit|Depth")
+ts.append(T(tag="ParamLabel/text",
+    text="Bit|Depth")
     .es("Profundidad|de bit")
     .pt("Profundidade|em Bits")
     .fr("Niveau de|Quantification")
@@ -27,7 +29,8 @@ ts.append(T("ParamLabel/text", "0", "Bit|Depth")
     .he(0)
 )
 
-ts.append(T("ParamLabel/text", "0", "Dither|Amount")
+ts.append(T(tag="ParamLabel/text",
+    text="Dither|Amount")
     .es("Nivel de|interpolación")
     .pt("Quantidade|de Dither")
     .fr("Intensité|du Dither")
@@ -39,7 +42,8 @@ ts.append(T("ParamLabel/text", "0", "Dither|Amount")
     .he(0)
 )
 
-ts.append(T("ParamLabel/text", "0", "Noise|Shaping")
+ts.append(T(tag="ParamLabel/text",
+    text="Noise|Shaping")
     .es("Modelación|de ruido")
     .pt("Modelagem|do Ruído")
     .fr("Formage|de Bruit")
@@ -51,7 +55,9 @@ ts.append(T("ParamLabel/text", "0", "Noise|Shaping")
     .he(0)
 )
 
-ts.append(T("Parameter/option", "BitDepth", "Pass Thru")
+ts.append(T(tag="Parameter/option",
+    context="BitDepth",
+    text="Pass Thru")
     .es("Señal limpia")
     .pt("Sinal Limpo")
     .fr("Laissez-Passer")
@@ -63,7 +69,9 @@ ts.append(T("Parameter/option", "BitDepth", "Pass Thru")
     .he(0)
 )
 
-ts.append(T("Parameter/option", "DitherAmount", "High")
+ts.append(T(tag="Parameter/option",
+    context="DitherAmount",
+    text="High")
     .es("Alto")
     .pt("Alto")
     .fr("Haute")
@@ -75,7 +83,9 @@ ts.append(T("Parameter/option", "DitherAmount", "High")
     .he(0)
 )
 
-ts.append(T("Parameter/option", "DitherAmount", "Low")
+ts.append(T(tag="Parameter/option",
+    context="DitherAmount",
+    text="Low")
     .es("Bajo")
     .pt("Baixo")
     .fr("Basse")
@@ -87,7 +97,9 @@ ts.append(T("Parameter/option", "DitherAmount", "Low")
     .he(0)
 )
 
-ts.append(T("Parameter/option", "DitherAmount", "None")
+ts.append(T(tag="Parameter/option",
+    context="DitherAmount",
+    text="None")
     .es("Nulo")
     .pt("Nenhum")
     .fr("Nulle")
@@ -99,7 +111,9 @@ ts.append(T("Parameter/option", "DitherAmount", "None")
     .he(0)
 )
 
-ts.append(T("Parameter/option", "DitherAmount", "Optimal")
+ts.append(T(tag="Parameter/option",
+    context="DitherAmount",
+    text="Optimal")
     .es("Óptimo")
     .pt("Otimizado")
     .fr("Optimale")
@@ -111,7 +125,9 @@ ts.append(T("Parameter/option", "DitherAmount", "Optimal")
     .he(0)
 )
 
-ts.append(T("Parameter/option", "NoiseShaping", "High")
+ts.append(T(tag="Parameter/option",
+    context="NoiseShaping",
+    text="High")
     .es("Alta")
     .pt("Alto")
     .fr("Haut")
@@ -123,7 +139,9 @@ ts.append(T("Parameter/option", "NoiseShaping", "High")
     .he(0)
 )
 
-ts.append(T("Parameter/option", "NoiseShaping", "Low")
+ts.append(T(tag="Parameter/option",
+    context="NoiseShaping",
+    text="Low")
     .es("Baja")
     .pt("Baixo")
     .fr("Bas")
@@ -135,7 +153,9 @@ ts.append(T("Parameter/option", "NoiseShaping", "Low")
     .he(0)
 )
 
-ts.append(T("Parameter/option", "NoiseShaping", "Medium")
+ts.append(T(tag="Parameter/option",
+    context="NoiseShaping",
+    text="Medium")
     .es("Medio")
     .pt("Médio ")
     .fr("Moyen")
@@ -147,7 +167,9 @@ ts.append(T("Parameter/option", "NoiseShaping", "Medium")
     .he(0)
 )
 
-ts.append(T("Parameter/option", "NoiseShaping", "None")
+ts.append(T(tag="Parameter/option",
+    context="NoiseShaping",
+    text="None")
     .es("Nula")
     .pt("Nenhum")
     .fr("Nul")
@@ -159,7 +181,9 @@ ts.append(T("Parameter/option", "NoiseShaping", "None")
     .he(0)
 )
 
-ts.append(T("Parameter/option", "NoiseShaping", "Optimal")
+ts.append(T(tag="Parameter/option",
+    context="NoiseShaping",
+    text="Optimal")
     .es("Óptima")
     .pt("Otimizado")
     .fr(1)
@@ -171,4 +195,16 @@ ts.append(T("Parameter/option", "NoiseShaping", "Optimal")
     .he(0)
 )
 
-print(ts)
+ts.append(T(tag="Tagline",
+    text="World-class dither, simple controls.")
+    .es("Interpolación de lujo, controles sencillos")
+    .pt("Dither excepcional, controles simples.")
+    .fr("Dither exceptionnel, contrôles simples.")
+    .ja("イージーオペレーションディザー")
+    .ko("심플한 컨트롤의 월드클래스 디더")
+    .zhHans("世界级的抖动处理, 超简易的控制")
+    .zhHant("世界級的抖動處理, 超簡易的控制")
+    .ar("ديثرعالمي،كنترولز بسيطة")
+    .he(0)
+)
+
