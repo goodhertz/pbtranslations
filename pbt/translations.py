@@ -41,6 +41,13 @@ class T():
                 return res
         else:
             return self._en
+    
+    def get_raw_value(self, lang):
+        l = "_" + lang.replace("-", "")
+        if hasattr(self, l):
+            return getattr(self, l)
+        else:
+            return -1
 
     def en(self, translation):
         self._en = translation
