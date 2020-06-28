@@ -307,6 +307,20 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="ProcessingMode",
+    text="Side Only")
+    .es("Solo Mid")
+    .pt("Solo: Meio")
+    .fr("Mid Seulement")
+    .ja("ミッドのみ")
+    .ko(1)
+    .zhHans(1)
+    .zhHant(1)
+    .ar("الميد فقط ")
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="ProcessingMode",
     text="Stereo")
     .es("Estéreo")
     .pt("Estéreo")
