@@ -4,12 +4,12 @@ from pbt.translations import *
 ts = TranslationSet()
 
 ts.append(T(tag="Parameter/option",
-    text='DOT')
+    text='D\nO\nT')
     # Referring to note length
-    .es('PUNTO')
-    .pt('PONTO')
-    .fr('POINTÉ')
-    .ja('付点')
+    .es('P\nU\nN\nT\nO')
+    .pt('P\nO\nN\nT\nO')
+    .fr('P\nO\nI\nN\nT\nÉ')
+    .ja('付\n点')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -18,12 +18,12 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    text='D\nO\nT')
+    text='DOT')
     # Referring to note length
-    .es('P\nU\nN\nT\nO')
-    .pt('P\nO\nN\nT\nO')
-    .fr('P\nO\nI\nN\nT\nÉ')
-    .ja('付\n点')
+    .es('PUNTO')
+    .pt('PONTO')
+    .fr('POINTÉ')
+    .ja('付点')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -60,12 +60,12 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    text='NOTE')
+    text='N\nO\nT\nE')
     # Referring to note length
-    .es('NOTA')
-    .pt('NOTA')
+    .es('N\nO\nT\nA')
+    .pt('N\nO\nT\nA')
     .fr(1)
-    .ja('音符')
+    .ja('音\n符')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -74,12 +74,12 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    text='N\nO\nT\nE')
+    text='NOTE')
     # Referring to note length
-    .es('N\nO\nT\nA')
-    .pt('N\nO\nT\nA')
+    .es('NOTA')
+    .pt('NOTA')
     .fr(1)
-    .ja('音\n符')
+    .ja('音符')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -116,34 +116,6 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    text='TIME')
-    # Referring to note length
-    .es('TIEMPO')
-    .pt('TEMPO')
-    .fr('TEMPS')
-    .ja('時間')
-    .ko(0)
-    .zhHans(0)
-    .zhHant(0)
-    .ar('الوقت')
-    .he(0)
-)
-
-ts.append(T(tag="Parameter/option",
-    text='TRIP')
-    # Referring to note length
-    .es('TRSILLO')
-    .pt('TERCINA')
-    .fr('TRIOLET')
-    .ja('三連符')
-    .ko(0)
-    .zhHans(0)
-    .zhHant(0)
-    .ar('المسيرة')
-    .he(0)
-)
-
-ts.append(T(tag="Parameter/option",
     text='T\nI\nM\nE')
     # Referring to note length
     .es('T\nI\nE\nM\nP\nO')
@@ -164,6 +136,34 @@ ts.append(T(tag="Parameter/option",
     .pt('T\nE\nR\nC\nI\nN\nA')
     .fr('T\nR\nI\nO\nL\nE\nT')
     .ja('三\n連\n符')
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar('المسيرة')
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    text='TIME')
+    # Referring to note length
+    .es('TIEMPO')
+    .pt('TEMPO')
+    .fr('TEMPS')
+    .ja('時間')
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar('الوقت')
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    text='TRIP')
+    # Referring to note length
+    .es('TRSILLO')
+    .pt('TERCINA')
+    .fr('TRIOLET')
+    .ja('三連符')
     .ko(0)
     .zhHans(0)
     .zhHant(0)

@@ -160,19 +160,6 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Link Mode')
-    .es('Modo de enlace')
-    .pt('Modo do Link')
-    .fr('Mode de Couplage')
-    .ja('リンクモード')
-    .ko('링크 모드')
-    .zhHans('连结模式')
-    .zhHant('連結模式')
-    .ar('وضعُ الوصل ')
-    .he(0)
-)
-
-ts.append(T(tag="ParamLabel/text",
     text='Link\nAmount')
     .es('Intensidad\nde enlace')
     .pt('Intensidade\ndo Link')
@@ -199,6 +186,19 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
+    text='Link Mode')
+    .es('Modo de enlace')
+    .pt('Modo do Link')
+    .fr('Mode de Couplage')
+    .ja('リンクモード')
+    .ko('링크 모드')
+    .zhHans('连结模式')
+    .zhHant('連結模式')
+    .ar('وضعُ الوصل ')
+    .he(0)
+)
+
+ts.append(T(tag="ParamLabel/text",
     text='Release')
     .es('Relajación')
     .pt('Repouso')
@@ -208,19 +208,6 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('释放时间')
     .zhHant('釋放時間')
     .ar('التحرير ')
-    .he(0)
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='Sidechain Source')
-    .es('Fuente de Sidechain')
-    .pt('Sidechain – Fonte')
-    .fr('Source de Couplage')
-    .ja('サイドチェインソース')
-    .ko('사이드체인 소스 선택')
-    .zhHans('旁链声源')
-    .zhHant('旁鏈聲源')
-    .ar('منبع السايدشين')
     .he(0)
 )
 
@@ -247,6 +234,19 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('旁链修剪')
     .zhHant('旁鏈修剪')
     .ar('مُوازَنةٌ\nالسايدشين')
+    .he(0)
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='Sidechain Source')
+    .es('Fuente de Sidechain')
+    .pt('Sidechain – Fonte')
+    .fr('Source de Couplage')
+    .ja('サイドチェインソース')
+    .ko('사이드체인 소스 선택')
+    .zhHans('旁链声源')
+    .zhHant('旁鏈聲源')
+    .ar('منبع السايدشين')
     .he(0)
 )
 
