@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import os
 from runpy import run_path
 from pathlib import Path
@@ -26,7 +28,7 @@ for py in files:
     program = run_path(str(py))
     ts = program["ts"]
 
-    for t in ts:
+    for k, t in ts.strings.items():
         if t.warnings:
             print("---")
             pprint(t)
