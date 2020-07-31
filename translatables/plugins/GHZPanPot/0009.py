@@ -121,6 +121,19 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
+    text='Level Pan Law')
+    .es('Ley de panoramización')
+    .pt('Lei do Pan')
+    .fr('Loi de Panoramique')
+    .ja('パンロー')
+    .ko('팬 규칙 설정')
+    .zhHans('声像定律')
+    .zhHant('聲像定律')
+    .ar('قانون التحريك')
+    .he(0)
+)
+
+ts.append(T(tag="ParamLabel/text",
     text='Level Pan Vol. Comp')
     .es('Compensar vol. de pano.')
     .pt('Compensar Nível de Pan')

@@ -5,7 +5,7 @@ ts = TranslationSet()
 
 ts.append(T(tag="Parameter/option",
     text='D\nO\nT')
-    # Referring to note length
+    # Referring to note length; set vertically in a very tight spot
     .es('P\nU\nN\nT\nO')
     .pt('P\nO\nN\nT\nO')
     .fr('P\nO\nI\nN\nT\nÉ')
@@ -61,7 +61,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     text='N\nO\nT\nE')
-    # Referring to note length
+    # Referring to note length; set vertically in a very tight spot
     .es('N\nO\nT\nA')
     .pt('N\nO\nT\nA')
     .fr(1)
@@ -117,7 +117,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     text='T\nI\nM\nE')
-    # Referring to note length
+    # Referring to note length; set vertically in a very tight spot
     .es('T\nI\nE\nM\nP\nO')
     .pt('T\nE\nM\nP\nO')
     .fr('T\nE\nM\nP\nS')
@@ -131,7 +131,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     text='T\nR\nI\nP')
-    # Referring to note length
+    # Referring to note length; set vertically in a very tight spot
     .es('T\nR\nS\nI\nL\nL\nO')
     .pt('T\nE\nR\nC\nI\nN\nA')
     .fr('T\nR\nI\nO\nL\nE\nT')
