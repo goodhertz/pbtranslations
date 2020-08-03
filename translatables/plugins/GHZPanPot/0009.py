@@ -199,6 +199,34 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="Parameter/option",
+    context="FlipLR",
+    text='Left | Right')
+    .es('L | R')
+    .pt('L | R')
+    .fr('Gauche | Droite')
+    .ja('左｜右')
+    .ko(1)
+    .zhHans(1)
+    .zhHant(1)
+    .ar('L | R')
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="FlipLR",
+    text='Right | Left')
+    .es('R | L')
+    .pt('R | L')
+    .fr('Droite | Gauche')
+    .ja('右｜左')
+    .ko(1)
+    .zhHans(1)
+    .zhHant(1)
+    .ar('R | L')
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
     context="LeftPolarity",
     text='Inverted')
     .es('Invertido')
