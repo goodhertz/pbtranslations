@@ -13,7 +13,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('压缩')
     .zhHant('壓縮')
     .ar('الضغط')
-    .he(0)
+    .he('קומפרסיה')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -26,7 +26,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('高级压缩设定')
     .zhHant('進階動態設定')
     .ar('+ الضغط')
-    .he(0)
+    .he('קומפרסיה ועוד')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -39,7 +39,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('输入')
     .zhHant('輸入')
     .ar('دَخْل')
-    .he(0)
+    .he('כניסה')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -52,7 +52,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('低保真度')
     .zhHant('低傳真度')
     .ar('اللٌُوفَاي')
-    .he(0)
+    .he('לו-פיי')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -65,7 +65,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('高级低保真设定')
     .zhHant('進階低傳真度設定')
     .ar('+ اللٌُوفَاي')
-    .he(0)
+    .he('לו-פיי ועוד')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -78,7 +78,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('输出')
     .zhHant('輸出')
     .ar('خَرْج')
-    .he(0)
+    .he('יציאה')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -91,7 +91,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('旁链')
     .zhHant('旁鏈')
     .ar('السايد\nشين')
-    .he(0)
+    .he('סייד-צ׳יין')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -104,7 +104,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('抖晃')
     .zhHant('抖晃')
     .ar('الواو')
-    .he(0)
+    .he('ואוו')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -117,7 +117,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('高级抖晃低')
     .zhHant('進階抖晃設定')
     .ar('+ الواو')
-    .he(0)
+    .he('ואוו ועוד')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -130,7 +130,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('干声')
     .zhHant('乾聲')
     .ar('جاف')
-    .he(0)
+    .he('יבש')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -143,7 +143,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('起动时间')
     .zhHant('起動時間')
     .ar('زمن التطبيق')
-    .he(0)
+    .he('זמן התקף')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -156,7 +156,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('摩擦声')
     .zhHant('摩擦聲')
     .ar('القرمَشة')
-    .he(0)
+    .he('קראנצ׳')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -169,7 +169,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('数字参考电平')
     .zhHant('數位參考電平')
     .ar('مستوى المَرْجِع الرقمي')
-    .he(0)
+    .he('רפרנס דיגיטלי')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -182,7 +182,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('外部旁链')
     .zhHant('外部旁鏈')
     .ar('سايدشين خارجي')
-    .he(0)
+    .he('סייד-צ׳יין חיצוני')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -195,7 +195,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('混合')
     .zhHant('混合')
     .ar('الميكس')
-    .he(0)
+    .he('מיקס')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -208,7 +208,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('噪声')
     .zhHant('雜訊')
     .ar('الضجيج')
-    .he(0)
+    .he('רעש')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -221,7 +221,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('相位')
     .zhHant('相位')
     .ar('الطور')
-    .he(0)
+    .he('פאזה')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -234,7 +234,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('释放时间')
     .zhHant('釋放時間')
     .ar('التحرير')
-    .he(0)
+    .he('זמן שחרור')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -247,7 +247,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('旁链倾斜')
     .zhHant('旁鏈傾斜')
     .ar('إمالةُ السايدشين')
-    .he(0)
+    .he('סייד-צ׳יין טילט')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -260,7 +260,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('速度')
     .zhHant('速度')
     .ar('السرعة')
-    .he(0)
+    .he('מהירות')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -273,7 +273,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('双声道连结')
     .zhHant('雙聲道連結')
     .ar('الوصل إستيريو')
-    .he(0)
+    .he('קישור סטריאו')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -286,7 +286,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('类型')
     .zhHant('類型')
     .ar('النوع')
-    .he(0)
+    .he('סוג')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -300,7 +300,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('رقمي: سنوات ال80')
-    .he(0)
+    .he('אייטיז דיגיטל')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -314,7 +314,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('رقمي: سنوات ال90')
-    .he(0)
+    .he('ניינטיז דיגיטל')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -328,7 +328,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('模拟')
     .zhHant('類比')
     .ar('أنالوج')
-    .he(0)
+    .he('אנלוג')
 )
 
 ts.append(T(tag="Tagline",
@@ -341,6 +341,6 @@ ts.append(T(tag="Tagline",
     .zhHans('野兽般强而有力的压缩')
     .zhHant('野獸般強而有力的壓縮')
     .ar('Vulf ضغط وَحْشِيّ، بواسطة')
-    .he(0)
+    .he('קומפרסיה מפלצתית וולף סטייל')
 )
 
