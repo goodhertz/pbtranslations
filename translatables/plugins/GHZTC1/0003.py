@@ -13,7 +13,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('低频')
     .zhHant('低頻')
     .ar('باَس')
-    .he(0)
+    .he('בס')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -26,7 +26,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('EQ样式')
     .zhHant('EQ類型')
     .ar('EQ اسلوب ال')
-    .he(0)
+    .he('אי-קיו סטייל')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -39,7 +39,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('高切')
     .zhHant('高切')
     .ar('تمرير منخفض')
-    .he(0)
+    .he('היי-קאט')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -52,7 +52,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('低切')
     .zhHant('低切')
     .ar('تمرير عال')
-    .he(0)
+    .he('לו-קאט')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -65,7 +65,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('主控')
     .zhHant('主控')
     .ar('الماستر')
-    .he(0)
+    .he('מאסטר')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -78,7 +78,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('高级模式')
     .zhHant('進階模式')
     .ar('الوضع ')
-    .he(0)
+    .he('מצב')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -91,7 +91,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('高频')
     .zhHant('高頻')
     .ar('الصوت العالي')
-    .he(0)
+    .he('טרבל')
 )
 
 ts.append(T(tag="HUD/state",
@@ -104,7 +104,7 @@ ts.append(T(tag="HUD/state",
     .zhHans(1)
     .zhHant(1)
     .ar('اليسار')
-    .he(0)
+    .he('שמאל')
 )
 
 ts.append(T(tag="HUD/state",
@@ -117,7 +117,7 @@ ts.append(T(tag="HUD/state",
     .zhHans('中')
     .zhHant('中')
     .ar('الميد')
-    .he(0)
+    .he('אמצע')
 )
 
 ts.append(T(tag="HUD/state",
@@ -130,7 +130,7 @@ ts.append(T(tag="HUD/state",
     .zhHans(1)
     .zhHant(1)
     .ar('اليمين')
-    .he(0)
+    .he('ימין')
 )
 
 ts.append(T(tag="HUD/state",
@@ -156,7 +156,7 @@ ts.append(T(tag="HUD/state",
     .zhHans('立体声')
     .zhHant('立體聲')
     .ar('إستريو')
-    .he(0)
+    .he('צדדים')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -169,7 +169,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('空气感')
     .zhHant('空氣感')
     .ar('هواء')
-    .he(0)
+    .he('אוויר')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -182,7 +182,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('频率')
     .zhHant('頻率')
     .ar('التردد')
-    .he(0)
+    .he('תדר')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -195,7 +195,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('频率')
     .zhHant('頻率')
     .ar('التردد')
-    .he(0)
+    .he('תדר')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -208,7 +208,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('增益')
     .zhHant('增益')
     .ar('الربح ')
-    .he(0)
+    .he('גיין')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -221,7 +221,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('线性相位')
     .zhHant('線性相位')
     .ar('طورُخطي')
-    .he(0)
+    .he('פאזה לינארית')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -234,7 +234,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('混合')
     .zhHant('混合')
     .ar('الميكس')
-    .he(0)
+    .he('מיקס')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -247,7 +247,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('处理模式')
     .zhHant('處理模式')
     .ar('وضع المعالجة')
-    .he(0)
+    .he('מצב')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -260,7 +260,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('坡度')
     .zhHant('坡度')
     .ar('الميل')
-    .he(0)
+    .he('מדרון')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -274,7 +274,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('اليسار فقط')
-    .he(0)
+    .he('רק שמאל')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -288,7 +288,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('الميد فقط ')
-    .he(0)
+    .he('רק אמצע')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -302,7 +302,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('اليمين فقط')
-    .he(0)
+    .he('רק ימין')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -316,7 +316,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('الميد فقط ')
-    .he(0)
+    .he('רק צדדים')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -330,7 +330,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('إستريو')
-    .he(0)
+    .he('סטריאו')
 )
 
 ts.append(T(tag="Tagline",
@@ -343,6 +343,6 @@ ts.append(T(tag="Tagline",
     .zhHans('绝美永恒的音色，带你穿越未来')
     .zhHant('絕美永恆的音色，帶你穿越未來')
     .ar('موازن ترددات خالد، مبعوث إلَى المستقبل من جديد')
-    .he(0)
+    .he('.איקולייזר על-זמני שהגיע חזרה אל העתיד')
 )
 
