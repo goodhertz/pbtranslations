@@ -13,7 +13,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('自动消隐')
     .zhHant('自動消隱')
     .ar('المسح التلقائي')
-    .he(0)
+    .he('אוטו-בלאנקינג')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -26,7 +26,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('比特深度')
     .zhHant('比特深度')
     .ar('عمق البِت')
-    .he(0)
+    .he('ביט-דפט׳')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -39,7 +39,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('抖动量')
     .zhHant('抖動量')
     .ar('كمية الديثر')
-    .he(0)
+    .he('דיט׳ר מיקס')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -52,7 +52,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('噪音整形')
     .zhHant('噪音整形')
     .ar('تشكيل الضجيج')
-    .he(0)
+    .he('נויז-שייפינג')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -66,7 +66,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('تجَاوز')
-    .he(0)
+    .he('ביט-דפט׳')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -80,7 +80,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('مرتفع')
-    .he(0)
+    .he('הרבה')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -94,7 +94,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('منخفض')
-    .he(0)
+    .he('מעט')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -108,7 +108,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('لا شيء')
-    .he(0)
+    .he('בלי')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -122,7 +122,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('مثالي')
-    .he(0)
+    .he('כמה דיט׳ר')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -136,7 +136,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('مرتفع')
-    .he(0)
+    .he('הרבה')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -150,7 +150,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('منخفض')
-    .he(0)
+    .he('מעט')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -164,7 +164,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('متوسط')
-    .he(0)
+    .he('מספיק')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -178,7 +178,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('لا شيء')
-    .he(0)
+    .he('בלי')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -192,7 +192,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('مثالي')
-    .he(0)
+    .he('אופיטמלי')
 )
 
 ts.append(T(tag="Tagline",
@@ -205,6 +205,6 @@ ts.append(T(tag="Tagline",
     .zhHans('世界级的抖动处理, 超简易的控制')
     .zhHant('世界級的抖動處理, 超簡易的控制')
     .ar('ديثرعالمي،كنترولز بسيطة')
-    .he(0)
+    .he('.דיט׳ר איכותי, בעיצוב פשוט')
 )
 
