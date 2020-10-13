@@ -13,7 +13,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('压缩')
     .zhHant('壓縮')
     .ar('الضغط')
-    .he('קומפרסיה')
+    .he('קומפרשן')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -26,7 +26,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('高级压缩设定')
     .zhHant('進階動態設定')
     .ar('+ الضغط')
-    .he('קומפרסיה ועוד')
+    .he('קומפרשן ועוד')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -130,7 +130,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('干声')
     .zhHant('乾聲')
     .ar('جاف')
-    .he('יבש')
+    .he('מיקס')
 )
 
 ts.append(T(tag="ParamLabel/text",
