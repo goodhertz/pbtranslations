@@ -13,7 +13,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('限制／\n饱和设定')
     .zhHant('限制／\n飽和設定')
     .ar(1)
-    .he(0)
+    .he('לימ׳/סאט׳')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -26,7 +26,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('输出')
     .zhHant('輸出')
     .ar('الخرج')
-    .he(0)
+    .he('יציאה')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -39,7 +39,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('染色')
     .zhHant('染色')
     .ar('اللّون')
-    .he(0)
+    .he('צבע')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -52,7 +52,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('干声')
     .zhHant('乾聲')
     .ar('جاف')
-    .he(0)
+    .he('מיקס')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -65,7 +65,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('滤波\n滑移时间')
     .zhHant('濾波\n滑移時間')
     .ar('الفلتر\nتوقيت انزلاق')
-    .he(0)
+    .he('זמן שחרור פילטר')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -78,7 +78,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('频率')
     .zhHant('頻率')
     .ar('التردد')
-    .he(0)
+    .he('תדר')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -91,7 +91,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('限制器/饱和器\n自动增益')
     .zhHant('限制器/飽和器\n自動增益')
     .ar('Lim/Satلل\nالربح التلقائي')
-    .he(0)
+    .he('לימ׳/סאט׳\גיין אוטומטי')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -104,7 +104,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('限制器/饱和器\n立体声连结')
     .zhHant('限制器/飽和器\n立體聲連結')
     .ar('Lim/Satلل\nوصل الإستيرِو')
-    .he(0)
+    .he('לימ׳/סאט׳\קישור סטריאו')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -117,7 +117,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('混合')
     .zhHant('混合')
     .ar('الميكس')
-    .he(0)
+    .he('מיקס')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -130,7 +130,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('共振')
     .zhHant('共振')
     .ar('الرنين')
-    .he(0)
+    .he('רזוננס')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -143,7 +143,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('坡度')
     .zhHant('坡度')
     .ar('الميل')
-    .he(0)
+    .he('מדרון')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -156,7 +156,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('阈值')
     .zhHant('閾值')
     .ar('حد العتبة')
-    .he(0)
+    .he('סף')
 )
 
 ts.append(T(tag="Tagline",
@@ -169,6 +169,6 @@ ts.append(T(tag="Tagline",
     .zhHans('全能滤波器：任何频段、全能控制')
     .zhHant('全能濾波器：任何頻段、全能控制')
     .ar('عمليّة مسح الفِلترات:منخفضة، عالية و في أيّ مكان فيما بين.')
-    .he(0)
+    .he('פילטר סוויפס: נמוכים, גבוהים וכל מה שביניהם')
 )
 
