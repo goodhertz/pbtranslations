@@ -13,7 +13,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('延迟')
     .zhHant('延遲')
     .ar('التأخير الزمني')
-    .he(0)
+    .he('דיליי')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -26,7 +26,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('电平')
     .zhHant('電平')
     .ar('المستوَى')
-    .he(0)
+    .he('מיקס')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -39,7 +39,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('声像选项')
     .zhHant('聲像選項')
     .ar('خيارات التحريك')
-    .he(0)
+    .he('אפשרויות פאנינג')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -52,7 +52,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('相位')
     .zhHant('相位')
     .ar('الطور')
-    .he(0)
+    .he('פאזה')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -65,7 +65,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('声像前')
     .zhHant('聲像前')
     .ar('قبل التحريك')
-    .he(0)
+    .he('פרה-פאנינג')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -78,7 +78,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('光谱')
     .zhHant('光譜')
     .ar('طيفي')
-    .he(0)
+    .he('קשת')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -91,7 +91,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('L/R翻转')
     .zhHant('L/R翻轉')
     .ar(' L/R عَكّس')
-    .he(0)
+    .he('היפוך ימין/שמאל')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -104,7 +104,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('左声道极性')
     .zhHant('左聲道極性')
     .ar('L قطبية')
-    .he(0)
+    .he('קוטביות שמאל')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -117,7 +117,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('左声道修剪')
     .zhHant('左聲道修剪')
     .ar('L مُوازَنةٌ')
-    .he(0)
+    .he('טרים שמאל')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -130,7 +130,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('声像定律')
     .zhHant('聲像定律')
     .ar('قانون التحريك')
-    .he(0)
+    .he('חוק פאניניג')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -143,7 +143,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('电平声像音量补偿')
     .zhHant('電平聲像音量補償')
     .ar('تعويض مستوى صوت التحريك')
-    .he(0)
+    .he('פיצוי ווליום פאנינג')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -156,7 +156,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('声像滑移时间')
     .zhHant('聲像滑移時間')
     .ar('توقيت انزلاق التحريك')
-    .he(0)
+    .he('זמן שחרור פאנינג')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -169,7 +169,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('右声道极性')
     .zhHant('右聲道極性')
     .ar('R قطبية')
-    .he(0)
+    .he('קוטביות ימין')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -182,7 +182,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('右声道修剪')
     .zhHant('右聲道修剪')
     .ar('R مُوازَنةٌ')
-    .he(0)
+    .he('טרים ימין')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -195,7 +195,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('立体声宽度')
     .zhHant('立體聲寬度')
     .ar(' وُسع إستيريو')
-    .he(0)
+    .he('רוחב סטריאו')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -209,7 +209,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('L | R')
-    .he(0)
+    .he('ימין|שמאל')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -223,7 +223,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('R | L')
-    .he(0)
+    .he('שמאל|ימין')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -237,7 +237,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('معكوسة')
-    .he(0)
+    .he('קוטביות שמאל')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -251,7 +251,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('عادي')
-    .he(0)
+    .he('נורמאלי')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -265,7 +265,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('توازن إستيريو')
-    .he(0)
+    .he('בלאנס סטריאו')
 )
 
 ts.append(T(tag="Tagline",
@@ -278,6 +278,6 @@ ts.append(T(tag="Tagline",
     .zhHans('声像的新方向')
     .zhHant('聲像的新方向')
     .ar('اتجاهات جديدة في التحريك')
-    .he(0)
+    .he('.כיוון חדש בפאנינג')
 )
 
