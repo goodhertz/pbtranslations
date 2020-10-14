@@ -13,7 +13,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('滤波')
     .zhHant('濾波')
     .ar('فلتر')
-    .he(0)
+    .he('פילטר')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -26,7 +26,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('损失')
     .zhHant('損失')
     .ar('فقدان')
-    .he(0)
+    .he('לוס')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -39,7 +39,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('混响')
     .zhHant('混響')
     .ar('الصدى')
-    .he(0)
+    .he('וורב')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -52,7 +52,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('量')
     .zhHant('量')
     .ar('الكمية')
-    .he(0)
+    .he('מיקס')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -65,7 +65,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('自动增益')
     .zhHant('自動增益')
     .ar('الربح\nالتلقائي')
-    .he(0)
+    .he('אוטו-גיין')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -78,7 +78,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('干声')
     .zhHant('乾聲')
     .ar('جاف')
-    .he(0)
+    .he('מיקס')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -91,7 +91,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('增益')
     .zhHant('增益')
     .ar(' الربح ')
-    .he(0)
+    .he('גיין')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -104,7 +104,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('门限\n域值')
     .zhHant('門限\n域值')
     .ar('حد العتبة\nللبوابة ')
-    .he(0)
+    .he('סף גייט')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -117,7 +117,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans(1)
     .zhHant(1)
     .ar(1)
-    .he(0)
+    .he('לוסי')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -130,7 +130,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('范围')
     .zhHant('範圍')
     .ar('المدَى')
-    .he(0)
+    .he('טווח')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -143,7 +143,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('坡度')
     .zhHant('坡度')
     .ar(' الميل')
-    .he(0)
+    .he('מדרון')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -156,7 +156,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('速度')
     .zhHant('速度')
     .ar('السرعة')
-    .he(0)
+    .he('מהירות')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -169,7 +169,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('立体声模式')
     .zhHant('立體聲模式')
     .ar('وضع ستيريو')
-    .he(0)
+    .he('מצב סטריאו')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -182,7 +182,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('混响\n衰减')
     .zhHant('混響\n衰減')
     .ar('تضاؤل\nالصدى')
-    .he(0)
+    .he('ריוורב דיקאיי')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -195,7 +195,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('加权')
     .zhHant('加權')
     .ar('ترجيح')
-    .he(0)
+    .he('משקל')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -209,7 +209,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('عَكّس')
-    .he(0)
+    .he('מצב פילטר')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -223,7 +223,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('طبيعي')
-    .he(0)
+    .he('נורמאלי')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -237,7 +237,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('عَكّس')
-    .he(0)
+    .he('מצב לוס')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -251,7 +251,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('فقدان الطور')
-    .he(0)
+    .he('פאקט לוס')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -265,7 +265,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('تكرير الطور')
-    .he(0)
+    .he('פאקט רפיט')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -279,7 +279,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('إرتعاش الطور')
-    .he(0)
+    .he('ג׳יטר פאזה')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -293,7 +293,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('عادي')
-    .he(0)
+    .he('סטנדרט')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -307,7 +307,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('عادي + فقدان الطور')
-    .he(0)
+    .he('סטנדרט+פאקט לוס')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -321,7 +321,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('عادي + تكرير الطور')
-    .he(0)
+    .he('סטנדרט+פאקט רפיט')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -335,7 +335,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('مجموعة ستيريو')
-    .he(0)
+    .he('מצב סטריאו')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -349,7 +349,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('مونو')
-    .he(0)
+    .he('מונו')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -363,7 +363,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar(' ستيريو')
-    .he(0)
+    .he('סטריאו')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -377,7 +377,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('بعد')
-    .he(0)
+    .he('פוסט')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -391,7 +391,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('قبل')
-    .he(0)
+    .he('פרה')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -405,7 +405,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('مُسْتَوٍ')
-    .he(0)
+    .he('שטוח')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -419,7 +419,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('إدراكي')
-    .he(0)
+    .he('פרספטואל')
 )
 
 ts.append(T(tag="Tagline",
@@ -432,6 +432,6 @@ ts.append(T(tag="Tagline",
     .zhHans('艺品般的复古模拟')
     .zhHant('藝品般的復古模擬')
     .ar('ادوات فقودة، تحت الطلب')
-    .he(0)
+    .he('לו-פיי סאונד, און דימנד')
 )
 
