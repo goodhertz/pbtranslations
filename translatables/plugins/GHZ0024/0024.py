@@ -13,7 +13,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('翻转')
     .zhHant('翻轉')
     .ar('عَكّس')
-    .he(0)
+    .he('היפוך')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -26,7 +26,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('输入')
     .zhHant('輸入')
     .ar('إشارة الإدخال')
-    .he(0)
+    .he('כניסה')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -39,7 +39,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('中')
     .zhHant('中')
     .ar('ميد')
-    .he(0)
+    .he('אמצע')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -52,7 +52,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('输出')
     .zhHant('輸出')
     .ar('إشارة الإخراج')
-    .he(0)
+    .he('יציאה')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -65,7 +65,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('侧')
     .zhHant('側')
     .ar(' سايد')
-    .he(0)
+    .he('צדדים')
 )
 
 ts.append(T(tag="Tagline",
@@ -78,6 +78,6 @@ ts.append(T(tag="Tagline",
     .zhHans('超简易中侧处理转换器')
     .zhHant('超簡易中側處理轉換器')
     .ar('تحويل ميد/سايد بسُهُولة')
-    .he(0)
+    .he('המרת מיד/סייד שבאה בטוב')
 )
 
