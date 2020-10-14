@@ -13,7 +13,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('连结')
     .zhHant('連結')
     .ar('الوصل')
-    .he(0)
+    .he('לינק')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -26,7 +26,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('输出')
     .zhHant('輸出')
     .ar(' الخرج')
-    .he(0)
+    .he('יציאה')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -39,7 +39,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('比率')
     .zhHant('比率')
     .ar('نسبة الضغط')
-    .he(0)
+    .he('יחס')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -52,7 +52,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('旁链')
     .zhHant('旁鏈')
     .ar(' السايدشين')
-    .he(0)
+    .he('סייד-צ׳יין')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -65,7 +65,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('速度')
     .zhHant('速度')
     .ar('السرعة')
-    .he(0)
+    .he('מהירות')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -78,7 +78,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('阈')
     .zhHant('閾')
     .ar('حد العتبة')
-    .he(0)
+    .he('סף')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -91,7 +91,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('氛围')
     .zhHant('氛圍')
     .ar('الجو')
-    .he(0)
+    .he('וייב')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -104,7 +104,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('起动时间')
     .zhHant('起動時間')
     .ar('زمن التطبيق')
-    .he(0)
+    .he('זמן-התקף')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -117,7 +117,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('自动增益')
     .zhHant('自動增益')
     .ar('الربح التلقائي')
-    .he(0)
+    .he('אוטו-גיין')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -130,7 +130,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('色彩')
     .zhHant('色彩')
     .ar('اللون')
-    .he(0)
+    .he('צבע')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -143,7 +143,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('干声')
     .zhHant('乾聲')
     .ar('جاف')
-    .he(0)
+    .he('מיקס')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -156,7 +156,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans(1)
     .zhHant(1)
     .ar(1)
-    .he(0)
+    .he(1)
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -169,7 +169,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('连结程度')
     .zhHant('連結程度')
     .ar('كمية\nالوصل')
-    .he(0)
+    .he('לינק מיקס')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -182,7 +182,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('连结侧信号增益')
     .zhHant('連結側信號增益')
     .ar('وصل الربح \nالجانبي')
-    .he(0)
+    .he('לינק גיין')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -195,7 +195,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('连结模式')
     .zhHant('連結模式')
     .ar('وضعُ الوصل ')
-    .he(0)
+    .he('מצב לינק')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -208,7 +208,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('释放时间')
     .zhHant('釋放時間')
     .ar('التحرير ')
-    .he(0)
+    .he('זמן-שחרור')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -221,7 +221,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('旁链高通滤波器')
     .zhHant('旁鏈高通濾波器')
     .ar('مرشح الترددا\n العالية للسايدشين')
-    .he(0)
+    .he('סייד-צ׳יין היי-פאס פילטר')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -234,7 +234,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('旁链修剪')
     .zhHant('旁鏈修剪')
     .ar('مُوازَنةٌ\nالسايدشين')
-    .he(0)
+    .he('סייד-צ׳יין טרים')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -247,7 +247,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('旁链声源')
     .zhHant('旁鏈聲源')
     .ar('منبع السايدشين')
-    .he(0)
+    .he('סייד-צ׳יין חיצוני')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -260,7 +260,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('暖度')
     .zhHant('暖度')
     .ar('الدفء')
-    .he(0)
+    .he('חום')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -274,7 +274,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('يمين/يسار')
-    .he(0)
+    .he('ימין/שמאל')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -288,7 +288,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('ميد/سايد')
-    .he(0)
+    .he('אמצע/צדדים')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -302,7 +302,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('خارجي')
-    .he(0)
+    .he('חיצוני')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -316,7 +316,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('داخلي')
-    .he(0)
+    .he('פנימי')
 )
 
 ts.append(T(tag="Tagline",
@@ -329,6 +329,6 @@ ts.append(T(tag="Tagline",
     .zhHans('带有强大磁场的峰值限制器')
     .zhHant('帶有強大磁場的峰值限制器')
     .ar('محدِّد قِمم مع حقل مغناطيسي كبير')
-    .he(0)
+    .he('פיק לימיטר עם שדה מגנטי ענק')
 )
 
