@@ -13,7 +13,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('中')
     .zhHant('中')
     .ar('ميد')
-    .he(0)
+    .he('אמצע')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -26,7 +26,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('中声像')
     .zhHant('中聲像')
     .ar('تدوير ميد')
-    .he(0)
+    .he('פאנינג אמצע')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -39,7 +39,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('中信号倾斜')
     .zhHant('中信號傾斜')
     .ar('إمالة الميد ')
-    .he(0)
+    .he('טילט אמצע')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -52,7 +52,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('低频单声道化')
     .zhHant('低頻單聲道化')
     .ar('خرج أحادي تحت')
-    .he(0)
+    .he('מונו')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -65,7 +65,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('侧')
     .zhHant('側')
     .ar(' سايد')
-    .he(0)
+    .he('צדדים')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -78,7 +78,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('侧声像')
     .zhHant('側聲像')
     .ar('تدوير سايد')
-    .he(0)
+    .he('פאנינג צדדים')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -91,7 +91,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('侧信号倾斜')
     .zhHant('側信號傾斜')
     .ar('إمالة السايد ')
-    .he(0)
+    .he('טילט צדדים')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -104,7 +104,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('低频增益补充')
     .zhHant('低頻增益補充')
     .ar('تعويض الباس')
-    .he(0)
+    .he('פיצוי בס')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -117,7 +117,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('L/R翻转')
     .zhHant('L/R翻轉')
     .ar('L/R عَكّس ')
-    .he(0)
+    .he('היפוך ימין/שמאל')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -130,7 +130,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('频率')
     .zhHant('頻率')
     .ar('التردد')
-    .he(0)
+    .he('תדר')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -143,7 +143,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('输入模式')
     .zhHant('輸入模式')
     .ar('وضع إشارة الإدخال')
-    .he(0)
+    .he('מצב כניסה')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -156,7 +156,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('响度模式')
     .zhHant('響度模式')
     .ar('وضع\nمستوَى الصوت')
-    .he(0)
+    .he('לאודנס')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -169,7 +169,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('输出模式')
     .zhHant('輸出模式')
     .ar('وضع إشارة الإخراج')
-    .he(0)
+    .he('מצב יציאה')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -182,7 +182,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('范围')
     .zhHant('範圍')
     .ar('المدَى')
-    .he(0)
+    .he('טווח')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -195,7 +195,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('立体声宽度')
     .zhHant('立體聲寬度')
     .ar('وُسع الإشَارة إستِيريُو')
-    .he(0)
+    .he('רוחב סטריאו')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -208,7 +208,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('强度')
     .zhHant('強度')
     .ar('الشدة')
-    .he(0)
+    .he('עוצמה')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -221,7 +221,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('宽度模式')
     .zhHant('寬度模式')
     .ar('وضع الوُسع')
-    .he(0)
+    .he('מצב רוחב')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -234,7 +234,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('كتم الصوت')
-    .he(0)
+    .he('השתק')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -247,7 +247,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('صولو')
-    .he(0)
+    .he('סולו')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -261,7 +261,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('L | R')
-    .he(0)
+    .he('ימין|שמאל')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -275,7 +275,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('R | L')
-    .he(0)
+    .he('שמאל|ימין')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -289,7 +289,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('L | R')
-    .he(0)
+    .he('ימין|שמאל')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -303,7 +303,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('ميد-سايد')
-    .he(0)
+    .he('אמצע|צדדים')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -317,7 +317,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('تلقائي')
-    .he(0)
+    .he('אוטומטי')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -331,7 +331,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('الباس')
-    .he(0)
+    .he('בס')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -345,7 +345,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('عادي')
-    .he(0)
+    .he('סטנדרט')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -359,7 +359,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('الصوت العالي')
-    .he(0)
+    .he('טרבל')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -373,7 +373,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('M/S مزج ال')
-    .he(0)
+    .he('מיקס אמצע/צדדים')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -387,7 +387,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('طبيعي ')
-    .he(0)
+    .he('טבעי')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -401,7 +401,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('A الملخبط ')
-    .he(0)
+    .he('שאפל א׳')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -415,7 +415,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('B الملخبط ')
-    .he(0)
+    .he('שאפל ב׳')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -429,7 +429,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('C الملخبط ')
-    .he(0)
+    .he('שאפל ג׳')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -443,7 +443,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('عادي')
-    .he(0)
+    .he('סטנדרט')
 )
 
 ts.append(T(tag="Tagline",
@@ -456,6 +456,6 @@ ts.append(T(tag="Tagline",
     .zhHans('生动的立体声')
     .zhHant('生動的立體聲')
     .ar('تصوير إستيريو مُعَبِّر')
-    .he(0)
+    .he('סטריאו אימג׳ינג אקספרסיבי')
 )
 
