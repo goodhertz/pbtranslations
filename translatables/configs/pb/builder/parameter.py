@@ -98,7 +98,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar(1)
-    .he(0)
+    .he('אוף')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -112,7 +112,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar(1)
-    .he(0)
+    .he('און')
 )
 
 ts.append(T(tag="Parameter/option",
