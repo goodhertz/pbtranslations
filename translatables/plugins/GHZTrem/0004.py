@@ -26,7 +26,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('高级形状调节')
     .zhHant('進階型狀調節')
     .ar('+الشكل')
-    .he('צורות ועוד')
+    .he('צורה ועוד')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -130,7 +130,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('交流偏磁')
     .zhHant('交流偏磁')
     .ar('الانحياز')
-    .he('ביאס')
+    .he('הטייה')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -396,7 +396,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('ايقاعي')
-    .he(0)
+    .he('הרמוני')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -410,7 +410,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('الميد فقط ')
-    .he(0)
+    .he('רק אמצע')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -424,7 +424,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('ميد/سايد')
-    .he(0)
+    .he('אמצע/צד')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -438,7 +438,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('السايد فقط')
-    .he(0)
+    .he('רק צד')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -452,7 +452,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('عادي')
-    .he(0)
+    .he('סטנדרט')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -466,7 +466,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('الصوت العالي')
-    .he(0)
+    .he('טרבל')
 )
 
 ts.append(T(tag="Tagline",
@@ -479,6 +479,6 @@ ts.append(T(tag="Tagline",
     .zhHans('21世纪的经典颤音')
     .zhHant('21世紀的經典顫音')
     .ar('ارتعاش كلاسيكي للقرن الحادي والعشرين.')
-    .he(0)
+    .he('טרמולו קלאסי למאה ה-21')
 )
 
