@@ -130,7 +130,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('BPM同步')
     .zhHant('BPM同步')
     .ar('BPMتزامن ال')
-    .he('BMP סינק')
+    .he('BPM סינק')
 )
 
 ts.append(T(tag="ParamLabel/text",
