@@ -5,7 +5,7 @@ ts = TranslationSet()
 
 ts.append(T(tag="ClumpLabel/text",
     text='FLIP')
-    .es('TROCAR')
+    .es('INVERTIR')
     .pt('INVERTER')
     .fr('INVERSER')
     .ja('入れ替え')

@@ -57,7 +57,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='LOFI ADV')
-    .es('LO-FI EXT')
+    .es('LOFI EXT')
     .pt('LOFI +')
     .fr('LOFI EXT')
     .ja('ローファイ詳細設定')
@@ -148,7 +148,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Crunch')
-    .es('Crocancia')
+    .es(1)
     .pt('Crocância')
     .fr(1)
     .ja('クランチ')
@@ -292,7 +292,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="Parameter/option",
     context="LoFiType",
     text="1980's Digital")
-    .es('Digital ochentero')
+    .es('Digital: 1980s')
     .pt('Digital: Anos 80')
     .fr('Digital Années 80')
     .ja('80年代デジタル')
@@ -306,7 +306,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="LoFiType",
     text="1990's Digital")
-    .es('Digital noventero')
+    .es('Digital: 1990s')
     .pt('Digital: Anos 90')
     .fr('Digital Années 90')
     .ja('90年代デジタル')
