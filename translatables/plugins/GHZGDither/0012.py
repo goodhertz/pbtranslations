@@ -4,13 +4,17 @@ from pbt.translations import *
 ts = TranslationSet()
 
 ts.append(T(tag="ParamLabel/text",
-    text="""Auto
+    text="""
+        Auto
         Blanking""")
-    .es("""Supresión
+    .es("""
+        Supresión
         automática""")
-    .pt("""Desligamento
+    .pt("""
+        Desligamento
         Automático""")
-    .fr("""Silence
+    .fr("""
+        Silence
         Automatique""")
     .ja('オートブランキング')
     .ko('자동 차단 기능')
@@ -21,13 +25,17 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text="""Bit
+    text="""
+        Bit
         Depth""")
-    .es("""Profundidad
+    .es("""
+        Profundidad
         de bit""")
-    .pt("""Profundidade
+    .pt("""
+        Profundidade
         em Bits""")
-    .fr("""Niveau de
+    .fr("""
+        Niveau de
         Quantification""")
     .ja('ビットデプス')
     .ko('비트 뎁스')
@@ -38,13 +46,17 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text="""Dither
+    text="""
+        Dither
         Amount""")
-    .es("""Nivel de
+    .es("""
+        Nivel de
         interpolación""")
-    .pt("""Quantidade
+    .pt("""
+        Quantidade
         de Dither""")
-    .fr("""Intensité
+    .fr("""
+        Intensité
         du Dither""")
     .ja('ディザー量')
     .ko('디더 적용 정도')
@@ -55,13 +67,17 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text="""Noise
+    text="""
+        Noise
         Shaping""")
-    .es("""Modelación
+    .es("""
+        Modelación
         de ruido""")
-    .pt("""Modelagem
+    .pt("""
+        Modelagem
         do Ruído""")
-    .fr("""Formage
+    .fr("""
+        Formage
         de Bruit""")
     .ja('ノイズシェーピング')
     .ko('노이즈 형태')

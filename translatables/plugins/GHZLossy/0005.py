@@ -56,21 +56,28 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text="""Auto
+    text="""
+        Auto
         Gain""")
-    .es("""Ganancia
+    .es("""
+        Ganancia
         auto.""")
-    .pt("""Ganho
+    .pt("""
+        Ganho
         Automático""")
-    .fr("""Gain
+    .fr("""
+        Gain
         Automatique""")
-    .ja("""オート
+    .ja("""
+        オート
         ゲイン""")
-    .ko("""오토
+    .ko("""
+        오토
         게인""")
     .zhHans('自动增益')
     .zhHant('自動增益')
-    .ar("""التلقائي
+    .ar("""
+        التلقائي
         الربح""")
     .he('אוטו-גיין')
 )
@@ -102,23 +109,32 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text="""Gate
+    text="""
+        Gate
         Threshold""")
-    .es("""Umbral
+    .es("""
+        Umbral
         de Gate""")
-    .pt("""Limite
+    .pt("""
+        Limite
         do Gate""")
-    .fr("""Seuil
+    .fr("""
+        Seuil
         du Gate""")
-    .ja("""ゲート
+    .ja("""
+        ゲート
         スレッショルド""")
-    .ko("""게이트
+    .ko("""
+        게이트
         기준 레벨""")
-    .zhHans("""门限
+    .zhHans("""
+        门限
         域值""")
-    .zhHant("""門限
+    .zhHant("""
+        門限
         域值""")
-    .ar("""للبوابة
+    .ar("""
+        للبوابة
         حد العتبة""")
     .he('סף גייט')
 )
@@ -189,23 +205,32 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text="""Verb
+    text="""
+        Verb
         Decay""")
-    .es("""Decaimiento
+    .es("""
+        Decaimiento
         del Reverb""")
-    .pt("""Decaimento
+    .pt("""
+        Decaimento
         do Reverb""")
-    .fr("""Decay
+    .fr("""
+        Decay
         de Reverb""")
-    .ja("""リバーブ
+    .ja("""
+        リバーブ
         ディケイ""")
-    .ko("""리버브
+    .ko("""
+        리버브
         디케이""")
-    .zhHans("""混响
+    .zhHans("""
+        混响
         衰减""")
-    .zhHant("""混響
+    .zhHant("""
+        混響
         衰減""")
-    .ar("""الصدى
+    .ar("""
+        الصدى
         تضاؤل""")
     .he('ריוורב דיקאיי')
 )

@@ -160,37 +160,47 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text="""Link
+    text="""
+        Link
         Amount""")
-    .es("""Intensidad
+    .es("""
+        Intensidad
         de enlace""")
-    .pt("""Intensidade
+    .pt("""
+        Intensidade
         do Link""")
-    .fr("""Intensité
+    .fr("""
+        Intensité
         du Couplage""")
     .ja('リンクパーセンテージ')
     .ko('링크 정도')
     .zhHans('连结程度')
     .zhHant('連結程度')
-    .ar("""الوصل
+    .ar("""
+        الوصل
         كمية""")
     .he('לינק מיקס')
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text="""Link
+    text="""
+        Link
         Side Gain""")
-    .es("""Ganancia de
+    .es("""
+        Ganancia de
         enlace de Side""")
-    .pt("""Ganho
+    .pt("""
+        Ganho
         Side""")
-    .fr("""Gain de Side
+    .fr("""
+        Gain de Side
         du Couplage""")
     .ja('リンクサイドゲイン')
     .ko('링크 사이드 게인')
     .zhHans('连结侧信号增益')
     .zhHant('連結側信號增益')
-    .ar("""الجانبي
+    .ar("""
+        الجانبي
         وصل الربح""")
     .he('לינק גיין')
 )
@@ -222,37 +232,47 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text="""Sidechain
+    text="""
+        Sidechain
         HPF""")
-    .es("""Filtro pasa altos
+    .es("""
+        Filtro pasa altos
         de Sidechain""")
-    .pt("""Filtro Passa-Altas
+    .pt("""
+        Filtro Passa-Altas
         do Sidechain""")
-    .fr("""Passe-Haut
+    .fr("""
+        Passe-Haut
         du Sidechain""")
     .ja('サイドチェインHPF')
     .ko('사이드체인 HPF')
     .zhHans('旁链高通滤波器')
     .zhHant('旁鏈高通濾波器')
-    .ar("""العالية للسايدشين
+    .ar("""
+        العالية للسايدشين
         مرشح الترددا""")
     .he('סייד-צ׳יין היי-פאס פילטר')
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text="""Sidechain
+    text="""
+        Sidechain
         Trim""")
-    .es("""Ajuste
+    .es("""
+        Ajuste
         de Sidechain""")
-    .pt("""Sidechain
+    .pt("""
+        Sidechain
         Volume""")
-    .fr("""Volume
+    .fr("""
+        Volume
         du Sidechain""")
     .ja('サイドチェイントリム')
     .ko('사이드체인 트림')
     .zhHans('旁链修剪')
     .zhHant('旁鏈修剪')
-    .ar("""السايدشين
+    .ar("""
+        السايدشين
         مُوازَنةٌ""")
     .he('סייד-צ׳יין טרים')
 )

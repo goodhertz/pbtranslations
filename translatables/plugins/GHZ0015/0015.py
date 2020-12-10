@@ -30,26 +30,33 @@ ts.append(T(tag="ClumpLabel/text",
 )
 
 ts.append(T(tag="ClumpLabel/text",
-    text="""G
+    text="""
+        G
         A
         I
         N""")
     # Set vertically
-    .es("""GA
+    .es("""
+        GA
         NAN
         CIA""")
-    .pt("""GA
+    .pt("""
+        GA
         NH
         O""")
     .fr(1)
-    .ja("""ゲ
+    .ja("""
+        ゲ
         イ
         ン""")
-    .ko("""게
+    .ko("""
+        게
         인""")
-    .zhHans("""增
+    .zhHans("""
+        增
         益""")
-    .zhHant("""增
+    .zhHant("""
+        增
         益""")
     .ar('الربح')
     .he('גיין')
@@ -82,35 +89,43 @@ ts.append(T(tag="ClumpLabel/text",
 )
 
 ts.append(T(tag="ClumpLabel/text",
-    text="""R
+    text="""
+        R
         A
         N
         G
         E""")
     # Set vertically
-    .es("""R
+    .es("""
+        R
         A
         N
         G
         O""")
-    .pt("""EX
+    .pt("""
+        EX
         TE
         NS
         ÃO""")
-    .fr("""G
+    .fr("""
+        G
         A
         M
         M
         E""")
-    .ja("""範
+    .ja("""
+        範
         囲""")
-    .ko("""적
+    .ko("""
+        적
         용
         범
         위""")
-    .zhHans("""范
+    .zhHans("""
+        范
         围""")
-    .zhHant("""範
+    .zhHant("""
+        範
         圍""")
     .ar('المدى')
     .he('טווח')

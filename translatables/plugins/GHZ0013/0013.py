@@ -147,19 +147,24 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text="""Loudness
+    text="""
+        Loudness
         Mode""")
-    .es("""Modo de
+    .es("""
+        Modo de
         sonoridad""")
-    .pt("""Modo de
+    .pt("""
+        Modo de
         Intensidade""")
-    .fr("""Mode
+    .fr("""
+        Mode
         de Sonie""")
     .ja('ラウドネスモード')
     .ko('음량 모드')
     .zhHans('响度模式')
     .zhHant('響度模式')
-    .ar("""مستوَى الصوت
+    .ar("""
+        مستوَى الصوت
         وضع""")
     .he('לאודנס')
 )
