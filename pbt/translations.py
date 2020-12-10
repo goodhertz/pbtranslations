@@ -29,7 +29,7 @@ class T():
         self.text = strip_whitespace(text)
         self.context = context or None
         self.warnings = []
-        self.en(text)
+        self.en(self.text)
     
     def __repr__(self):
         t = f"<T({self.tag})—{self.text}"
