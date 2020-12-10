@@ -4,7 +4,7 @@ LANGUAGE_SORT_ORDER = order = ["en", "es", "pt", "fr", "ja", "ko", "zhHans", "zh
 
 def strip_whitespace(s):
     if isinstance(s, str):
-        return "\n".join([l.strip() for l in s.split("\n")])
+        return "\n".join([l.strip() for l in s.strip().split("\n")])
     else:
         return s
 

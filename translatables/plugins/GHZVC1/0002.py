@@ -82,18 +82,22 @@ ts.append(T(tag="ClumpLabel/text",
 )
 
 ts.append(T(tag="ClumpLabel/text",
-    text="""SIDE
+    text="""
+        SIDE
         CHAIN""")
     .es(1)
     .pt(1)
     .fr(1)
-    .ja("""サイド
+    .ja("""
+        サイド
         チェイン""")
-    .ko("""사이드
+    .ko("""
+        사이드
         체인""")
     .zhHans('旁链')
     .zhHant('旁鏈')
-    .ar("""شين
+    .ar("""
+        شين
         السايد""")
     .he('סייד-צ׳יין')
 )

@@ -4,27 +4,32 @@ from pbt.translations import *
 ts = TranslationSet()
 
 ts.append(T(tag="Parameter/option",
-    text="""D
+    text="""
+        D
         O
         T""")
     # Referring to note length; set vertically in a very tight spot
-    .es("""P
+    .es("""
+        P
         U
         N
         T
         O""")
-    .pt("""P
+    .pt("""
+        P
         O
         N
         T
         O""")
-    .fr("""P
+    .fr("""
+        P
         O
         I
         N
         T
         É""")
-    .ja("""付
+    .ja("""
+        付
         点""")
     .ko(0)
     .zhHans(0)
@@ -76,21 +81,25 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    text="""N
+    text="""
+        N
         O
         T
         E""")
     # Referring to note length; set vertically in a very tight spot
-    .es("""N
+    .es("""
+        N
         O
         T
         A""")
-    .pt("""N
+    .pt("""
+        N
         O
         T
         A""")
     .fr(1)
-    .ja("""音
+    .ja("""
+        音
         符""")
     .ko(0)
     .zhHans(0)
@@ -142,28 +151,33 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    text="""T
+    text="""
+        T
         I
         M
         E""")
     # Referring to note length; set vertically in a very tight spot
-    .es("""T
+    .es("""
+        T
         I
         E
         M
         P
         O""")
-    .pt("""T
+    .pt("""
+        T
         E
         M
         P
         O""")
-    .fr("""T
+    .fr("""
+        T
         E
         M
         P
         S""")
-    .ja("""時
+    .ja("""
+        時
         間""")
     .ko(0)
     .zhHans(0)
@@ -173,33 +187,38 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    text="""T
+    text="""
+        T
         R
         I
         P""")
     # Referring to note length; set vertically in a very tight spot
-    .es("""T
+    .es("""
+        T
         R
         S
         I
         L
         L
         O""")
-    .pt("""T
+    .pt("""
+        T
         E
         R
         C
         I
         N
         A""")
-    .fr("""T
+    .fr("""
+        T
         R
         I
         O
         L
         E
         T""")
-    .ja("""三
+    .ja("""
+        三
         連
         符""")
     .ko(0)
