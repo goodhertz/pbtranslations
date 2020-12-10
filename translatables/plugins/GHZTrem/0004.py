@@ -264,23 +264,32 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text="""Trem Volume
+    text="""
+        Trem Volume
         Comp""")
-    .es("""Compensación
+    .es("""
+        Compensación
         volumen""")
-    .pt("""Compensar Volume
+    .pt("""
+        Compensar Volume
         do Tremolo""")
-    .fr("""Compensation de
+    .fr("""
+        Compensation de
         Volume du Trémolo""")
-    .ja("""ボリューム
+    .ja("""
+        ボリューム
         補償""")
-    .ko("""트렘 볼륨
+    .ko("""
+        트렘 볼륨
         보상""")
-    .zhHans("""颤音音量
+    .zhHans("""
+        颤音音量
         补偿""")
-    .zhHant("""顫音音量
+    .zhHant("""
+        顫音音量
         補償""")
-    .ar("""الإرتعاش
+    .ar("""
+        الإرتعاش
         تعويض علو صوت""")
     .he('פיצוי ווליום טרמולו')
 )
@@ -299,22 +308,30 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text="""Tube Noise
+    text="""
+        Tube Noise
         Gain""")
-    .es("""Ruido
+    .es("""
+        Ruido
         de tubos""")
-    .pt("""Ganho do Ruído
+    .pt("""
+        Ganho do Ruído
         da Válvula""")
-    .fr("""Gain de
+    .fr("""
+        Gain de
         Bruit du Tube""")
-    .ja("""チューブ
+    .ja("""
+        チューブ
         ノイズゲイン""")
     .ko('진공관 노이즈 게인')
-    .zhHans("""真空管
+    .zhHans("""
+        真空管
         噪声""")
-    .zhHant("""真空管
+    .zhHant("""
+        真空管
         噪聲""")
-    .ar("""الانبوب
+    .ar("""
+        الانبوب
         ربح ضجيج""")
     .he('רעש מנורות')
 )
