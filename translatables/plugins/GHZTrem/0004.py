@@ -220,7 +220,7 @@ ts.append(T(tag="ParamLabel/text",
     .ko('스테레오 페이즈')
     .zhHans('立体声相位')
     .zhHant('立體聲相位')
-    .ar('طور إستريو ')
+    .ar('طور إستريو')
     .he('פאזה סטריאופונית')
 )
 
@@ -233,7 +233,7 @@ ts.append(T(tag="ParamLabel/text",
     .ko('스윙 값 설정')
     .zhHans('摆动')
     .zhHant('擺動')
-    .ar('الإيقاع ')
+    .ar('الإيقاع')
     .he('סווינג')
 )
 
@@ -259,20 +259,29 @@ ts.append(T(tag="ParamLabel/text",
     .ko('트렘 방식')
     .zhHans('颤音类型')
     .zhHant('顫音類型')
-    .ar('نوع الارتعاش ')
+    .ar('نوع الارتعاش')
     .he('סוג טרמולו')
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Trem Volume\nComp')
-    .es('Compensación\nvolumen')
-    .pt('Compensar Volume\ndo Tremolo')
-    .fr('Compensation de\nVolume du Trémolo')
-    .ja('ボリューム\n補償')
-    .ko('트렘 볼륨 \n보상')
-    .zhHans('颤音音量\n补偿')
-    .zhHant('顫音音量\n補償')
-    .ar('تعويض علو صوت\n الإرتعاش')
+    text="""Trem Volume
+        Comp""")
+    .es("""Compensación
+        volumen""")
+    .pt("""Compensar Volume
+        do Tremolo""")
+    .fr("""Compensation de
+        Volume du Trémolo""")
+    .ja("""ボリューム
+        補償""")
+    .ko("""트렘 볼륨
+        보상""")
+    .zhHans("""颤音音量
+        补偿""")
+    .zhHant("""顫音音量
+        補償""")
+    .ar("""الإرتعاش
+        تعويض علو صوت""")
     .he('פיצוי ווליום טרמולו')
 )
 
@@ -290,15 +299,23 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Tube Noise\nGain')
-    .es('Ruido\nde tubos')
-    .pt('Ganho do Ruído\nda Válvula')
-    .fr('Gain de\nBruit du Tube')
-    .ja('チューブ\nノイズゲイン')
+    text="""Tube Noise
+        Gain""")
+    .es("""Ruido
+        de tubos""")
+    .pt("""Ganho do Ruído
+        da Válvula""")
+    .fr("""Gain de
+        Bruit du Tube""")
+    .ja("""チューブ
+        ノイズゲイン""")
     .ko('진공관 노이즈 게인')
-    .zhHans('真空管\n噪声')
-    .zhHant('真空管\n噪聲')
-    .ar('ربح ضجيج\n الانبوب')
+    .zhHans("""真空管
+        噪声""")
+    .zhHant("""真空管
+        噪聲""")
+    .ar("""الانبوب
+        ربح ضجيج""")
     .he('רעש מנורות')
 )
 
@@ -311,7 +328,7 @@ ts.append(T(tag="ParamLabel/text",
     .ko('웨이브')
     .zhHans('波形')
     .zhHant('波形')
-    .ar('الموجة ')
+    .ar('الموجة')
     .he('גל')
 )
 
@@ -409,7 +426,7 @@ ts.append(T(tag="Parameter/option",
     .ko(1)
     .zhHans(1)
     .zhHant(1)
-    .ar('الميد فقط ')
+    .ar('الميد فقط')
     .he('רק אמצע')
 )
 
