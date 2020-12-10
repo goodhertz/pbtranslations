@@ -38,7 +38,7 @@ ts.append(T(tag="ClumpLabel/text",
     .ko('미드 틸트')
     .zhHans('中信号倾斜')
     .zhHant('中信號傾斜')
-    .ar('إمالة الميد ')
+    .ar('إمالة الميد')
     .he('טילט אמצע')
 )
 
@@ -64,7 +64,7 @@ ts.append(T(tag="ClumpLabel/text",
     .ko('사이드')
     .zhHans('侧')
     .zhHant('側')
-    .ar(' سايد')
+    .ar('سايد')
     .he('צדדים')
 )
 
@@ -90,7 +90,7 @@ ts.append(T(tag="ClumpLabel/text",
     .ko('사이드 틸트')
     .zhHans('侧信号倾斜')
     .zhHant('側信號傾斜')
-    .ar('إمالة السايد ')
+    .ar('إمالة السايد')
     .he('טילט צדדים')
 )
 
@@ -116,7 +116,7 @@ ts.append(T(tag="ParamLabel/text",
     .ko('좌/우 뒤집기')
     .zhHans('L/R翻转')
     .zhHant('L/R翻轉')
-    .ar('L/R عَكّس ')
+    .ar('L/R عَكّس')
     .he('היפוך ימין/שמאל')
 )
 
@@ -147,15 +147,20 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Loudness\nMode')
-    .es('Modo de\nsonoridad')
-    .pt('Modo de\nIntensidade')
-    .fr('Mode\nde Sonie')
+    text="""Loudness
+        Mode""")
+    .es("""Modo de
+        sonoridad""")
+    .pt("""Modo de
+        Intensidade""")
+    .fr("""Mode
+        de Sonie""")
     .ja('ラウドネスモード')
     .ko('음량 모드')
     .zhHans('响度模式')
     .zhHant('響度模式')
-    .ar('وضع\nمستوَى الصوت')
+    .ar("""مستوَى الصوت
+        وضع""")
     .he('לאודנס')
 )
 
@@ -386,7 +391,7 @@ ts.append(T(tag="Parameter/option",
     .ko(1)
     .zhHans(1)
     .zhHant(1)
-    .ar('طبيعي ')
+    .ar('طبيعي')
     .he('טבעי')
 )
 
@@ -400,7 +405,7 @@ ts.append(T(tag="Parameter/option",
     .ko(1)
     .zhHans(1)
     .zhHant(1)
-    .ar('A الملخبط ')
+    .ar('A الملخبط')
     .he('שאפל א׳')
 )
 
@@ -414,7 +419,7 @@ ts.append(T(tag="Parameter/option",
     .ko(1)
     .zhHans(1)
     .zhHant(1)
-    .ar('B الملخبط ')
+    .ar('B الملخبط')
     .he('שאפל ב׳')
 )
 
@@ -428,7 +433,7 @@ ts.append(T(tag="Parameter/option",
     .ko(1)
     .zhHans(1)
     .zhHant(1)
-    .ar('C الملخبط ')
+    .ar('C الملخبط')
     .he('שאפל ג׳')
 )
 
