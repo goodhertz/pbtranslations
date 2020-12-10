@@ -77,7 +77,7 @@ ts.append(T(tag="ParamLabel/text",
     .ko('저역대')
     .zhHans('低频')
     .zhHant('低頻')
-    .ar(' الباس')
+    .ar('الباس')
     .he('בס')
 )
 
@@ -142,7 +142,7 @@ ts.append(T(tag="ParamLabel/text",
     .ko('디더')
     .zhHans('抖动')
     .zhHant('抖動')
-    .ar(' الديثر')
+    .ar('الديثر')
     .he('דיט׳ר')
 )
 
@@ -246,7 +246,7 @@ ts.append(T(tag="Parameter/option",
     .ko('좌/우 뒤집기')
     .zhHans('L/R翻转')
     .zhHant('L/R翻轉')
-    .ar(' L/R عَكّس')
+    .ar('L/R عَكّس')
     .he('היפוך ימין/שמאל')
 )
 
