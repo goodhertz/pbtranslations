@@ -64,7 +64,7 @@ ts.append(T(tag="ClumpLabel/text",
     .ko('사이드')
     .zhHans('侧')
     .zhHant('側')
-    .ar(' سايد')
+    .ar('سايد')
     .he('צדדים')
 )
 
