@@ -4,10 +4,14 @@ from pbt.translations import *
 ts = TranslationSet()
 
 ts.append(T(tag="ParamLabel/text",
-    text='Auto\nBlanking')
-    .es('Supresión\nautomática')
-    .pt('Desligamento\nAutomático')
-    .fr('Silence\nAutomatique')
+    text="""Auto
+        Blanking""")
+    .es("""Supresión
+        automática""")
+    .pt("""Desligamento
+        Automático""")
+    .fr("""Silence
+        Automatique""")
     .ja('オートブランキング')
     .ko('자동 차단 기능')
     .zhHans('自动消隐')
@@ -17,10 +21,14 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Bit\nDepth')
-    .es('Profundidad\nde bit')
-    .pt('Profundidade\nem Bits')
-    .fr('Niveau de\nQuantification')
+    text="""Bit
+        Depth""")
+    .es("""Profundidad
+        de bit""")
+    .pt("""Profundidade
+        em Bits""")
+    .fr("""Niveau de
+        Quantification""")
     .ja('ビットデプス')
     .ko('비트 뎁스')
     .zhHans('比特深度')
@@ -30,10 +38,14 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Dither\nAmount')
-    .es('Nivel de\ninterpolación')
-    .pt('Quantidade\nde Dither')
-    .fr('Intensité\ndu Dither')
+    text="""Dither
+        Amount""")
+    .es("""Nivel de
+        interpolación""")
+    .pt("""Quantidade
+        de Dither""")
+    .fr("""Intensité
+        du Dither""")
     .ja('ディザー量')
     .ko('디더 적용 정도')
     .zhHans('抖动量')
@@ -43,10 +55,14 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Noise\nShaping')
-    .es('Modelación\nde ruido')
-    .pt('Modelagem\ndo Ruído')
-    .fr('Formage\nde Bruit')
+    text="""Noise
+        Shaping""")
+    .es("""Modelación
+        de ruido""")
+    .pt("""Modelagem
+        do Ruído""")
+    .fr("""Formage
+        de Bruit""")
     .ja('ノイズシェーピング')
     .ko('노이즈 형태')
     .zhHans('噪音整形')
@@ -157,7 +173,7 @@ ts.append(T(tag="Parameter/option",
     context="NoiseShaping",
     text='Medium')
     .es('Medio')
-    .pt('Médio ')
+    .pt('Médio')
     .fr('Moyen')
     .ja('普通')
     .ko(1)
