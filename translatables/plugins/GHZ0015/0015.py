@@ -30,15 +30,27 @@ ts.append(T(tag="ClumpLabel/text",
 )
 
 ts.append(T(tag="ClumpLabel/text",
-    text='G\nA\nI\nN')
+    text="""G
+        A
+        I
+        N""")
     # Set vertically
-    .es('GA\nNAN\nCIA')
-    .pt('GA\nNH\nO')
+    .es("""GA
+        NAN
+        CIA""")
+    .pt("""GA
+        NH
+        O""")
     .fr(1)
-    .ja('ゲ\nイ\nン')
-    .ko('게\n인')
-    .zhHans('增\n益')
-    .zhHant('增\n益')
+    .ja("""ゲ
+        イ
+        ン""")
+    .ko("""게
+        인""")
+    .zhHans("""增
+        益""")
+    .zhHant("""增
+        益""")
     .ar('الربح')
     .he('גיין')
 )
@@ -70,15 +82,36 @@ ts.append(T(tag="ClumpLabel/text",
 )
 
 ts.append(T(tag="ClumpLabel/text",
-    text='R\nA\nN\nG\nE')
+    text="""R
+        A
+        N
+        G
+        E""")
     # Set vertically
-    .es('R\nA\nN\nG\nO')
-    .pt('EX\nTE\nNS\nÃO')
-    .fr('G\nA\nM\nM\nE')
-    .ja('範\n囲')
-    .ko('적\n용\n범\n위')
-    .zhHans('范\n围')
-    .zhHant('範\n圍')
+    .es("""R
+        A
+        N
+        G
+        O""")
+    .pt("""EX
+        TE
+        NS
+        ÃO""")
+    .fr("""G
+        A
+        M
+        M
+        E""")
+    .ja("""範
+        囲""")
+    .ko("""적
+        용
+        범
+        위""")
+    .zhHans("""范
+        围""")
+    .zhHant("""範
+        圍""")
     .ar('المدى')
     .he('טווח')
 )
