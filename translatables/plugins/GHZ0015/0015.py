@@ -98,7 +98,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Loudness')
-    .es('Sonoridad')
+    .es('Volumen')
     .pt('Intensidade')
     .fr('Sonie')
     .ja('ラウドネス')
@@ -111,7 +111,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Output Gain')
-    .es('Ganancia salida')
+    .es('Ganancia de Salida')
     .pt('Ganho de Saída')
     .fr('Gain de Sortie')
     .ja('アウトプットゲイン')
@@ -152,7 +152,7 @@ ts.append(T(tag="Parameter/option",
     context="TiltLoudnessMode",
     text='Auto')
     # in the sense of 'automatic'
-    .es('Automático')
+    .es(1)
     .pt('Automático')
     .fr('Automatique')
     .ja('自動')
@@ -166,7 +166,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="TiltLoudnessMode",
     text='Bass')
-    .es('Bajos')
+    .es('Graves')
     .pt('Grave')
     .fr('Grave')
     .ja('低域')
@@ -194,7 +194,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="TiltLoudnessMode",
     text='Treble')
-    .es('Altos')
+    .es('Agudos')
     .pt('Agudo')
     .fr('Aigu')
     .ja('高域')
@@ -207,7 +207,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Tagline",
     text='Superior tone-shaping, from mix to master.')
-    .es('Esculpe tu tono con claridad, de la mezcla al máster.')
+    .es('Modelado de tonos sensacional, de la mezcla al máster.')
     .pt('Modelagem excelente de tonalidade, da mix à master.')
     .fr('Excellent tone-shaping, du mix au master.')
     .ja('周波数の鋭利なピックアップとトーンシェーピング')
