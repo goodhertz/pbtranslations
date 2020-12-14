@@ -5,7 +5,7 @@ ts = TranslationSet()
 
 ts.append(T(tag="ClumpLabel/text",
     text='BASS')
-    .es('BAJOS')
+    .es('GRAVE')
     .pt('GRAVE')
     .fr('GRAVES')
     .ja('低域')
@@ -31,7 +31,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='HIGH CUT')
-    .es('PASA ALTOS')
+    .es('PASA BAJOS')
     .pt('CORTE AGUDO')
     .fr('COUPE-HAUT')
     .ja('ハイカット')
@@ -44,7 +44,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='LOW CUT')
-    .es('PASA BAJOS')
+    .es('PASA ALTOS')
     .pt('CORTE GRAVE')
     .fr('COUPE-BAS')
     .ja('ローカット')
@@ -83,7 +83,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='TREBLE')
-    .es('ALTOS')
+    .es('AGUDO')
     .pt('AGUDO')
     .fr('AIGUS')
     .ja('高域')
@@ -96,7 +96,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="HUD/state",
     text='Left')
-    .es('Izquierdo')
+    .es('Izquierda')
     .pt('Esquerda')
     .fr('Gauche')
     .ja('左のみ')
@@ -122,7 +122,7 @@ ts.append(T(tag="HUD/state",
 
 ts.append(T(tag="HUD/state",
     text='Right')
-    .es('Derecho')
+    .es('Derecha')
     .pt('Direita')
     .fr('Droite')
     .ja('右のみ')
@@ -200,7 +200,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Linear Phase')
-    .es('Fase linear')
+    .es('Fase Linear')
     .pt('Fase Linear')
     .fr('Phase Linéaire')
     .ja('リニアフェーズ')
@@ -226,7 +226,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Processing Mode')
-    .es('Modo de procesamiento')
+    .es('Modo de Procesamiento')
     .pt('Modo de Processamento')
     .fr('Mode de Traitement')
     .ja('動作モード')
@@ -253,7 +253,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="Parameter/option",
     context="ProcessingMode",
     text='Left Only')
-    .es('Solo izquierdo')
+    .es('Solo Izquierda')
     .pt('Solo: Esquerda')
     .fr('Gauche Seulement')
     .ja('左のみ')
@@ -281,7 +281,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="ProcessingMode",
     text='Right Only')
-    .es('Solo derecho')
+    .es('Solo Derecha')
     .pt('Solo: Direita')
     .fr('Droite Seulement')
     .ja('右のみ')
@@ -295,7 +295,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="ProcessingMode",
     text='Side Only')
-    .es('Solo Mid')
+    .es('Solo Side')
     .pt('Solo: Meio')
     .fr('Mid Seulement')
     .ja('ミッドのみ')

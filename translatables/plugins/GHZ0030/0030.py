@@ -5,7 +5,7 @@ ts = TranslationSet()
 
 ts.append(T(tag="ClumpLabel/text",
     text='ANALOG')
-    .es('ANALÓGICO')
+    .es('ANÁLOGO')
     .pt('ANALÓGICO')
     .fr('ANALOGIQUE')
     .ja('アナログ')
@@ -18,7 +18,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='MISC')
-    .es('OTROS')
+    .es(1)
     .pt('OUTROS')
     .fr('AUTRES')
     .ja('その他')
@@ -96,7 +96,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Analog Noise Gain')
-    .es('Ruido analógico')
+    .es('Ganancia de Ruido Análogo')
     .pt('Ganho do Ruído Analógico')
     .fr('Gain de Bruit Analogique')
     .ja('アナログノイズゲイン')
@@ -278,7 +278,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Smoothing')
-    .es('Suavizamiento')
+    .es('Alisado')
     .pt('Suavizar')
     .fr('Polissage')
     .ja('スムージング')
@@ -470,7 +470,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Tagline",
     text='Wow, flutter, tape.')
-    .es('Wow, flutter y sonidos de cinta.')
+    .es('Wow, flutter y sonido de cinta.')
     .pt('Modulação, vibração e som de fita.')
     .fr('Wow, flutter, bande magnétique.')
     .ja('ワウ・フラッター・レコード・テープ・サチュレーション')
