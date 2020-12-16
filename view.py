@@ -51,7 +51,7 @@ def best_font_name(lang):
 def best_font(lang):
     return Font.Cacheable(NOTO / best_font_name(lang))
 
-def to_pen(mh, ts, l, lang, f=hsl(0.6, s=1, l=0.4)):
+def to_pen(mh, ts, l, lang, f=None):
     initial = l.data.get("initialValue")
     if initial is not None:
         if l.data.get("shows_all_strings"):
@@ -66,6 +66,12 @@ def to_pen(mh, ts, l, lang, f=hsl(0.6, s=1, l=0.4)):
             return p
     
     tag = l.getTag()
+    if not f:
+        if tag == "clump":
+            f = hsl(0.5, s=1, l=0.3)
+        else:
+            f = hsl(0.6, s=1, l=0.4)
+
     u = l.data.get("us")
     actual_lang = lang
 
@@ -108,7 +114,7 @@ def preview_renderable(dps, ts, lang):
             l.f(None)
             if l.getTag() == "options":
                 if l.data.get("string_count", 0) > 1 and not l.data.get("shows_all_strings"):
-                    l.s(0)
+                    l.s(hsl(0.05, s=1))
             if p := to_pen(rs.mouse_history, ts, l, lang):
                 labels += p
         
