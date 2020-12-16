@@ -16,6 +16,9 @@ setuptools.setup(
     packages=[
         "pbt"
     ],
+    install_requires=[
+        "coldtype",
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",

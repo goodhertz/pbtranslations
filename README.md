@@ -12,3 +12,6 @@ source venv/bin/activate
 pip install -e .
 ./check.py
 ```
+
+
+https://www.google.com/get/noto/
