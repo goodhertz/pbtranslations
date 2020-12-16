@@ -133,7 +133,7 @@ class TranslationPreview(Renderer):
             print(f"Could not find a translation file matching catalog >>> {c}")
             return False
         else:
-            self.layout_dps = DATPenSet().Unpickle(HEREDIR / f"layouts/{c}.pickle")
+            self.layout_dps = eval((HEREDIR / f"layouts/{c}_layout.py").read_text())
             self.reset_filepath(str(matches[0]))
             self.catalog = c
             return True
