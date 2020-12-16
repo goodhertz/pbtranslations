@@ -65,8 +65,10 @@ def to_pen(mh, ts, l, lang, f=hsl(0.6, s=1, l=0.4)):
             p = to_pen(mh, ts, l.pens[v], lang, f=hsl(0.75, 1, 0.4))
             return p
     
+    tag = l.getTag()
     u = l.data.get("us")
     actual_lang = lang
+
     if u:
         txt = u
         actual_lang = "en"
@@ -90,7 +92,7 @@ def to_pen(mh, ts, l, lang, f=hsl(0.6, s=1, l=0.4)):
         .xa()
         .scaleToWidth(b.inset(5).w, shrink_only=1)
         .scaleToHeight(b.inset(5).h, shrink_only=1)
-        .align(b)
+        .align(b, y="mny" if tag == "param" else "mdy")
         .f(hsl(0.9, s=1) if u else f))
 
 def preview_renderable(dps, ts, lang):
@@ -102,6 +104,9 @@ def preview_renderable(dps, ts, lang):
         labels = DATPenSet()
 
         for l in dps.fft("labels"):
+            print(l.getTag())
+            if l.getTag() != "value":
+                l.f(None)
             if p := to_pen(rs.mouse_history, ts, l, lang):
                 labels += p
         
