@@ -66,6 +66,8 @@ def to_pen(mh, ts, l, lang, f=None):
             return p
     
     tag = l.getTag()
+    align = [Edge(e) for e in l.data["align"]]
+
     if not f:
         if tag == "clump":
             f = hsl(0.5, s=1, l=0.3)
@@ -99,7 +101,7 @@ def to_pen(mh, ts, l, lang, f=None):
         .scaleToWidth(b.inset(5).w, shrink_only=1)
         .scaleToHeight(b.inset(5).h, shrink_only=1)
         #.align(b, y="mny" if tag == "param" else "mdy")
-        .align(b)
+        .align(b, *align)
         .f(hsl(0.9, s=1) if u else f))
 
 def preview_renderable(dps, ts, lang):
