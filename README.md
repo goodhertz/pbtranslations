@@ -71,11 +71,11 @@ he Hebrew
 
 #### Colors
 
-Green = a clump label
-Blue = a parameter label
-Purple = a control value
-Pink = a string that cannot/should not be translated (untranslatable)
-Orange = a multi-value control (see below)
+- __Green__ == a clump label
+- __Blue__ == a parameter label
+- __Purple__ == a control value
+- __Pink__ == a string that cannot/should not be translated (untranslatable)
+- __Orange__ == a multi-value control (see below)
 
 #### Multi-value controls
 
