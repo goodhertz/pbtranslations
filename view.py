@@ -92,7 +92,8 @@ def to_pen(mh, ts, l, lang, f=hsl(0.6, s=1, l=0.4)):
         .xa()
         .scaleToWidth(b.inset(5).w, shrink_only=1)
         .scaleToHeight(b.inset(5).h, shrink_only=1)
-        .align(b, y="mny" if tag == "param" else "mdy")
+        #.align(b, y="mny" if tag == "param" else "mdy")
+        .align(b)
         .f(hsl(0.9, s=1) if u else f))
 
 def preview_renderable(dps, ts, lang):
@@ -104,9 +105,10 @@ def preview_renderable(dps, ts, lang):
         labels = DATPenSet()
 
         for l in dps.fft("labels"):
-            print(l.getTag())
-            if l.getTag() != "value":
-                l.f(None)
+            l.f(None)
+            if l.getTag() == "options":
+                if l.data.get("string_count", 0) > 1 and not l.data.get("shows_all_strings"):
+                    l.s(0)
             if p := to_pen(rs.mouse_history, ts, l, lang):
                 labels += p
         
