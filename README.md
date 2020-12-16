@@ -22,7 +22,7 @@ pip install -e .
 
 (N.B. `python3.9` there can also be `python3.8`, depending on your installation.)
 
-Once you've completed those steps, you'll also need to download the full (~1GB) family of open-source Noto fonts from Google, available here: https://www.google.com/get/noto/ — once you have that downloaded, unzip the archive, then drag the `Noto-unhinted` folder into this repository on your computer, so that when you run `ls` in this repo, you see something like this appear (that is, Noto-unhinted appears at the top-level of the repo):
+Once you've completed those steps, you'll also need to download the full (~1GB) family of open-source Noto fonts from Google, available here: https://www.google.com/get/noto/ — once you have that downloaded, unzip the archive, then drag the `Noto-unhinted` folder into this repository on your computer. If it's installed correctly, when you run `ls` in this repo, you see something like this appear (that is, Noto-unhinted appears at the top-level of the repo):
 
 ```
 LOOKUP.md
@@ -52,7 +52,7 @@ The command also accepts optional arguments for specifying language and catalog 
 ./view.py ja 2
 ```
 
-This will "jump" the viewer to that display, i.e. Vulf Compressor in Japanese.
+This will "jump" the viewer to that display, i.e. Vulf Compressor in Japanese. The arrow keys will work as they do in the no-argument mode.
 
 The catalogs are listed with their corresponding plugin names and translation file paths in the LOOKUP.md file in this repo, and the language abbreviations are listed here (and will appear in the top-bar of the viewer when a given language is selected).
 
@@ -80,3 +80,7 @@ Orange = a multi-value control (see below)
 #### Multi-value controls
 
 Because some translatable strings are not shown in the interfaces in their default state, if you click on a string in an orange box in the viewer, that will cycle through the available values for that multi-value control. (If there is no orange box, all the translatable strings are visible in the viewer.)
+
+#### Note on aesthetics
+
+If you think to yourself when you open the viewer `dang this is ugly`, don't fret! That's intentional — the viewer is meant to display translated strings in their correct location in the interface, not to closely mimic how the eventual plugin will actually look in terms of typography, i.e. font choice. (We can't distribute the actual fonts we use in the plugins, so the Noto open-source family is the next best thing.)
