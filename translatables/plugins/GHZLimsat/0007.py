@@ -25,7 +25,7 @@ ts.append(T(tag="ClumpLabel/text",
     .ko('아웃풋')
     .zhHans('输出')
     .zhHant('輸出')
-    .ar(' الخرج')
+    .ar('الخرج')
     .he('יציאה')
 )
 
@@ -51,7 +51,7 @@ ts.append(T(tag="ClumpLabel/text",
     .ko('사이드체인')
     .zhHans('旁链')
     .zhHant('旁鏈')
-    .ar(' السايدشين')
+    .ar('السايدشين')
     .he('סייד-צ׳יין')
 )
 
@@ -160,28 +160,48 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Link\nAmount')
-    .es('Intensidad\nde enlace')
-    .pt('Intensidade\ndo Link')
-    .fr('Intensité\ndu Couplage')
+    text="""
+        Link
+        Amount""")
+    .es("""
+        Intensidad
+        de enlace""")
+    .pt("""
+        Intensidade
+        do Link""")
+    .fr("""
+        Intensité
+        du Couplage""")
     .ja('リンクパーセンテージ')
     .ko('링크 정도')
     .zhHans('连结程度')
     .zhHant('連結程度')
-    .ar('كمية\nالوصل')
+    .ar("""
+        الوصل
+        كمية""")
     .he('לינק מיקס')
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Link\nSide Gain')
-    .es('Ganancia de\nenlace de Side')
-    .pt('Ganho\nSide')
-    .fr('Gain de Side\ndu Couplage')
+    text="""
+        Link
+        Side Gain""")
+    .es("""
+        Ganancia de
+        enlace de Side""")
+    .pt("""
+        Ganho
+        Side""")
+    .fr("""
+        Gain de Side
+        du Couplage""")
     .ja('リンクサイドゲイン')
     .ko('링크 사이드 게인')
     .zhHans('连结侧信号增益')
     .zhHant('連結側信號增益')
-    .ar('وصل الربح \nالجانبي')
+    .ar("""
+        الجانبي
+        وصل الربح""")
     .he('לינק גיין')
 )
 
@@ -194,7 +214,7 @@ ts.append(T(tag="ParamLabel/text",
     .ko('링크 모드')
     .zhHans('连结模式')
     .zhHant('連結模式')
-    .ar('وضعُ الوصل ')
+    .ar('وضعُ الوصل')
     .he('מצב לינק')
 )
 
@@ -207,33 +227,53 @@ ts.append(T(tag="ParamLabel/text",
     .ko('릴리즈 타임')
     .zhHans('释放时间')
     .zhHant('釋放時間')
-    .ar('التحرير ')
+    .ar('التحرير')
     .he('זמן-שחרור')
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Sidechain\nHPF')
-    .es('Filtro pasa altos\nde Sidechain')
-    .pt('Filtro Passa-Altas\ndo Sidechain')
-    .fr('Passe-Haut\ndu Sidechain')
+    text="""
+        Sidechain
+        HPF""")
+    .es("""
+        Filtro pasa altos
+        de Sidechain""")
+    .pt("""
+        Filtro Passa-Altas
+        do Sidechain""")
+    .fr("""
+        Passe-Haut
+        du Sidechain""")
     .ja('サイドチェインHPF')
     .ko('사이드체인 HPF')
     .zhHans('旁链高通滤波器')
     .zhHant('旁鏈高通濾波器')
-    .ar('مرشح الترددا\n العالية للسايدشين')
+    .ar("""
+        العالية للسايدشين
+        مرشح الترددا""")
     .he('סייד-צ׳יין היי-פאס פילטר')
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Sidechain\nTrim')
-    .es('Ajuste\nde Sidechain')
-    .pt('Sidechain\nVolume')
-    .fr('Volume\ndu Sidechain')
+    text="""
+        Sidechain
+        Trim""")
+    .es("""
+        Ajuste
+        de Sidechain""")
+    .pt("""
+        Sidechain
+        Volume""")
+    .fr("""
+        Volume
+        du Sidechain""")
     .ja('サイドチェイントリム')
     .ko('사이드체인 트림')
     .zhHans('旁链修剪')
     .zhHant('旁鏈修剪')
-    .ar('مُوازَنةٌ\nالسايدشين')
+    .ar("""
+        السايدشين
+        مُوازَنةٌ""")
     .he('סייד-צ׳יין טרים')
 )
 

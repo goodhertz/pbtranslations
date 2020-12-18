@@ -194,7 +194,7 @@ ts.append(T(tag="ParamLabel/text",
     .ko('모드')
     .zhHans('模式')
     .zhHant('模式')
-    .ar(' الوضع')
+    .ar('الوضع')
     .he('מצב')
 )
 
@@ -246,7 +246,7 @@ ts.append(T(tag="ParamLabel/text",
     .ko('세츄레이트')
     .zhHans('飽和')
     .zhHant('飽和')
-    .ar('التشبع ')
+    .ar('التشبع')
     .he('סאטורציה')
 )
 
@@ -311,7 +311,7 @@ ts.append(T(tag="ParamLabel/text",
     .ko('스테레오 페이즈')
     .zhHans('立体声相位')
     .zhHant('立體聲相位')
-    .ar('طور إستريو ')
+    .ar('طور إستريو')
     .he('פאזה סטריאו')
 )
 
@@ -422,7 +422,7 @@ ts.append(T(tag="Parameter/option",
     .ko(1)
     .zhHans(1)
     .zhHant(1)
-    .ar('طور إستريو ')
+    .ar('طور إستريو')
     .he('פאזה סטריאו')
 )
 
@@ -477,7 +477,7 @@ ts.append(T(tag="Tagline",
     .ko('완벽한 테이프 시뮬레이터')
     .zhHans('哇声、抖晃、与类比盘带模拟')
     .zhHant('哇聲、抖晃、與類比盤帶模擬')
-    .ar('تفاوت,خفقان,تشبع شريط كاسيت ')
+    .ar('تفاوت,خفقان,تشبع شريط كاسيت')
     .he('.ואוו, פלאטר, טייפ')
 )
 

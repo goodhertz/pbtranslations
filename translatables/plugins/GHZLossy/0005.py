@@ -56,15 +56,29 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Auto\nGain')
-    .es('Ganancia\nauto.')
-    .pt('Ganho\nAutomático')
-    .fr('Gain\nAutomatique')
-    .ja('オート\nゲイン')
-    .ko('오토\n게인')
+    text="""
+        Auto
+        Gain""")
+    .es("""
+        Ganancia
+        auto.""")
+    .pt("""
+        Ganho
+        Automático""")
+    .fr("""
+        Gain
+        Automatique""")
+    .ja("""
+        オート
+        ゲイン""")
+    .ko("""
+        오토
+        게인""")
     .zhHans('自动增益')
     .zhHant('自動增益')
-    .ar('الربح\nالتلقائي')
+    .ar("""
+        التلقائي
+        الربح""")
     .he('אוטו-גיין')
 )
 
@@ -90,20 +104,38 @@ ts.append(T(tag="ParamLabel/text",
     .ko('게인')
     .zhHans('增益')
     .zhHant('增益')
-    .ar(' الربح ')
+    .ar('الربح')
     .he('גיין')
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Gate\nThreshold')
-    .es('Umbral\nde Gate')
-    .pt('Limite\ndo Gate')
-    .fr('Seuil\ndu Gate')
-    .ja('ゲート\nスレッショルド')
-    .ko('게이트\n기준 레벨')
-    .zhHans('门限\n域值')
-    .zhHant('門限\n域值')
-    .ar('حد العتبة\nللبوابة ')
+    text="""
+        Gate
+        Threshold""")
+    .es("""
+        Umbral
+        de Gate""")
+    .pt("""
+        Limite
+        do Gate""")
+    .fr("""
+        Seuil
+        du Gate""")
+    .ja("""
+        ゲート
+        スレッショルド""")
+    .ko("""
+        게이트
+        기준 레벨""")
+    .zhHans("""
+        门限
+        域值""")
+    .zhHant("""
+        門限
+        域值""")
+    .ar("""
+        للبوابة
+        حد العتبة""")
     .he('סף גייט')
 )
 
@@ -142,7 +174,7 @@ ts.append(T(tag="ParamLabel/text",
     .ko('필터 기울기')
     .zhHans('坡度')
     .zhHant('坡度')
-    .ar(' الميل')
+    .ar('الميل')
     .he('מדרון')
 )
 
@@ -173,15 +205,33 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Verb\nDecay')
-    .es('Decaimiento\ndel Reverb')
-    .pt('Decaimento\ndo Reverb')
-    .fr('Decay\nde Reverb')
-    .ja('リバーブ\nディケイ')
-    .ko('리버브\n디케이')
-    .zhHans('混响\n衰减')
-    .zhHant('混響\n衰減')
-    .ar('تضاؤل\nالصدى')
+    text="""
+        Verb
+        Decay""")
+    .es("""
+        Decaimiento
+        del Reverb""")
+    .pt("""
+        Decaimento
+        do Reverb""")
+    .fr("""
+        Decay
+        de Reverb""")
+    .ja("""
+        リバーブ
+        ディケイ""")
+    .ko("""
+        리버브
+        디케이""")
+    .zhHans("""
+        混响
+        衰减""")
+    .zhHant("""
+        混響
+        衰減""")
+    .ar("""
+        الصدى
+        تضاؤل""")
     .he('ריוורב דיקאיי')
 )
 
@@ -362,7 +412,7 @@ ts.append(T(tag="Parameter/option",
     .ko(1)
     .zhHans(1)
     .zhHant(1)
-    .ar(' ستيريو')
+    .ar('ستيريو')
     .he('סטריאו')
 )
 

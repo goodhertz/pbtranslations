@@ -77,7 +77,7 @@ ts.append(T(tag="ClumpLabel/text",
     .ko('세부 조절')
     .zhHans('高级模式')
     .zhHant('進階模式')
-    .ar('الوضع ')
+    .ar('الوضع')
     .he('מצב')
 )
 
@@ -173,19 +173,6 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Freq')
-    .es('Frecuencia')
-    .pt(1)
-    .fr('Fréq')
-    .ja('周波数')
-    .ko('프리퀀시')
-    .zhHans('频率')
-    .zhHant('頻率')
-    .ar('التردد')
-    .he('תדר')
-)
-
-ts.append(T(tag="ParamLabel/text",
     text='Frequency')
     .es('Frecuencia')
     .pt('Frequência')
@@ -207,7 +194,7 @@ ts.append(T(tag="ParamLabel/text",
     .ko('게인')
     .zhHans('增益')
     .zhHant('增益')
-    .ar('الربح ')
+    .ar('الربح')
     .he('גיין')
 )
 
@@ -287,7 +274,7 @@ ts.append(T(tag="Parameter/option",
     .ko(1)
     .zhHans(1)
     .zhHant(1)
-    .ar('الميد فقط ')
+    .ar('الميد فقط')
     .he('רק אמצע')
 )
 
@@ -315,7 +302,7 @@ ts.append(T(tag="Parameter/option",
     .ko(1)
     .zhHans(1)
     .zhHant(1)
-    .ar('الميد فقط ')
+    .ar('الميد فقط')
     .he('רק צדדים')
 )
 

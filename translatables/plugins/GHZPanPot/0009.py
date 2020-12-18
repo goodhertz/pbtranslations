@@ -90,7 +90,7 @@ ts.append(T(tag="ParamLabel/text",
     .ko('좌/우 뒤집기')
     .zhHans('L/R翻转')
     .zhHant('L/R翻轉')
-    .ar(' L/R عَكّس')
+    .ar('L/R عَكّس')
     .he('היפוך ימין/שמאל')
 )
 
@@ -194,7 +194,7 @@ ts.append(T(tag="ParamLabel/text",
     .ko('스테레오 폭')
     .zhHans('立体声宽度')
     .zhHant('立體聲寬度')
-    .ar(' وُسع إستيريو')
+    .ar('وُسع إستيريو')
     .he('רוחב סטריאו')
 )
 

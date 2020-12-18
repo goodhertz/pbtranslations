@@ -8,10 +8,18 @@ ts.append(T(tag="ClumpLabel/text",
     .es(1)
     .pt(1)
     .fr(1)
-    .ja('リミッター / \nサチュレーター')
-    .ko('리미터 / \n세츄레이터')
-    .zhHans('限制／\n饱和设定')
-    .zhHant('限制／\n飽和設定')
+    .ja("""
+        リミッター /
+        サチュレーター""")
+    .ko("""
+        리미터 /
+        세츄레이터""")
+    .zhHans("""
+        限制／
+        饱和设定""")
+    .zhHant("""
+        限制／
+        飽和設定""")
     .ar(1)
     .he('לימ׳/סאט׳')
 )
@@ -56,15 +64,33 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Filter\nGlide Time')
-    .es('Barrida\nde filtro')
-    .pt('Tempo de\nGlide do Filtro')
-    .fr('Temps de\nBalayage du Filtre')
-    .ja('フィルター\nグライド')
-    .ko('필터\n글라이드')
-    .zhHans('滤波\n滑移时间')
-    .zhHant('濾波\n滑移時間')
-    .ar('الفلتر\nتوقيت انزلاق')
+    text="""
+        Filter
+        Glide Time""")
+    .es("""
+        Barrida
+        de filtro""")
+    .pt("""
+        Tempo de
+        Glide do Filtro""")
+    .fr("""
+        Temps de
+        Balayage du Filtre""")
+    .ja("""
+        フィルター
+        グライド""")
+    .ko("""
+        필터
+        글라이드""")
+    .zhHans("""
+        滤波
+        滑移时间""")
+    .zhHant("""
+        濾波
+        滑移時間""")
+    .ar("""
+        توقيت انزلاق
+        الفلتر""")
     .he('זמן שחרור פילטר')
 )
 
@@ -82,29 +108,69 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Lim/Sat\nAuto Gain')
-    .es('Ganancia automática\nLim./Sat. ')
-    .pt('Compensar Ganho\nLim/Sat')
-    .fr('Lim/Sat\nGain Automatique')
-    .ja('Lim/Sat\nオートゲイン')
-    .ko('Lim/Sat\n오토 게인')
-    .zhHans('限制器/饱和器\n自动增益')
-    .zhHant('限制器/飽和器\n自動增益')
-    .ar('Lim/Satلل\nالربح التلقائي')
-    .he('לימ׳/סאט׳\גיין אוטומטי')
+    text="""
+        Lim/Sat
+        Auto Gain""")
+    .es("""
+        Ganancia automática
+        Lim./Sat.""")
+    .pt("""
+        Compensar Ganho
+        Lim/Sat""")
+    .fr("""
+        Lim/Sat
+        Gain Automatique""")
+    .ja("""
+        Lim/Sat
+        オートゲイン""")
+    .ko("""
+        Lim/Sat
+        오토 게인""")
+    .zhHans("""
+        限制器/饱和器
+        自动增益""")
+    .zhHant("""
+        限制器/飽和器
+        自動增益""")
+    .ar("""
+        الربح التلقائي
+        Lim/Satلل""")
+    .he("""
+        גיין אוטומטי
+        לימ׳/סאט׳""")
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Lim/Sat\nStereo Link')
-    .es('Link estéreo\nLim./Sat.')
-    .pt('Link Estéreo\nLim/Sat')
-    .fr('Lim/Sat\nCouplage Stéréo')
-    .ja('Lim/Sat\nステレオリンク')
-    .ko('Lim/Sat\n스테레오 링크')
-    .zhHans('限制器/饱和器\n立体声连结')
-    .zhHant('限制器/飽和器\n立體聲連結')
-    .ar('Lim/Satلل\nوصل الإستيرِو')
-    .he('לימ׳/סאט׳\קישור סטריאו')
+    text="""
+        Lim/Sat
+        Stereo Link""")
+    .es("""
+        Link estéreo
+        Lim./Sat.""")
+    .pt("""
+        Link Estéreo
+        Lim/Sat""")
+    .fr("""
+        Lim/Sat
+        Couplage Stéréo""")
+    .ja("""
+        Lim/Sat
+        ステレオリンク""")
+    .ko("""
+        Lim/Sat
+        스테레오 링크""")
+    .zhHans("""
+        限制器/饱和器
+        立体声连结""")
+    .zhHant("""
+        限制器/飽和器
+        立體聲連結""")
+    .ar("""
+        وصل الإستيرِو
+        Lim/Satلل""")
+    .he("""
+        קישור סטריאו
+        לימ׳/סאט׳""")
 )
 
 ts.append(T(tag="ParamLabel/text",

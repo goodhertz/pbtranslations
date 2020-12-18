@@ -2,11 +2,17 @@ from functools import wraps
 
 LANGUAGE_SORT_ORDER = order = ["en", "es", "pt", "fr", "ja", "ko", "zhHans", "zhHant", "ar", "he"]
 
+def strip_whitespace(s):
+    if isinstance(s, str):
+        return "\n".join([l.strip() for l in s.strip().split("\n")])
+    else:
+        return s
+
 def translation(f):
     @wraps(f)
     def wrapper(*args, **kwds):
         t = args[0]
-        translation = args[1]
+        translation = strip_whitespace(args[1])
         if t.en == translation:
             t.warnings.append(["redundant", f.__name__])
         if translation == 0:
@@ -20,10 +26,10 @@ def translation(f):
 class T():
     def __init__(self, tag=None, context=None, text=None):
         self.tag = tag
-        self.text = text
+        self.text = strip_whitespace(text)
         self.context = context or None
         self.warnings = []
-        self.en(text)
+        self.en(self.text)
     
     def __repr__(self):
         t = f"<T({self.tag})—{self.text}"

@@ -51,7 +51,7 @@ ts.append(T(tag="ClumpLabel/text",
     .ko('게이트')
     .zhHans('门限')
     .zhHant('門限')
-    .ar('بوابة ')
+    .ar('بوابة')
     .he('גייט')
 )
 
@@ -64,7 +64,7 @@ ts.append(T(tag="ClumpLabel/text",
     .ko('게이트+')
     .zhHans('门限+')
     .zhHant('門限+')
-    .ar('+بوابة ')
+    .ar('+بوابة')
     .he('גייט ועוד')
 )
 
@@ -181,7 +181,7 @@ ts.append(T(tag="ParamLabel/text",
     .ko('댐핑')
     .zhHans('阻尼')
     .zhHant('阻尼')
-    .ar(' التخميد')
+    .ar('التخميد')
     .he('דעיכה')
 )
 
@@ -246,7 +246,7 @@ ts.append(T(tag="ParamLabel/text",
     .ko('모드')
     .zhHans('模式')
     .zhHant('模式')
-    .ar(' الوضع')
+    .ar('الوضع')
     .he('מצב')
 )
 
@@ -285,7 +285,7 @@ ts.append(T(tag="ParamLabel/text",
     .ko('릴리즈')
     .zhHans('释放')
     .zhHant('釋放')
-    .ar('التحرير ')
+    .ar('التحرير')
     .he('זמן שחרור')
 )
 
@@ -502,7 +502,7 @@ ts.append(T(tag="Tagline",
     .ja('ヤバすぎるリバーブ')
     .ko('美친 리버브')
     .zhHans('混响史上的最好与最坏')
-    .zhHant('混響史上的最好與最壞 ')
+    .zhHant('混響史上的最好與最壞')
     .ar('صدى جيد وسيء، بشكلٍ لا يصدق')
     .he('.ריוורב שהוא גם מדהים וגם גרוע שזה לא ייאמן')
 )
