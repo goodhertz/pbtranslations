@@ -44,7 +44,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='GATE')
-    .es(1)
+    .es('PUERTA')
     .pt(1)
     .fr(1)
     .ja('ゲート')
@@ -57,7 +57,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='GATE+')
-    .es(1)
+    .es('PUERTA+')
     .pt(1)
     .fr(1)
     .ja('ゲート＋')
@@ -109,7 +109,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Analog')
-    .es('Analógico')
+    .es('Análogo')
     .pt('Analógico')
     .fr('Analogique')
     .ja('アナログ')
@@ -135,7 +135,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Bass Width')
-    .es('Abertura de bajos')
+    .es('Ancho de Graves')
     .pt('Abertura: Graves')
     .fr('Largeur des Graves')
     .ja('低域幅')
@@ -148,7 +148,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Bias')
-    .es('Curvatura')
+    .es(1)
     .pt('Inclinação')
     .fr('Tension')
     .ja('バイアス')
@@ -174,7 +174,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Damping')
-    .es('Atenuación')
+    .es('Amortiguación')
     .pt('Absorção')
     .fr('Absorption')
     .ja('ダンピング')
@@ -330,7 +330,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Treble Width')
-    .es('Abertura de altos')
+    .es('Ancho de Altos')
     .pt('Abertura: Agudos')
     .fr('Largeur des Aigus')
     .ja('高域幅')
@@ -385,7 +385,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="GateDetection",
     text='Transient')
-    .es('Transientes')
+    .es('Transitoria')
     .pt('Transientes')
     .fr('Transitoire')
     .ja('トランジェント')
@@ -413,7 +413,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="GateMode",
     text='Gate')
-    .es(1)
+    .es('Puerta')
     .pt(1)
     .fr(1)
     .ja('ゲート')
@@ -496,7 +496,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Tagline",
     text='Incredibly good bad reverb')
-    .es('Excelencia en reverbs de baja monta')
+    .es('Mala reverberación, mejor que nunca.')
     .pt('Reverberação ruim, com excelência.')
     .fr('Mauvaise reverb incroyablement bonne.')
     .ja('ヤバすぎるリバーブ')

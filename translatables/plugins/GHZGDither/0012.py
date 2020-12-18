@@ -5,7 +5,7 @@ ts = TranslationSet()
 
 ts.append(T(tag="ParamLabel/text",
     text='Auto\nBlanking')
-    .es('Supresión\nautomática')
+    .es('Desconexión\nAutomática')
     .pt('Desligamento\nAutomático')
     .fr('Silence\nAutomatique')
     .ja('オートブランキング')
@@ -18,7 +18,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Bit\nDepth')
-    .es('Profundidad\nde bit')
+    .es('Profundidad\nde Bits')
     .pt('Profundidade\nem Bits')
     .fr('Niveau de\nQuantification')
     .ja('ビットデプス')
@@ -31,7 +31,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Dither\nAmount')
-    .es('Nivel de\ninterpolación')
+    .es('Nivel de\nTramado')
     .pt('Quantidade\nde Dither')
     .fr('Intensité\ndu Dither')
     .ja('ディザー量')
@@ -44,7 +44,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Noise\nShaping')
-    .es('Modelación\nde ruido')
+    .es('Modelado\nde Ruido')
     .pt('Modelagem\ndo Ruído')
     .fr('Formage\nde Bruit')
     .ja('ノイズシェーピング')
@@ -58,7 +58,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="Parameter/option",
     context="BitDepth",
     text='Pass Thru')
-    .es('Señal limpia')
+    .es('Señal Limpia')
     .pt('Sinal Limpo')
     .fr('Laissez-Passer')
     .ja('そのまま')
@@ -128,7 +128,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="NoiseShaping",
     text='High')
-    .es('Alta')
+    .es('Alto')
     .pt('Alto')
     .fr('Haut')
     .ja('多め')
@@ -142,7 +142,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="NoiseShaping",
     text='Low')
-    .es('Baja')
+    .es('Bajo')
     .pt('Baixo')
     .fr('Bas')
     .ja('少なめ')
@@ -170,7 +170,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="NoiseShaping",
     text='None')
-    .es('Nula')
+    .es('Nulo')
     .pt('Nenhum')
     .fr('Nul')
     .ja('なし')
@@ -184,7 +184,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="NoiseShaping",
     text='Optimal')
-    .es('Óptima')
+    .es('Óptimo')
     .pt('Otimizado')
     .fr(1)
     .ja('最適')
@@ -197,7 +197,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Tagline",
     text='World-class dither, simple controls.')
-    .es('Interpolación de lujo, controles sencillos')
+    .es('Tramado de otro nivel, controles sencillos')
     .pt('Dither excepcional, controles simples.')
     .fr('Dither exceptionnel, contrôles simples.')
     .ja('イージーオペレーションディザー')

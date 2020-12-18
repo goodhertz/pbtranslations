@@ -31,7 +31,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="HUD/state",
     text='Safe')
-    .es('Anticlipping')
+    .es('Seguro')
     .pt('Segurança')
     .fr('Précaution')
     .ja('セーフ')
@@ -70,7 +70,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Bass')
-    .es('Bajos')
+    .es('Graves')
     .pt('Grave')
     .fr('Graves')
     .ja('低域')
@@ -83,7 +83,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Bass Frequency')
-    .es('Frecuencia bajos')
+    .es('Frecuencia de Graves')
     .pt('Frequência – Grave')
     .fr('Basses Fréquences')
     .ja('低域周波数')
@@ -122,7 +122,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Dim Level')
-    .es('Nivel de atenuación')
+    .es('Nivel de Atenuación')
     .pt('Nível de Atenuação')
     .fr("Niveau d'Atténuation")
     .ja('ディムレベル')
@@ -135,7 +135,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Dither')
-    .es('Interpolación')
+    .es('Tramado')
     .pt(1)
     .fr(1)
     .ja('ディザー')
@@ -174,7 +174,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Safe Gain')
-    .es('Anticlipping')
+    .es('Ganancia Anticlipping')
     .pt('Ganho de Segurança')
     .fr('Gain de Précaution')
     .ja('セーフゲイン')
@@ -187,7 +187,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Soft Start Time')
-    .es('Fundido de entrada')
+    .es('Fundido de Entrada')
     .pt('Tempo de Fade In')
     .fr('Temps de Fondu')
     .ja('ソフトスタート時間')
@@ -200,7 +200,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Treble')
-    .es('Altos')
+    .es('Agudos')
     .pt('Agudo')
     .fr('Aigus')
     .ja('高域')
@@ -213,7 +213,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Treble Frequency')
-    .es('Frecuencia altos')
+    .es('Frecuencia de Agudos')
     .pt('Frequência – Agudo')
     .fr('Hautes Fréquences')
     .ja('高域周波数')
@@ -239,7 +239,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     text='Flip L/R')
-    .es('Trocar L/R')
+    .es('Invertir L/R')
     .pt('Inverter L/R')
     .fr('Inverser L/R')
     .ja('L/R入れ替え')
@@ -279,7 +279,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="CrossfeedRealism",
     text='Hyperrealistic')
-    .es('Muy realista')
+    .es('Hyperrealista')
     .pt('Mais Realista')
     .fr('Très Réaliste')
     .ja('超リアル')
@@ -293,7 +293,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="CrossfeedRealism",
     text='Realistic')
-    .es('Más realista')
+    .es('Realista')
     .pt('Realista')
     .fr('Réaliste')
     .ja('リアル')
@@ -320,7 +320,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Tagline",
     text='Conjure speakers from your headphones.')
-    .es('Simula altavoces desde tus audífonos.')
+    .es('Conjura altavoces desde tus audífonos.')
     .pt('Transforme seu fone em um par de caixas.')
     .fr('Transformez votre casque en enceintes de monitoring.')
     .ja('ヘッドフォンにスピーカーをインストール')
