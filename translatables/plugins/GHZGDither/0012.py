@@ -8,8 +8,8 @@ ts.append(T(tag="ParamLabel/text",
         Auto
         Blanking""")
     .es("""
-        Supresión
-        automática""")
+        Desconexión
+        Automática""")
     .pt("""
         Desligamento
         Automático""")
@@ -30,7 +30,7 @@ ts.append(T(tag="ParamLabel/text",
         Depth""")
     .es("""
         Profundidad
-        de bit""")
+        de Bits""")
     .pt("""
         Profundidade
         em Bits""")
@@ -51,7 +51,7 @@ ts.append(T(tag="ParamLabel/text",
         Amount""")
     .es("""
         Nivel de
-        interpolación""")
+        Tramado""")
     .pt("""
         Quantidade
         de Dither""")
@@ -71,8 +71,8 @@ ts.append(T(tag="ParamLabel/text",
         Noise
         Shaping""")
     .es("""
-        Modelación
-        de ruido""")
+        Modelado
+        de Ruido""")
     .pt("""
         Modelagem
         do Ruído""")
@@ -90,7 +90,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="Parameter/option",
     context="BitDepth",
     text='Pass Thru')
-    .es('Señal limpia')
+    .es('Señal Limpia')
     .pt('Sinal Limpo')
     .fr('Laissez-Passer')
     .ja('そのまま')
@@ -160,7 +160,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="NoiseShaping",
     text='High')
-    .es('Alta')
+    .es('Alto')
     .pt('Alto')
     .fr('Haut')
     .ja('多め')
@@ -174,7 +174,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="NoiseShaping",
     text='Low')
-    .es('Baja')
+    .es('Bajo')
     .pt('Baixo')
     .fr('Bas')
     .ja('少なめ')
@@ -202,7 +202,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="NoiseShaping",
     text='None')
-    .es('Nula')
+    .es('Nulo')
     .pt('Nenhum')
     .fr('Nul')
     .ja('なし')
@@ -216,7 +216,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="NoiseShaping",
     text='Optimal')
-    .es('Óptima')
+    .es('Óptimo')
     .pt('Otimizado')
     .fr(1)
     .ja('最適')
@@ -229,7 +229,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Tagline",
     text='World-class dither, simple controls.')
-    .es('Interpolación de lujo, controles sencillos')
+    .es('Tramado de otro nivel, controles sencillos')
     .pt('Dither excepcional, controles simples.')
     .fr('Dither exceptionnel, contrôles simples.')
     .ja('イージーオペレーションディザー')
