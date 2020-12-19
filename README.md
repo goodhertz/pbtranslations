@@ -6,6 +6,8 @@ The value `0` is a special value that means the string has not been translated. 
 
 ### Previewing translations in the interface
 
+![](viewer-screenshot.png)
+
 `pbtranslations` includes a Python program that can display a text-only, interactive version of the plugin interfaces that pulls translations directly from the code (so if you launch the viewer and then save a change in a translation file, that change will automatically appear in the viewer).
 
 To run the viewer, you'll need a working python virtual env with this repository installed. And to get a working python virtual env set up, you'll need a recent version of python, >= 3.8 (available from https://www.python.org/downloads/).
