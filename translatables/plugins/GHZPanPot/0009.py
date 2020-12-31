@@ -57,7 +57,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='PRE PANNING')
-    .es('PRE PANO')
+    .es('PRE-PANO')
     .pt('PRÉ-PAN')
     .fr('PRÉ-PAN')
     .ja('適用前設定')
@@ -83,7 +83,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Flip L/R')
-    .es('Trocar L/R')
+    .es('Invertir L/R')
     .pt('Inverter L/R')
     .fr('Inverser L/R')
     .ja('L/R入れ替え')
@@ -96,7 +96,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Left Polarity')
-    .es('Polaridad L')
+    .es('Polaridad Izquierda')
     .pt('Polaridade – Esq.')
     .fr('Polarité Gauche')
     .ja('左極')
@@ -109,7 +109,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Left Trim')
-    .es('Ajuste L')
+    .es('Ajuste Izquierdo')
     .pt('Volume – Esquerda')
     .fr('Volume Gauche')
     .ja('左トリム')
@@ -122,7 +122,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Level Pan Law')
-    .es('Ley de panoramización')
+    .es('Ley de Panoramización')
     .pt('Lei do Pan')
     .fr('Loi de Panoramique')
     .ja('パンロー')
@@ -135,7 +135,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Level Pan Vol. Comp')
-    .es('Compensar vol. de pano.')
+    .es('Compensar Vol. de Pano.')
     .pt('Compensar Nível de Pan')
     .fr('Compensation de Volume')
     .ja('パンボリューム補償')
@@ -148,7 +148,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Pan Glide Time')
-    .es('Barrida de pano.')
+    .es('Barrido de Pano.')
     .pt('Tempo de Glide do Pan')
     .fr('Temps de Balayage')
     .ja('パングライドタイム')
@@ -161,7 +161,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Right Polarity')
-    .es('Polaridad R')
+    .es('Polaridad Derecha')
     .pt('Polaridade – Dir.')
     .fr('Polarité Droite')
     .ja('右極')
@@ -174,7 +174,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Right Trim')
-    .es('Ajuste R')
+    .es('Ajuste Derecho')
     .pt('Volume – Direita')
     .fr('Volume Droit')
     .ja('右トリム')
@@ -187,7 +187,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Stereo Width')
-    .es('Amplitud estéreo')
+    .es('Amplitud Estéreo')
     .pt('Abertura do Estéreo')
     .fr('Largeur Stéréo')
     .ja('ステレオ幅')
@@ -201,7 +201,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="Parameter/option",
     context="FlipLR",
     text='Left | Right')
-    .es('L | R')
+    .es('Izquierda | Derecha')
     .pt('L | R')
     .fr('Gauche | Droite')
     .ja('左｜右')
@@ -215,7 +215,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="FlipLR",
     text='Right | Left')
-    .es('R | L')
+    .es('Derecha | Izquierda')
     .pt('R | L')
     .fr('Droite | Gauche')
     .ja('右｜左')
@@ -257,7 +257,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="LevelPanLaw",
     text='Stereo Balancer')
-    .es('Balance estéreo')
+    .es('Balance Estéreo')
     .pt('Equilíbrio do Estéreo')
     .fr('Équilibreur Stéréo')
     .ja('ステレオバランサー')

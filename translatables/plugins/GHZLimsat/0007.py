@@ -5,7 +5,7 @@ ts = TranslationSet()
 
 ts.append(T(tag="ClumpLabel/text",
     text='LINK')
-    .es('ENLACE')
+    .es('VÍNCULO')
     .pt(1)
     .fr('COUPLAGE')
     .ja('リンク')
@@ -70,7 +70,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='THRESH')
-    .es('LÍMITE')
+    .es('UMBRAL')
     .pt('LIMITE')
     .fr('SEUIL')
     .ja('スレッショルド')
@@ -109,7 +109,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Auto Gain')
-    .es('Ganancia auto.')
+    .es('Ganancia Auto.')
     .pt('Ganho Autom.')
     .fr('Gain Auto')
     .ja('オートゲイン')
@@ -165,7 +165,7 @@ ts.append(T(tag="ParamLabel/text",
         Amount""")
     .es("""
         Intensidad
-        de enlace""")
+        de Vínculo""")
     .pt("""
         Intensidade
         do Link""")
@@ -188,7 +188,7 @@ ts.append(T(tag="ParamLabel/text",
         Side Gain""")
     .es("""
         Ganancia de
-        enlace de Side""")
+        Vínculo de Side""")
     .pt("""
         Ganho
         Side""")
@@ -207,7 +207,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Link Mode')
-    .es('Modo de enlace')
+    .es('Modo de Vínculo')
     .pt('Modo do Link')
     .fr('Mode de Couplage')
     .ja('リンクモード')
@@ -236,7 +236,7 @@ ts.append(T(tag="ParamLabel/text",
         Sidechain
         HPF""")
     .es("""
-        Filtro pasa altos
+        Filtro Paso Altos
         de Sidechain""")
     .pt("""
         Filtro Passa-Altas
@@ -306,7 +306,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="Parameter/option",
     context="LinkMode",
     text='Left/Right')
-    .es('Izquierdo/Derecho')
+    .es('Izquierda/Derecha')
     .pt('Esquerda/Direita')
     .fr('Gauche/Droite')
     .ja('左/右')
