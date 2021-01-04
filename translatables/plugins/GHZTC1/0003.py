@@ -31,7 +31,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='HIGH CUT')
-    .es('PASA BAJOS')
+    .es('PASO BAJOS')
     .pt('CORTE AGUDO')
     .fr('COUPE-HAUT')
     .ja('ハイカット')
@@ -44,7 +44,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='LOW CUT')
-    .es('PASA ALTOS')
+    .es('PASO ALTOS')
     .pt('CORTE GRAVE')
     .fr('COUPE-BAS')
     .ja('ローカット')

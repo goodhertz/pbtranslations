@@ -31,7 +31,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='MISC')
-    .es('OTROS')
+    .es(1)
     .pt('OUTROS')
     .fr('AUTRES')
     .ja('その他')
@@ -122,7 +122,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Bias')
-    .es('Curvatura')
+    .es(1)
     .pt('Inclinação')
     .fr('Tension')
     .ja('バイアス')
@@ -213,7 +213,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Stereo Phase')
-    .es('Desfase estéreo')
+    .es('Fase Estéreo')
     .pt('Fase – Estéreo')
     .fr('Phase Stéréo')
     .ja('ステレオフェーズ')
@@ -252,7 +252,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Trem Type')
-    .es('Tipo de trémolo')
+    .es('Tipo de Trémolo')
     .pt('Tipo de Tremolo')
     .fr('Type de Trémolo')
     .ja('トレムタイプ')
@@ -268,8 +268,8 @@ ts.append(T(tag="ParamLabel/text",
         Trem Volume
         Comp""")
     .es("""
-        Compensación
-        volumen""")
+        Compensar Volumen
+        de Trémolo""")
     .pt("""
         Compensar Volume
         do Tremolo""")
@@ -313,7 +313,7 @@ ts.append(T(tag="ParamLabel/text",
         Gain""")
     .es("""
         Ruido
-        de tubos""")
+        de Bulbos""")
     .pt("""
         Ganho do Ruído
         da Válvula""")
@@ -394,7 +394,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="TremType",
     text='Bass')
-    .es('Bajos')
+    .es('Graves')
     .pt('Graves')
     .fr('Graves')
     .ja('低域')
@@ -408,7 +408,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="TremType",
     text='Deep Harmonic')
-    .es('Armónico extremo')
+    .es('Armónico Profundo')
     .pt('Harmônico Profundo')
     .fr('Harmonique Profonde')
     .ja('ディープハーモニック')
@@ -492,7 +492,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="TremType",
     text='Treble')
-    .es('Altos')
+    .es('Agudos')
     .pt('Agudos')
     .fr('Aigus')
     .ja('高域')
