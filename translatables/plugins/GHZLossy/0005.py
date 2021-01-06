@@ -18,7 +18,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='LOSS')
-    .es('ARTEFACTOS')
+    .es('PÉRDIDA')
     .pt('PERDA')
     .fr('PERTE')
     .ja('ロス')
@@ -61,7 +61,7 @@ ts.append(T(tag="ParamLabel/text",
         Gain""")
     .es("""
         Ganancia
-        auto.""")
+        Auto.""")
     .pt("""
         Ganho
         Automático""")
@@ -114,7 +114,7 @@ ts.append(T(tag="ParamLabel/text",
         Threshold""")
     .es("""
         Umbral
-        de Gate""")
+        de Puerta""")
     .pt("""
         Limite
         do Gate""")
@@ -193,7 +193,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Stereo Mode')
-    .es('Modo estéreo')
+    .es('Modo Estéreo')
     .pt('Modo Estéreo')
     .fr('Mode Stéréo')
     .ja('ステレオモード')
@@ -210,7 +210,7 @@ ts.append(T(tag="ParamLabel/text",
         Decay""")
     .es("""
         Decaimiento
-        del Reverb""")
+        de Reverb""")
     .pt("""
         Decaimento
         do Reverb""")
@@ -237,7 +237,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Weighting')
-    .es('Ponderación')
+    .es('Peso')
     .pt('Peso')
     .fr('Poids')
     .ja('加重')
@@ -251,7 +251,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="Parameter/option",
     context="FilterMode",
     text='Invert')
-    .es('Invertir')
+    .es('Invert.')
     .pt('Invert.')
     .fr('Inversé')
     .ja('逆')
@@ -279,7 +279,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="LossMode",
     text='Inverse')
-    .es('Inversión')
+    .es('Inverso')
     .pt('Inverso')
     .fr('Inversée')
     .ja('逆')
@@ -293,7 +293,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="LossMode",
     text='Packet Loss')
-    .es('Pérdida de paquetes')
+    .es('Pérdida de Paquetes')
     .pt('Perda de Packets')
     .fr('Perte de Paquets')
     .ja('パケットロス')
@@ -307,7 +307,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="LossMode",
     text='Packet Repeat')
-    .es('Repetición de paquetes')
+    .es('Repetición de Paquetes')
     .pt('Repetição de Packets')
     .fr('Répétition de Paquets')
     .ja('パケットリピート')
@@ -321,7 +321,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="LossMode",
     text='Phase Jitter')
-    .es('Fluctuación de fase')
+    .es('Fluctuación de Fase')
     .pt('Flutuação de Fase')
     .fr('Jitter de Phase')
     .ja('フェーズジター')
@@ -349,7 +349,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="LossMode",
     text='Standard + Packet Loss')
-    .es('Estándar + Pérdida de paquetes')
+    .es('Estándar + Pérdida de Paquetes')
     .pt('Padrão + Perda de Packets')
     .fr('Normale + Perte de Paquets')
     .ja('普通＋パケットロス')
@@ -363,7 +363,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="LossMode",
     text='Standard + Packet Repeat')
-    .es('Estándar + Repetición de paquetes')
+    .es('Estándar + Repetición de Paquetes')
     .pt('Padrão + Repetição de Packets')
     .fr('Normale + Répétition de Paquets')
     .ja('普通＋パケットリピート')
@@ -377,7 +377,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="StereoMode",
     text='Joint Stereo')
-    .es('Estéreo en conjunto')
+    .es('Estéreo Conjunto')
     .pt('Estéreo Somado')
     .fr('Stéréo Combiné')
     .ja('ジョイントステレオ')
@@ -474,7 +474,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Tagline",
     text='Lossy artifacts, on demand.')
-    .es('Fábrica de artefactos digitales.')
+    .es('Artefactos de compresión, bajo demanda.')
     .pt('Artefatos digitais, à disposição.')
     .fr('Artefacts numériques, à la demande.')
     .ja('デジタル・サウンド・アート・ファクトリー')
