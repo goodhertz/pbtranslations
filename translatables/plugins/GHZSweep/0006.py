@@ -68,8 +68,8 @@ ts.append(T(tag="ParamLabel/text",
         Filter
         Glide Time""")
     .es("""
-        Barrida
-        de filtro""")
+        Tiempo de
+        Barrido de Filtro""")
     .pt("""
         Tempo de
         Glide do Filtro""")
@@ -112,7 +112,7 @@ ts.append(T(tag="ParamLabel/text",
         Lim/Sat
         Auto Gain""")
     .es("""
-        Ganancia automática
+        Ganancia Auto.
         Lim./Sat.""")
     .pt("""
         Compensar Ganho
@@ -145,7 +145,7 @@ ts.append(T(tag="ParamLabel/text",
         Lim/Sat
         Stereo Link""")
     .es("""
-        Link estéreo
+        Vínculo Estéreo
         Lim./Sat.""")
     .pt("""
         Link Estéreo
@@ -227,7 +227,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="Tagline",
     text='Filter sweeps: lo, hi, & anywhere in between.')
-    .es('Barridas de filtro: altos, bajos y entre medio.')
+    .es('Barridos de filtro: altos, bajos y entre medio.')
     .pt('Varreduras de filtro: grave, agudo e tudo que há no meio.')
     .fr("Balayages de filtres: bas, haut, et tout l'entre-deux.")
     .ja('極細繊維で紡いだ6.0dB~96dBのフィルター')

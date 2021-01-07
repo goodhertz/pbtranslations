@@ -96,7 +96,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Bass Makeup')
-    .es('Compensación bajos')
+    .es('Compensación de Graves')
     .pt('Compensar Grave')
     .fr('Gain des Graves')
     .ja('低域ゲイン補償')
@@ -109,7 +109,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Flip L/R')
-    .es('Trocar L/R')
+    .es('Invertir L/R')
     .pt('Inverter L/R')
     .fr('Inverser L/R')
     .ja('L/R入れ替え')
@@ -135,7 +135,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Input Mode')
-    .es('Modo de entrada')
+    .es('Modo de Entrada')
     .pt('Modo de Entrada')
     .fr("Mode d'Entrée")
     .ja('インプットモード')
@@ -152,7 +152,7 @@ ts.append(T(tag="ParamLabel/text",
         Mode""")
     .es("""
         Modo de
-        sonoridad""")
+        Volumen""")
     .pt("""
         Modo de
         Intensidade""")
@@ -171,7 +171,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Output Mode')
-    .es('Modo de salida')
+    .es('Modo de Salida')
     .pt('Modo de Saída')
     .fr('Mode de Sortie')
     .ja('アウトプットモード')
@@ -197,7 +197,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Stereo Width')
-    .es('Amplitud estéreo')
+    .es('Amplitud Estéreo')
     .pt('Abertura do Estéreo')
     .fr('Largeur Stéréo')
     .ja('ステレオ幅')
@@ -210,7 +210,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Strength')
-    .es('Intensidad')
+    .es('Magnitud')
     .pt('Força')
     .fr('Force')
     .ja('調節')
@@ -223,7 +223,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Width Mode')
-    .es('Modo de amplitud')
+    .es('Modo de Amplitud')
     .pt('Modo de Abertura')
     .fr('Mode de Largeur')
     .ja('幅モード')
@@ -236,7 +236,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="Parameter/option",
     text='MUTE')
-    .es('MUDO')
+    .es('1')
     .pt('MUDO')
     .fr(1)
     .ja('ミゥート')
@@ -263,7 +263,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="FlipLR",
     text='Left | Right')
-    .es('L | R')
+    .es('Izquierda | Derecha')
     .pt('L | R')
     .fr('Gauche | Droite')
     .ja('左｜右')
@@ -277,7 +277,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="FlipLR",
     text='Right | Left')
-    .es('R | L')
+    .es('Derecha | Izquierda')
     .pt('R | L')
     .fr('Droite | Gauche')
     .ja('右｜左')
@@ -291,7 +291,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="InputMode",
     text='Left | Right')
-    .es('L | R')
+    .es('Izquierda | Derecha')
     .pt('L | R')
     .fr('Gauche | Droite')
     .ja('左｜右')
@@ -333,7 +333,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="MidTiltLoudnessMode",
     text='Bass')
-    .es('Bajos')
+    .es('Graves')
     .pt('Graves')
     .fr('Grave')
     .ja('低域')
@@ -361,7 +361,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="MidTiltLoudnessMode",
     text='Treble')
-    .es('Altos')
+    .es('Agudos')
     .pt('Agudos')
     .fr('Aigu')
     .ja('高域')
@@ -403,7 +403,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="StereoWidthMode",
     text='Shuffler A')
-    .es('Barajador A')
+    .es('Modo Aleatorio A')
     .pt('Embaralhar A')
     .fr('Brouilleur A')
     .ja('シャッフルA')
@@ -417,7 +417,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="StereoWidthMode",
     text='Shuffler B')
-    .es('Barajador B')
+    .es('Modo Aleatorio B')
     .pt('Embaralhar B')
     .fr('Brouilleur B')
     .ja('シャッフルB')
@@ -431,7 +431,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="StereoWidthMode",
     text='Shuffler C')
-    .es('Barajador C')
+    .es('Modo Aleatorio C')
     .pt('Embaralhar C')
     .fr('Brouilleur C')
     .ja('シャッフルC')
@@ -458,7 +458,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Tagline",
     text='Expressive stereo imaging.')
-    .es('Expresividad en la imagen estéreo.')
+    .es('Imagen estéreo expresiva.')
     .pt('Expressividade na imagem estéreo.')
     .fr('Image stéréo expressive.')
     .ja('ステレオイメージャーの集結と結合')
