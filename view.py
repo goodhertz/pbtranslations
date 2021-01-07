@@ -55,7 +55,7 @@ def to_pen(mh, ts, l, lang, f=None):
     initial = l.data.get("initialValue")
     if initial is not None:
         if l.data.get("shows_all_strings"):
-            return DATPenSet([to_pen(mh, ts, p, lang, f=hsl(0.75, 1, 0.4)) for p in l.pens])
+            return DATPens([to_pen(mh, ts, p, lang, f=hsl(0.75, 1, 0.4)) for p in l.pens])
         else:
             v = int(initial)
             for m in (mh or []):
@@ -109,8 +109,8 @@ def preview_renderable(dps, ts, lang):
 
     @renderable(r, rstate=1, watch=GENERICS)
     def previewer(r, rs):
-        out = DATPenSet([dps])
-        labels = DATPenSet()
+        out = DATPens([dps])
+        labels = DATPens()
 
         for l in dps.fft("labels"):
             l.f(None)
