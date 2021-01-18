@@ -17,37 +17,11 @@ ts.append(T(tag="ClumpLabel/text",
 )
 
 ts.append(T(tag="ClumpLabel/text",
-    text='I')
+    text='TILT')
     .es(0)
     .pt(0)
-    .fr(1)
-    .ja('入')
-    .ko(0)
-    .zhHans(0)
-    .zhHant(0)
-    .ar(0)
-    .he(0)
-)
-
-ts.append(T(tag="ClumpLabel/text",
-    text='O')
-    .es(0)
-    .pt(0)
-    .fr(1)
-    .ja('出')
-    .ko(0)
-    .zhHans(0)
-    .zhHant(0)
-    .ar(0)
-    .he(0)
-)
-
-ts.append(T(tag="ClumpLabel/text",
-    text='Tilt')
-    .es(0)
-    .pt(0)
-    .fr('Inclinaison')
-    .ja('チルト')
+    .fr(0)
+    .ja(0)
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -69,6 +43,32 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
+    text='DRY')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='Drive')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="ParamLabel/text",
     text='Noise')
     .es(0)
     .pt(0)
@@ -82,11 +82,11 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='dry')
+    text='Output')
     .es(0)
     .pt(0)
-    .fr(1)
-    .ja('原音')
+    .fr(0)
+    .ja(0)
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -123,96 +123,12 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    context="TapeMode",
-    text='2 Track Hi')
+    context="TubeTapeOrder",
+    text='Tape -> Tube')
     .es(0)
     .pt(0)
-    .fr('2 Pistes Hi')
-    .ja('2 Track ハイ')
-    .ko(0)
-    .zhHans(0)
-    .zhHant(0)
-    .ar(0)
-    .he(0)
-)
-
-ts.append(T(tag="Parameter/option",
-    context="TapeMode",
-    text='2 Track Lo')
-    .es(0)
-    .pt(0)
-    .fr('2 Pistes Lo')
-    .ja('2 Track ロー')
-    .ko(0)
-    .zhHans(0)
-    .zhHant(0)
-    .ar(0)
-    .he(0)
-)
-
-ts.append(T(tag="Parameter/option",
-    context="TapeMode",
-    text='C90 Hi')
-    .es(0)
-    .pt(0)
-    .fr(1)
-    .ja('C90 ハイ')
-    .ko(0)
-    .zhHans(0)
-    .zhHant(0)
-    .ar(0)
-    .he(0)
-)
-
-ts.append(T(tag="Parameter/option",
-    context="TapeMode",
-    text='C90 Lo')
-    .es(0)
-    .pt(0)
-    .fr(1)
-    .ja('C90 ロー')
-    .ko(0)
-    .zhHans(0)
-    .zhHant(0)
-    .ar(0)
-    .he(0)
-)
-
-ts.append(T(tag="Parameter/option",
-    context="TubeMode",
-    text='Tube X')
-    .es(0)
-    .pt(0)
-    .fr(1)
-    .ja('チューブ X')
-    .ko(0)
-    .zhHans(0)
-    .zhHant(0)
-    .ar(0)
-    .he(0)
-)
-
-ts.append(T(tag="Parameter/option",
-    context="TubeMode",
-    text='Tube Y')
-    .es(0)
-    .pt(0)
-    .fr(1)
-    .ja('チューブ Y')
-    .ko(0)
-    .zhHans(0)
-    .zhHant(0)
-    .ar(0)
-    .he(0)
-)
-
-ts.append(T(tag="Parameter/option",
-    context="TubeMode",
-    text='Tube Z')
-    .es(0)
-    .pt(0)
-    .fr(1)
-    .ja('チューブ Z')
+    .fr(0)
+    .ja(0)
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -227,20 +143,6 @@ ts.append(T(tag="Parameter/option",
     .pt(0)
     .fr(1)
     .ja('チューブ -> テープ')
-    .ko(0)
-    .zhHans(0)
-    .zhHant(0)
-    .ar(0)
-    .he(0)
-)
-
-ts.append(T(tag="Parameter/option",
-    context="TubeTapeOrder",
-    text='Tube <- Tape')
-    .es(0)
-    .pt(0)
-    .fr(1)
-    .ja('チューブ <- テープ')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
