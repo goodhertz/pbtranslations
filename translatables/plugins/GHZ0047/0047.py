@@ -5,7 +5,7 @@ ts = TranslationSet()
 
 ts.append(T(tag="ClumpLabel/text",
     text='FILTER')
-    .es(0)
+    .es('FILTRO')
     .pt(0)
     .fr('FILTRE')
     .ja('フィルター')
@@ -18,7 +18,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='TILT')
-    .es(0)
+    .es('INCL')
     .pt(0)
     .fr('INCL')
     .ja('チルト')
@@ -31,7 +31,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Bias')
-    .es(0)
+    .es(1)
     .pt(0)
     .fr('Tension')
     .ja('バイアス')
@@ -44,7 +44,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='DRY')
-    .es(0)
+    .es(1)
     .pt(0)
     .fr(1)
     .ja('原音')
@@ -57,7 +57,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Drive')
-    .es(0)
+    .es(1) 
     .pt(0)
     .fr(1)
     .ja('ドライブ')
@@ -70,7 +70,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Noise')
-    .es(0)
+    .es('Ruido')
     .pt(0)
     .fr('Bruit')
     .ja('ノイズ')
@@ -83,7 +83,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Output')
-    .es(0)
+    .es('Salida')
     .pt(0)
     .fr('Sortie')
     .ja('アウトプット')
@@ -97,7 +97,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="Parameter/option",
     context="FilterPosition",
     text='Post')
-    .es(0)
+    .es(1)
     .pt(0)
     .fr(1)
     .ja('ポスト')
@@ -111,7 +111,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="FilterPosition",
     text='Pre')
-    .es(0)
+    .es(1)
     .pt(0)
     .fr('Pré')
     .ja('プリ')
@@ -125,7 +125,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="TubeTapeOrder",
     text='Tape -> Tube')
-    .es(0)
+    .es('Cinta -> Bulbo')
     .pt(0)
     .fr(1)
     .ja('テープ -> チューブ')
@@ -139,7 +139,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="TubeTapeOrder",
     text='Tube -> Tape')
-    .es(0)
+    .es('Bulbo -> Cinta')
     .pt(0)
     .fr(1)
     .ja('チューブ -> テープ')
@@ -152,7 +152,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Tagline",
     text='Tube + Tape = Tupe')
-    .es(0)
+    .es(1)
     .pt(0)
     .fr(1)
     .ja('チューブ + テープ = チュープ')
