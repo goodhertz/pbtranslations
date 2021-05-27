@@ -4,6 +4,48 @@ from pbt.translations import *
 ts = TranslationSet()
 
 ts.append(T(tag="ClumpLabel/text",
+    text='Bias')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="ClumpLabel/text",
+    text="""
+        CAL
+        TRIM""")
+    # as in Calibration
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="ClumpLabel/text",
+    text='EMPHASIS')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="ClumpLabel/text",
     text='FILTER')
     .es('FILTRO')
     .pt(0)
@@ -17,27 +59,14 @@ ts.append(T(tag="ClumpLabel/text",
 )
 
 ts.append(T(tag="ClumpLabel/text",
-    text='TILT')
-    .es('INCL')
+    text='Noise')
+    .es(0)
     .pt(0)
-    .fr('INCL')
-    .ja('チルト')
-    .ko('틸트')
-    .zhHans('倾斜')
-    .zhHant('傾斜')
-    .ar(0)
-    .he(0)
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='Bias')
-    .es(1)
-    .pt(0)
-    .fr('Tension')
-    .ja('バイアス')
-    .ko('바이어스')
-    .zhHans('交流偏磁')
-    .zhHant('交流偏磁')
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
     .ar(0)
     .he(0)
 )
@@ -57,26 +86,13 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Drive')
-    .es(1) 
+    .es(1)
     .pt(0)
     .fr(1)
     .ja('ドライブ')
     .ko('드라이브')
     .zhHans('激励')
     .zhHant('激勵')
-    .ar(0)
-    .he(0)
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='Noise')
-    .es('Ruido')
-    .pt(0)
-    .fr('Bruit')
-    .ja('ノイズ')
-    .ko('노이즈')
-    .zhHans('噪声')
-    .zhHant('噪聲')
     .ar(0)
     .he(0)
 )
@@ -94,30 +110,182 @@ ts.append(T(tag="ParamLabel/text",
     .he(0)
 )
 
-ts.append(T(tag="Parameter/option",
-    context="FilterPosition",
-    text='Post')
-    .es(1)
+ts.append(T(tag="ParamLabel/text",
+    text='Tilt')
+    .es(0)
     .pt(0)
-    .fr(1)
-    .ja('ポスト')
-    .ko('포스트')
-    .zhHans('后')
-    .zhHant('後')
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='Trim')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="AdvPage",
+    text='EMPHASIS')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="AdvPage",
+    text='FILTERING')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
     .ar(0)
     .he(0)
 )
 
 ts.append(T(tag="Parameter/option",
     context="FilterPosition",
-    text='Pre')
-    .es(1)
+    text='BTW')
+    .es(0)
     .pt(0)
-    .fr('Pré')
-    .ja('プリ')
-    .ko('프리')
-    .zhHans('前')
-    .zhHant('前')
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="FilterPosition",
+    text='POST')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="FilterPosition",
+    text='PRE')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="OptoMode",
+    text='COMP')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="OptoMode",
+    text='LIMIT')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="OptoPosition",
+    text='BTW')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="OptoPosition",
+    text='POST')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="OptoPosition",
+    text='PRE')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="OptoPosition",
+    text='SAT')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
     .ar(0)
     .he(0)
 )
