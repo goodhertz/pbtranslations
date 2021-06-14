@@ -21,7 +21,9 @@ ts.append(T(tag="ClumpLabel/text",
         CAL
         TRIM""")
     # as in Calibration
-    .es(0)
+    .es(""" 
+        AJUSTE DE 
+        CALIBR.""")
     .pt(0)
     .fr("""
         Volume de
@@ -36,7 +38,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='EMPHASIS')
-    .es(0)
+    .es('ÉNFASIS')
     .pt(0)
     .fr('Accentuation')
     .ja('エンファシス')
@@ -127,7 +129,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Trim')
-    .es(0)
+    .es('Ajuste')
     .pt(0)
     .fr('Volume')
     .ja('トリム')
@@ -141,7 +143,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="Parameter/option",
     context="AdvPage",
     text='EMPHASIS')
-    .es(0)
+    .es('ÉNFASIS')
     .pt(0)
     .fr('Accentuation')
     .ja('エンファシス')
@@ -155,7 +157,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="AdvPage",
     text='FILTERING')
-    .es(0)
+    .es('FILTRADO')
     .pt(0)
     .fr('Filtration')
     .ja('フィルタリング')
@@ -169,7 +171,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="FilterPosition",
     text='BTW')
-    .es(0)
+    .es('ENTRE')
     .pt(0)
     .fr('ENTRE')
     .ja('ビトウィーン')
@@ -211,7 +213,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="OptoMode",
     text='COMP')
-    .es(0)
+    .es(1)
     .pt(0)
     .fr(1)
     .ja('コンプ')
@@ -225,7 +227,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="OptoMode",
     text='LIMIT')
-    .es(0)
+    .es('LÍMITE')
     .pt(0)
     .fr(1)
     .ja('リミット')
@@ -239,7 +241,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="OptoPosition",
     text='BTW')
-    .es(0)
+    .es('ENTRE')
     .pt(0)
     .fr('ENTRE')
     .ja('ビトウィーン')
@@ -281,7 +283,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="OptoPosition",
     text='SAT')
-    .es(0)
+    .es(1)
     .pt(0)
     .fr(1)
     .ja('サチュレーション')
