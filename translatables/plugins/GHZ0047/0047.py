@@ -26,8 +26,8 @@ ts.append(T(tag="ClumpLabel/text",
         CALIBR.""")
     .pt(0)
     .fr("""
-        Volume de
-        Calibration""")
+        VOLUME DE
+        CALIBR.""")
     .ja('校正トリム')
     .ko('보정 트림')
     .zhHans('校准修剪')
@@ -40,7 +40,7 @@ ts.append(T(tag="ClumpLabel/text",
     text='EMPHASIS')
     .es('ÉNFASIS')
     .pt(0)
-    .fr('Accentuation')
+    .fr('ACCENTUATION')
     .ja('エンファシス')
     .ko('엠퍼시스')
     .zhHans('加重')
@@ -116,9 +116,9 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Tilt')
-    .es('Incl')
+    .es('Incl.')
     .pt(0)
-    .fr('Incl')
+    .fr('Incl.')
     .ja('チルト')
     .ko('틸트')
     .zhHans('倾斜')
@@ -145,7 +145,7 @@ ts.append(T(tag="Parameter/option",
     text='EMPHASIS')
     .es('ÉNFASIS')
     .pt(0)
-    .fr('Accentuation')
+    .fr('ACCENTUATION')
     .ja('エンファシス')
     .ko('엠퍼시스')
     .zhHans('加重')
@@ -159,7 +159,7 @@ ts.append(T(tag="Parameter/option",
     text='FILTERING')
     .es('FILTRADO')
     .pt(0)
-    .fr('Filtration')
+    .fr('FILTRATION')
     .ja('フィルタリング')
     .ko('필터링')
     .zhHans('过滤')
