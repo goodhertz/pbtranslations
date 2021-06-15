@@ -55,17 +55,17 @@ def to_pen(mh, ts, l, lang, f=None):
     initial = l.data.get("initialValue")
     if initial is not None:
         if l.data.get("shows_all_strings"):
-            return DATPens([to_pen(mh, ts, p, lang, f=hsl(0.75, 1, 0.4)) for p in l.pens])
+            return DATPens([to_pen(mh, ts, p, lang, f=hsl(0.75, 1, 0.4)) for p in l._pens])
         else:
             v = int(initial)
             for m in (mh or []):
                 if m[-1].inside(l.bounds()):
                     v += 1
-                    v = v % len(l.pens)
-            p = to_pen(mh, ts, l.pens[v], lang, f=hsl(0.75, 1, 0.4))
+                    v = v % len(l._pens)
+            p = to_pen(mh, ts, l._pens[v], lang, f=hsl(0.75, 1, 0.4))
             return p
     
-    tag = l.getTag()
+    tag = l.tag()
     align = [Edge(e) for e in l.data["align"]]
 
     if not f:
@@ -114,7 +114,7 @@ def preview_renderable(dps, ts, lang):
 
         for l in dps.fft("labels"):
             l.f(None)
-            if l.getTag() == "options":
+            if l.tag() == "options":
                 if l.data.get("string_count", 0) > 1 and not l.data.get("shows_all_strings"):
                     l.s(hsl(0.05, s=1))
             if p := to_pen(rs.mouse_history, ts, l, lang):

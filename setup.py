@@ -17,7 +17,7 @@ setuptools.setup(
         "pbt"
     ],
     install_requires=[
-        "coldtype>=0.1.4",
+        "coldtype[viewer]>=0.5.6",
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
