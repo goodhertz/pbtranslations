@@ -6,7 +6,7 @@ ts = TranslationSet()
 ts.append(T(tag="ClumpLabel/text",
     text='Bias')
     .es(1)
-    .pt(0)
+    .pt('Polarização')
     .fr('Tension')
     .ja('バイアス')
     .ko('바이어스')
@@ -24,7 +24,9 @@ ts.append(T(tag="ClumpLabel/text",
     .es(""" 
         AJUSTE DE 
         CALIBR.""")
-    .pt(0)
+    .pt("""
+        VOL. DE
+        CALIBRAGEM""")
     .fr("""
         VOLUME DE
         CALIBR.""")
@@ -39,7 +41,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='EMPHASIS')
     .es('ÉNFASIS')
-    .pt(0)
+    .pt('ÊNFASE')
     .fr('ACCENTUATION')
     .ja('エンファシス')
     .ko('엠퍼시스')
@@ -52,7 +54,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='FILTER')
     .es('FILTRO')
-    .pt(0)
+    .pt('FILTRO')
     .fr('FILTRE')
     .ja('フィルター')
     .ko('필터')
@@ -65,7 +67,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='Noise')
     .es('Ruido')
-    .pt(0)
+    .pt('Ruído')
     .fr('Bruit')
     .ja('ノイズ')
     .ko('노이즈')
@@ -78,7 +80,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='DRY')
     .es(1)
-    .pt(0)
+    .pt(1)
     .fr(1)
     .ja('原音')
     .ko('원음')
@@ -91,7 +93,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='Drive')
     .es(1)
-    .pt(0)
+    .pt(1)
     .fr(1)
     .ja('ドライブ')
     .ko('드라이브')
@@ -104,7 +106,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='Output')
     .es('Salida')
-    .pt(0)
+    .pt('Saída')
     .fr('Sortie')
     .ja('アウトプット')
     .ko('아웃풋')
@@ -117,7 +119,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='Tilt')
     .es('Incl.')
-    .pt(0)
+    .pt('Inclinação')
     .fr('Incl.')
     .ja('チルト')
     .ko('틸트')
@@ -130,7 +132,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='Trim')
     .es('Ajuste')
-    .pt(0)
+    .pt('Volume')
     .fr('Volume')
     .ja('トリム')
     .ko('트림')
@@ -144,7 +146,7 @@ ts.append(T(tag="Parameter/option",
     context="AdvPage",
     text='EMPHASIS')
     .es('ÉNFASIS')
-    .pt(0)
+    .pt('ÊNFASE')
     .fr('ACCENTUATION')
     .ja('エンファシス')
     .ko('엠퍼시스')
@@ -158,7 +160,7 @@ ts.append(T(tag="Parameter/option",
     context="AdvPage",
     text='FILTERING')
     .es('FILTRADO')
-    .pt(0)
+    .pt('FILTRO')
     .fr('FILTRATION')
     .ja('フィルタリング')
     .ko('필터링')
@@ -172,7 +174,7 @@ ts.append(T(tag="Parameter/option",
     context="FilterPosition",
     text='BTW')
     .es('ENTRE')
-    .pt(0)
+    .pt('ENTRE')
     .fr('ENTRE')
     .ja('ビトウィーン')
     .ko('비트윈')
@@ -186,7 +188,7 @@ ts.append(T(tag="Parameter/option",
     context="FilterPosition",
     text='POST')
     .es(1)
-    .pt(0)
+    .pt('PÓS')
     .fr(1)
     .ja('ポスト')
     .ko('포스트')
@@ -200,7 +202,7 @@ ts.append(T(tag="Parameter/option",
     context="FilterPosition",
     text='PRE')
     .es(1)
-    .pt(0)
+    .pt('PRÉ')
     .fr('PRÉ')
     .ja('プリ')
     .ko('프리')
@@ -214,7 +216,7 @@ ts.append(T(tag="Parameter/option",
     context="OptoMode",
     text='COMP')
     .es(1)
-    .pt(0)
+    .pt(1)
     .fr(1)
     .ja('コンプ')
     .ko('컴프')
@@ -228,7 +230,7 @@ ts.append(T(tag="Parameter/option",
     context="OptoMode",
     text='LIMIT')
     .es('LÍMITE')
-    .pt(0)
+    .pt(1)
     .fr(1)
     .ja('リミット')
     .ko('리미트')
@@ -242,7 +244,7 @@ ts.append(T(tag="Parameter/option",
     context="OptoPosition",
     text='BTW')
     .es('ENTRE')
-    .pt(0)
+    .pt('Entre')
     .fr('ENTRE')
     .ja('ビトウィーン')
     .ko('비트윈')
@@ -256,7 +258,7 @@ ts.append(T(tag="Parameter/option",
     context="OptoPosition",
     text='POST')
     .es(1)
-    .pt(0)
+    .pt('PÓS')
     .fr(1)
     .ja('ポスト')
     .ko('포스트')
@@ -270,7 +272,7 @@ ts.append(T(tag="Parameter/option",
     context="OptoPosition",
     text='PRE')
     .es(1)
-    .pt(0)
+    .pt('PRÉ')
     .fr('PRÉ')
     .ja('プリ')
     .ko('프리')
@@ -284,7 +286,7 @@ ts.append(T(tag="Parameter/option",
     context="OptoPosition",
     text='SAT')
     .es(1)
-    .pt(0)
+    .pt(1)
     .fr(1)
     .ja('サチュレーション')
     .ko('세츄레이션')
@@ -298,7 +300,7 @@ ts.append(T(tag="Parameter/option",
     context="TubeTapeOrder",
     text='Tape -> Tube')
     .es('Cinta -> Bulbo')
-    .pt(0)
+    .pt(1)
     .fr(1)
     .ja('テープ -> チューブ')
     .ko('테이프 -> 진공관')
@@ -312,7 +314,7 @@ ts.append(T(tag="Parameter/option",
     context="TubeTapeOrder",
     text='Tube -> Tape')
     .es('Bulbo -> Cinta')
-    .pt(0)
+    .pt(1)
     .fr(1)
     .ja('チューブ -> テープ')
     .ko('진공관 -> 테이프')
@@ -325,7 +327,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Tagline",
     text='Tube + Tape = Tupe')
     .es(1)
-    .pt(0)
+    .pt(1)
     .fr(1)
     .ja('チューブ + テープ = チュープ')
     .ko('진공관 + 테이프 = 튜프')
