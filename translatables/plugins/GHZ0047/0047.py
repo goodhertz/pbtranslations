@@ -6,7 +6,7 @@ ts = TranslationSet()
 ts.append(T(tag="ClumpLabel/text",
     text='Bias')
     .es(1)
-    .pt('Polarização')
+    .pt(1)
     .fr('Tension')
     .ja('バイアス')
     .ko('바이어스')
@@ -21,11 +21,11 @@ ts.append(T(tag="ClumpLabel/text",
         CAL
         TRIM""")
     # as in Calibration
-    .es(""" 
-        AJUSTE DE 
+    .es("""
+        AJUSTE DE
         CALIBR.""")
     .pt("""
-        VOL. DE
+        GANHO DE
         CALIBRAGEM""")
     .fr("""
         VOLUME DE
@@ -119,7 +119,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='Tilt')
     .es('Incl.')
-    .pt('Inclinação')
+    .pt('Incl.')
     .fr('Incl.')
     .ja('チルト')
     .ko('틸트')
@@ -244,7 +244,7 @@ ts.append(T(tag="Parameter/option",
     context="OptoPosition",
     text='BTW')
     .es('ENTRE')
-    .pt('Entre')
+    .pt('ENTRE')
     .fr('ENTRE')
     .ja('ビトウィーン')
     .ko('비트윈')
