@@ -143,6 +143,32 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="Parameter/option",
+    text='EMPHASIS')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    text='FILTER')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
     context="AdvPage",
     text='EMPHASIS')
     .es('ÉNFASIS')
