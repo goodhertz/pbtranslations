@@ -184,14 +184,14 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="AdvPage",
-    text='FILTERING')
-    .es('FILTRADO')
-    .pt('FILTRO')
-    .fr('FILTRATION')
-    .ja('フィルタリング')
-    .ko('필터링')
-    .zhHans('过滤')
-    .zhHant('過濾')
+    text='FILTER+CAL')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
     .ar(0)
     .he(0)
 )
