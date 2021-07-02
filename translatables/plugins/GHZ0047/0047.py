@@ -29,7 +29,7 @@ ts.append(T(tag="ClumpLabel/text",
         CALIBRAGEM""")
     .fr("""
         VOLUME DE
-        CALIBR""")
+        CALIBR.""")
     .ja('校正トリム')
     .ko('보정 트림')
     .zhHans('校准修剪')
@@ -186,8 +186,8 @@ ts.append(T(tag="Parameter/option",
     context="AdvPage",
     text='FILTER+CAL')
     .es('FILTRO+CAL')
-    .pt('FILTRO+CAL')
-    .fr('FILTRE+CAL')
+    .pt('FILTRO+CAL.')
+    .fr('FILTRE+CAL.')
     .ja('フィルター・校正')
     .ko('필터+보정')
     .zhHans('滤波+校准')
