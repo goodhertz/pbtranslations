@@ -430,7 +430,7 @@ ts.append(T(tag="Parameter/option",
     context="RandomMode",
     text='Wet Delay')
     .es('Retraso Wet')
-    .pt('Deslocamento de Fase')
+    .pt('Atraso – Wet')
     .fr('Delay Wet')
     .ja('ウェットディレイ')
     .ko(1)

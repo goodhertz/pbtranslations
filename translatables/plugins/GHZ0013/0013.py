@@ -236,7 +236,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="Parameter/option",
     text='MUTE')
-    .es('1')
+    .es(1)
     .pt('MUDO')
     .fr(1)
     .ja('ミゥート')
