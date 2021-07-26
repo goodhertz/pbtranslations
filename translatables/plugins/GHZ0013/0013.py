@@ -263,7 +263,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="FlipLR",
     text='Left | Right')
-    .es('Izquierda | Derecha')
+    .es('L | R')
     .pt('L | R')
     .fr('Gauche | Droite')
     .ja('左｜右')
@@ -277,7 +277,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="FlipLR",
     text='Right | Left')
-    .es('Derecha | Izquierda')
+    .es('R | L')
     .pt('R | L')
     .fr('Droite | Gauche')
     .ja('右｜左')
@@ -291,7 +291,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="InputMode",
     text='Left | Right')
-    .es('Izquierda | Derecha')
+    .es('L | R')
     .pt('L | R')
     .fr('Gauche | Droite')
     .ja('左｜右')
