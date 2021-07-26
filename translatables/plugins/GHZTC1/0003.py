@@ -19,7 +19,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='EQ STYLE')
     .es('ESTILO DE EQ')
-    .pt('Estilo de EQ')
+    .pt('ESTILO DE EQ')
     .fr('STYLE DE EQ')
     .ja('EQスタイル')
     .ko('EQ 스타일')
@@ -143,7 +143,7 @@ ts.append(T(tag="HUD/state",
     .zhHans('侧')
     .zhHant('側')
     .ar('السايد')
-    .he(0)
+    .he('צד')
 )
 
 ts.append(T(tag="HUD/state",
@@ -296,14 +296,14 @@ ts.append(T(tag="Parameter/option",
     context="ProcessingMode",
     text='Side Only')
     .es('Solo Side')
-    .pt('Solo: Meio')
-    .fr('Mid Seulement')
-    .ja('ミッドのみ')
+    .pt('Solo: Lados')
+    .fr('Side Seulement')
+    .ja('サイドのみ')
     .ko(1)
     .zhHans(1)
     .zhHant(1)
-    .ar('الميد فقط')
-    .he('רק צדדים')
+    .ar('السايد فقط')
+    .he('רק צד')
 )
 
 ts.append(T(tag="Parameter/option",
