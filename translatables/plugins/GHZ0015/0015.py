@@ -150,7 +150,7 @@ ts.append(T(tag="ParamLabel/text",
     .pt('Intensidade')
     .fr('Sonie')
     .ja('ラウドネス')
-    .ko('음압')
+    .ko('음량')
     .zhHans('响度')
     .zhHant('響度')
     .ar('مستوَى الصوت')
