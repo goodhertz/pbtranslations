@@ -80,7 +80,7 @@ ts.append(T(tag="ParamLabel/text",
         Formage
         de Bruit""")
     .ja('ノイズシェーピング')
-    .ko('노이즈 셰이핑')
+    .ko('노이즈 이핑')
     .zhHans('噪音整形')
     .zhHant('噪音整形')
     .ar('تشكيل الضجيج')
