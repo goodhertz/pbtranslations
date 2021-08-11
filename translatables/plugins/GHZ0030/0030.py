@@ -165,7 +165,7 @@ ts.append(T(tag="ParamLabel/text",
     .pt('Quantidade de Vibração')
     .fr('Intensité du Flutter')
     .ja('フラッター量')
-    .ko('Flutter 정도')
+    .ko('플러터 정도')
     .zhHans('抖晃量')
     .zhHant('抖晃量')
     .ar('كمية  الخفقان')
