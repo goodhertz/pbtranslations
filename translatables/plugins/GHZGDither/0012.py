@@ -164,7 +164,7 @@ ts.append(T(tag="Parameter/option",
     .pt('Alto')
     .fr('Haut')
     .ja('多め')
-    .ko('많음)
+    .ko('많음')
     .zhHans('高')
     .zhHant('高')
     .ar('مرتفع')
