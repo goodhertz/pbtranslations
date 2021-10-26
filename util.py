@@ -1,15 +1,20 @@
 from coldtype import *
+from runpy import run_path
 
 HEREDIR = Path(__FILE__).parent
+NOTO = HEREDIR / "Noto-unhinted"
+
 LANGS = ["en", "es", "pt", "fr", "ja", "ko", "zh-Hans", "zh-Hant", "ar"]
 RELEASES = []
 NAMES = {}
 PATHS = {}
 
 GENERICS = []
+GENERICS_TS = {}
 
 for py in (HEREDIR / "translatables/configs").glob("**/*.py"):
     GENERICS.append(py)
+    GENERICS_TS[py.stem] = run_path(py)["ts"]
 
 lookup = HEREDIR / "LOOKUP.md"
 for idx, l in enumerate(lookup.read_text().split("\n")):
@@ -42,18 +47,16 @@ def best_font_name(lang):
 def best_font(lang):
     return Font.Cacheable(NOTO / best_font_name(lang))
 
-def to_pen(mh, ts, l, lang, f=None):
+def to_pen(ch, ts, l, lang, f=None):
     initial = l.data.get("initialValue")
     if initial is not None:
         if l.data.get("shows_all_strings"):
-            return DATPens([to_pen(mh, ts, p, lang, f=hsl(0.75, 1, 0.4)) for p in l._pens])
+            return DATPens([to_pen(ch, ts, p, lang, f=hsl(0.75, 1, 0.4)) for p in l._pens])
         else:
             v = int(initial)
-            # for m in (mh or []):
-            #     if m[-1].inside(l.bounds()):
-            #         v += 1
-            #         v = v % len(l._pens)
-            p = to_pen(mh, ts, l._pens[v], lang, f=hsl(0.75, 1, 0.4))
+            hits = sum([int(c.inside(l.bounds())) for c in ch])
+            v = (v + hits)%(len(l._pens))
+            p = to_pen(ch, ts, l._pens[v], lang, f=hsl(0.75, 1, 0.4))
             return p
     
     tag = l.tag()
@@ -76,21 +79,23 @@ def to_pen(mh, ts, l, lang, f=None):
         if t:
             txt = t[lang]
         else:
-            print("!", l.data.get("ts"))
-            return None
+            found = False
+            for _, v in GENERICS_TS.items():
+                res = v.lookup(*l.data.get("ts"))
+                if res:
+                    txt = res[lang]
+                    found = True
+            if not found:
+                print("!", l.data.get("ts"))
+                return None
     
     b = l.bounds()
-    slugs = []
-    for line in txt.split("\n"):
-        slugs.append(Slug(line,
-            Style(best_font(actual_lang), 32),
-            Style(best_font("en"), 32)))
-    
-    return (Graf(slugs, b.inset(5))
-        .pens()
-        .xa()
+
+    return (StSt(txt, best_font(actual_lang),
+        font_size=28,
+        fallback=Style(best_font("en"), 28))
+        .xalign(b)
         .scaleToWidth(b.inset(5).w, shrink_only=1)
         .scaleToHeight(b.inset(5).h, shrink_only=1)
-        #.align(b, y="mny" if tag == "param" else "mdy")
         .align(b, *align)
         .f(hsl(0.9, s=1) if u else f))
