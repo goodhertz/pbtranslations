@@ -8,7 +8,9 @@ matches = list(HEREDIR.glob(f"**/{c}.py"))
 src = run_path(matches[0])
 ts = src["ts"]
 
-@ui(rect=layout_dps.ambit(), watch=GENERICS, timeline=len(LANGS))
+@ui(rect=layout_dps.ambit()
+, watch=GENERICS
+, timeline=len(LANGS))
 def plugin(u):
     lang = LANGS[u.i]
     dps = layout_dps
@@ -23,6 +25,7 @@ def plugin(u):
             labels += p
     
     return dps.copy() + labels
+
 
 def adjacent(direction):
     idx = RELEASES.index(c)

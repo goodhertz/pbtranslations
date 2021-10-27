@@ -104,7 +104,4 @@ def to_pen(ch, ts, l, lang, f=None):
         .align(b, *align)
         .f(hsl(0.9, s=1) if u else f))
     
-    if "償" in txt:
-        print(out.tree())
-    
     return out
