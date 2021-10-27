@@ -1,5 +1,4 @@
 from util import * #INLINE
-from runpy import run_path
 
 HEREDIR = Path(__FILE__).parent
 
@@ -24,3 +23,9 @@ def plugin(u):
             labels += p
     
     return dps.copy() + labels
+
+def adjacent(direction):
+    idx = RELEASES.index(c)
+    adj = idx+direction
+    __inputs__[0] = RELEASES[adj%len(RELEASES)]
+    return Action.PreviewStoryboardReload

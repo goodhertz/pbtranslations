@@ -43,18 +43,10 @@ view.py
 Once you've made sure you have the Noto fonts in that location, you can run the view.py command, like so:
 
 ```
-./view.py
+coldtype view.py 1
 ```
 
-After a moment, a window should appear showing the English version of CanOpener (aka catalog #0001). To cycle through available languages, use the left or right arrow key. To cycle through plugins, use the up or down arrow key (this takes longer than changing languages, so just hit the key once and wait for the display to change, it might take up to a second to complete).
-
-The command also accepts optional arguments for specifying language and catalog number, in that order:
-
-```
-./view.py ja 2
-```
-
-This will "jump" the viewer to that display, i.e. Vulf Compressor in Japanese. The arrow keys will work as they do in the no-argument mode.
+After a moment, a window should appear showing the English version of CanOpener (aka catalog #0001). To cycle through available languages, use the left or right arrow key. To cycle through plugins, use the `U` or `Y` keys to go back and forth respectively.
 
 The catalogs are listed with their corresponding plugin names and translation file paths in the LOOKUP.md file in this repo, and the language abbreviations are listed here (and will appear in the top-bar of the viewer when a given language is selected).
 
@@ -85,4 +77,4 @@ Because some translatable strings are not shown in the interfaces in their defau
 
 #### Note on aesthetics
 
-If you think to yourself when you open the viewer `dang this is ugly`, don't fret! That's intentional — the viewer is meant to display translated strings in their correct location in the interface, not to closely mimic how the eventual plugin will actually look in terms of typography, i.e. font choice. (We can't distribute the actual fonts we use in the plugins, so the Noto open-source family is the next best thing.)
+If you think to yourself when you open the viewer `dang this is ugly`, your assessment is correct. The viewer is meant to display translated strings in their correct location in the interface, not to closely mimic how the eventual plugin will actually look in terms of typography, i.e. font choice. (We can't distribute the actual fonts we use in the plugins, so the Noto open-source family is the next best thing.)

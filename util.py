@@ -20,6 +20,7 @@ lookup = HEREDIR / "LOOKUP.md"
 for idx, l in enumerate(lookup.read_text().split("\n")):
     l = l.strip("- ")
     if idx % 3 == 0:
+        if not l: continue
         RELEASES.append(l)
     elif idx % 3 == 1:
         NAMES[RELEASES[-1]] = l
@@ -91,11 +92,19 @@ def to_pen(ch, ts, l, lang, f=None):
     
     b = l.bounds()
 
-    return (StSt(txt, best_font(actual_lang),
+    #print(txt, l.data.get("ts"))
+    
+    out = (StSt(txt, best_font(actual_lang),
         font_size=28,
-        fallback=Style(best_font("en"), 28))
+        fallback=Style(best_font("en"), 28),
+        multiline=True)
         .xalign(b)
         .scaleToWidth(b.inset(5).w, shrink_only=1)
         .scaleToHeight(b.inset(5).h, shrink_only=1)
         .align(b, *align)
         .f(hsl(0.9, s=1) if u else f))
+    
+    if "償" in txt:
+        print(out.tree())
+    
+    return out
