@@ -254,15 +254,15 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Tagline",
-    text='Superior tone-shaping, from mix to master.')
-    .es('Modelado de tonos sensacional, de la mezcla al máster.')
+    text='Superior tone-shaping, from mix to master')
+    .es('Modelado de tonos sensacional, de la mezcla al máster')
     .pt('Modelagem excelente de tonalidade, da mix à master.')
-    .fr('Excellent tone-shaping, du mix au master.')
+    .fr('Excellent tone-shaping, du mix au master')
     .ja('周波数の鋭利なピックアップとトーンシェーピング')
     .ko('믹싱에서 마스터링까지 아우르는 간결한 톤 쉐이핑')
     .zhHans('从混音到母带的超级音色塑造')
     .zhHant('從混音到母帶的超級音色塑造')
     .ar('تسوية نِغم ممتازة،من الميكس إِلَى الماستر')
-    .he('.טון-שייפינג קצה עליון, ממיקס למאסטר')
+    .he('טון-שייפינג קצה עליון, ממיקס למאסטר')
 )
 

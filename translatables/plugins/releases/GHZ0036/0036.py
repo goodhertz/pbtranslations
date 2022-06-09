@@ -496,14 +496,14 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Tagline",
     text='Incredibly good bad reverb')
-    .es('Mala reverberación, mejor que nunca.')
-    .pt('Reverberação ruim, com excelência.')
-    .fr('Mauvaise reverb incroyablement bonne.')
+    .es('Mala reverberación, mejor que nunca')
+    .pt('Reverberação ruim, com excelência')
+    .fr('Mauvaise reverb incroyablement bonne')
     .ja('ヤバすぎるリバーブ')
     .ko('美친 리버브')
     .zhHans('混响史上的最好与最坏')
     .zhHant('混響史上的最好與最壞')
     .ar('صدى جيد وسيء، بشكلٍ لا يصدق')
-    .he('.ריוורב שהוא גם מדהים וגם גרוע שזה לא ייאמן')
+    .he('ריוורב שהוא גם מדהים וגם גרוע שזה לא ייאמן')
 )
 

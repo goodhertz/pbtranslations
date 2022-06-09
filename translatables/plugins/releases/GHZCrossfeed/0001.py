@@ -319,10 +319,10 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Tagline",
-    text='Conjure speakers from your headphones.')
-    .es('Conjura altavoces desde tus audífonos.')
-    .pt('Transforme seu fone em um par de caixas.')
-    .fr('Transformez votre casque en enceintes de monitoring.')
+    text='Conjure speakers from your headphones')
+    .es('Conjura altavoces desde tus audífonos')
+    .pt('Transforme seu fone em um par de caixas')
+    .fr('Transformez votre casque en enceintes de monitoring')
     .ja('ヘッドフォンにスピーカーをインストール')
     .ko('헤드폰에 스피커를 가져오는 마술')
     .zhHans('用耳机营造出音箱般的音响效果')

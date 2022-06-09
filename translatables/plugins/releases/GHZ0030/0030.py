@@ -469,15 +469,15 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Tagline",
-    text='Wow, flutter, tape.')
-    .es('Wow, flutter y sonido de cinta.')
-    .pt('Modulação, vibração e som de fita.')
-    .fr('Wow, flutter, bande magnétique.')
+    text='Wow, flutter, tape')
+    .es('Wow, flutter y sonido de cinta')
+    .pt('Modulação, vibração e som de fita')
+    .fr('Wow, flutter, bande magnétique')
     .ja('ワウ・フラッター・レコード・テープ・サチュレーション')
     .ko('완벽한 테이프 시뮬레이터')
     .zhHans('哇声、抖晃、与类比盘带模拟')
     .zhHant('哇聲、抖晃、與類比盤帶模擬')
     .ar('تفاوت,خفقان,تشبع شريط كاسيت')
-    .he('.ואוו, פלאטר, טייפ')
+    .he('ואוו, פלאטר, טייפ')
 )
 

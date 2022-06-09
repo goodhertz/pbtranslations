@@ -473,10 +473,10 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Tagline",
-    text='Lossy artifacts, on demand.')
-    .es('Artefactos de compresión, bajo demanda.')
-    .pt('Artefatos digitais, à disposição.')
-    .fr('Artefacts numériques, à la demande.')
+    text='Lossy artifacts, on demand')
+    .es('Artefactos de compresión, bajo demanda')
+    .pt('Artefatos digitais, à disposição')
+    .fr('Artefacts numériques, à la demande')
     .ja('デジタル・サウンド・アート・ファクトリー')
     .ko('예술적 디지털 아티팩트')
     .zhHans('艺品般的复古模拟')

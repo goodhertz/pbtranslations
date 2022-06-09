@@ -164,7 +164,7 @@ ts.append(T(tag="Parameter/option",
     .pt('Alto')
     .fr('Haut')
     .ja('多め')
-    .ko('많음)
+    .ko('많음')
     .zhHans('高')
     .zhHant('高')
     .ar('مرتفع')
@@ -228,15 +228,15 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Tagline",
-    text='World-class dither, simple controls.')
+    text='World-class dither, simple controls')
     .es('Tramado de otro nivel, controles sencillos')
-    .pt('Dither excepcional, controles simples.')
-    .fr('Dither exceptionnel, contrôles simples.')
+    .pt('Dither excepcional, controles simples')
+    .fr('Dither exceptionnel, contrôles simples')
     .ja('イージーオペレーションディザー')
     .ko('심플한 컨트롤의 월드클래스 디더')
     .zhHans('世界级的抖动处理, 超简易的控制')
     .zhHant('世界級的抖動處理, 超簡易的控制')
     .ar('ديثرعالمي،كنترولز بسيطة')
-    .he('.דיט׳ר איכותי, בעיצוב פשוט')
+    .he('דיט׳ר איכותי, בעיצוב פשוט')
 )
 

@@ -457,10 +457,10 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Tagline",
-    text='Expressive stereo imaging.')
-    .es('Imagen estéreo expresiva.')
-    .pt('Expressividade na imagem estéreo.')
-    .fr('Image stéréo expressive.')
+    text='Expressive stereo imaging')
+    .es('Imagen estéreo expresiva')
+    .pt('Expressividade na imagem estéreo')
+    .fr('Image stéréo expressive')
     .ja('ステレオイメージャーの集結と結合')
     .ko('최고의 스테레오 이미징')
     .zhHans('生动的立体声')

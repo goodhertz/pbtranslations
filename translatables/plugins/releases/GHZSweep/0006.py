@@ -226,15 +226,15 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="Tagline",
-    text='Filter sweeps: lo, hi, & anywhere in between.')
-    .es('Barridos de filtro: altos, bajos y entre medio.')
-    .pt('Varreduras de filtro: grave, agudo e tudo que há no meio.')
-    .fr("Balayages de filtres: bas, haut, et tout l'entre-deux.")
+    text='Filter sweeps: lo, hi, & anywhere in between')
+    .es('Barridos de filtro: altos, bajos y entre medio')
+    .pt('Varreduras de filtro: grave, agudo e tudo que há no meio')
+    .fr("Balayages de filtres: bas, haut, et tout l'entre-deux")
     .ja('極細繊維で紡いだ6.0dB~96dBのフィルター')
     .ko('자유로운 필터 스윕')
     .zhHans('全能滤波器：任何频段、全能控制')
     .zhHant('全能濾波器：任何頻段、全能控制')
-    .ar('عمليّة مسح الفِلترات:منخفضة، عالية و في أيّ مكان فيما بين.')
+    .ar('عمليّة مسح الفِلترات:منخفضة، عالية و في أيّ مكان فيما بين')
     .he('פילטר סוויפס: נמוכים, גבוהים וכל מה שביניהם')
 )
 

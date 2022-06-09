@@ -504,15 +504,15 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Tagline",
-    text='Classic tremolo for the 21st century.')
-    .es('Trémolo clásico para el siglo XXI.')
-    .pt('Tremolo clássico, adaptado ao século XXI.')
-    .fr('Trémolo classique pour le 21ème siècle.')
+    text='Classic tremolo for the 21st century')
+    .es('Trémolo clásico para el siglo XXI')
+    .pt('Tremolo clássico, adaptado ao século XXI')
+    .fr('Trémolo classique pour le 21ème siècle')
     .ja('繋ぎ目のない波の輪廻\u300021世紀のためのクラシックトレモロ')
     .ko('21세기를 위한 클래식 트레몰로')
     .zhHans('21世纪的经典颤音')
     .zhHant('21世紀的經典顫音')
-    .ar('ارتعاش كلاسيكي للقرن الحادي والعشرين.')
+    .ar('ارتعاش كلاسيكي للقرن الحادي والعشرين')
     .he('טרמולו קלאסי למאה ה-21')
 )
 

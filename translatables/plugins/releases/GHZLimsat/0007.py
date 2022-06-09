@@ -360,10 +360,10 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Tagline",
-    text='Peak limiter w/ a big magnetic field.')
-    .es('Limitador de picos con un gran campo magnético.')
-    .pt('Limitador de picos com um campo magnético gigante.')
-    .fr('Limiteur de crête avec un grand champ magnétique.')
+    text='Peak limiter w/ a big magnetic field')
+    .es('Limitador de picos con un gran campo magnético')
+    .pt('Limitador de picos com um campo magnético gigante')
+    .fr('Limiteur de crête avec un grand champ magnétique')
     .ja('マルチカラーのバイブス\u3000音楽の為のピークリミッター')
     .ko('거대한 자기장 같은 피크 리미터')
     .zhHans('带有强大磁场的峰值限制器')

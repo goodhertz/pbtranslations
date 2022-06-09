@@ -269,15 +269,15 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Tagline",
-    text='New directions in panning.')
-    .es('Nuevos horizontes en panoramización.')
-    .pt('Novas direções para o pan.')
-    .fr('Nouvelles directions de panoramique.')
+    text='New directions in panning')
+    .es('Nuevos horizontes en panoramización')
+    .pt('Novas direções para o pan')
+    .fr('Nouvelles directions de panoramique')
     .ja('パンニングの革命\u3000次世代Panpot')
     .ko('차세대 패닝')
     .zhHans('声像的新方向')
     .zhHant('聲像的新方向')
     .ar('اتجاهات جديدة في التحريك')
-    .he('.כיוון חדש בפאנינג')
+    .he('כיוון חדש בפאנינג')
 )
 

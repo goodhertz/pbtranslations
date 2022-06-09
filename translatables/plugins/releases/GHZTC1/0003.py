@@ -321,15 +321,15 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Tagline",
-    text='Timeless EQ, taken back to the future.')
-    .es('Ecualización clásica, de vuelta al futuro.')
-    .pt('Equalização clássica, trazida de volta ao futuro.')
-    .fr('Égaliseur classique, de retour vers le futur.')
+    text='Timeless EQ, taken back to the future')
+    .es('Ecualización clásica, de vuelta al futuro')
+    .pt('Equalização clássica, trazida de volta ao futuro')
+    .fr('Égaliseur classique, de retour vers le futur')
     .ja('音の輪郭、枠線を微細にコントロール\u3000Mix and Mastering Equalizer')
     .ko('사운드의 윤곽을 만들어내는 직관적인 EQ')
     .zhHans('绝美永恒的音色，带你穿越未来')
     .zhHant('絕美永恆的音色，帶你穿越未來')
     .ar('موازن ترددات خالد، مبعوث إلَى المستقبل من جديد')
-    .he('.איקולייזר על-זמני שהגיע חזרה אל העתיד')
+    .he('איקולייזר על-זמני שהגיע חזרה אל העתיד')
 )
 

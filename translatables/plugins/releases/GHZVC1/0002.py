@@ -340,10 +340,10 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Tagline",
-    text='Beastly compression, by Vulf.')
-    .es('Compresión feroz, al estilo Vulf.')
-    .pt('Compressão monstruosa, no estilo Vulf.')
-    .fr('Compression de monstre, par Vulf.')
+    text='Beastly compression, by Vulf')
+    .es('Compresión feroz, al estilo Vulf')
+    .pt('Compressão monstruosa, no estilo Vulf')
+    .fr('Compression de monstre, par Vulf')
     .ja('強烈なエンボスを作成\u3000ビースティ・コンプレッサー by Vulf')
     .ko('Vulf 스타일의 강렬한 컴프레션')
     .zhHans('野兽般强而有力的压缩')

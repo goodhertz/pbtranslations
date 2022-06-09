@@ -71,8 +71,8 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="Tagline",
     text='Easy Mid/Side Conversion')
     .es('Conversión sencilla a Mid/Side')
-    .pt('Conversão simples Mid/Side.')
-    .fr('Conversion Mid/Side simplifiée.')
+    .pt('Conversão simples Mid/Side')
+    .fr('Conversion Mid/Side simplifiée')
     .ja('Mid/Side イージーコンヴァージョン')
     .ko('심플한 미드/사이드 컨트롤')
     .zhHans('超简易中侧处理转换器')
