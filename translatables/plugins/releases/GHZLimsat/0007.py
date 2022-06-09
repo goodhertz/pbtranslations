@@ -360,7 +360,7 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Tagline",
-    text='Peak limiter w/ a big magnetic field')
+    text='Peak limiter w/ a powerful magnetic field')
     .es('Limitador de picos con un gran campo magnético')
     .pt('Limitador de picos com um campo magnético gigante')
     .fr('Limiteur de crête avec un grand champ magnétique')
