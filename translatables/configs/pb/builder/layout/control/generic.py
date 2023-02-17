@@ -8,6 +8,7 @@ ts.append(T(tag="HUD/state",
     .es('Ruido')
     .pt('Ruído')
     .fr('Bruit')
+    .it(0)
     .ja('ノイズ')
     .ko('노이즈')
     .zhHans('噪声')
