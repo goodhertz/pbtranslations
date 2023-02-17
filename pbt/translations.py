@@ -1,6 +1,6 @@
 from functools import wraps
 
-LANGUAGE_SORT_ORDER = order = ["en", "es", "pt", "fr", "ja", "ko", "zhHans", "zhHant", "ar", "he"]
+LANGUAGE_SORT_ORDER = order = ["en", "es", "pt", "fr", "it", "ja", "ko", "zhHans", "zhHant", "ar", "he"]
 
 def strip_whitespace(s):
     if isinstance(s, str):
@@ -67,6 +67,11 @@ class T():
     @translation
     def fr(self, translation):
         self._fr = translation
+        return self
+
+    @translation
+    def it(self, translation):
+        self._it = translation
         return self
     
     @translation

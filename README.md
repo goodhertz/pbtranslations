@@ -63,6 +63,7 @@ en English
 es Spanish
 pt Portuguese
 fr French
+it Italian
 ja Japanese
 ko Korean
 zh-Hans Chinese (Simplified)

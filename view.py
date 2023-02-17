@@ -9,7 +9,7 @@ import glfw
 HEREDIR = Path(__file__).parent
 NOTO = HEREDIR / "Noto-unhinted"
 
-LANGS = ["en", "es", "pt", "fr", "ja", "ko", "zh-Hans", "zh-Hant", "ar", "he"]
+LANGS = ["en", "es", "pt", "fr", "it", "ja", "ko", "zh-Hans", "zh-Hant", "ar", "he"]
 
 RELEASES = []
 NAMES = {}
@@ -31,7 +31,7 @@ for idx, l in enumerate(lookup.read_text().split("\n")):
         PATHS[RELEASES[-1]] = l
 
 def best_font_name(lang):
-    if lang in ["en", "es", "pt", "fr"]:
+    if lang in ["en", "es", "pt", "fr", "it"]:
         return "NotoSans-Bold.ttf"
     elif lang in ["ja"]:
         return "NotoSansCJKjp-Bold.otf"
