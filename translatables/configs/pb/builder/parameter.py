@@ -28,7 +28,12 @@ ts.append(T(tag="Parameter/option",
         N
         T
         É""")
-    .it(0)
+    .it("""
+        P
+        U
+        N
+        T
+        O""")
     .ja("""
         付
         点""")
@@ -45,7 +50,7 @@ ts.append(T(tag="Parameter/option",
     .es('PUNTO')
     .pt('PONTO')
     .fr('POINTÉ')
-    .it(0)
+    .it('PUNTO')
     .ja('付点')
     .ko(0)
     .zhHans(0)
@@ -60,7 +65,7 @@ ts.append(T(tag="Parameter/option",
     .es(1)
     .pt(1)
     .fr(1)
-    .it(0)
+    .it('Est.')
     .ja('外部')
     .ko(0)
     .zhHans(0)
@@ -75,7 +80,7 @@ ts.append(T(tag="Parameter/option",
     .es(1)
     .pt(1)
     .fr(1)
-    .it(0)
+    .it(1)
     .ja('内部')
     .ko(0)
     .zhHans(0)
@@ -102,7 +107,11 @@ ts.append(T(tag="Parameter/option",
         T
         A""")
     .fr(1)
-    .it(0)
+    .it("""
+        N
+        O
+        T
+        A""")
     .ja("""
         音
         符""")
@@ -119,7 +128,7 @@ ts.append(T(tag="Parameter/option",
     .es('NOTA')
     .pt('NOTA')
     .fr(1)
-    .it(0)
+    .it('NOTA')
     .ja('音符')
     .ko(0)
     .zhHans(0)
@@ -134,7 +143,7 @@ ts.append(T(tag="Parameter/option",
     .es(1)
     .pt('Des.')
     .fr(1)
-    .it(0)
+    .it(1)
     .ja('オフ')
     .ko(1)
     .zhHans(1)
@@ -149,7 +158,7 @@ ts.append(T(tag="Parameter/option",
     .es(1)
     .pt('Lig.')
     .fr(1)
-    .it(0)
+    .it(1)
     .ja('オン')
     .ko(1)
     .zhHans(1)
@@ -184,7 +193,12 @@ ts.append(T(tag="Parameter/option",
         M
         P
         S""")
-    .it(0)
+    .it("""
+        T
+        E
+        M
+        P
+        O""")
     .ja("""
         時
         間""")
@@ -226,7 +240,11 @@ ts.append(T(tag="Parameter/option",
         L
         E
         T""")
-    .it(0)
+    .it("""
+        T
+        E
+        R
+        Z""")
     .ja("""
         三
         連
@@ -244,7 +262,7 @@ ts.append(T(tag="Parameter/option",
     .es('TIEMPO')
     .pt('TEMPO')
     .fr('TEMPS')
-    .it(0)
+    .it('TEMPO')
     .ja('時間')
     .ko(0)
     .zhHans(0)
@@ -259,7 +277,7 @@ ts.append(T(tag="Parameter/option",
     .es('TRSILLO')
     .pt('TERCINA')
     .fr('TRIOLET')
-    .it(0)
+    .it('TERZINA')
     .ja('三連符')
     .ko(0)
     .zhHans(0)
