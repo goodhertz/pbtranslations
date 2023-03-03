@@ -8,7 +8,7 @@ ts.append(T(tag="ClumpLabel/text",
     .es('FILTRO EXT')
     .pt('FILTRO +')
     .fr('FILTRE EXT')
-    .it(0)
+    .it('FILTRI AVN')
     .ja('フィルター微調整')
     .ko('세부 필터')
     .zhHans('高級濾波調節')
@@ -22,7 +22,7 @@ ts.append(T(tag="ClumpLabel/text",
     .es('FILTRO')
     .pt('FILTRO')
     .fr('FILTRE')
-    .it(0)
+    .it('FILTRO')
     .ja('フィルター')
     .ko('필터')
     .zhHans('滤波')
@@ -47,7 +47,11 @@ ts.append(T(tag="ClumpLabel/text",
         NH
         O""")
     .fr(1)
-    .it(0)
+    .it("""
+        G
+        U
+        A
+        D""")
     .ja("""
         ゲ
         イ
@@ -70,7 +74,7 @@ ts.append(T(tag="ClumpLabel/text",
     .es('ALTOS')
     .pt('AGUDO')
     .fr('AIGUS')
-    .it(0)
+    .it('ALTE')
     .ja('高域')
     .ko('고역대')
     .zhHans('高频')
@@ -84,7 +88,7 @@ ts.append(T(tag="ClumpLabel/text",
     .es('BAJOS')
     .pt('GRAVE')
     .fr('GRAVES')
-    .it(0)
+    .it('BASSE')
     .ja('低域')
     .ko('저역대')
     .zhHans('低频')
@@ -118,7 +122,12 @@ ts.append(T(tag="ClumpLabel/text",
         M
         M
         E""")
-    .it(0)
+    .it("""
+        G
+        A
+        M
+        M
+        A""")
     .ja("""
         範
         囲""")
@@ -142,7 +151,7 @@ ts.append(T(tag="ClumpLabel/text",
     .es('INCLINACIÓN')
     .pt('INCLINAÇÃO')
     .fr('INCLINAISON')
-    .it(0)
+    .it('PENDENZA')
     .ja('チルト')
     .ko('틸트')
     .zhHans('倾斜')
@@ -156,7 +165,7 @@ ts.append(T(tag="ParamLabel/text",
     .es('Volumen')
     .pt('Intensidade')
     .fr('Sonie')
-    .it(0)
+    .it('Volume')
     .ja('ラウドネス')
     .ko('음량')
     .zhHans('响度')
@@ -170,7 +179,7 @@ ts.append(T(tag="ParamLabel/text",
     .es('Ganancia de Salida')
     .pt('Ganho de Saída')
     .fr('Gain de Sortie')
-    .it(0)
+    .it('Guadagno Uscita')
     .ja('アウトプットゲイン')
     .ko('아웃풋 게인')
     .zhHans('输出增益')
@@ -184,7 +193,7 @@ ts.append(T(tag="ParamLabel/text",
     .es('Resonancia')
     .pt('Ressonância')
     .fr('Résonance')
-    .it(0)
+    .it('Risonanza')
     .ja('レゾナンス')
     .ko('레저넌스')
     .zhHans('谐振')
@@ -198,7 +207,7 @@ ts.append(T(tag="ParamLabel/text",
     .es('Pendiente')
     .pt('Declive')
     .fr('Ordre')
-    .it(0)
+    .it('Pendenza')
     .ja('スロープ')
     .ko('필터 기울기')
     .zhHans('坡度')
@@ -214,7 +223,7 @@ ts.append(T(tag="Parameter/option",
     .es(1)
     .pt('Automático')
     .fr('Automatique')
-    .it(0)
+    .it(1)
     .ja('自動')
     .ko(1)
     .zhHans(1)
@@ -229,7 +238,7 @@ ts.append(T(tag="Parameter/option",
     .es('Graves')
     .pt('Grave')
     .fr('Grave')
-    .it(0)
+    .it('Basse')
     .ja('低域')
     .ko(1)
     .zhHans(1)
@@ -244,7 +253,7 @@ ts.append(T(tag="Parameter/option",
     .es('Estándar')
     .pt('Padrão')
     .fr('Normal')
-    .it(0)
+    .it(1)
     .ja('普通')
     .ko(1)
     .zhHans(1)
@@ -259,7 +268,7 @@ ts.append(T(tag="Parameter/option",
     .es('Agudos')
     .pt('Agudo')
     .fr('Aigu')
-    .it(0)
+    .it('Alte')
     .ja('高域')
     .ko(1)
     .zhHans(1)
@@ -273,7 +282,7 @@ ts.append(T(tag="Tagline",
     .es('Modelado de tonos sensacional, de la mezcla al máster')
     .pt('Modelagem excelente de tonalidade, da mix à master.')
     .fr('Excellent tone-shaping, du mix au master')
-    .it(0)
+    .it('Modellamento del tono superiore, dal missaggio al master')
     .ja('周波数の鋭利なピックアップとトーンシェーピング')
     .ko('믹싱에서 마스터링까지 아우르는 간결한 톤 쉐이핑')
     .zhHans('从混音到母带的超级音色塑造')
