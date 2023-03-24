@@ -8,7 +8,7 @@ ts.append(T(tag="ClumpLabel/text",
     .es('FILTRO EXT')
     .pt('FILTRO +')
     .fr('FILTRE EXT')
-    .it('FILTRI AVN')
+    .it('FILTRO AVN')
     .ja('フィルター微調整')
     .ko('세부 필터')
     .zhHans('高級濾波調節')
