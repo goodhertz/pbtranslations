@@ -148,7 +148,7 @@ ts.append(T(tag="ParamLabel/text",
     .es('Compensar Vol. de Pano.')
     .pt('Compensar Nível de Pan')
     .fr('Compensation de Volume')
-    .it('Compensazione Volume Pan')
+    .it('Compensazione Volume Legge Pan')
     .ja('パンボリューム補償')
     .ko('팬 볼륨 보상')
     .zhHans('电平声像音量补偿')
