@@ -536,6 +536,7 @@ ts.append(T(tag="Tagline",
     .es('Mala reverberación, mejor que nunca')
     .pt('Reverberação ruim, com excelência')
     .fr('Mauvaise reverb incroyablement bonne')
+    .it('Cattivo riverbero, incredibilmente buono')
     .ja('ヤバすぎるリバーブ')
     .ko('美친 리버브')
     .zhHans('混响史上的最好与最坏')
