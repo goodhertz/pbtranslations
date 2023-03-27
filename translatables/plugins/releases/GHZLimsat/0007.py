@@ -186,8 +186,7 @@ ts.append(T(tag="ParamLabel/text",
         du Couplage""")
     .it("""
         Dipendenza
-        Canali
-        """)
+        Canali""")
     .ja('リンクパーセンテージ')
     .ko('링크 정도')
     .zhHans('连结程度')
@@ -213,8 +212,7 @@ ts.append(T(tag="ParamLabel/text",
         du Couplage""")
     .it("""
         Volume
-        Lati
-        """)
+        Lati""")
     .ja('リンクサイドゲイン')
     .ko('링크 사이드 게인')
     .zhHans('连结侧信号增益')

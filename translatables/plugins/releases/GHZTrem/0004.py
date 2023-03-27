@@ -298,8 +298,7 @@ ts.append(T(tag="ParamLabel/text",
         Volume du Trémolo""")
     .it("""
         Compensazione
-        Volume Tremolo
-        """)
+        Volume Tremolo""")
     .ja("""
         ボリューム
         補償""")
@@ -347,8 +346,7 @@ ts.append(T(tag="ParamLabel/text",
         Bruit du Tube""")
     .it("""
         Volume Rumore
-        Valvole
-        """)
+        Valvole""")
     .ja("""
         チューブ
         ノイズゲイン""")

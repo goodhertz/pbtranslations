@@ -280,7 +280,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Tagline",
     text='Superior tone-shaping, from mix to master')
     .es('Modelado de tonos sensacional, de la mezcla al máster')
-    .pt('Modelagem excelente de tonalidade, da mix à master.')
+    .pt('Modelagem excelente de tonalidade, da mix à master')
     .fr('Excellent tone-shaping, du mix au master')
     .it('Modellamento del tono superiore, dal missaggio al master')
     .ja('周波数の鋭利なピックアップとトーンシェーピング')
