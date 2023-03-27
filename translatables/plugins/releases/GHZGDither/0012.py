@@ -16,7 +16,9 @@ ts.append(T(tag="ParamLabel/text",
     .fr("""
         Silence
         Automatique""")
-    .it(0)
+    .it("""
+        Auto
+        Silenzio""")
     .ja('オートブランキング')
     .ko('자동 차단 기능')
     .zhHans('自动空白')
@@ -38,7 +40,9 @@ ts.append(T(tag="ParamLabel/text",
     .fr("""
         Niveau de
         Quantification""")
-    .it(0)
+    .it("""
+        Bit File
+        Esportato""")
     .ja('ビットデプス')
     .ko('비트 뎁스')
     .zhHans('位元深度')
@@ -60,7 +64,9 @@ ts.append(T(tag="ParamLabel/text",
     .fr("""
         Intensité
         du Dither""")
-    .it(0)
+    .it("""
+        Quantità
+        Dither""")
     .ja('ディザー量')
     .ko('디더 적용 정도')
     .zhHans('抖动量')
@@ -82,7 +88,9 @@ ts.append(T(tag="ParamLabel/text",
     .fr("""
         Formage
         de Bruit""")
-    .it(0)
+    .it("""
+        Tipo
+        Dither""")
     .ja('ノイズシェーピング')
     .ko('노이즈 셰이핑')
     .zhHans('杂讯整形')
@@ -97,7 +105,7 @@ ts.append(T(tag="Parameter/option",
     .es('Señal Limpia')
     .pt('Sinal Limpo')
     .fr('Laissez-Passer')
-    .it(0)
+    .it('Originale')
     .ja('パススルー')
     .ko('패스 스루')
     .zhHans('不变')
@@ -112,7 +120,7 @@ ts.append(T(tag="Parameter/option",
     .es('Alto')
     .pt('Alto')
     .fr('Haute')
-    .it(0)
+    .it('Molto')
     .ja('多め')
     .ko('많음')
     .zhHans('高')
@@ -127,7 +135,7 @@ ts.append(T(tag="Parameter/option",
     .es('Bajo')
     .pt('Baixo')
     .fr('Basse')
-    .it(0)
+    .it('Poco')
     .ja('少なめ')
     .ko('적음')
     .zhHans('低')
@@ -142,7 +150,7 @@ ts.append(T(tag="Parameter/option",
     .es('Nulo')
     .pt('Nenhum')
     .fr('Nulle')
-    .it(0)
+    .it('Nullo')
     .ja('なし')
     .ko('없음')
     .zhHans('无')
@@ -157,7 +165,7 @@ ts.append(T(tag="Parameter/option",
     .es('Óptimo')
     .pt('Otimizado')
     .fr('Optimale')
-    .it(0)
+    .it('Ottimale')
     .ja('最適')
     .ko('최적')
     .zhHans('最佳')
@@ -172,7 +180,7 @@ ts.append(T(tag="Parameter/option",
     .es('Alto')
     .pt('Alto')
     .fr('Haut')
-    .it(0)
+    .it('Molto')
     .ja('多め')
     .ko('많음')
     .zhHans('高')
@@ -187,7 +195,7 @@ ts.append(T(tag="Parameter/option",
     .es('Bajo')
     .pt('Baixo')
     .fr('Bas')
-    .it(0)
+    .it('Poco')
     .ja('少なめ')
     .ko('적음')
     .zhHans('低')
@@ -202,7 +210,7 @@ ts.append(T(tag="Parameter/option",
     .es('Medio')
     .pt('Médio')
     .fr('Moyen')
-    .it(0)
+    .it('Medio')
     .ja('普通')
     .ko('보통')
     .zhHans('中')
@@ -217,7 +225,7 @@ ts.append(T(tag="Parameter/option",
     .es('Nulo')
     .pt('Nenhum')
     .fr('Nul')
-    .it(0)
+    .it('Nullo')
     .ja('なし')
     .ko('없음')
     .zhHans('无')
@@ -232,7 +240,7 @@ ts.append(T(tag="Parameter/option",
     .es('Óptimo')
     .pt('Otimizado')
     .fr(1)
-    .it(0)
+    .it('Ottimale')
     .ja('最適')
     .ko('최적')
     .zhHans('最佳')
@@ -246,7 +254,7 @@ ts.append(T(tag="Tagline",
     .es('Tramado de otro nivel, controles sencillos')
     .pt('Dither excepcional, controles simples')
     .fr('Dither exceptionnel, contrôles simples')
-    .it(0)
+    .it('Dither di classe mondiale con controlli semplici')
     .ja('イージーオペレーションディザー')
     .ko('심플한 컨트롤의 월드클래스 디더')
     .zhHans('世界级的抖动处理, 超简易的控制')

@@ -8,7 +8,7 @@ ts.append(T(tag="ClumpLabel/text",
     .es(1)
     .pt(1)
     .fr(1)
-    .it(0)
+    .it(1)
     .ja("""
         リミッター /
         サチュレーター""")
@@ -30,7 +30,7 @@ ts.append(T(tag="ClumpLabel/text",
     .es('SALIDA')
     .pt('SAÍDA')
     .fr('SORTIE')
-    .it(0)
+    .it('USCITA')
     .ja('アウト')
     .ko('아웃풋')
     .zhHans('输出')
@@ -44,7 +44,7 @@ ts.append(T(tag="ParamLabel/text",
     .es('Coloración')
     .pt('Coloração')
     .fr('Coloration')
-    .it(0)
+    .it('Colore')
     .ja('カラー')
     .ko('컬러')
     .zhHans('染色')
@@ -58,7 +58,7 @@ ts.append(T(tag="ParamLabel/text",
     .es(1)
     .pt(1)
     .fr(1)
-    .it(0)
+    .it('ORIG')
     .ja('原音')
     .ko('원음')
     .zhHans('干声')
@@ -80,7 +80,9 @@ ts.append(T(tag="ParamLabel/text",
     .fr("""
         Temps de
         Balayage du Filtre""")
-    .it(0)
+    .it("""
+        Ritardo
+        Filtro""")
     .ja("""
         フィルター
         グライド""")
@@ -104,7 +106,7 @@ ts.append(T(tag="ParamLabel/text",
     .es('Frecuencia')
     .pt('Frequência')
     .fr('Fréquence')
-    .it(0)
+    .it('Frequenza')
     .ja('周波数')
     .ko('필터 기준 주파수')
     .zhHans('频率')
@@ -126,7 +128,9 @@ ts.append(T(tag="ParamLabel/text",
     .fr("""
         Lim/Sat
         Gain Automatique""")
-    .it(0)
+    .it("""
+        Lim/Sat
+        Auto Guadagno""")
     .ja("""
         Lim/Sat
         オートゲイン""")
@@ -160,7 +164,9 @@ ts.append(T(tag="ParamLabel/text",
     .fr("""
         Lim/Sat
         Couplage Stéréo""")
-    .it(0)
+    .it("""
+        Lim/Sat
+        Accoppiamento Stereo""")
     .ja("""
         Lim/Sat
         ステレオリンク""")
@@ -186,7 +192,7 @@ ts.append(T(tag="ParamLabel/text",
     .es('Mezcla')
     .pt(1)
     .fr(1)
-    .it(0)
+    .it('Miscela')
     .ja('ミックス')
     .ko('필터 믹스')
     .zhHans('混合')
@@ -200,7 +206,7 @@ ts.append(T(tag="ParamLabel/text",
     .es('Resonancia')
     .pt('Ressonância')
     .fr('Résonance')
-    .it(0)
+    .it('Risonanza')
     .ja('レゾナンス')
     .ko('필터 레조넌스')
     .zhHans('共振')
@@ -214,7 +220,7 @@ ts.append(T(tag="ParamLabel/text",
     .es('Pendiente')
     .pt('Declive')
     .fr('Ordre')
-    .it(0)
+    .it('Pendenza')
     .ja('スロープ')
     .ko('필터 기울기')
     .zhHans('坡度')
@@ -228,7 +234,7 @@ ts.append(T(tag="ParamLabel/text",
     .es('Umbral')
     .pt('Limite')
     .fr('Seuil')
-    .it(0)
+    .it('Soglia')
     .ja('スレッショルド')
     .ko('기준 레벨')
     .zhHans('阈值')
@@ -242,7 +248,7 @@ ts.append(T(tag="Tagline",
     .es('Barridos de filtro: altos, bajos y entre medio')
     .pt('Varreduras de filtro: grave, agudo e tudo que há no meio')
     .fr("Balayages de filtres: bas, haut, et tout l'entre-deux")
-    .it(0)
+    .it('Sweep di frequenze: basse, alte e ovunque nel mezzo')
     .ja('極細繊維で紡いだ6.0dB~96dBのフィルター')
     .ko('자유로운 필터 스윕')
     .zhHans('全能滤波器：任何频段、全能控制')
