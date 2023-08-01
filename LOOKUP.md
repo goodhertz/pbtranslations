@@ -34,6 +34,9 @@
 - 0024
     - Midside Matrix
     - translatables/plugins/GHZ0024/0024.py
+- 0029
+    - Loudness
+    - translatables/plugins/GHZ0029/0029.py
 - 0030
     - Wow Control
     - translatables/plugins/GHZ0030/0030.py
