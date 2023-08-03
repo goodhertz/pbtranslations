@@ -545,6 +545,66 @@ ts.append(T(tag="Parameter/option",
     .he(0)
 )
 
+ts.append(T(tag="Parameter/option",
+    context="MeterType",
+    text='LUFS')
+    .es(0)
+    .pt(0)
+    .fr(1)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="MeterType",
+    text='Peak')
+    .es(0)
+    .pt(0)
+    .fr('Crête')
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="MeterType",
+    text='RMS')
+    .es(0)
+    .pt(0)
+    .fr(1)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="MeterType",
+    text='True¬Peak')
+    .es(0)
+    .pt(0)
+    .fr('Crête¬Réelle')
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
 ts.append(T(tag="SketchLabel/text",
     text="""
         Crest
@@ -552,8 +612,8 @@ ts.append(T(tag="SketchLabel/text",
     .es(0)
     .pt(0)
     .fr("""
-        Facteur de
-        Crête""")
+        Facteur
+        de Crête""")
     .it(0)
     .ja(0)
     .ko(0)
@@ -695,7 +755,9 @@ ts.append(T(tag="SketchLabel/text",
         Peak""")
     .es(0)
     .pt(0)
-    .fr('Crête Réelle')
+    .fr("""
+        Crête
+        Réelle""")
     .it(0)
     .ja(0)
     .ko(0)
