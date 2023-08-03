@@ -22,6 +22,20 @@ ts.append(T(tag="ClumpLabel/text",
 )
 
 ts.append(T(tag="ClumpLabel/text",
+    text='Numeric Summary')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="ClumpLabel/text",
     text="""
         Reset
         Options""")
@@ -180,6 +194,49 @@ ts.append(T(tag="ParamLabel/text",
     .es(0)
     .pt(0)
     .fr('Unités')
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/custom-label",
+    text="""
+        T
+        A
+        R
+        G
+        E
+        T""")
+    .es(0)
+    .pt(0)
+    .fr("""
+        C
+        I
+        B
+        L
+        E""")
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/custom-label",
+    text="""
+        T
+        R
+        I
+        M""")
+    .es(0)
+    .pt(0)
+    .fr(0)
     .it(0)
     .ja(0)
     .ko(0)
@@ -398,6 +455,255 @@ ts.append(T(tag="Parameter/option",
     .es(0)
     .pt(0)
     .fr('Court Terme')
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="MeterMode",
+    text='Loudness¬Range')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="MeterMode",
+    text='Max¬Momentary')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="MeterMode",
+    text='Max¬Peak')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="MeterMode",
+    text='Max¬Short Term')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="MeterMode",
+    text='Max¬True Peak')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="SketchLabel/text",
+    text="""
+        Crest
+        Factor""")
+    .es(0)
+    .pt(0)
+    .fr("""
+        Facteur de
+        Crête""")
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="SketchLabel/text",
+    text='LUFS')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="SketchLabel/text",
+    text='Long Term')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="SketchLabel/text",
+    text='Loudness Range')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="SketchLabel/text",
+    text='Max Momentary')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="SketchLabel/text",
+    text='Max Short Term')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="SketchLabel/text",
+    text='Momentary')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="SketchLabel/text",
+    text='Peak')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="SketchLabel/text",
+    text='RMS')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="SketchLabel/text",
+    text='Short Term')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="SketchLabel/text",
+    text="""
+        True
+        Peak""")
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="SketchLabel/text",
+    text='Unit')
+    .es(0)
+    .pt(0)
+    .fr(0)
     .it(0)
     .ja(0)
     .ko(0)
