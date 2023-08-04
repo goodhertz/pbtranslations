@@ -190,20 +190,6 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Units')
-    .es(0)
-    .pt(0)
-    .fr('Unités')
-    .it(0)
-    .ja(0)
-    .ko(0)
-    .zhHans(0)
-    .zhHant(0)
-    .ar(0)
-    .he(0)
-)
-
-ts.append(T(tag="Parameter/custom-label",
     text="""
         T
         A
@@ -218,7 +204,8 @@ ts.append(T(tag="Parameter/custom-label",
         I
         B
         L
-        E""")
+        E
+        """)
     .it(0)
     .ja(0)
     .ko(0)
@@ -228,7 +215,7 @@ ts.append(T(tag="Parameter/custom-label",
     .he(0)
 )
 
-ts.append(T(tag="Parameter/custom-label",
+ts.append(T(tag="ParamLabel/text",
     text="""
         T
         R
@@ -243,6 +230,20 @@ ts.append(T(tag="Parameter/custom-label",
         U
         M
         E""")
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='Units')
+    .es(0)
+    .pt(0)
+    .fr('Unités')
     .it(0)
     .ja(0)
     .ko(0)
