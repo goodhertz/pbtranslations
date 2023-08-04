@@ -2,6 +2,7 @@ from coldtype import *
 from coldtype.tool import parse_inputs
 from coldtype.renderer.reader import SourceReader
 from functools import partial
+from runpy import run_path
 
 NOTO = __sibling__("Noto-unhinted")
 
@@ -45,6 +46,11 @@ pens = eval(__VERSION__["layout"].read_text(), shim)
 data = SourceReader(__VERSION__["config"])
 ts = data.program["ts"]
 
+for py in (__sibling__("translatables/configs").glob("**/*.py")):
+    program = run_path(py)
+    for k, s in program["ts"].strings.items():
+        ts.append(s)
+
 @animation(pens.ambit(), bg=1, tl=len(LANGUAGES))
 def scratch(f):
     lang = LANGUAGES[f.i]
@@ -58,6 +64,9 @@ def scratch(f):
             txt = p.data("us")
             _lang = "en"
             fill = hsl(0.9, 0.7)
+        
+        if not txt:
+            return None
         
         x, y = p.data("align")
         return (StSt(txt, best_font(_lang), 30
@@ -77,4 +86,5 @@ def scratch(f):
             , pens.find("clump"))),
         P(map(partial(label, hsl(0.6))
             , pens.find("param"))),
-        )
+        P(map(partial(label, hsl(0.07, 0.8, 0.6))
+            , pens.find("value"))))
