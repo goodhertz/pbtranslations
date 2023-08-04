@@ -51,7 +51,7 @@ for py in (__sibling__("translatables/configs").glob("**/*.py")):
     for k, s in program["ts"].strings.items():
         ts.append(s)
 
-@animation(pens.ambit(), bg=1, tl=len(LANGUAGES))
+@animation(pens.ambit(), bg=1, tl=len(LANGUAGES), watch=[__VERSION__["config"]])
 def scratch(f):
     lang = LANGUAGES[f.i]
 
