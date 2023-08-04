@@ -24,37 +24,27 @@ pip install -e .
 
 (N.B. `python3.9` there can also be `python3.8`, depending on your installation.)
 
-Once you've completed those steps, you'll also need to download the full (~1GB) family of open-source Noto fonts from Google, available here: https://www.google.com/get/noto/ — once you have that downloaded, unzip the archive, then drag the `Noto-unhinted` folder into this repository on your computer. If it's installed correctly, when you run `ls` in this repo, you see something like this appear (that is, Noto-unhinted appears at the top-level of the repo):
+Once you've completed those steps, you'll also need to download the full (~1GB) family of open-source Noto fonts from Google, which you can download by running:
 
 ```
-LOOKUP.md
-Noto-unhinted
-README.md
-check.py
-layouts
-pbt
-pbt.egg-info
-setup.py
-translatables
-venv
-view.py
+python noto.py
 ```
 
-Once you've made sure you have the Noto fonts in that location, you can run the view.py command, like so:
+Once you've done that, you can run the view.py command, like so:
 
 ```
-./view.py
+coldtype view.py 1
 ```
 
-After a moment, a window should appear showing the English version of CanOpener (aka catalog #0001). To cycle through available languages, use the left or right arrow key. To cycle through plugins, use the up or down arrow key (this takes longer than changing languages, so just hit the key once and wait for the display to change, it might take up to a second to complete).
+After a moment, a window should appear showing the English version of CanOpener (aka catalog #1). To cycle through available languages, use the left or right arrow key. To cycle through plugins, hit `Shift+v`.
 
-The command also accepts optional arguments for specifying language and catalog number, in that order:
+The command also accepts optional arguments for specifying catalog and language, in that order:
 
 ```
-./view.py ja 2
+coldtype view.py 2 ja
 ```
 
-This will "jump" the viewer to that display, i.e. Vulf Compressor in Japanese. The arrow keys will work as they do in the no-argument mode.
+This will open Vulf Compressor in Japanese. The arrow keys will work as they do in the no-argument mode.
 
 The catalogs are listed with their corresponding plugin names and translation file paths in the LOOKUP.md file in this repo, and the language abbreviations are listed here (and will appear in the top-bar of the viewer when a given language is selected).
 
