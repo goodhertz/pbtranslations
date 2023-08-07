@@ -204,6 +204,20 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
+    text='Units')
+    .es(0)
+    .pt(0)
+    .fr('Unités')
+    .it(0)
+    .ja('単位')
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/custom-label",
     text="""
         T
         A
@@ -213,9 +227,19 @@ ts.append(T(tag="ParamLabel/text",
         T""")
     .es(0)
     .pt(0)
-    .fr(0)
+    .fr("""
+        C
+        I
+        B
+        L
+        E""")
     .it(0)
-    .ja(0)
+    .ja("""
+        タ
+        ｜
+        ゲ
+        ッ
+        ト""")
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -223,7 +247,7 @@ ts.append(T(tag="ParamLabel/text",
     .he(0)
 )
 
-ts.append(T(tag="ParamLabel/text",
+ts.append(T(tag="Parameter/custom-label",
     text="""
         T
         R
@@ -231,23 +255,18 @@ ts.append(T(tag="ParamLabel/text",
         M""")
     .es(0)
     .pt(0)
-    .fr(0)
+    .fr("""
+        V
+        O
+        L
+        U
+        M
+        E""")
     .it(0)
-    .ja(0)
-    .ko(0)
-    .zhHans(0)
-    .zhHant(0)
-    .ar(0)
-    .he(0)
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='Units')
-    .es(0)
-    .pt(0)
-    .fr('Unités')
-    .it(0)
-    .ja('単位')
+    .ja("""
+        ト
+        リ
+        ム""")
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -505,14 +524,12 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="MeterMode",
-    text="""
-        Loudness
-        Range""")
+    text='Loudness¬Range')
     .es(0)
     .pt(0)
-    .fr(0)
+    .fr('Plage¬Dynamique')
     .it(0)
-    .ja(0)
+    .ja('ラウドネス¬レンジ')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -522,14 +539,12 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="MeterMode",
-    text="""
-        Max
-        Momentary""")
+    text='Max¬Momentary')
     .es(0)
     .pt(0)
-    .fr(0)
+    .fr('Momentanée¬Maximale')
     .it(0)
-    .ja(0)
+    .ja('瞬間的¬最大値')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -539,14 +554,12 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="MeterMode",
-    text="""
-        Max
-        Peak""")
+    text='Max¬Peak')
     .es(0)
     .pt(0)
-    .fr(0)
+    .fr('Crête¬Maximale')
     .it(0)
-    .ja(0)
+    .ja('ピーク¬最大値')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -556,14 +569,12 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="MeterMode",
-    text="""
-        Max
-        Short Term""")
+    text='Max¬Short Term')
     .es(0)
     .pt(0)
-    .fr(0)
+    .fr('Court Terme¬Maximale')
     .it(0)
-    .ja(0)
+    .ja('短期的¬最大値')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -573,14 +584,12 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="MeterMode",
-    text="""
-        Max
-        True Peak""")
+    text='Max¬True Peak')
     .es(0)
     .pt(0)
-    .fr(0)
+    .fr('Crête Réelle¬Maximale')
     .it(0)
-    .ja(0)
+    .ja('トゥルーピーク¬最大値')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -635,14 +644,12 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="MeterType",
-    text="""
-        True
-        Peak""")
+    text='True¬Peak')
     .es(0)
     .pt(0)
-    .fr(0)
+    .fr('Crête¬Réelle')
     .it(0)
-    .ja(0)
+    .ja('トゥルー¬ピーク')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
