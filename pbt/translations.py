@@ -5,7 +5,7 @@ LANGUAGE_SORT_ORDER = order = ["en", "es", "pt", "fr", "it", "ja", "ko", "zhHans
 
 def strip_whitespace(s):
     if isinstance(s, str):
-        return "\n".join([l.strip() for l in s.strip().split("\n")])
+        return dedent("\n".join([l.strip() for l in s.strip().split("\n")])).strip()
     else:
         return s
 
@@ -21,8 +21,9 @@ def translation(f):
         if translation == 1:
             pass
         
-        return f(t, translation)
+        return f(t, translation, **kwds)
     return wrapper
+
 
 class T():
     def __init__(self, tag=None, context=None, text=None):
@@ -30,6 +31,10 @@ class T():
         self.text = strip_whitespace(text)
         self.context = context or None
         self.warnings = []
+        
+        # special formatting flags
+        self._ja_vertical = False
+        
         self.en(self.text)
     
     def __repr__(self):
@@ -81,8 +86,9 @@ class T():
         return self
     
     @translation
-    def ja(self, translation):
+    def ja(self, translation, vertical=False):
         self._ja = translation
+        self._ja_vertical = vertical
         return self
     
     @translation

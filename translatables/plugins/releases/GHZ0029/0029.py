@@ -308,7 +308,7 @@ ts.append(T(tag="ParamLabel/text",
     .pt(0)
     .fr('C\nI\nB\nL\nE')
     .it(0)
-    .ja('タ\n｜\nゲ\nッ\nト')
+    .ja('タ\nー\nゲ\nッ\nト', vertical=True)
     .ko(0)
     .zhHans(0)
     .zhHant(0)
