@@ -524,12 +524,12 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="MeterMode",
-    text='Loudness¬Range')
+    text='Loudness\nRange')
     .es(0)
     .pt(0)
-    .fr('Plage¬Dynamique')
+    .fr('Plage\nDynamique')
     .it(0)
-    .ja('ラウドネス¬レンジ')
+    .ja('ラウドネス\nレンジ')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -539,12 +539,12 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="MeterMode",
-    text='Max¬Momentary')
+    text='Max\nMomentary')
     .es(0)
     .pt(0)
-    .fr('Momentanée¬Maximale')
+    .fr('Momentanée\nMaximale')
     .it(0)
-    .ja('瞬間的¬最大値')
+    .ja('瞬間的\n最大値')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -554,12 +554,12 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="MeterMode",
-    text='Max¬Peak')
+    text='Max\nPeak')
     .es(0)
     .pt(0)
-    .fr('Crête¬Maximale')
+    .fr('Crête\nMaximale')
     .it(0)
-    .ja('ピーク¬最大値')
+    .ja('ピーク\n最大値')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -569,12 +569,12 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="MeterMode",
-    text='Max¬Short Term')
+    text='Max\nShort Term')
     .es(0)
     .pt(0)
-    .fr('Court Terme¬Maximale')
+    .fr('Court Terme\nMaximale')
     .it(0)
-    .ja('短期的¬最大値')
+    .ja('短期的\n最大値')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -584,12 +584,12 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="MeterMode",
-    text='Max¬True Peak')
+    text='Max\nTrue Peak')
     .es(0)
     .pt(0)
-    .fr('Crête Réelle¬Maximale')
+    .fr('Crête Réelle\nMaximale')
     .it(0)
-    .ja('トゥルーピーク¬最大値')
+    .ja('トゥルーピーク\n最大値')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -644,12 +644,12 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="MeterType",
-    text='True¬Peak')
+    text='True\nPeak')
     .es(0)
     .pt(0)
-    .fr('Crête¬Réelle')
+    .fr('Crête\nRéelle')
     .it(0)
-    .ja('トゥルー¬ピーク')
+    .ja('トゥルー\nピーク')
     .ko(0)
     .zhHans(0)
     .zhHant(0)

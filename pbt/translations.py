@@ -1,4 +1,5 @@
 from functools import wraps
+from textwrap import dedent
 
 LANGUAGE_SORT_ORDER = order = ["en", "es", "pt", "fr", "it", "ja", "ko", "zhHans", "zhHant", "ar", "he"]
 
@@ -115,7 +116,7 @@ class TranslationSet():
         self.strings = {}
 
     def append(self, item):
-        self.strings["_".join([item.tag, item.text, item.context or "None"])] = item
+        self.strings["_".join([item.tag, dedent(item.text).strip(), item.context or "None"])] = item
 
     def lookup(self, tag, text, context):
-        return self.strings.get("_".join([tag, text, context or "None"]))
+        return self.strings.get("_".join([tag, dedent(text).strip(), context or "None"]))
