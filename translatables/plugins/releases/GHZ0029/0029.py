@@ -204,6 +204,20 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
+    text='Units')
+    .es(0)
+    .pt(0)
+    .fr('Unités')
+    .it(0)
+    .ja('単位')
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/custom-label",
     text="""
         T
         A
@@ -213,9 +227,19 @@ ts.append(T(tag="ParamLabel/text",
         T""")
     .es(0)
     .pt(0)
-    .fr(0)
+    .fr("""
+        C
+        I
+        B
+        L
+        E""")
     .it(0)
-    .ja(0)
+    .ja("""
+        タ
+        ｜
+        ゲ
+        ッ
+        ト""")
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -223,7 +247,7 @@ ts.append(T(tag="ParamLabel/text",
     .he(0)
 )
 
-ts.append(T(tag="ParamLabel/text",
+ts.append(T(tag="Parameter/custom-label",
     text="""
         T
         R
@@ -231,23 +255,18 @@ ts.append(T(tag="ParamLabel/text",
         M""")
     .es(0)
     .pt(0)
-    .fr(0)
+    .fr("""
+        V
+        O
+        L
+        U
+        M
+        E""")
     .it(0)
-    .ja(0)
-    .ko(0)
-    .zhHans(0)
-    .zhHant(0)
-    .ar(0)
-    .he(0)
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='Units')
-    .es(0)
-    .pt(0)
-    .fr('Unités')
-    .it(0)
-    .ja('単位')
+    .ja("""
+        ト
+        リ
+        ム""")
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -403,9 +422,9 @@ ts.append(T(tag="Parameter/option",
     text='LT')
     .es(0)
     .pt(0)
-    .fr(0)
+    .fr(1)
     .it(0)
-    .ja(0)
+    .ja('長期')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -418,9 +437,9 @@ ts.append(T(tag="Parameter/option",
     text='ST')
     .es(0)
     .pt(0)
-    .fr(0)
+    .fr(1)
     .it(0)
-    .ja(0)
+    .ja('短期')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
