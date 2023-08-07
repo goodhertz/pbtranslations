@@ -135,8 +135,7 @@ ts.append(T(tag="ParamLabel/text",
         Seulement sur
         Lecture""")
     .it(0)
-    .ja("""
-        再生中のみ""")
+    .ja('再生中のみ')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -205,20 +204,6 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Units')
-    .es(0)
-    .pt(0)
-    .fr('Unités')
-    .it(0)
-    .ja('単位')
-    .ko(0)
-    .zhHans(0)
-    .zhHant(0)
-    .ar(0)
-    .he(0)
-)
-
-ts.append(T(tag="Parameter/custom-label",
     text="""
         T
         A
@@ -228,19 +213,9 @@ ts.append(T(tag="Parameter/custom-label",
         T""")
     .es(0)
     .pt(0)
-    .fr("""
-        C
-        I
-        B
-        L
-        E""")
+    .fr(0)
     .it(0)
-    .ja("""
-        タ
-        ｜
-        ゲ
-        ッ
-        ト""")
+    .ja(0)
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -248,7 +223,7 @@ ts.append(T(tag="Parameter/custom-label",
     .he(0)
 )
 
-ts.append(T(tag="Parameter/custom-label",
+ts.append(T(tag="ParamLabel/text",
     text="""
         T
         R
@@ -256,18 +231,23 @@ ts.append(T(tag="Parameter/custom-label",
         M""")
     .es(0)
     .pt(0)
-    .fr("""
-        V
-        O
-        L
-        U
-        M
-        E""")
+    .fr(0)
     .it(0)
-    .ja("""
-        ト
-        リ
-        ム""")
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='Units')
+    .es(0)
+    .pt(0)
+    .fr('Unités')
+    .it(0)
+    .ja('単位')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -411,6 +391,36 @@ ts.append(T(tag="Parameter/option",
     .fr('Résumé')
     .it(0)
     .ja('概要')
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="BalanceMeasurementWindow",
+    text='LT')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="BalanceMeasurementWindow",
+    text='ST')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .it(0)
+    .ja(0)
     .ko(0)
     .zhHans(0)
     .zhHant(0)
