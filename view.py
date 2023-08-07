@@ -38,7 +38,7 @@ def __initials__():
         frame_offset=LANGUAGES.index(args["language"]))
 
 # shim
-shim = {"DATPenSet":P, "DATPen":P, "bw":bw}
+shim = {"DATPenSet":P, "DATPen":P, "bw":bw, "P":P}
 def add_data(self:P, data): return self.data(**data)
 P.add_data = add_data
 
@@ -71,7 +71,7 @@ def scratch(f):
         x, y = p.data("align")
         return (StSt(txt, best_font(_lang), 30
             , fallback=Style(best_font("en"), 30)
-            )
+            , multiline=1)
             .align(p.ambit(), Edge(x), Edge(y))
             .scaleToWidth(p.ambit().w, shrink_only=1)
             .scaleToHeight(p.ambit().h, shrink_only=1)
