@@ -4,39 +4,13 @@ from pbt.translations import *
 ts = TranslationSet()
 
 ts.append(T(tag="Parameter/option",
-    text="""
-        D
-        O
-        T""")
+    text='D\nO\nT')
     # Referring to note length; set vertically in a very tight spot
-    .es("""
-        P
-        U
-        N
-        T
-        O""")
-    .pt("""
-        P
-        O
-        N
-        T
-        O""")
-    .fr("""
-        P
-        O
-        I
-        N
-        T
-        É""")
-    .it("""
-        P
-        U
-        N
-        T
-        O""")
-    .ja("""
-        付
-        点""")
+    .es('P\nU\nN\nT\nO')
+    .pt('P\nO\nN\nT\nO')
+    .fr('P\nO\nI\nN\nT\nÉ')
+    .it('P\nU\nN\nT\nO')
+    .ja('付\n点')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -90,31 +64,13 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    text="""
-        N
-        O
-        T
-        E""")
+    text='N\nO\nT\nE')
     # Referring to note length; set vertically in a very tight spot
-    .es("""
-        N
-        O
-        T
-        A""")
-    .pt("""
-        N
-        O
-        T
-        A""")
+    .es('N\nO\nT\nA')
+    .pt('N\nO\nT\nA')
     .fr(1)
-    .it("""
-        N
-        O
-        T
-        A""")
-    .ja("""
-        音
-        符""")
+    .it('N\nO\nT\nA')
+    .ja('音\n符')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -168,40 +124,13 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    text="""
-        T
-        I
-        M
-        E""")
+    text='T\nI\nM\nE')
     # Referring to note length; set vertically in a very tight spot
-    .es("""
-        T
-        I
-        E
-        M
-        P
-        O""")
-    .pt("""
-        T
-        E
-        M
-        P
-        O""")
-    .fr("""
-        T
-        E
-        M
-        P
-        S""")
-    .it("""
-        T
-        E
-        M
-        P
-        O""")
-    .ja("""
-        時
-        間""")
+    .es('T\nI\nE\nM\nP\nO')
+    .pt('T\nE\nM\nP\nO')
+    .fr('T\nE\nM\nP\nS')
+    .it('T\nE\nM\nP\nO')
+    .ja('時\n間')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
@@ -210,45 +139,13 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    text="""
-        T
-        R
-        I
-        P""")
+    text='T\nR\nI\nP')
     # Referring to note length; set vertically in a very tight spot
-    .es("""
-        T
-        R
-        S
-        I
-        L
-        L
-        O""")
-    .pt("""
-        T
-        E
-        R
-        C
-        I
-        N
-        A""")
-    .fr("""
-        T
-        R
-        I
-        O
-        L
-        E
-        T""")
-    .it("""
-        T
-        E
-        R
-        Z""")
-    .ja("""
-        三
-        連
-        符""")
+    .es('T\nR\nS\nI\nL\nL\nO')
+    .pt('T\nE\nR\nC\nI\nN\nA')
+    .fr('T\nR\nI\nO\nL\nE\nT')
+    .it('T\nE\nR\nZ')
+    .ja('三\n連\n符')
     .ko(0)
     .zhHans(0)
     .zhHant(0)
