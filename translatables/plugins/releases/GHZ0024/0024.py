@@ -3,18 +3,18 @@ from pbt.translations import *
 
 ts = TranslationSet()
 
-ts.append(T(tag="ClumpLabel/text",
-    text='FLIP')
-    .es('INVERTIR')
-    .pt('INVERTER')
-    .fr('INVERSER')
-    .it('INVERSIONE')
-    .ja('入れ替え')
-    .ko('뒤집기')
-    .zhHans('翻转')
-    .zhHant('翻轉')
-    .ar('عَكّس')
-    .he('היפוך')
+ts.append(T(tag="Tagline",
+    text='Easy Mid/Side Conversion')
+    .es('Conversión sencilla a Mid/Side')
+    .pt('Conversão simples Mid/Side')
+    .fr('Conversion Mid/Side simplifiée')
+    .it('Conversione Centro/Lati semplificata')
+    .ja('Mid/Side イージーコンヴァージョン')
+    .ko('심플한 미드/사이드 컨트롤')
+    .zhHans('超简易中侧处理转换器')
+    .zhHant('超簡易中側處理轉換器')
+    .ar('تحويل ميد/سايد بسُهُولة')
+    .he('המרת מיד/סייד שבאה בטוב')
 )
 
 ts.append(T(tag="ClumpLabel/text",
@@ -32,20 +32,6 @@ ts.append(T(tag="ClumpLabel/text",
 )
 
 ts.append(T(tag="ClumpLabel/text",
-    text='MID')
-    .es(1)
-    .pt(1)
-    .fr(1)
-    .it('CENTRO')
-    .ja('ミッド')
-    .ko('미드')
-    .zhHans('中')
-    .zhHant('中')
-    .ar('ميد')
-    .he('אמצע')
-)
-
-ts.append(T(tag="ClumpLabel/text",
     text='OUTPUT')
     .es('SALIDA')
     .pt('SAÍDA')
@@ -60,6 +46,34 @@ ts.append(T(tag="ClumpLabel/text",
 )
 
 ts.append(T(tag="ClumpLabel/text",
+    text='FLIP')
+    .es('INVERTIR')
+    .pt('INVERTER')
+    .fr('INVERSER')
+    .it('INVERSIONE')
+    .ja('入れ替え')
+    .ko('뒤집기')
+    .zhHans('翻转')
+    .zhHant('翻轉')
+    .ar('عَكّس')
+    .he('היפוך')
+)
+
+ts.append(T(tag="ClumpLabel/text",
+    text='MID')
+    .es(1)
+    .pt(1)
+    .fr(1)
+    .it('CENTRO')
+    .ja('ミッド')
+    .ko('미드')
+    .zhHans('中')
+    .zhHant('中')
+    .ar('ميد')
+    .he('אמצע')
+)
+
+ts.append(T(tag="ClumpLabel/text",
     text='SIDE')
     .es(1)
     .pt(1)
@@ -71,19 +85,5 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHant('側')
     .ar('سايد')
     .he('צדדים')
-)
-
-ts.append(T(tag="Tagline",
-    text='Easy Mid/Side Conversion')
-    .es('Conversión sencilla a Mid/Side')
-    .pt('Conversão simples Mid/Side')
-    .fr('Conversion Mid/Side simplifiée')
-    .it('Conversione Centro/Lati semplificata')
-    .ja('Mid/Side イージーコンヴァージョン')
-    .ko('심플한 미드/사이드 컨트롤')
-    .zhHans('超简易中侧处理转换器')
-    .zhHant('超簡易中側處理轉換器')
-    .ar('تحويل ميد/سايد بسُهُولة')
-    .he('המרת מיד/סייד שבאה בטוב')
 )
 

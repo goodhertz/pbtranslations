@@ -3,102 +3,6 @@ from pbt.translations import *
 
 ts = TranslationSet()
 
-ts.append(T(tag="ParamLabel/text",
-    text="""
-        Auto
-        Blanking""")
-    .es("""
-        Desconexión
-        Automática""")
-    .pt("""
-        Desligamento
-        Automático""")
-    .fr("""
-        Silence
-        Automatique""")
-    .it("""
-        Auto
-        Silenzio""")
-    .ja('オートブランキング')
-    .ko('자동 차단 기능')
-    .zhHans('自动空白')
-    .zhHant('自動空白')
-    .ar('المسح التلقائي')
-    .he('אוטו-בלאנקינג')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text="""
-        Bit
-        Depth""")
-    .es("""
-        Profundidad
-        de Bits""")
-    .pt("""
-        Profundidade
-        em Bits""")
-    .fr("""
-        Niveau de
-        Quantification""")
-    .it("""
-        Bit File
-        Esportato""")
-    .ja('ビットデプス')
-    .ko('비트 뎁스')
-    .zhHans('位元深度')
-    .zhHant('位元深度')
-    .ar('عمق البِت')
-    .he('ביט-דפט׳')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text="""
-        Dither
-        Amount""")
-    .es("""
-        Nivel de
-        Tramado""")
-    .pt("""
-        Quantidade
-        de Dither""")
-    .fr("""
-        Intensité
-        du Dither""")
-    .it("""
-        Quantità
-        Dither""")
-    .ja('ディザー量')
-    .ko('디더 적용 정도')
-    .zhHans('抖动量')
-    .zhHant('抖動量')
-    .ar('كمية الديثر')
-    .he('דיט׳ר מיקס')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text="""
-        Noise
-        Shaping""")
-    .es("""
-        Modelado
-        de Ruido""")
-    .pt("""
-        Modelagem
-        do Ruído""")
-    .fr("""
-        Formage
-        de Bruit""")
-    .it("""
-        Tipo
-        Dither""")
-    .ja('ノイズシェーピング')
-    .ko('노이즈 셰이핑')
-    .zhHans('杂讯整形')
-    .zhHant('雜訊整形')
-    .ar('تشكيل الضجيج')
-    .he('נויז-שייפינג')
-)
-
 ts.append(T(tag="Parameter/option",
     context="BitDepth",
     text='Pass Thru')
@@ -112,36 +16,6 @@ ts.append(T(tag="Parameter/option",
     .zhHant('不變')
     .ar('تجَاوز')
     .he('ביט-דפט׳')
-)
-
-ts.append(T(tag="Parameter/option",
-    context="DitherAmount",
-    text='High')
-    .es('Alto')
-    .pt('Alto')
-    .fr('Haute')
-    .it('Molto')
-    .ja('多め')
-    .ko('많음')
-    .zhHans('高')
-    .zhHant('高')
-    .ar('مرتفع')
-    .he('הרבה')
-)
-
-ts.append(T(tag="Parameter/option",
-    context="DitherAmount",
-    text='Low')
-    .es('Bajo')
-    .pt('Baixo')
-    .fr('Basse')
-    .it('Poco')
-    .ja('少なめ')
-    .ko('적음')
-    .zhHans('低')
-    .zhHant('低')
-    .ar('منخفض')
-    .he('מעט')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -161,6 +35,21 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="DitherAmount",
+    text='Low')
+    .es('Bajo')
+    .pt('Baixo')
+    .fr('Basse')
+    .it('Poco')
+    .ja('少なめ')
+    .ko('적음')
+    .zhHans('低')
+    .zhHant('低')
+    .ar('منخفض')
+    .he('מעט')
+)
+
+ts.append(T(tag="Parameter/option",
+    context="DitherAmount",
     text='Optimal')
     .es('Óptimo')
     .pt('Otimizado')
@@ -175,11 +64,11 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    context="NoiseShaping",
+    context="DitherAmount",
     text='High')
     .es('Alto')
     .pt('Alto')
-    .fr('Haut')
+    .fr('Haute')
     .it('Molto')
     .ja('多め')
     .ko('많음')
@@ -187,6 +76,36 @@ ts.append(T(tag="Parameter/option",
     .zhHant('高')
     .ar('مرتفع')
     .he('הרבה')
+)
+
+ts.append(T(tag="Parameter/option",
+    context="NoiseShaping",
+    text='Optimal')
+    .es('Óptimo')
+    .pt('Otimizado')
+    .fr(1)
+    .it('Ottimale')
+    .ja('最適')
+    .ko('최적')
+    .zhHans('最佳')
+    .zhHant('最佳')
+    .ar('مثالي')
+    .he('אופיטמלי')
+)
+
+ts.append(T(tag="Parameter/option",
+    context="NoiseShaping",
+    text='None')
+    .es('Nulo')
+    .pt('Nenhum')
+    .fr('Nul')
+    .it('Nullo')
+    .ja('なし')
+    .ko('없음')
+    .zhHans('无')
+    .zhHant('無')
+    .ar('لا شيء')
+    .he('בלי')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -221,32 +140,17 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="NoiseShaping",
-    text='None')
-    .es('Nulo')
-    .pt('Nenhum')
-    .fr('Nul')
-    .it('Nullo')
-    .ja('なし')
-    .ko('없음')
-    .zhHans('无')
-    .zhHant('無')
-    .ar('لا شيء')
-    .he('בלי')
-)
-
-ts.append(T(tag="Parameter/option",
-    context="NoiseShaping",
-    text='Optimal')
-    .es('Óptimo')
-    .pt('Otimizado')
-    .fr(1)
-    .it('Ottimale')
-    .ja('最適')
-    .ko('최적')
-    .zhHans('最佳')
-    .zhHant('最佳')
-    .ar('مثالي')
-    .he('אופיטמלי')
+    text='High')
+    .es('Alto')
+    .pt('Alto')
+    .fr('Haut')
+    .it('Molto')
+    .ja('多め')
+    .ko('많음')
+    .zhHans('高')
+    .zhHant('高')
+    .ar('مرتفع')
+    .he('הרבה')
 )
 
 ts.append(T(tag="Tagline",
@@ -261,5 +165,61 @@ ts.append(T(tag="Tagline",
     .zhHant('世界級的抖動處理, 超簡易的控制')
     .ar('ديثرعالمي،كنترولز بسيطة')
     .he('דיט׳ר איכותי, בעיצוב פשוט')
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='Bit\nDepth')
+    .es('Profundidad\nde Bits')
+    .pt('Profundidade\nem Bits')
+    .fr('Niveau de\nQuantification')
+    .it('Bit File\nEsportato')
+    .ja('ビットデプス')
+    .ko('비트 뎁스')
+    .zhHans('位元深度')
+    .zhHant('位元深度')
+    .ar('عمق البِت')
+    .he('ביט-דפט׳')
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='Dither\nAmount')
+    .es('Nivel de\nTramado')
+    .pt('Quantidade\nde Dither')
+    .fr('Intensité\ndu Dither')
+    .it('Quantità\nDither')
+    .ja('ディザー量')
+    .ko('디더 적용 정도')
+    .zhHans('抖动量')
+    .zhHant('抖動量')
+    .ar('كمية الديثر')
+    .he('דיט׳ר מיקס')
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='Auto\nBlanking')
+    .es('Desconexión\nAutomática')
+    .pt('Desligamento\nAutomático')
+    .fr('Silence\nAutomatique')
+    .it('Auto\nSilenzio')
+    .ja('オートブランキング')
+    .ko('자동 차단 기능')
+    .zhHans('自动空白')
+    .zhHant('自動空白')
+    .ar('المسح التلقائي')
+    .he('אוטו-בלאנקינג')
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='Noise\nShaping')
+    .es('Modelado\nde Ruido')
+    .pt('Modelagem\ndo Ruído')
+    .fr('Formage\nde Bruit')
+    .it('Tipo\nDither')
+    .ja('ノイズシェーピング')
+    .ko('노이즈 셰이핑')
+    .zhHans('杂讯整形')
+    .zhHant('雜訊整形')
+    .ar('تشكيل الضجيج')
+    .he('נויז-שייפינג')
 )
 

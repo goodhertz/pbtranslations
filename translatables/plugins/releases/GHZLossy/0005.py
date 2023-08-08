@@ -3,300 +3,19 @@ from pbt.translations import *
 
 ts = TranslationSet()
 
-ts.append(T(tag="ClumpLabel/text",
-    text='FILTER')
-    .es('FILTRO')
-    .pt('FILTRO')
-    .fr('FILTRE')
-    .it('FILTRO')
-    .ja('フィルター')
-    .ko('필터')
-    .zhHans('滤波')
-    .zhHant('濾波')
-    .ar('فلتر')
-    .he('פילטר')
-)
-
-ts.append(T(tag="ClumpLabel/text",
-    text='LOSS')
-    .es('PÉRDIDA')
-    .pt('PERDA')
-    .fr('PERTE')
-    .it('DEGRADO')
-    .ja('ロス')
-    .ko('손실')
-    .zhHans('损失')
-    .zhHant('損失')
-    .ar('فقدان')
-    .he('לוס')
-)
-
-ts.append(T(tag="ClumpLabel/text",
-    text='VERB')
-    .es('REVERB')
-    .pt('REVERB')
-    .fr('REVERB')
-    .it('RIVERBERO')
-    .ja('リバーブ')
-    .ko('리버브')
-    .zhHans('混响')
-    .zhHant('混響')
-    .ar('الصدى')
-    .he('וורב')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='Amount')
-    .es('Intensidad')
-    .pt('Quantidade')
-    .fr('Intensité')
-    .it('Quantità')
-    .ja('量')
-    .ko('정도')
-    .zhHans('量')
-    .zhHant('量')
-    .ar('الكمية')
-    .he('מיקס')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text="""
-        Auto
-        Gain""")
-    .es("""
-        Ganancia
-        Auto.""")
-    .pt("""
-        Ganho
-        Automático""")
-    .fr("""
-        Gain
-        Automatique""")
-    .it("""
-        Auto
-        Livello""")
-    .ja("""
-        オート
-        ゲイン""")
-    .ko("""
-        오토
-        게인""")
-    .zhHans('自动增益')
-    .zhHant('自動增益')
-    .ar("""
-        التلقائي
-        الربح""")
-    .he('אוטו-גיין')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='DRY')
-    .es(1)
-    .pt(1)
-    .fr(1)
-    .it('ORIG')
-    .ja('原音')
-    .ko('원음')
-    .zhHans('干声')
-    .zhHant('乾聲')
-    .ar('جاف')
-    .he('מיקס')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='Gain')
-    .es('Ganancia')
-    .pt('Ganho')
-    .fr(1)
-    .it('Livello')
-    .ja('ゲイン')
-    .ko('게인')
-    .zhHans('增益')
-    .zhHant('增益')
-    .ar('الربح')
-    .he('גיין')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text="""
-        Gate
-        Threshold""")
-    .es("""
-        Umbral
-        de Puerta""")
-    .pt("""
-        Limite
-        do Gate""")
-    .fr("""
-        Seuil
-        du Gate""")
-    .it("""
-        Soglia
-        Gate""")
-    .ja("""
-        ゲート
-        スレッショルド""")
-    .ko("""
-        게이트
-        기준 레벨""")
-    .zhHans("""
-        门限
-        域值""")
-    .zhHant("""
-        門限
-        域值""")
-    .ar("""
-        للبوابة
-        حد العتبة""")
-    .he('סף גייט')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='LOSSY')
-    .es(1)
-    .pt(1)
-    .fr(1)
+ts.append(T(tag="Parameter/option",
+    context="LossMode",
+    text='Standard')
+    .es('Estándar')
+    .pt('Padrão')
+    .fr('Normale')
     .it(1)
-    .ja(1)
-    .ko(1)
-    .zhHans(1)
-    .zhHant(1)
-    .ar(1)
-    .he('לוסי')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='Range')
-    .es('Rango')
-    .pt('Extensão')
-    .fr('Gamme')
-    .it('Gamma')
-    .ja('範囲')
-    .ko('필터 범위')
-    .zhHans('范围')
-    .zhHant('範圍')
-    .ar('المدَى')
-    .he('טווח')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='Slope')
-    .es('Pendiente')
-    .pt('Declive')
-    .fr('Ordre')
-    .it('Pendenza')
-    .ja('スロープ')
-    .ko('필터 기울기')
-    .zhHans('坡度')
-    .zhHant('坡度')
-    .ar('الميل')
-    .he('מדרון')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='Speed')
-    .es('Velocidad')
-    .pt('Velocidade')
-    .fr('Vitesse')
-    .it('Velocità')
-    .ja('スピード')
-    .ko('속도')
-    .zhHans('速度')
-    .zhHant('速度')
-    .ar('السرعة')
-    .he('מהירות')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='Stereo Mode')
-    .es('Modo Estéreo')
-    .pt('Modo Estéreo')
-    .fr('Mode Stéréo')
-    .it('Modalità Stereo')
-    .ja('ステレオモード')
-    .ko('스테레오 모드')
-    .zhHans('立体声模式')
-    .zhHant('立體聲模式')
-    .ar('وضع ستيريو')
-    .he('מצב סטריאו')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text="""
-        Verb
-        Decay""")
-    .es("""
-        Decaimiento
-        de Reverb""")
-    .pt("""
-        Decaimento
-        do Reverb""")
-    .fr("""
-        Decay
-        de Reverb""")
-    .it("""
-        Decadimento
-        Riverbero""")
-    .ja("""
-        リバーブ
-        ディケイ""")
-    .ko("""
-        리버브
-        디케이""")
-    .zhHans("""
-        混响
-        衰减""")
-    .zhHant("""
-        混響
-        衰減""")
-    .ar("""
-        الصدى
-        تضاؤل""")
-    .he('ריוורב דיקאיי')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='Weighting')
-    .es('Peso')
-    .pt('Peso')
-    .fr('Poids')
-    .it('Pesatura')
-    .ja('加重')
-    .ko('가중치')
-    .zhHans('加权')
-    .zhHant('加權')
-    .ar('ترجيح')
-    .he('משקל')
-)
-
-ts.append(T(tag="Parameter/option",
-    context="FilterMode",
-    text='Invert')
-    .es('Invert.')
-    .pt('Invert.')
-    .fr('Inversé')
-    .it('Inverso')
-    .ja('逆')
-    .ko(1)
-    .zhHans(1)
-    .zhHant(1)
-    .ar('عَكّس')
-    .he('מצב פילטר')
-)
-
-ts.append(T(tag="Parameter/option",
-    context="FilterMode",
-    text='Norm.')
-    .es(1)
-    .pt(1)
-    .fr('Normal')
-    .it('Normale')
     .ja('普通')
     .ko(1)
     .zhHans(1)
     .zhHant(1)
-    .ar('طبيعي')
-    .he('נורמאלי')
+    .ar('عادي')
+    .he('סטנדרט')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -316,17 +35,17 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="LossMode",
-    text='Packet Loss')
-    .es('Pérdida de Paquetes')
-    .pt('Perda de Packets')
-    .fr('Perte de Paquets')
-    .it('Perdita Pacchetti')
-    .ja('パケットロス')
+    text='Phase Jitter')
+    .es('Fluctuación de Fase')
+    .pt('Flutuação de Fase')
+    .fr('Jitter de Phase')
+    .it('Tremolio di Fase')
+    .ja('フェーズジター')
     .ko(1)
     .zhHans(1)
     .zhHant(1)
-    .ar('فقدان الطور')
-    .he('פאקט לוס')
+    .ar('إرتعاش الطور')
+    .he('ג׳יטר פאזה')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -346,32 +65,17 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="LossMode",
-    text='Phase Jitter')
-    .es('Fluctuación de Fase')
-    .pt('Flutuação de Fase')
-    .fr('Jitter de Phase')
-    .it('Tremolio di Fase')
-    .ja('フェーズジター')
+    text='Packet Loss')
+    .es('Pérdida de Paquetes')
+    .pt('Perda de Packets')
+    .fr('Perte de Paquets')
+    .it('Perdita Pacchetti')
+    .ja('パケットロス')
     .ko(1)
     .zhHans(1)
     .zhHant(1)
-    .ar('إرتعاش الطور')
-    .he('ג׳יטר פאזה')
-)
-
-ts.append(T(tag="Parameter/option",
-    context="LossMode",
-    text='Standard')
-    .es('Estándar')
-    .pt('Padrão')
-    .fr('Normale')
-    .it(1)
-    .ja('普通')
-    .ko(1)
-    .zhHans(1)
-    .zhHant(1)
-    .ar('عادي')
-    .he('סטנדרט')
+    .ar('فقدان الطور')
+    .he('פאקט לוס')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -405,6 +109,51 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
+    context="FilterMode",
+    text='Norm.')
+    .es(1)
+    .pt(1)
+    .fr('Normal')
+    .it('Normale')
+    .ja('普通')
+    .ko(1)
+    .zhHans(1)
+    .zhHant(1)
+    .ar('طبيعي')
+    .he('נורמאלי')
+)
+
+ts.append(T(tag="Parameter/option",
+    context="FilterMode",
+    text='Invert')
+    .es('Invert.')
+    .pt('Invert.')
+    .fr('Inversé')
+    .it('Inverso')
+    .ja('逆')
+    .ko(1)
+    .zhHans(1)
+    .zhHant(1)
+    .ar('عَكّس')
+    .he('מצב פילטר')
+)
+
+ts.append(T(tag="Parameter/option",
+    context="StereoMode",
+    text='Stereo')
+    .es('Estéreo')
+    .pt('Estéreo')
+    .fr('Stéréo')
+    .it(1)
+    .ja('ステレオ')
+    .ko(1)
+    .zhHans(1)
+    .zhHant(1)
+    .ar('ستيريو')
+    .he('סטריאו')
+)
+
+ts.append(T(tag="Parameter/option",
     context="StereoMode",
     text='Joint Stereo')
     .es('Estéreo Conjunto')
@@ -435,48 +184,18 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    context="StereoMode",
-    text='Stereo')
-    .es('Estéreo')
-    .pt('Estéreo')
-    .fr('Stéréo')
-    .it(1)
-    .ja('ステレオ')
-    .ko(1)
-    .zhHans(1)
-    .zhHant(1)
-    .ar('ستيريو')
-    .he('סטריאו')
-)
-
-ts.append(T(tag="Parameter/option",
-    context="VerbPosition",
-    text='Post')
+    context="Weighting",
+    text='Perceptual')
     .es(1)
-    .pt('Pós')
-    .fr(1)
-    .it(1)
-    .ja('ポスト')
+    .pt('Psicoacústico')
+    .fr('Perceptuel')
+    .it('Percettivo')
+    .ja('知覚')
     .ko(1)
     .zhHans(1)
     .zhHant(1)
-    .ar('بعد')
-    .he('פוסט')
-)
-
-ts.append(T(tag="Parameter/option",
-    context="VerbPosition",
-    text='Pre')
-    .es(1)
-    .pt('Pré')
-    .fr('Pré')
-    .it(1)
-    .ja('プリ')
-    .ko(1)
-    .zhHans(1)
-    .zhHant(1)
-    .ar('قبل')
-    .he('פרה')
+    .ar('إدراكي')
+    .he('פרספטואל')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -495,18 +214,33 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    context="Weighting",
-    text='Perceptual')
+    context="VerbPosition",
+    text='Pre')
     .es(1)
-    .pt('Psicoacústico')
-    .fr('Perceptuel')
-    .it('Percettivo')
-    .ja('知覚')
+    .pt('Pré')
+    .fr('Pré')
+    .it(1)
+    .ja('プリ')
     .ko(1)
     .zhHans(1)
     .zhHant(1)
-    .ar('إدراكي')
-    .he('פרספטואל')
+    .ar('قبل')
+    .he('פרה')
+)
+
+ts.append(T(tag="Parameter/option",
+    context="VerbPosition",
+    text='Post')
+    .es(1)
+    .pt('Pós')
+    .fr(1)
+    .it(1)
+    .ja('ポスト')
+    .ko(1)
+    .zhHans(1)
+    .zhHant(1)
+    .ar('بعد')
+    .he('פוסט')
 )
 
 ts.append(T(tag="Tagline",
@@ -521,5 +255,229 @@ ts.append(T(tag="Tagline",
     .zhHant('藝品般的復古模擬')
     .ar('ادوات فقودة، تحت الطلب')
     .he('לו-פיי סאונד, און דימנד')
+)
+
+ts.append(T(tag="ClumpLabel/text",
+    text='VERB')
+    .es('REVERB')
+    .pt('REVERB')
+    .fr('REVERB')
+    .it('RIVERBERO')
+    .ja('リバーブ')
+    .ko('리버브')
+    .zhHans('混响')
+    .zhHant('混響')
+    .ar('الصدى')
+    .he('וורב')
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='Amount')
+    .es('Intensidad')
+    .pt('Quantidade')
+    .fr('Intensité')
+    .it('Quantità')
+    .ja('量')
+    .ko('정도')
+    .zhHans('量')
+    .zhHant('量')
+    .ar('الكمية')
+    .he('מיקס')
+)
+
+ts.append(T(tag="ClumpLabel/text",
+    text='FILTER')
+    .es('FILTRO')
+    .pt('FILTRO')
+    .fr('FILTRE')
+    .it('FILTRO')
+    .ja('フィルター')
+    .ko('필터')
+    .zhHans('滤波')
+    .zhHant('濾波')
+    .ar('فلتر')
+    .he('פילטר')
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='Range')
+    .es('Rango')
+    .pt('Extensão')
+    .fr('Gamme')
+    .it('Gamma')
+    .ja('範囲')
+    .ko('필터 범위')
+    .zhHans('范围')
+    .zhHant('範圍')
+    .ar('المدَى')
+    .he('טווח')
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='Slope')
+    .es('Pendiente')
+    .pt('Declive')
+    .fr('Ordre')
+    .it('Pendenza')
+    .ja('スロープ')
+    .ko('필터 기울기')
+    .zhHans('坡度')
+    .zhHant('坡度')
+    .ar('الميل')
+    .he('מדרון')
+)
+
+ts.append(T(tag="ClumpLabel/text",
+    text='LOSS')
+    .es('PÉRDIDA')
+    .pt('PERDA')
+    .fr('PERTE')
+    .it('DEGRADO')
+    .ja('ロス')
+    .ko('손실')
+    .zhHans('损失')
+    .zhHant('損失')
+    .ar('فقدان')
+    .he('לוס')
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='Amount')
+    .es('Intensidad')
+    .pt('Quantidade')
+    .fr('Intensité')
+    .it('Quantità')
+    .ja('量')
+    .ko('정도')
+    .zhHans('量')
+    .zhHant('量')
+    .ar('الكمية')
+    .he('מיקס')
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='Speed')
+    .es('Velocidad')
+    .pt('Velocidade')
+    .fr('Vitesse')
+    .it('Velocità')
+    .ja('スピード')
+    .ko('속도')
+    .zhHans('速度')
+    .zhHant('速度')
+    .ar('السرعة')
+    .he('מהירות')
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='Gain')
+    .es('Ganancia')
+    .pt('Ganho')
+    .fr(1)
+    .it('Livello')
+    .ja('ゲイン')
+    .ko('게인')
+    .zhHans('增益')
+    .zhHant('增益')
+    .ar('الربح')
+    .he('גיין')
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='DRY')
+    .es(1)
+    .pt(1)
+    .fr(1)
+    .it('ORIG')
+    .ja('原音')
+    .ko('원음')
+    .zhHans('干声')
+    .zhHant('乾聲')
+    .ar('جاف')
+    .he('מיקס')
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='LOSSY')
+    .es(1)
+    .pt(1)
+    .fr(1)
+    .it(1)
+    .ja(1)
+    .ko(1)
+    .zhHans(1)
+    .zhHant(1)
+    .ar(1)
+    .he('לוסי')
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='Verb\nDecay')
+    .es('Decaimiento\nde Reverb')
+    .pt('Decaimento\ndo Reverb')
+    .fr('Decay\nde Reverb')
+    .it('Decadimento\nRiverbero')
+    .ja('リバーブ\nディケイ')
+    .ko('리버브\n디케이')
+    .zhHans('混响\n衰减')
+    .zhHant('混響\n衰減')
+    .ar('الصدى\nتضاؤل')
+    .he('ריוורב דיקאיי')
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='Auto\nGain')
+    .es('Ganancia\nAuto.')
+    .pt('Ganho\nAutomático')
+    .fr('Gain\nAutomatique')
+    .it('Auto\nLivello')
+    .ja('オート\nゲイン')
+    .ko('오토\n게인')
+    .zhHans('自动增益')
+    .zhHant('自動增益')
+    .ar('التلقائي\nالربح')
+    .he('אוטו-גיין')
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='Gate\nThreshold')
+    .es('Umbral\nde Puerta')
+    .pt('Limite\ndo Gate')
+    .fr('Seuil\ndu Gate')
+    .it('Soglia\nGate')
+    .ja('ゲート\nスレッショルド')
+    .ko('게이트\n기준 레벨')
+    .zhHans('门限\n域值')
+    .zhHant('門限\n域值')
+    .ar('للبوابة\nحد العتبة')
+    .he('סף גייט')
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='Stereo Mode')
+    .es('Modo Estéreo')
+    .pt('Modo Estéreo')
+    .fr('Mode Stéréo')
+    .it('Modalità Stereo')
+    .ja('ステレオモード')
+    .ko('스테레오 모드')
+    .zhHans('立体声模式')
+    .zhHant('立體聲模式')
+    .ar('وضع ستيريو')
+    .he('מצב סטריאו')
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='Weighting')
+    .es('Peso')
+    .pt('Peso')
+    .fr('Poids')
+    .it('Pesatura')
+    .ja('加重')
+    .ko('가중치')
+    .zhHans('加权')
+    .zhHant('加權')
+    .ar('ترجيح')
+    .he('משקל')
 )
 
