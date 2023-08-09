@@ -428,6 +428,34 @@ ts.append(T(tag="Parameter/option",
     .he(0)
 )
 
+ts.append(T(tag="Sketch/runtime-text",
+    text='Copy to Clipboard')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Sketch/runtime-text",
+    text='Copied!')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+    .he(0)
+)
+
 ts.append(T(tag="ClumpLabel/text",
     text='Reset\nOptions')
     .es(0)
