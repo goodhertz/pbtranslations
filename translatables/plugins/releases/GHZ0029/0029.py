@@ -7,7 +7,7 @@ ts.append(T(tag="Parameter/option",
     context="MeterType",
     text='LUFS')
     .es(0)
-    .pt(0)
+    .pt('Medidor')
     .fr(1)
     .it(0)
     .ja(1)
@@ -22,7 +22,7 @@ ts.append(T(tag="Parameter/option",
     context="MeterType",
     text='RMS')
     .es(0)
-    .pt(0)
+    .pt('RMS')
     .fr(1)
     .it(0)
     .ja(1)
@@ -37,7 +37,7 @@ ts.append(T(tag="Parameter/option",
     context="MeterType",
     text='Peak')
     .es(0)
-    .pt(0)
+    .pt('Pico')
     .fr('Crête')
     .it(0)
     .ja('ピーク')
@@ -52,7 +52,7 @@ ts.append(T(tag="Parameter/option",
     context="MeterType",
     text='True\nPeak')
     .es(0)
-    .pt(0)
+    .pt('Pico\nVerdadeiro')
     .fr('Crête\nRéelle')
     .it(0)
     .ja('トゥルー\nピーク')
@@ -67,7 +67,7 @@ ts.append(T(tag="Parameter/option",
     context="MeasurementWindow",
     text='Momentary')
     .es(0)
-    .pt(0)
+    .pt('Momentâneo')
     .fr('Momentanée')
     .it(0)
     .ja('瞬間的')
@@ -82,7 +82,7 @@ ts.append(T(tag="Parameter/option",
     context="MeasurementWindow",
     text='Short Term')
     .es(0)
-    .pt(0)
+    .pt('Curto Prazo')
     .fr('Court Terme')
     .it(0)
     .ja('短期的')
@@ -97,7 +97,7 @@ ts.append(T(tag="Parameter/option",
     context="MeasurementWindow",
     text='Long Term')
     .es(0)
-    .pt(0)
+    .pt('Longo Prazo')
     .fr('Long Terme')
     .it(0)
     .ja('長期的')
@@ -112,7 +112,7 @@ ts.append(T(tag="Parameter/option",
     context="MeterMode",
     text='Max\nPeak')
     .es(0)
-    .pt(0)
+    .pt('Pico\nMáximo')
     .fr('Crête\nMaximale')
     .it(0)
     .ja('ピーク\n最大値')
@@ -127,7 +127,7 @@ ts.append(T(tag="Parameter/option",
     context="MeterMode",
     text='Max\nTrue Peak')
     .es(0)
-    .pt(0)
+    .pt('Pico Verdadeiro\nMáximo')
     .fr('Crête Réelle\nMaximale')
     .it(0)
     .ja('トゥルーピーク\n最大値')
@@ -142,7 +142,7 @@ ts.append(T(tag="Parameter/option",
     context="MeterMode",
     text='Max\nMomentary')
     .es(0)
-    .pt(0)
+    .pt('Momentâneo\nMáximo')
     .fr('Momentanée\nMaximale')
     .it(0)
     .ja('瞬間的\n最大値')
@@ -157,7 +157,7 @@ ts.append(T(tag="Parameter/option",
     context="MeterMode",
     text='Max\nShort Term')
     .es(0)
-    .pt(0)
+    .pt('Curto Prazo\nMáximo')
     .fr('Court Terme\nMaximale')
     .it(0)
     .ja('短期的\n最大値')
@@ -172,7 +172,7 @@ ts.append(T(tag="Parameter/option",
     context="MeterMode",
     text='Loudness\nRange')
     .es(0)
-    .pt(0)
+    .pt('Variação\nde Loudness')
     .fr('Plage\nDynamique')
     .it(0)
     .ja('ラウドネス\nレンジ')
@@ -187,7 +187,7 @@ ts.append(T(tag="Parameter/option",
     context="BalanceMeasurementWindow",
     text='ST')
     .es(0)
-    .pt(0)
+    .pt('CP')
     .fr(1)
     .it(0)
     .ja('短期')
@@ -202,7 +202,7 @@ ts.append(T(tag="Parameter/option",
     context="BalanceMeasurementWindow",
     text='LT')
     .es(0)
-    .pt(0)
+    .pt('LP')
     .fr(1)
     .it(0)
     .ja('長期')
@@ -217,7 +217,7 @@ ts.append(T(tag="Parameter/option",
     context="LoudnessMeteringUnits",
     text='Absolute')
     .es(0)
-    .pt(0)
+    .pt('Absoluto')
     .fr('Absolues')
     .it(0)
     .ja('絶対的')
@@ -232,7 +232,7 @@ ts.append(T(tag="Parameter/option",
     context="LoudnessMeteringUnits",
     text='Relative')
     .es(0)
-    .pt(0)
+    .pt('Relativo')
     .fr('Relatives')
     .it(0)
     .ja('相対的')
@@ -247,7 +247,7 @@ ts.append(T(tag="Parameter/option",
     context="AdvPage",
     text='Channel')
     .es(0)
-    .pt(0)
+    .pt('Canal')
     .fr('Canal')
     .it(0)
     .ja('チャンネル')
@@ -262,7 +262,7 @@ ts.append(T(tag="Parameter/option",
     context="AdvPage",
     text='Summary')
     .es(0)
-    .pt(0)
+    .pt('Resumo')
     .fr('Résumé')
     .it(0)
     .ja('概要')
@@ -277,7 +277,7 @@ ts.append(T(tag="Parameter/option",
     context="AdvPage",
     text='Options')
     .es(0)
-    .pt(0)
+    .pt('Opções')
     .fr(1)
     .it(0)
     .ja('設定')
@@ -291,7 +291,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Tagline",
     text='Hit the target')
     .es(0)
-    .pt(0)
+    .pt('Acerte o Alvo')
     .fr('Atteignez la cible')
     .it(0)
     .ja('ターゲットを当てろ')
@@ -305,7 +305,7 @@ ts.append(T(tag="Tagline",
 ts.append(T(tag="ParamLabel/text",
     text='T\nA\nR\nG\nE\nT')
     .es(0)
-    .pt(0)
+    .pt('A\nL\nV\nO')
     .fr('C\nI\nB\nL\nE')
     .it(0)
     .ja('タ\nー\nゲ\nッ\nト', vertical=True)
@@ -319,7 +319,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='T\nR\nI\nM')
     .es(0)
-    .pt(0)
+    .pt('V\nO\nL\nU\nM\nE')
     .fr('V\nO\nL\nU\nM\nE')
     .it(0)
     .ja('ト\nリ\nム')
@@ -333,7 +333,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="Parameter/option",
     text='Apply (M)')
     .es(0)
-    .pt(0)
+    .pt('Aplicar (M)')
     .fr('Appliquer (M)')
     .it(0)
     .ja('適用する（瞬間）')
@@ -347,7 +347,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     text='Apply (ST)')
     .es(0)
-    .pt(0)
+    .pt('Aplicar (CP)')
     .fr('Appliquer (ST)')
     .it(0)
     .ja('適用する（短期）')
@@ -361,7 +361,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     text='Apply (LT)')
     .es(0)
-    .pt(0)
+    .pt('Aplicar (LP)')
     .fr('Appliquer (LT)')
     .it(0)
     .ja('適用する（長期）')
@@ -375,7 +375,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="ParamLabel/text",
     text='Fine Trim')
     .es(0)
-    .pt(0)
+    .pt('Ajuste Fino')
     .fr('Volume Précis')
     .it(0)
     .ja('トリム微調整')
@@ -389,7 +389,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='Fine Trim')
     .es(0)
-    .pt(0)
+    .pt('Ajuste Fino')
     .fr('Volume Précis')
     .it(0)
     .ja('トリム微調整')
@@ -403,7 +403,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="Parameter/option",
     text='Apply Balance (ST)')
     .es(0)
-    .pt(0)
+    .pt('Equilibrar (CP)')
     .fr('Équilibrer (ST)')
     .it(0)
     .ja('平準化する（短期）')
@@ -417,7 +417,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     text='Apply Balance (LT)')
     .es(0)
-    .pt(0)
+    .pt('Equilibrar (LP)')
     .fr('Équilibrer (LT)')
     .it(0)
     .ja('平準化する（長期）')
@@ -431,7 +431,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Sketch/runtime-text",
     text='Copy to Clipboard')
     .es(0)
-    .pt(0)
+    .pt('Copiar')
     .fr('Copier dans le Presse-papier')
     .it(0)
     .ja('クリップボードにコピー')
@@ -445,7 +445,7 @@ ts.append(T(tag="Sketch/runtime-text",
 ts.append(T(tag="Sketch/runtime-text",
     text='Copied!')
     .es(0)
-    .pt(0)
+    .pt('Copiado!')
     .fr('Copié!')
     .it(0)
     .ja('コピー完了！')
@@ -459,7 +459,7 @@ ts.append(T(tag="Sketch/runtime-text",
 ts.append(T(tag="ClumpLabel/text",
     text='Reset\nOptions')
     .es(0)
-    .pt(0)
+    .pt('Opções de\nReinicialização')
     .fr('Options de\nRéinitialisation')
     .it(0)
     .ja('リセット\nの設定')
@@ -473,7 +473,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='Reset on\nApply')
     .es(0)
-    .pt(0)
+    .pt('Reiniciar ao\nAplicar')
     .fr('Réinitialiser aprés\nApplication')
     .it(0)
     .ja('適用後に\nリセットする')
@@ -487,7 +487,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='Reset on\nPlayback')
     .es(0)
-    .pt(0)
+    .pt('Reiniciar ao\nIniciar Playback')
     .fr('Réinitialiser sur\nLecture')
     .it(0)
     .ja('再生後に\nリセットする')
@@ -501,7 +501,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='Loudness\nMetering')
     .es(0)
-    .pt(0)
+    .pt('Medição de\nLoudness')
     .fr('Mesure de\nSonie')
     .it(0)
     .ja('ラウドネス\n測定')
@@ -515,7 +515,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='Only on\nPlayback')
     .es(0)
-    .pt(0)
+    .pt('Apenas Durante\nPlayback')
     .fr('Seulement sur\nLecture')
     .it(0)
     .ja('再生中のみ')
@@ -529,7 +529,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="Parameter/option",
     text='Yes')
     .es(0)
-    .pt(0)
+    .pt('Sim')
     .fr('Oui')
     .it(0)
     .ja('有効')
@@ -543,7 +543,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     text='No')
     .es(0)
-    .pt(0)
+    .pt('Não')
     .fr('Non')
     .it(0)
     .ja('無効')
@@ -557,7 +557,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="ParamLabel/text",
     text='Only when\nUI is open')
     .es(0)
-    .pt(0)
+    .pt('Apenas com\nJanela Aberta')
     .fr('Seulement sous\nFenêtre Ouverte')
     .it(0)
     .ja('ウィンドウ\n表示中のみ')
@@ -571,7 +571,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="Parameter/option",
     text='Yes')
     .es(0)
-    .pt(0)
+    .pt('Sim')
     .fr('Oui')
     .it(0)
     .ja('有効')
@@ -585,7 +585,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     text='No')
     .es(0)
-    .pt(0)
+    .pt('Não')
     .fr('Non')
     .it(0)
     .ja('無効')
@@ -599,7 +599,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="ParamLabel/text",
     text='Ignore\nSilence')
     .es(0)
-    .pt(0)
+    .pt('Ignorar\nSilêncios')
     .fr('Ignorer les\nSilences')
     .it(0)
     .ja('無音を\n無視する')
@@ -613,7 +613,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="Parameter/option",
     text='Yes')
     .es(0)
-    .pt(0)
+    .pt('Sim')
     .fr('Oui')
     .it(0)
     .ja('有効')
@@ -627,7 +627,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     text='No')
     .es(0)
-    .pt(0)
+    .pt('Não')
     .fr('Non')
     .it(0)
     .ja('無効')
@@ -641,7 +641,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="ParamLabel/text",
     text='Offset')
     .es(0)
-    .pt(0)
+    .pt('Compensação')
     .fr('Compensation')
     .it(0)
     .ja('補償')
@@ -655,7 +655,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='Units')
     .es(0)
-    .pt(0)
+    .pt('Unidades')
     .fr('Unités')
     .it(0)
     .ja('単位')
@@ -669,7 +669,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='Trim Glide\nTimes')
     .es(0)
-    .pt(0)
+    .pt('Tempo de Deslizamento\ndo Volume')
     .fr('Temps de Balayage\ndu Volume')
     .it(0)
     .ja('トリム\nグライド')
@@ -683,7 +683,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='Numeric Summary')
     .es(0)
-    .pt(0)
+    .pt('Resumo Numérico')
     .fr('Résumé Numérique')
     .it(0)
     .ja('数値概要')
@@ -697,7 +697,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="SketchLabel/text",
     text='Momentary')
     .es(0)
-    .pt(0)
+    .pt('Momentâneo')
     .fr('Momentanée')
     .it(0)
     .ja('瞬間的')
@@ -711,7 +711,7 @@ ts.append(T(tag="SketchLabel/text",
 ts.append(T(tag="SketchLabel/text",
     text='Short Term')
     .es(0)
-    .pt(0)
+    .pt('Curto Prazo')
     .fr('Court Terme')
     .it(0)
     .ja('短期的')
@@ -725,7 +725,7 @@ ts.append(T(tag="SketchLabel/text",
 ts.append(T(tag="SketchLabel/text",
     text='Long Term')
     .es(0)
-    .pt(0)
+    .pt('Longo Prazo')
     .fr('Long Terme')
     .it(0)
     .ja('長期的')
@@ -739,7 +739,7 @@ ts.append(T(tag="SketchLabel/text",
 ts.append(T(tag="SketchLabel/text",
     text='Unit')
     .es(0)
-    .pt(0)
+    .pt('Unidade')
     .fr('Unité')
     .it(0)
     .ja('単位')
@@ -753,7 +753,7 @@ ts.append(T(tag="SketchLabel/text",
 ts.append(T(tag="SketchLabel/text",
     text='LUFS')
     .es(0)
-    .pt(0)
+    .pt(1)
     .fr(1)
     .it(0)
     .ja(1)
@@ -767,7 +767,7 @@ ts.append(T(tag="SketchLabel/text",
 ts.append(T(tag="SketchLabel/text",
     text='RMS')
     .es(0)
-    .pt(0)
+    .pt(1)
     .fr(1)
     .it(0)
     .ja(1)
@@ -781,7 +781,7 @@ ts.append(T(tag="SketchLabel/text",
 ts.append(T(tag="SketchLabel/text",
     text='Peak')
     .es(0)
-    .pt(0)
+    .pt('Pico')
     .fr('Crête')
     .it(0)
     .ja('ピーク')
@@ -795,7 +795,7 @@ ts.append(T(tag="SketchLabel/text",
 ts.append(T(tag="SketchLabel/text",
     text='True\nPeak')
     .es(0)
-    .pt(0)
+    .pt('Pico\nVerdadeiro')
     .fr('Crête\nRéelle')
     .it(0)
     .ja('トゥルー\nピーク')
@@ -809,7 +809,7 @@ ts.append(T(tag="SketchLabel/text",
 ts.append(T(tag="SketchLabel/text",
     text='Crest\nFactor')
     .es(0)
-    .pt(0)
+    .pt('Fator\nde Crista')
     .fr('Facteur\nde Crête')
     .it(0)
     .ja('クレスト\nファクタ')
@@ -823,7 +823,7 @@ ts.append(T(tag="SketchLabel/text",
 ts.append(T(tag="SketchLabel/text",
     text='Max Momentary')
     .es(0)
-    .pt(0)
+    .pt('Momentâneo Máximo')
     .fr('Momentanée Maximale')
     .it(0)
     .ja('瞬間的最大値')
@@ -837,7 +837,7 @@ ts.append(T(tag="SketchLabel/text",
 ts.append(T(tag="SketchLabel/text",
     text='Max Short Term')
     .es(0)
-    .pt(0)
+    .pt('Curto Prazo Máximo')
     .fr('Court Terme Maximale')
     .it(0)
     .ja('短期的最大値')
@@ -851,7 +851,7 @@ ts.append(T(tag="SketchLabel/text",
 ts.append(T(tag="SketchLabel/text",
     text='Loudness Range')
     .es(0)
-    .pt(0)
+    .pt('Variação de Loudness')
     .fr('Plage Dynamique')
     .it(0)
     .ja('ラウドネスレンジ')
