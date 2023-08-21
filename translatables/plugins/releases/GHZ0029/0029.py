@@ -7,7 +7,7 @@ ts.append(T(tag="Parameter/option",
     context="MeterType",
     text='LUFS')
     .es(0)
-    .pt('Medidor')
+    .pt(1)
     .fr(1)
     .it(0)
     .ja(1)
@@ -22,7 +22,7 @@ ts.append(T(tag="Parameter/option",
     context="MeterType",
     text='RMS')
     .es(0)
-    .pt('RMS')
+    .pt(1)
     .fr(1)
     .it(0)
     .ja(1)
