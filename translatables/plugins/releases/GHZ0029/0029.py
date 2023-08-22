@@ -556,7 +556,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="ParamLabel/text",
     text='Only when\nUI is open')
-    .es('Solo con \n Ventana Abierta')
+    .es('Solo con \nVentana Abierta')
     .pt('Apenas com\nJanela Aberta')
     .fr('Seulement sous\nFenêtre Ouverte')
     .it(0)
@@ -668,7 +668,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='Trim Glide\nTimes')
-    .es('Tiempo de Transición \n de Ajuste')
+    .es('Tiempo de Transición \nde Ajuste')
     .pt('Tempo de Deslizamento\ndo Volume')
     .fr('Temps de Balayage\ndu Volume')
     .it(0)
@@ -794,7 +794,7 @@ ts.append(T(tag="SketchLabel/text",
 
 ts.append(T(tag="SketchLabel/text",
     text='True\nPeak')
-    .es('Pico \n Verdadero')
+    .es('Pico \nVerdadero')
     .pt('Pico\nVerdadeiro')
     .fr('Crête\nRéelle')
     .it(0)
