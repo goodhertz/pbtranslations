@@ -444,7 +444,7 @@ ts.append(T(tag="Sketch/runtime-text",
 
 ts.append(T(tag="Sketch/runtime-text",
     text='Copied!')
-    .es('Copiado')
+    .es('Copiado!')
     .pt('Copiado!')
     .fr('Copié!')
     .it(0)
@@ -458,7 +458,7 @@ ts.append(T(tag="Sketch/runtime-text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='Reset\nOptions')
-    .es('Opciones \nde Reinicio')
+    .es('Opciones de\nReinicio')
     .pt('Opções de\nReinicialização')
     .fr('Options de\nRéinitialisation')
     .it(0)
@@ -472,7 +472,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Reset on\nApply')
-    .es('Reiniciar al \nAplicar')
+    .es('Reiniciar al\nAplicar')
     .pt('Reiniciar ao\nAplicar')
     .fr('Réinitialiser aprés\nApplication')
     .it(0)
@@ -486,7 +486,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Reset on\nPlayback')
-    .es('Reiniciar en \nReproducción')
+    .es('Reiniciar en\nReproducción')
     .pt('Reiniciar ao\nIniciar Playback')
     .fr('Réinitialiser sur\nLecture')
     .it(0)
@@ -500,7 +500,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='Loudness\nMetering')
-    .es('Medición de \nVolumen')
+    .es('Medición de\nVolumen')
     .pt('Medição de\nLoudness')
     .fr('Mesure de\nSonie')
     .it(0)
@@ -514,7 +514,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Only on\nPlayback')
-    .es('Solo durante \nReproducción')
+    .es('Solo durante\nReproducción')
     .pt('Apenas Durante\nPlayback')
     .fr('Seulement sur\nLecture')
     .it(0)
@@ -556,7 +556,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="ParamLabel/text",
     text='Only when\nUI is open')
-    .es('Solo con \nVentana Abierta')
+    .es('Solo con\nVentana Abierta')
     .pt('Apenas com\nJanela Aberta')
     .fr('Seulement sous\nFenêtre Ouverte')
     .it(0)
@@ -598,7 +598,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="ParamLabel/text",
     text='Ignore\nSilence')
-    .es('Ignorar \nSilencio')
+    .es('Ignorar\nSilencio')
     .pt('Ignorar\nSilêncios')
     .fr('Ignorer les\nSilences')
     .it(0)
@@ -668,7 +668,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='Trim Glide\nTimes')
-    .es('Tiempo de Transición \nde Ajuste')
+    .es('Tiempo de Transición\nde Ajuste')
     .pt('Tempo de Deslizamento\ndo Volume')
     .fr('Temps de Balayage\ndu Volume')
     .it(0)
@@ -794,7 +794,7 @@ ts.append(T(tag="SketchLabel/text",
 
 ts.append(T(tag="SketchLabel/text",
     text='True\nPeak')
-    .es('Pico \nVerdadero')
+    .es('Pico\nVerdadero')
     .pt('Pico\nVerdadeiro')
     .fr('Crête\nRéelle')
     .it(0)
@@ -808,7 +808,7 @@ ts.append(T(tag="SketchLabel/text",
 
 ts.append(T(tag="SketchLabel/text",
     text='Crest\nFactor')
-    .es('Factor \de Cresta')
+    .es('Factor\nde Cresta')
     .pt('Fator\nde Crista')
     .fr('Facteur\nde Crête')
     .it(0)
