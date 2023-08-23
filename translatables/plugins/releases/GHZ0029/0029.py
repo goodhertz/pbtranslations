@@ -669,8 +669,8 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='Trim Glide\nTimes')
     .es(0)
-    .pt('Tempo de Deslizamento')
-    .fr('Temps de Balayage')
+    .pt('Tempo de\nDeslizamento')
+    .fr('Temps de\nBalayage')
     .it(0)
     .ja('トリム\nグライド')
     .ko('트림\n글라이드')
