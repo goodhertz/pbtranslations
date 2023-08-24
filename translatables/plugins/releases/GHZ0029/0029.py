@@ -6,7 +6,7 @@ ts = TranslationSet()
 ts.append(T(tag="Parameter/option",
     context="MeterType",
     text='LUFS')
-    .es(0)
+    .es(1)
     .pt(1)
     .fr(1)
     .it(0)
@@ -21,7 +21,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="MeterType",
     text='RMS')
-    .es(0)
+    .es(1)
     .pt(1)
     .fr(1)
     .it(0)
@@ -36,7 +36,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="MeterType",
     text='Peak')
-    .es(0)
+    .es('Pico')
     .pt('Pico')
     .fr('Crête')
     .it(0)
@@ -51,7 +51,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="MeterType",
     text='True\nPeak')
-    .es(0)
+    .es('Pico\nVerdadero')
     .pt('Pico\nVerdadeiro')
     .fr('Crête\nRéelle')
     .it(0)
@@ -66,7 +66,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="MeasurementWindow",
     text='Momentary')
-    .es(0)
+    .es('Momentáneo')
     .pt('Momentâneo')
     .fr('Momentanée')
     .it(0)
@@ -81,7 +81,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="MeasurementWindow",
     text='Short Term')
-    .es(0)
+    .es('Corto Plazo')
     .pt('Curto Prazo')
     .fr('Court Terme')
     .it(0)
@@ -96,7 +96,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="MeasurementWindow",
     text='Long Term')
-    .es(0)
+    .es('Largo Plazo')
     .pt('Longo Prazo')
     .fr('Long Terme')
     .it(0)
@@ -111,7 +111,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="MeterMode",
     text='Max\nPeak')
-    .es(0)
+    .es('Pico\nMáximo')
     .pt('Pico\nMáximo')
     .fr('Crête\nMaximale')
     .it(0)
@@ -126,7 +126,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="MeterMode",
     text='Max\nTrue Peak')
-    .es(0)
+    .es('Pico Verdadero\nMáximo')
     .pt('Pico Verdadeiro\nMáximo')
     .fr('Crête Réelle\nMaximale')
     .it(0)
@@ -141,7 +141,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="MeterMode",
     text='Max\nMomentary')
-    .es(0)
+    .es('Momentáneo\nMáximo')
     .pt('Momentâneo\nMáximo')
     .fr('Momentanée\nMaximale')
     .it(0)
@@ -156,7 +156,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="MeterMode",
     text='Max\nShort Term')
-    .es(0)
+    .es('Corto Plazo\nMáximo')
     .pt('Curto Prazo\nMáximo')
     .fr('Court Terme\nMaximale')
     .it(0)
@@ -171,7 +171,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="MeterMode",
     text='Loudness\nRange')
-    .es(0)
+    .es('Rango de\nVolumen')
     .pt('Variação\nde Loudness')
     .fr('Plage\nDynamique')
     .it(0)
@@ -186,7 +186,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="BalanceMeasurementWindow",
     text='ST')
-    .es(0)
+    .es('CP')
     .pt('CP')
     .fr(1)
     .it(0)
@@ -201,7 +201,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="BalanceMeasurementWindow",
     text='LT')
-    .es(0)
+    .es('LP')
     .pt('LP')
     .fr(1)
     .it(0)
@@ -216,7 +216,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="LoudnessMeteringUnits",
     text='Absolute')
-    .es(0)
+    .es('Absoluto')
     .pt('Absoluto')
     .fr('Absolues')
     .it(0)
@@ -231,7 +231,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="LoudnessMeteringUnits",
     text='Relative')
-    .es(0)
+    .es('Relativo')
     .pt('Relativo')
     .fr('Relatives')
     .it(0)
@@ -246,7 +246,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="AdvPage",
     text='Channel')
-    .es(0)
+    .es('Canal')
     .pt('Canal')
     .fr('Canal')
     .it(0)
@@ -261,7 +261,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="AdvPage",
     text='Summary')
-    .es(0)
+    .es('Resumen')
     .pt('Resumo')
     .fr('Résumé')
     .it(0)
@@ -276,7 +276,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="AdvPage",
     text='Options')
-    .es(0)
+    .es('Opciones')
     .pt('Opções')
     .fr(1)
     .it(0)
@@ -290,7 +290,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Tagline",
     text='Hit the target')
-    .es(0)
+    .es('Dar al blanco')
     .pt('Acerte o Alvo')
     .fr('Atteignez la cible')
     .it(0)
@@ -304,7 +304,7 @@ ts.append(T(tag="Tagline",
 
 ts.append(T(tag="ParamLabel/text",
     text='T\nA\nR\nG\nE\nT')
-    .es(0)
+    .es('O\nB\nJ\nE\nT\nI\nV\nO')
     .pt('A\nL\nV\nO')
     .fr('C\nI\nB\nL\nE')
     .it(0)
@@ -318,7 +318,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='T\nR\nI\nM')
-    .es(0)
+    .es('A\nJ\nU\nS\nT\nE')
     .pt('V\nO\nL\nU\nM\nE')
     .fr('V\nO\nL\nU\nM\nE')
     .it(0)
@@ -332,7 +332,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="Parameter/option",
     text='Apply (M)')
-    .es(0)
+    .es('Aplicar (M)')
     .pt('Aplicar (M)')
     .fr('Appliquer (M)')
     .it(0)
@@ -346,7 +346,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     text='Apply (ST)')
-    .es(0)
+    .es('Aplicar (CP)')
     .pt('Aplicar (CP)')
     .fr('Appliquer (ST)')
     .it(0)
@@ -360,7 +360,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     text='Apply (LT)')
-    .es(0)
+    .es('Aplicar (LP)')
     .pt('Aplicar (LP)')
     .fr('Appliquer (LT)')
     .it(0)
@@ -374,7 +374,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="ParamLabel/text",
     text='Fine Trim')
-    .es(0)
+    .es('Ajuste Fino')
     .pt('Ajuste Fino')
     .fr('Volume Précis')
     .it(0)
@@ -388,7 +388,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Fine Trim')
-    .es(0)
+    .es('Ajuste Fino')
     .pt('Ajuste Fino')
     .fr('Volume Précis')
     .it(0)
@@ -402,7 +402,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="Parameter/option",
     text='Apply Balance (ST)')
-    .es(0)
+    .es('Equilibrar (CP)')
     .pt('Equilibrar (CP)')
     .fr('Équilibrer (ST)')
     .it(0)
@@ -416,7 +416,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     text='Apply Balance (LT)')
-    .es(0)
+    .es('Equilibrar (LP)')
     .pt('Equilibrar (LP)')
     .fr('Équilibrer (LT)')
     .it(0)
@@ -430,7 +430,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Sketch/runtime-text",
     text='Copy to Clipboard')
-    .es(0)
+    .es('Copiar')
     .pt('Copiar')
     .fr('Copier dans le Presse-papier')
     .it(0)
@@ -444,7 +444,7 @@ ts.append(T(tag="Sketch/runtime-text",
 
 ts.append(T(tag="Sketch/runtime-text",
     text='Copied!')
-    .es(0)
+    .es('Copiado!')
     .pt('Copiado!')
     .fr('Copié!')
     .it(0)
@@ -458,7 +458,7 @@ ts.append(T(tag="Sketch/runtime-text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='Reset\nOptions')
-    .es(0)
+    .es('Opciones de\nReinicio')
     .pt('Opções de\nReinicialização')
     .fr('Options de\nRéinitialisation')
     .it(0)
@@ -472,7 +472,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Reset on\nApply')
-    .es(0)
+    .es('Reiniciar al\nAplicar')
     .pt('Reiniciar ao\nAplicar')
     .fr('Réinitialiser aprés\nApplication')
     .it(0)
@@ -486,7 +486,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Reset on\nPlayback')
-    .es(0)
+    .es('Reiniciar en\nReproducción')
     .pt('Reiniciar ao\nIniciar Playback')
     .fr('Réinitialiser sur\nLecture')
     .it(0)
@@ -500,7 +500,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='Loudness\nMetering')
-    .es(0)
+    .es('Medición de\nVolumen')
     .pt('Medição de\nLoudness')
     .fr('Mesure de\nSonie')
     .it(0)
@@ -514,7 +514,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Only on\nPlayback')
-    .es(0)
+    .es('Solo durante\nReproducción')
     .pt('Apenas Durante\nPlayback')
     .fr('Seulement sur\nLecture')
     .it(0)
@@ -528,7 +528,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="Parameter/option",
     text='Yes')
-    .es(0)
+    .es('Sí')
     .pt('Sim')
     .fr('Oui')
     .it(0)
@@ -542,7 +542,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     text='No')
-    .es(0)
+    .es(1)
     .pt('Não')
     .fr('Non')
     .it(0)
@@ -556,7 +556,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="ParamLabel/text",
     text='Only when\nUI is open')
-    .es(0)
+    .es('Solo con\nVentana Abierta')
     .pt('Apenas com\nJanela Aberta')
     .fr('Seulement sous\nFenêtre Ouverte')
     .it(0)
@@ -570,7 +570,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="Parameter/option",
     text='Yes')
-    .es(0)
+    .es('Sí')
     .pt('Sim')
     .fr('Oui')
     .it(0)
@@ -584,7 +584,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     text='No')
-    .es(0)
+    .es(1)
     .pt('Não')
     .fr('Non')
     .it(0)
@@ -598,7 +598,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="ParamLabel/text",
     text='Ignore\nSilence')
-    .es(0)
+    .es('Ignorar\nSilencio')
     .pt('Ignorar\nSilêncios')
     .fr('Ignorer les\nSilences')
     .it(0)
@@ -612,7 +612,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="Parameter/option",
     text='Yes')
-    .es(0)
+    .es('Sí')
     .pt('Sim')
     .fr('Oui')
     .it(0)
@@ -626,7 +626,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     text='No')
-    .es(0)
+    .es(1)
     .pt('Não')
     .fr('Non')
     .it(0)
@@ -640,7 +640,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="ParamLabel/text",
     text='Offset')
-    .es(0)
+    .es('Compensación')
     .pt('Compensação')
     .fr('Compensation')
     .it(0)
@@ -654,7 +654,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Units')
-    .es(0)
+    .es('Unidades')
     .pt('Unidades')
     .fr('Unités')
     .it(0)
@@ -668,7 +668,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='Trim Glide\nTimes')
-    .es(0)
+    .es('Tiempo de\nTransición')
     .pt('Tempo de\nDeslizamento')
     .fr('Temps de\nBalayage')
     .it(0)
@@ -682,7 +682,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='Numeric Summary')
-    .es(0)
+    .es('Resumen Numérico')
     .pt('Resumo Numérico')
     .fr('Résumé Numérique')
     .it(0)
@@ -696,7 +696,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="SketchLabel/text",
     text='Momentary')
-    .es(0)
+    .es('Momentáneo')
     .pt('Momentâneo')
     .fr('Momentanée')
     .it(0)
@@ -710,7 +710,7 @@ ts.append(T(tag="SketchLabel/text",
 
 ts.append(T(tag="SketchLabel/text",
     text='Short Term')
-    .es(0)
+    .es('Corto Plazo')
     .pt('Curto Prazo')
     .fr('Court Terme')
     .it(0)
@@ -724,7 +724,7 @@ ts.append(T(tag="SketchLabel/text",
 
 ts.append(T(tag="SketchLabel/text",
     text='Long Term')
-    .es(0)
+    .es('Largo Plazo')
     .pt('Longo Prazo')
     .fr('Long Terme')
     .it(0)
@@ -738,7 +738,7 @@ ts.append(T(tag="SketchLabel/text",
 
 ts.append(T(tag="SketchLabel/text",
     text='Unit')
-    .es(0)
+    .es('Unidad')
     .pt('Unidade')
     .fr('Unité')
     .it(0)
@@ -752,7 +752,7 @@ ts.append(T(tag="SketchLabel/text",
 
 ts.append(T(tag="SketchLabel/text",
     text='LUFS')
-    .es(0)
+    .es(1)
     .pt(1)
     .fr(1)
     .it(0)
@@ -766,7 +766,7 @@ ts.append(T(tag="SketchLabel/text",
 
 ts.append(T(tag="SketchLabel/text",
     text='RMS')
-    .es(0)
+    .es(1)
     .pt(1)
     .fr(1)
     .it(0)
@@ -780,7 +780,7 @@ ts.append(T(tag="SketchLabel/text",
 
 ts.append(T(tag="SketchLabel/text",
     text='Peak')
-    .es(0)
+    .es('Pico')
     .pt('Pico')
     .fr('Crête')
     .it(0)
@@ -794,7 +794,7 @@ ts.append(T(tag="SketchLabel/text",
 
 ts.append(T(tag="SketchLabel/text",
     text='True\nPeak')
-    .es(0)
+    .es('Pico\nVerdadero')
     .pt('Pico\nVerdadeiro')
     .fr('Crête\nRéelle')
     .it(0)
@@ -808,7 +808,7 @@ ts.append(T(tag="SketchLabel/text",
 
 ts.append(T(tag="SketchLabel/text",
     text='Crest\nFactor')
-    .es(0)
+    .es('Factor\nde Cresta')
     .pt('Fator\nde Crista')
     .fr('Facteur\nde Crête')
     .it(0)
@@ -822,7 +822,7 @@ ts.append(T(tag="SketchLabel/text",
 
 ts.append(T(tag="SketchLabel/text",
     text='Max Momentary')
-    .es(0)
+    .es('Momentáneo Máximo')
     .pt('Momentâneo Máximo')
     .fr('Momentanée Maximale')
     .it(0)
@@ -836,7 +836,7 @@ ts.append(T(tag="SketchLabel/text",
 
 ts.append(T(tag="SketchLabel/text",
     text='Max Short Term')
-    .es(0)
+    .es('Corto Plazo Máximo')
     .pt('Curto Prazo Máximo')
     .fr('Court Terme Maximale')
     .it(0)
@@ -850,7 +850,7 @@ ts.append(T(tag="SketchLabel/text",
 
 ts.append(T(tag="SketchLabel/text",
     text='Loudness Range')
-    .es(0)
+    .es('Rango de Volumen')
     .pt('Variação de Loudness')
     .fr('Plage Dynamique')
     .it(0)
