@@ -671,7 +671,7 @@ ts.append(T(tag="ClumpLabel/text",
     .es('Tiempo de\nTransición')
     .pt('Tempo de\nDeslizamento')
     .fr('Temps de\nBalayage')
-    .it('Tempo\nRaggiunto')
+    .it('Tempo\nRaggiunta')
     .ja('トリム\nグライド')
     .ko('트림\n글라이드')
     .zhHans('调整滑移\n时间')
