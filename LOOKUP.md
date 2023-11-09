@@ -46,3 +46,6 @@
 - 0047
     - Tupe
     - translatables/plugins/GHZ0047/0047.py
+- 0048
+    - Tupe Wow
+    - translatables/plugins/GHZ0048/0048.py
