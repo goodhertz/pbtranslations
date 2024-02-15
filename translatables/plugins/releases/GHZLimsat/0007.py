@@ -105,20 +105,6 @@ ts.append(T(tag="ParamLabel/text",
     .he('יחס')
 )
 
-ts.append(T(tag="ClumpLabel/text",
-    text='VIBE')
-    .es('VIBRA')
-    .pt(1)
-    .fr('AMBIANCE')
-    .it(1)
-    .ja('バイブ')
-    .ko('톤 조정')
-    .zhHans('氛围')
-    .zhHant('氛圍')
-    .ar('الجو')
-    .he('וייב')
-)
-
 ts.append(T(tag="ParamLabel/text",
     text='Color')
     .es('Coloración')
@@ -145,20 +131,6 @@ ts.append(T(tag="ParamLabel/text",
     .zhHant('暖度')
     .ar('الدفء')
     .he('חום')
-)
-
-ts.append(T(tag="ClumpLabel/text",
-    text='SPEED')
-    .es('VELOCIDAD')
-    .pt('VELOCIDADE')
-    .fr('VITESSE')
-    .it('TEMPISMO')
-    .ja('スピード')
-    .ko('속도')
-    .zhHans('速度')
-    .zhHant('速度')
-    .ar('السرعة')
-    .he('מהירות')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -260,20 +232,6 @@ ts.append(T(tag="ClumpLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Sidechain Source')
-    .es('Fuente de Sidechain')
-    .pt('Sidechain – Fonte')
-    .fr('Source de Couplage')
-    .it('Sorgente Sidechain')
-    .ja('サイドチェインソース')
-    .ko('사이드체인 소스 선택')
-    .zhHans('旁链声源')
-    .zhHant('旁鏈聲源')
-    .ar('منبع السايدشين')
-    .he('סייד-צ׳יין חיצוני')
-)
-
-ts.append(T(tag="ParamLabel/text",
     text='Sidechain Trim')
     .es('Ajuste\nde Sidechain')
     .pt('Sidechain\nVolume')
@@ -313,20 +271,6 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHant('連結')
     .ar('الوصل')
     .he('לינק')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='Link Mode')
-    .es('Modo de Vínculo')
-    .pt('Modo do Link')
-    .fr('Mode de Couplage')
-    .it('Configurazione Stereo')
-    .ja('リンクモード')
-    .ko('링크 모드')
-    .zhHans('连结模式')
-    .zhHant('連結模式')
-    .ar('وضعُ الوصل')
-    .he('מצב לינק')
 )
 
 ts.append(T(tag="ParamLabel/text",

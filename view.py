@@ -4,6 +4,8 @@ from coldtype.renderer.reader import SourceReader
 from functools import partial
 from runpy import run_path
 
+import pickle
+
 NOTO = __sibling__("Noto-unhinted")
 
 def best_font_name(lang):
@@ -42,7 +44,10 @@ shim = {"DATPenSet":P, "DATPen":P, "bw":bw, "P":P}
 def add_data(self:P, data): return self.data(**data)
 P.add_data = add_data
 
-pens = eval(__VERSION__["layout"].read_text(), shim)
+try:
+    pens = eval(pickle.loads(__VERSION__["layout"].read_bytes()), shim)
+except pickle.UnpicklingError:
+    pens = eval(__VERSION__["layout"].read_text(), shim)
 data = SourceReader(__VERSION__["config"])
 ts = data.program["ts"]
 
