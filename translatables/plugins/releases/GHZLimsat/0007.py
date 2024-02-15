@@ -91,12 +91,12 @@ ts.append(T(tag="ClumpLabel/text",
     .he('סף')
 )
 
-ts.append(T(tag="ClumpLabel/text",
-    text='RATIO')
-    .es('PROPORCIÓN')
-    .pt('PROPORÇÃO')
+ts.append(T(tag="ParamLabel/text",
+    text='Ratio')
+    .es('Proporción')
+    .pt('Proporção')
     .fr(1)
-    .it('RAPPORTO')
+    .it('Rapporto')
     .ja('比率')
     .ko('비율')
     .zhHans('比率')
