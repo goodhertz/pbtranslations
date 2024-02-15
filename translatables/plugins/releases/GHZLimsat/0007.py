@@ -77,12 +77,12 @@ ts.append(T(tag="Tagline",
     .he('פיק לימיטר עם שדה מגנטי ענק')
 )
 
-ts.append(T(tag="ClumpLabel/text",
-    text='THRESH')
-    .es('UMBRAL')
-    .pt('LIMITE')
-    .fr('SEUIL')
-    .it('SOGLIA')
+ts.append(T(tag="ParamLabel/text",
+    text='Threshold')
+    .es('Umbral')
+    .pt('Limite')
+    .fr('Seuil')
+    .it('Soglia')
     .ja('スレッショルド')
     .ko('기준 레벨')
     .zhHans('阈')
@@ -161,12 +161,12 @@ ts.append(T(tag="ParamLabel/text",
     .he('זמן-שחרור')
 )
 
-ts.append(T(tag="ClumpLabel/text",
-    text='OUT')
-    .es('SALIDA')
-    .pt('SAÍDA')
-    .fr('SORTIE')
-    .it('USCITA')
+ts.append(T(tag="ParamLabel/text",
+    text='Out')
+    .es('Salida')
+    .pt('Saída')
+    .fr('Sortie')
+    .it('Uscita')
     .ja('アウト')
     .ko('아웃풋')
     .zhHans('输出')
