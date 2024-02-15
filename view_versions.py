@@ -10,7 +10,11 @@ configs = sorted(configs, key=lambda p: release_order.index(int(p.stem)))
 VERSIONS = {}
 for config in configs:
     catalog = config.stem
+    layout = __sibling__("layouts") / f"{catalog}_layout.pkl"
+    if not layout.exists():
+        layout = __sibling__("layouts") / f"{catalog}_layout.py"
+
     VERSIONS[str(int(catalog))] = dict(
         config=config,
-        layout=__sibling__("layouts") / f"{catalog}_layout.py"
+        layout=layout
     )

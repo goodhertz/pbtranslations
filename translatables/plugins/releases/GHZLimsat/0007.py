@@ -91,32 +91,18 @@ ts.append(T(tag="ClumpLabel/text",
     .he('סף')
 )
 
-ts.append(T(tag="ClumpLabel/text",
-    text='RATIO')
-    .es('PROPORCIÓN')
-    .pt('PROPORÇÃO')
+ts.append(T(tag="ParamLabel/text",
+    text='Ratio')
+    .es('Proporción')
+    .pt('Proporção')
     .fr(1)
-    .it('RAPPORTO')
+    .it('Rapporto')
     .ja('比率')
     .ko('비율')
     .zhHans('比率')
     .zhHant('比率')
     .ar('نسبة الضغط')
     .he('יחס')
-)
-
-ts.append(T(tag="ClumpLabel/text",
-    text='VIBE')
-    .es('VIBRA')
-    .pt(1)
-    .fr('AMBIANCE')
-    .it(1)
-    .ja('バイブ')
-    .ko('톤 조정')
-    .zhHans('氛围')
-    .zhHant('氛圍')
-    .ar('الجو')
-    .he('וייב')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -145,20 +131,6 @@ ts.append(T(tag="ParamLabel/text",
     .zhHant('暖度')
     .ar('الدفء')
     .he('חום')
-)
-
-ts.append(T(tag="ClumpLabel/text",
-    text='SPEED')
-    .es('VELOCIDAD')
-    .pt('VELOCIDADE')
-    .fr('VITESSE')
-    .it('TEMPISMO')
-    .ja('スピード')
-    .ko('속도')
-    .zhHans('速度')
-    .zhHant('速度')
-    .ar('السرعة')
-    .he('מהירות')
 )
 
 ts.append(T(tag="ParamLabel/text",
@@ -260,21 +232,7 @@ ts.append(T(tag="ClumpLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Sidechain Source')
-    .es('Fuente de Sidechain')
-    .pt('Sidechain – Fonte')
-    .fr('Source de Couplage')
-    .it('Sorgente Sidechain')
-    .ja('サイドチェインソース')
-    .ko('사이드체인 소스 선택')
-    .zhHans('旁链声源')
-    .zhHant('旁鏈聲源')
-    .ar('منبع السايدشين')
-    .he('סייד-צ׳יין חיצוני')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='Sidechain\nTrim')
+    text='Sidechain Trim')
     .es('Ajuste\nde Sidechain')
     .pt('Sidechain\nVolume')
     .fr('Volume\ndu Sidechain')
@@ -288,7 +246,7 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Sidechain\nHPF')
+    text='Sidechain HPF')
     .es('Filtro Paso Altos\nde Sidechain')
     .pt('Filtro Passa-Altas\ndo Sidechain')
     .fr('Passe-Haut\ndu Sidechain')
@@ -316,25 +274,11 @@ ts.append(T(tag="ClumpLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Link Mode')
-    .es('Modo de Vínculo')
-    .pt('Modo do Link')
-    .fr('Mode de Couplage')
-    .it('Configurazione Stereo')
-    .ja('リンクモード')
-    .ko('링크 모드')
-    .zhHans('连结模式')
-    .zhHant('連結模式')
-    .ar('وضعُ الوصل')
-    .he('מצב לינק')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='Link\nSide Gain')
+    text='Link Side Gain')
     .es('Ganancia de\nVínculo de Side')
-    .pt('Ganho\nSide')
+    .pt('Ganho Side')
     .fr('Gain de Side\ndu Couplage')
-    .it('Volume\nLati')
+    .it('Volume Lati')
     .ja('リンクサイドゲイン')
     .ko('링크 사이드 게인')
     .zhHans('连结侧信号增益')
@@ -344,7 +288,7 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Link\nAmount')
+    text='Link Amount')
     .es('Intensidad\nde Vínculo')
     .pt('Intensidade\ndo Link')
     .fr('Intensité\ndu Couplage')
