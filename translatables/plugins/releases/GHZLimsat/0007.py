@@ -274,7 +274,7 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Sidechain\nTrim')
+    text='Sidechain Trim')
     .es('Ajuste\nde Sidechain')
     .pt('Sidechain\nVolume')
     .fr('Volume\ndu Sidechain')
@@ -288,7 +288,7 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Sidechain\nHPF')
+    text='Sidechain HPF')
     .es('Filtro Paso Altos\nde Sidechain')
     .pt('Filtro Passa-Altas\ndo Sidechain')
     .fr('Passe-Haut\ndu Sidechain')
@@ -330,11 +330,11 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Link\nSide Gain')
+    text='Link Side Gain')
     .es('Ganancia de\nVínculo de Side')
-    .pt('Ganho\nSide')
+    .pt('Ganho Side')
     .fr('Gain de Side\ndu Couplage')
-    .it('Volume\nLati')
+    .it('Volume Lati')
     .ja('リンクサイドゲイン')
     .ko('링크 사이드 게인')
     .zhHans('连结侧信号增益')
@@ -344,7 +344,7 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='Link\nAmount')
+    text='Link Amount')
     .es('Intensidad\nde Vínculo')
     .pt('Intensidade\ndo Link')
     .fr('Intensité\ndu Couplage')
