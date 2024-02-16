@@ -63,6 +63,51 @@ ts.append(T(tag="Parameter/option",
     .he('חיצוני')
 )
 
+ts.append(T(tag="Parameter/option",
+    context="MeterMode",
+    text='Max GR')
+    .es('GR Máximo')
+    .pt('GR Máximo')
+    .fr('Maximum GR')
+    .it('Massimo GR')
+    .ja('GR最大値')
+    .ko('GR 최대치')
+    .zhHans('最大GR')
+    .zhHant('最大GR')
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="MeterMode",
+    text='LUFS (LT)')
+    .es('LUFS (LP)')
+    .pt('LUFS (LP)')
+    .fr('LUFS (LT)')
+    .it('LUFS (LT)')
+    .ja('LUFS（長期）')
+    .ko('LUFS (장기)')
+    .zhHans('LUFS (长期)')
+    .zhHant('LUFS (長期)')
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="MeterMode",
+    text='LRA')
+    .es('Rango de Volumen')
+    .pt('Variação de Loudness')
+    .fr('Plage Dynamique')
+    .it('Intervallo Volume')
+    .ja('ラウドネスレンジ')
+    .ko('음량범위')
+    .zhHans('响度范围')
+    .zhHant('響度範圍')
+    .ar(0)
+    .he(0)
+)
+
 ts.append(T(tag="Tagline",
     text='Peak limiter w/ a powerful magnetic field')
     .es('Limitador de picos con un gran campo magnético')
@@ -189,7 +234,7 @@ ts.append(T(tag="ParamLabel/text",
     .he('אוטו-גיין')
 )
 
-ts.append(T(tag="ParamLabel/text",
+ts.append(T(tag="ClumpLabel/text",
     text='DRY')
     .es(1)
     .pt(1)
@@ -201,20 +246,6 @@ ts.append(T(tag="ParamLabel/text",
     .zhHant('乾聲')
     .ar('جاف')
     .he('מיקס')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='FARADAY')
-    .es(1)
-    .pt(1)
-    .fr(1)
-    .it(1)
-    .ja(1)
-    .ko(1)
-    .zhHans(1)
-    .zhHant(1)
-    .ar(1)
-    .he(1)
 )
 
 ts.append(T(tag="ClumpLabel/text",
