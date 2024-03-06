@@ -67,7 +67,7 @@ ts.append(T(tag="ClumpLabel/text",
     .es('ENTRADA')
     .pt('ENTRADA')
     .fr('ENTRÉE')
-    .it('INGRESSO')
+    .it('INGR')
     .ja('イン')
     .ko('인풋')
     .zhHans('输入')
