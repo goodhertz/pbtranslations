@@ -64,7 +64,7 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    context="MeterMode",
+    context="TopBarReadout",
     text='Max GR')
     .es('GR Máximo')
     .pt('GR Máximo')
@@ -79,7 +79,7 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    context="MeterMode",
+    context="TopBarReadout",
     text='LUFS (LT)')
     .es('LUFS (LP)')
     .pt('LUFS (LP)')
@@ -94,7 +94,7 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    context="MeterMode",
+    context="TopBarReadout",
     text='LRA')
     .es('Rango de Volumen')
     .pt('Variação de Loudness')

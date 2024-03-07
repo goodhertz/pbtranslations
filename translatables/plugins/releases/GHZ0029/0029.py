@@ -109,7 +109,7 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    context="MeterMode",
+    context="TopBarReadout",
     text='Peak (LT)')
     .es('Pico (LP)')
     .pt('Pico (LP)')
@@ -124,7 +124,7 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    context="MeterMode",
+    context="TopBarReadout",
     text='True Peak (LT)')
     .es('Pico Verdadero (LP)')
     .pt('Pico Verdadeiro (LP)')
@@ -139,7 +139,7 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    context="MeterMode",
+    context="TopBarReadout",
     text='Max LUFS (M)')
     .es('LUFS Máximo (M)')
     .pt('LUFS Máximo (M)')
@@ -154,7 +154,7 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    context="MeterMode",
+    context="TopBarReadout",
     text='Max LUFS (ST)')
     .es('LUFS Máximo (CP)')
     .pt('LUFS Máximo (CP)')
@@ -169,7 +169,7 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    context="MeterMode",
+    context="TopBarReadout",
     text='LRA')
     .es('Rango de Volumen')
     .pt('Variação de Loudness')
