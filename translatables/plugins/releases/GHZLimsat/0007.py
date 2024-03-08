@@ -95,7 +95,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="TopBarReadout",
-    text='LRA')
+    text='Loudness Range')
     .es('Rango de Volumen')
     .pt('Variação de Loudness')
     .fr('Plage Dynamique')
