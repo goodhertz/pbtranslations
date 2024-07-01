@@ -227,7 +227,7 @@ ts.append(T(tag="ParamLabel/text",
     .fr('Gain Auto')
     .it('Picco Ingresso')
     .ja('オートゲイン')
-    .ko('오토 게인 설정')
+    .ko('오토 게인')
     .zhHans('自动增益')
     .zhHant('自動增益')
     .ar('الربح التلقائي')
