@@ -31,6 +31,9 @@
 - 0015
     - Tiltshift
     - translatables/plugins/GHZ0015/0015.py
+- 0019
+    - DC19
+    - translatables/plugins/GHZ0019/0019.py
 - 0024
     - Midside Matrix
     - translatables/plugins/GHZ0024/0024.py
