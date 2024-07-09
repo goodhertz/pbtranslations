@@ -7,7 +7,7 @@ ts.append(T(tag="Parameter/option",
     context="TubeTapeOrder",
     text='Tube -> Tape')
     .es('Bulbo -> Cinta')
-    .pt(1)
+    .pt('Válvula -> Fita')
     .fr(1)
     .it('Valvole -> Nastro')
     .ja('チューブ -> テープ')
@@ -22,7 +22,7 @@ ts.append(T(tag="Parameter/option",
     context="TubeTapeOrder",
     text='Tape -> Tube')
     .es('Cinta -> Bulbo')
-    .pt(1)
+    .pt('Fita -> Válvula')
     .fr(1)
     .it('Nastro -> Valvole')
     .ja('テープ -> チューブ')
@@ -200,8 +200,8 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Tagline",
     text='Tube + Tape = Tupe')
-    .es(1)
-    .pt(1)
+    .es('Bulbo + Cinta = Tupe')
+    .pt('Válvula + Fita = Tupe')
     .fr(1)
     .it('Valvole + Nastro = Tupe')
     .ja('チューブ + テープ = チュープ')

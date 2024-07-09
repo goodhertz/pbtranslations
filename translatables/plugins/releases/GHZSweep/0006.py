@@ -174,7 +174,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='Filter\nGlide Time')
     .es('Tiempo de\nBarrido de Filtro')
-    .pt('Tempo de\nGlide do Filtro')
+    .pt('Tempo de\nDesliz. do Filtro')
     .fr('Temps de\nBalayage du Filtre')
     .it('Ritardo\nFiltro')
     .ja('フィルター\nグライド')
