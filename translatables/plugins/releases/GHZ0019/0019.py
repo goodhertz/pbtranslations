@@ -21,7 +21,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="TempoMode",
     text='BPM Free')
-    .es(0)
+    .es('BPM Libre')
     .pt('BPM Livre')
     .fr('BPM Libre')
     .it('No Sinc')
@@ -81,7 +81,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="AInputMode",
     text='Sum')
-    .es(0)
+    .es('Suma')
     .pt('Soma')
     .fr('Somme')
     .it('Somma')
@@ -126,7 +126,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="BInputMode",
     text='Sum')
-    .es(0)
+    .es('Suma')
     .pt('Soma')
     .fr('Somme')
     .it('Somma')
@@ -200,7 +200,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Tagline",
     text='A weird little delay concept')
-    .es(0)
+    .es('Un conceptito de retraso curioso')
     .pt('Uma concepção esquisitinha de delay')
     .fr('Un petit concept de delay hors norme')
     .it('Un piccolo, strano concetto di delay')
@@ -228,7 +228,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='Free')
-    .es(0)
+    .es('Libre')
     .pt('Livre')
     .fr('Libre')
     .it('No Sinc')
@@ -242,7 +242,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ParamLabel/bgtext",
     text='Spring')
-    .es(0)
+    .es('Muelle')
     .pt('Mola')
     .fr('Ressort')
     .it('Molla')
@@ -256,7 +256,7 @@ ts.append(T(tag="ParamLabel/bgtext",
 
 ts.append(T(tag="ParamLabel/bgtext",
     text='Feedback')
-    .es(0)
+    .es('Retroali')
     .pt('Retroalimentação')
     .fr(1)
     .it(1)
@@ -298,7 +298,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="Parameter/option",
     text='Kill All')
-    .es(0)
+    .es('Desact. Todo')
     .pt('Desligamento Total')
     .fr('Arrêt Complet')
     .it('Silenzia Tutti')
@@ -312,7 +312,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     text='Kill Feedback')
-    .es(0)
+    .es('Desact. Retroali')
     .pt('Retroalimentação')
     .fr('Arrêt Feedback')
     .it('Silenzia il FB')
@@ -326,7 +326,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     text='Infinite Hold')
-    .es(0)
+    .es('Espera Infinitiva')
     .pt('Manter Infinito')
     .fr('Hold Infini')
     .it('Congela')
@@ -340,7 +340,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     text='Spring Hold')
-    .es(0)
+    .es('Espera de Muelle')
     .pt('Manter Mola')
     .fr('Hold Ressort')
     .it('Congela Molla')
@@ -382,7 +382,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Wobble')
-    .es(0)
+    .es('Fluct')
     .pt('Oscilação')
     .fr('Oscill')
     .it('Instabilità')
@@ -424,7 +424,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Binaural')
-    .es(0)
+    .es(1)
     .pt(1)
     .fr(1)
     .it('Binaurale')
@@ -438,7 +438,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Spread')
-    .es(0)
+    .es('Ancho')
     .pt('Difusão')
     .fr('Diffusion')
     .it('Diffusione')
@@ -480,7 +480,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Spring')
-    .es(0)
+    .es('Muelle')
     .pt('Mola')
     .fr('Ressort')
     .it('Molla')
