@@ -186,7 +186,7 @@ ts.append(T(tag="ParamLabel/text",
     .es('Decaimiento')
     .pt('Decaimento')
     .fr(1)
-    .it('Declino')
+    .it('Decadimento')
     .ja('ディケイ')
     .ko('디케이')
     .zhHans('衰减')

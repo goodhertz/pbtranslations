@@ -257,7 +257,7 @@ ts.append(T(tag="ParamLabel/bgtext",
 ts.append(T(tag="ParamLabel/bgtext",
     text='Feedback')
     .es('Retroali')
-    .pt('Retroali')
+    .pt('Retroal')
     .fr(1)
     .it(1)
     .ja('フィードバック', vertical=True)
@@ -299,7 +299,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="Parameter/option",
     text='Kill All')
     .es('Desact. Todo')
-    .pt('Deslig. Total')
+    .pt('Desl. Total')
     .fr('Silence Complet')
     .it('Silenzia Tutti')
     .ja('全て停止')
@@ -312,8 +312,8 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     text='Kill Feedback')
-    .es('Desact. Retroali')
-    .pt('Deslig. Retroali')
+    .es('Desact. Retroali.')
+    .pt('Desl. Retroal.')
     .fr('Silence Feedback')
     .it('Silenzia il FB')
     .ja('フィードバック停止')
@@ -329,7 +329,7 @@ ts.append(T(tag="Parameter/option",
     .es('Espera Infinitiva')
     .pt('Manter Infinito')
     .fr('Hold Infini')
-    .it('Congela')
+    .it('Congela all’infinito')
     .ja('無限ホールド')
     .ko('무한 홀드')
     .zhHans('无限保持')
@@ -383,9 +383,9 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='Wobble')
     .es('Fluct')
-    .pt('Oscilação')
-    .fr('Oscillation')
-    .it('Instabilità')
+    .pt('Oscil.')
+    .fr('Oscill.')
+    .it('Tremore')
     .ja('ぐらぐら')
     .ko('흔들흔들')
     .zhHans('摇晃')
@@ -494,10 +494,10 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Decay')
-    .es('Decai')
-    .pt('Decaimento')
+    .es('Decai.')
+    .pt('Decai.')
     .fr(1)
-    .it('Decadimento')
+    .it('Decadi.')
     .ja('ディケイ')
     .ko('디케이')
     .zhHans('衰减')
