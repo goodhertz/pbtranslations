@@ -200,7 +200,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Tagline",
     text='A weird little delay concept')
-    .es('Un conceptito de retraso curioso')
+    .es('Un conceptito curioso de retraso')
     .pt('Uma concepção esquisitinha de delay')
     .fr('Un petit concept de delay hors norme')
     .it('Una piccola strana macchina da delay')
@@ -256,7 +256,7 @@ ts.append(T(tag="ParamLabel/bgtext",
 
 ts.append(T(tag="ParamLabel/bgtext",
     text='Feedback')
-    .es('Retroali')
+    .es('Retroal')
     .pt('Retroal')
     .fr(1)
     .it(1)
@@ -312,7 +312,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     text='Kill Feedback')
-    .es('Desact. Retroali.')
+    .es('Desact. Retroal')
     .pt('Desl. Retroal.')
     .fr('Silence Feedback')
     .it('Silenzia il FB')
@@ -340,7 +340,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     text='Spring Hold')
-    .es('Espera de Muelle')
+    .es('Espera Muelle')
     .pt('Manter Mola')
     .fr('Hold Ressort')
     .it('Congela Molla')
@@ -494,7 +494,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='Decay')
-    .es('Decai.')
+    .es('Decai')
     .pt('Decai.')
     .fr(1)
     .it('Decadi.')
