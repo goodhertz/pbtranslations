@@ -52,3 +52,6 @@
 - 0048
     - Tupe Wow
     - translatables/plugins/GHZ0048/0048.py
+- 0066
+    - VCME
+    - translatables/plugins/GHZ0066/0066.py
