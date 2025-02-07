@@ -315,6 +315,34 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
+    text='Mid Gain')
+    .es('Ganancia de Mid')
+    .pt('Ganho Mid')
+    .fr('Gain de Mid')
+    .it('Volume Centro')
+    .ja('ミッドゲイン')
+    .ko('미드 게인')
+    .zhHans('中信号增益')
+    .zhHant('中信號增益')
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='Side Gain')
+    .es('Ganancia de Side')
+    .pt('Ganho Side')
+    .fr('Gain de Side')
+    .it('Volume Lati')
+    .ja('サイドゲイン')
+    .ko('사이드 게인')
+    .zhHans('侧信号增益')
+    .zhHant('側信號增益')
+    .ar(0)
+    .he(0)
+)
+
+ts.append(T(tag="ParamLabel/text",
     text='Soft Start Time')
     .es('Fundido de Entrada')
     .pt('Tempo de Fade In')
