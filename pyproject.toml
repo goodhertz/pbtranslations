@@ -6,7 +6,7 @@ readme = "README.md"
 authors = [
     { name = "Rob Stenson", email = "rob.stenson@gmail.com" }
 ]
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 dependencies = [
     "coldtype[viewer]",
 ]
