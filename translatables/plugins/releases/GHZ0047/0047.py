@@ -1,4 +1,4 @@
-from pbt.translations import *
+from pbtranslations.translations import *
 
 
 ts = TranslationSet()

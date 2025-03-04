@@ -1,0 +1,17 @@
+[project]
+name = "pbtranslations"
+version = "0.1.0"
+description = "Audio plugin translations"
+readme = "README.md"
+authors = [
+    { name = "Rob Stenson", email = "rob.stenson@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+pbtranslations = "pbtranslations:main"
+
+[build-system]
+requires = ["setuptools >= 61.0", "wheel", "setuptools-scm >= 8.0"]
+build-backend = "setuptools.build_meta"
