@@ -6,7 +6,7 @@ from runpy import run_path
 
 import pickle
 
-NOTO = __sibling__("Noto-unhinted")
+NOTO = ººsiblingºº("Noto-unhinted")
 
 def best_font_name(lang):
     if lang in ["en", "es", "pt", "fr", "it"]:
@@ -44,14 +44,15 @@ shim = {"DATPenSet":P, "DATPen":P, "bw":bw, "P":P}
 def add_data(self:P, data): return self.data(**data)
 P.add_data = add_data
 
-try:
-    pens = eval(pickle.loads(__VERSION__["layout"].read_bytes()), shim)
-except pickle.UnpicklingError:
-    pens = eval(__VERSION__["layout"].read_text(), shim)
+#try:
+#    pens = eval(pickle.loads(__VERSION__["layout"].read_bytes()), shim)
+#except pickle.UnpicklingError:
+
+pens = eval(__VERSION__["layout"].read_text(), shim)
 data = SourceReader(__VERSION__["config"])
 ts = data.program["ts"]
 
-for py in (__sibling__("translatables/configs").glob("**/*.py")):
+for py in (ººsiblingºº("translatables/configs").glob("**/*.py")):
     program = run_path(py)
     for k, s in program["ts"].strings.items():
         ts.append(s)

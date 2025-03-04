@@ -10,30 +10,13 @@ The value `0` is a special value that means the string has not been translated. 
 
 `pbtranslations` includes a Python program that can display a text-only, interactive version of the plugin interfaces that pulls translations directly from the code (so if you launch the viewer and then save a change in a translation file, that change will automatically appear in the viewer).
 
-To run the viewer, you'll need a working python virtual env with this repository installed. And to get a working python virtual env set up, you'll need a recent version of python, >= 3.8 (available from https://www.python.org/downloads/).
+To run the viewer, you'll need `uv`.
 
-Once you have a python3.8 or python3.9 installed, you can clone this git repo to your local computer and install the virtualenv like so: 
-
-```
+```bash
 git clone https://github.com/goodhertz/pbtranslations.git
 cd pbtranslations
-python3.9 -m venv venv --prompt=pbt
-source venv/bin/activate
-pip install -e .
-```
-
-(N.B. `python3.9` there can also be `python3.8`, depending on your installation.)
-
-Once you've completed those steps, you'll also need to download the full (~1GB) family of open-source Noto fonts from Google, which you can download by running:
-
-```
-python noto.py
-```
-
-Once you've done that, you can run the view.py command, like so:
-
-```
-coldtype view.py 1
+uv run noto.py # to download fonts (only needs to be done once)
+uv run ct view.py 1
 ```
 
 After a moment, a window should appear showing the English version of CanOpener (aka catalog #1). To cycle through available languages, use the left or right arrow key. To cycle through plugins, hit `Shift+v`.
@@ -41,7 +24,7 @@ After a moment, a window should appear showing the English version of CanOpener 
 The command also accepts optional arguments for specifying catalog and language, in that order:
 
 ```
-coldtype view.py 2 ja
+uv run ct view.py 2 ja
 ```
 
 This will open Vulf Compressor in Japanese. The arrow keys will work as they do in the no-argument mode.
