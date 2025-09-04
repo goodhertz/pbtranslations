@@ -15,8 +15,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('نقطة')
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='DOT')
@@ -30,8 +29,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('نقطة')
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='Ext.')
@@ -45,8 +43,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar(1)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='Int.')
@@ -60,8 +57,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar(1)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='N\nO\nT\nE')
@@ -75,8 +71,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('النوتة')
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='NOTE')
@@ -90,8 +85,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('النوتة')
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='Off')
@@ -105,8 +99,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar(1)
-    .he('אוף')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='On')
@@ -120,8 +113,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar(1)
-    .he('און')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='T\nI\nM\nE')
@@ -135,8 +127,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('الوقت')
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='T\nR\nI\nP')
@@ -150,8 +141,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('المسيرة')
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='TIME')
@@ -165,8 +155,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('الوقت')
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='TRIP')
@@ -180,6 +169,5 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('المسيرة')
-    .he(0)
-)
+    )
 

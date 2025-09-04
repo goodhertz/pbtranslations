@@ -15,8 +15,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="MeterType",
@@ -30,8 +29,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="MeterType",
@@ -45,8 +43,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('峰值')
     .zhHant('峰值')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="MeterType",
@@ -60,8 +57,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('真实\n峰值')
     .zhHant('真實\n峰值')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="MeasurementWindow",
@@ -75,8 +71,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('瞬间')
     .zhHant('瞬間')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="MeasurementWindow",
@@ -90,8 +85,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('短期')
     .zhHant('短期')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="MeasurementWindow",
@@ -105,8 +99,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('长期')
     .zhHant('長期')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TopBarReadout",
@@ -120,8 +113,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('峰值 (长期)')
     .zhHant('峰值 (長期)')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TopBarReadout",
@@ -135,8 +127,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('真实峰值 (长期)')
     .zhHant('真實峰值 (長期)')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TopBarReadout",
@@ -150,8 +141,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('最大LUFS (瞬间)')
     .zhHant('最大LUFS (瞬間)')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TopBarReadout",
@@ -165,8 +155,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('最大LUFS (短期)')
     .zhHant('最大LUFS (短期)')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TopBarReadout",
@@ -180,8 +169,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('响度范围')
     .zhHant('響度範圍')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="BalanceMeasurementWindow",
@@ -195,8 +183,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('短期')
     .zhHant('短期')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="BalanceMeasurementWindow",
@@ -210,8 +197,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('长期')
     .zhHant('長期')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="LoudnessMeteringUnits",
@@ -225,8 +211,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('绝对的')
     .zhHant('絕對的')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="LoudnessMeteringUnits",
@@ -240,8 +225,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('相对的')
     .zhHant('相對的')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="AdvPage",
@@ -255,8 +239,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('声道')
     .zhHant('声道')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="AdvPage",
@@ -270,8 +253,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('概括')
     .zhHant('概括')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="AdvPage",
@@ -285,8 +267,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('选项')
     .zhHant('選項')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Tagline",
     text='Hit the target')
@@ -299,8 +280,7 @@ ts.append(T(tag="Tagline",
     .zhHans('击中目标')
     .zhHant('擊中目標')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='T\nA\nR\nG\nE\nT')
@@ -313,8 +293,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('目\n标')
     .zhHant('目\n標')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='T\nR\nI\nM')
@@ -327,8 +306,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('调\n整')
     .zhHant('調\n整')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='Apply (M)')
@@ -341,8 +319,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('应用 (瞬间)')
     .zhHant('應用 (瞬間)')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='Apply (ST)')
@@ -355,8 +332,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('应用 (短期)')
     .zhHant('應用 (短期)')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='Apply (LT)')
@@ -369,8 +345,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('应用 (长期)')
     .zhHant('應用 (長期)')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Fine Trim')
@@ -383,8 +358,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('精细调整')
     .zhHant('精細調整')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Fine Trim')
@@ -397,8 +371,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('精细调整')
     .zhHant('精細調整')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='Apply Balance (ST)')
@@ -411,8 +384,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('应用平衡 (短期)')
     .zhHant('應用平衡 (短期)')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='Apply Balance (LT)')
@@ -425,8 +397,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('应用平衡 (长期)')
     .zhHant('應用平衡 (長期)')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Sketch/runtime-text",
     text='Copy to Clipboard')
@@ -439,8 +410,7 @@ ts.append(T(tag="Sketch/runtime-text",
     .zhHans('复制到剪贴板')
     .zhHant('複製到剪貼板')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Sketch/runtime-text",
     text='Copied!')
@@ -453,8 +423,7 @@ ts.append(T(tag="Sketch/runtime-text",
     .zhHans('复制了！')
     .zhHant('複製了！')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='Reset\nOptions')
@@ -467,8 +436,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('复位\n选项')
     .zhHant('復位\n選項')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Reset on\nApply')
@@ -481,8 +449,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('应用后\n复位')
     .zhHant('應用後\n復位')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Reset on\nPlayback')
@@ -495,8 +462,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('播放后\n复位')
     .zhHant('播放後\n復位')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='Loudness\nMetering')
@@ -509,8 +475,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('响度测量')
     .zhHant('響度測量')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Only on\nPlayback')
@@ -523,8 +488,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('仅在播放时')
     .zhHant('僅在播放時')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='Yes')
@@ -537,8 +501,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='No')
@@ -551,8 +514,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Only when\nUI is open')
@@ -565,8 +527,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('只有在\n用户界面已打开')
     .zhHant('只有在\n用戶界面已打開')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='Yes')
@@ -579,8 +540,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='No')
@@ -593,8 +553,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Ignore\nSilence')
@@ -607,8 +566,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('忽略沉默')
     .zhHant('忽略沉默')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='Yes')
@@ -621,8 +579,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='No')
@@ -635,8 +592,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Offset')
@@ -649,8 +605,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('补偿')
     .zhHant('補償')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Units')
@@ -663,8 +618,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('单位')
     .zhHant('單位')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='Trim Glide\nTimes')
@@ -677,8 +631,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('调整滑移\n时间')
     .zhHant('調整滑移\n時間')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='Numeric Summary')
@@ -691,8 +644,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('数值概括')
     .zhHant('數值概括')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="SketchLabel/text",
     text='Momentary')
@@ -705,8 +657,7 @@ ts.append(T(tag="SketchLabel/text",
     .zhHans('瞬间')
     .zhHant('瞬間')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="SketchLabel/text",
     text='Short Term')
@@ -719,8 +670,7 @@ ts.append(T(tag="SketchLabel/text",
     .zhHans('短期')
     .zhHant('短期')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="SketchLabel/text",
     text='Long Term')
@@ -733,8 +683,7 @@ ts.append(T(tag="SketchLabel/text",
     .zhHans('长期')
     .zhHant('長期')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="SketchLabel/text",
     text='Unit')
@@ -747,8 +696,7 @@ ts.append(T(tag="SketchLabel/text",
     .zhHans('单位')
     .zhHant('單位')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="SketchLabel/text",
     text='LUFS')
@@ -761,8 +709,7 @@ ts.append(T(tag="SketchLabel/text",
     .zhHans(1)
     .zhHant(1)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="SketchLabel/text",
     text='RMS')
@@ -775,8 +722,7 @@ ts.append(T(tag="SketchLabel/text",
     .zhHans(1)
     .zhHant(1)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="SketchLabel/text",
     text='Peak')
@@ -789,8 +735,7 @@ ts.append(T(tag="SketchLabel/text",
     .zhHans('峰值')
     .zhHant('峰值')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="SketchLabel/text",
     text='True\nPeak')
@@ -803,8 +748,7 @@ ts.append(T(tag="SketchLabel/text",
     .zhHans('真实\n峰值')
     .zhHant('真實\n峰值')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="SketchLabel/text",
     text='Crest\nFactor')
@@ -817,8 +761,7 @@ ts.append(T(tag="SketchLabel/text",
     .zhHans('波峰\n因数')
     .zhHant('波峰\n因數')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="SketchLabel/text",
     text='Max Momentary')
@@ -831,8 +774,7 @@ ts.append(T(tag="SketchLabel/text",
     .zhHans('瞬间最大值')
     .zhHant('瞬間最大值')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="SketchLabel/text",
     text='Max Short Term')
@@ -845,8 +787,7 @@ ts.append(T(tag="SketchLabel/text",
     .zhHans('短期最大值')
     .zhHant('短期最大值')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="SketchLabel/text",
     text='Loudness Range')
@@ -859,6 +800,5 @@ ts.append(T(tag="SketchLabel/text",
     .zhHans('响度范围')
     .zhHant('響度範圍')
     .ar(0)
-    .he(0)
-)
+    )
 

@@ -15,8 +15,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="SoftClipReadout",
@@ -30,8 +29,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('LUFS (长期)')
     .zhHant('LUFS (長期)')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="SoftClipReadout",
@@ -45,8 +43,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterBrickwall",
@@ -60,8 +57,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterBrickwall",
@@ -75,8 +71,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="SoftClipGainComp",
@@ -90,8 +85,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('تلقائي')
-    .he('אוטומטי')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="SoftClipGainComp",
@@ -105,8 +99,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('手动')
     .zhHant('手動')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="SidechainSource",
@@ -120,8 +113,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('内部')
     .zhHant('內部')
     .ar('داخلي')
-    .he('פנימי')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="SidechainSource",
@@ -135,8 +127,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('外部')
     .zhHant('外部')
     .ar('خارجي')
-    .he('חיצוני')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="CompLinkMode",
@@ -150,8 +141,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('左/右')
     .zhHant('左/右')
     .ar('يمين/يسار')
-    .he('ימין/שמאל')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="CompLinkMode",
@@ -165,8 +155,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('中/侧')
     .zhHant('中/側')
     .ar('ميد/سايد')
-    .he('אמצע/צדדים')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterLink",
@@ -180,8 +169,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterLink",
@@ -195,8 +183,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterLink",
@@ -210,8 +197,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="AdvPage",
@@ -225,8 +211,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="AdvPage",
@@ -240,8 +225,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('旁链')
     .zhHant('旁鏈')
     .ar('السايدشين')
-    .he('סייד-צ׳יין')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="AdvPage",
@@ -255,8 +239,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Tagline",
     text='Vulf Compressor Mastering Edition')
@@ -269,8 +252,7 @@ ts.append(T(tag="Tagline",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='ratio')
@@ -283,8 +265,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('比率')
     .zhHant('比率')
     .ar('نسبة الضغط')
-    .he('יחס')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='thresh')
@@ -297,8 +278,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('阈')
     .zhHant('閾')
     .ar('حد العتبة')
-    .he('סף')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='makeup')
@@ -311,8 +291,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('补偿')
     .zhHant('補償')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='apply')
@@ -325,8 +304,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('应用')
     .zhHant('應用')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='attack')
@@ -339,8 +317,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('起动时间')
     .zhHant('起動時間')
     .ar('زمن التطبيق')
-    .he('זמן-התקף')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='release')
@@ -353,8 +330,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('释放时间')
     .zhHant('釋放時間')
     .ar('التحرير')
-    .he('זמן-שחרור')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='style')
@@ -367,8 +343,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('样式')
     .zhHant('類型')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='dry')
@@ -381,8 +356,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('干声')
     .zhHant('乾聲')
     .ar('جاف')
-    .he('מיקס')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='vcme')
@@ -395,8 +369,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans(1)
     .zhHant(1)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='comp')
@@ -409,8 +382,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('压缩')
     .zhHant('壓縮')
     .ar('الضغط')
-    .he('קומפרשן')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='soft clip')
@@ -423,8 +395,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='saturation')
@@ -437,8 +408,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='slew')
@@ -451,8 +421,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='limiter')
@@ -465,8 +434,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='slew')
@@ -479,8 +447,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='in')
@@ -493,8 +460,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('输入')
     .zhHant('輸入')
     .ar('دَخْل')
-    .he('כניסה')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='drive')
@@ -507,8 +473,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('输入')
     .zhHant('輸入')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='mix')
@@ -521,8 +486,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('混合')
     .zhHant('混合')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='out')
@@ -535,8 +499,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('输出')
     .zhHant('輸出')
     .ar('خَرْج')
-    .he('יציאה')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='tilt')
@@ -549,8 +512,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('倾斜')
     .zhHant('傾斜')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='trim')
@@ -563,8 +525,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('调整')
     .zhHant('調整')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='source')
@@ -577,8 +538,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('声源')
     .zhHant('聲源')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='blend')
@@ -591,8 +551,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='comp')
@@ -605,8 +564,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('压缩')
     .zhHant('壓縮')
     .ar('الضغط')
-    .he('קומפרשן')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='link amount')
@@ -619,8 +577,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='side trim')
@@ -633,8 +590,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='mode')
@@ -647,8 +603,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('模式')
     .zhHant('模式')
     .ar('الوضع')
-    .he('מצב')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='left/right')
@@ -661,8 +616,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('左/右')
     .zhHant('左/右')
     .ar('يمين/يسار')
-    .he('ימין/שמאל')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='front/back')
@@ -675,8 +629,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='soft clip')
@@ -689,8 +642,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='limiter link')
@@ -703,8 +655,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='side trim')
@@ -717,8 +668,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='lfe')
@@ -731,8 +681,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='link amount')
@@ -745,8 +694,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='link trim')
@@ -759,8 +707,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='center')
@@ -773,8 +720,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='link amount')
@@ -787,8 +733,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='link trim')
@@ -801,6 +746,5 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 

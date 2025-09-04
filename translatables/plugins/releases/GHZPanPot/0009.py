@@ -15,8 +15,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('عادي')
-    .he('נורמאלי')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="LeftPolarity",
@@ -30,8 +29,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('معكوسة')
-    .he('קוטביות שמאל')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="FlipLR",
@@ -45,8 +43,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('L | R')
-    .he('ימין|שמאל')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="FlipLR",
@@ -60,8 +57,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('R | L')
-    .he('שמאל|ימין')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="LevelPanLaw",
@@ -75,8 +71,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('توازن إستيريو')
-    .he('בלאנס סטריאו')
-)
+    )
 
 ts.append(T(tag="Tagline",
     text='New directions in panning')
@@ -89,8 +84,7 @@ ts.append(T(tag="Tagline",
     .zhHans('声像的新方向')
     .zhHant('聲像的新方向')
     .ar('اتجاهات جديدة في التحريك')
-    .he('כיוון חדש בפאנינג')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='LEVEL')
@@ -103,8 +97,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('电平')
     .zhHant('電平')
     .ar('المستوَى')
-    .he('מיקס')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='DELAY')
@@ -117,8 +110,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('延迟')
     .zhHant('延遲')
     .ar('التأخير الزمني')
-    .he('דיליי')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='SPECTRAL')
@@ -131,8 +123,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('光谱')
     .zhHant('光譜')
     .ar('طيفي')
-    .he('קשת')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='PHASE')
@@ -145,8 +136,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('相位')
     .zhHant('相位')
     .ar('الطور')
-    .he('פאזה')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='PRE PANNING')
@@ -159,8 +149,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('声像前')
     .zhHant('聲像前')
     .ar('قبل التحريك')
-    .he('פרה-פאנינג')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Left Trim')
@@ -173,8 +162,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('左声道调整')
     .zhHant('左聲道調整')
     .ar('L مُوازَنةٌ')
-    .he('טרים שמאל')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Right Trim')
@@ -187,8 +175,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('右声道调整')
     .zhHant('右聲道調整')
     .ar('R مُوازَنةٌ')
-    .he('טרים ימין')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Left Polarity')
@@ -201,8 +188,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('左声道极性')
     .zhHant('左聲道極性')
     .ar('L قطبية')
-    .he('קוטביות שמאל')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Right Polarity')
@@ -215,8 +201,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('右声道极性')
     .zhHant('右聲道極性')
     .ar('R قطبية')
-    .he('קוטביות ימין')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Flip L/R')
@@ -229,8 +214,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('左/右翻转')
     .zhHant('左/右翻轉')
     .ar('L/R عَكّس')
-    .he('היפוך ימין/שמאל')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Stereo Width')
@@ -243,8 +227,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('立体声宽度')
     .zhHant('立體聲寬度')
     .ar('وُسع إستيريو')
-    .he('רוחב סטריאו')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='PAN OPTIONS')
@@ -257,8 +240,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('声像选项')
     .zhHant('聲像選項')
     .ar('خيارات التحريك')
-    .he('אפשרויות פאנינג')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Level Pan Law')
@@ -271,8 +253,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('声像定律')
     .zhHant('聲像定律')
     .ar('قانون التحريك')
-    .he('חוק פאניניג')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Level Pan Vol. Comp')
@@ -285,8 +266,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('电平声像音量补偿')
     .zhHant('電平聲像音量補償')
     .ar('تعويض مستوى صوت التحريك')
-    .he('פיצוי ווליום פאנינג')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Pan Glide Time')
@@ -299,6 +279,5 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('声像滑移时间')
     .zhHant('聲像滑移時間')
     .ar('توقيت انزلاق التحريك')
-    .he('זמן שחרור פאנינג')
-)
+    )
 

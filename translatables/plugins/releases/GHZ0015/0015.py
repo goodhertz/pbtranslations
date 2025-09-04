@@ -16,8 +16,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('أوتوماتيكي')
-    .he('אוטומטי')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TiltLoudnessMode",
@@ -31,8 +30,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('عادي')
-    .he('סטנדרט')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TiltLoudnessMode",
@@ -46,8 +44,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('الصوت العالي')
-    .he('טרבל')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TiltLoudnessMode",
@@ -61,8 +58,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('الباس')
-    .he('בס')
-)
+    )
 
 ts.append(T(tag="Tagline",
     text='Superior tone-shaping, from mix to master')
@@ -75,8 +71,7 @@ ts.append(T(tag="Tagline",
     .zhHans('从混音到母带的超级音色塑造')
     .zhHant('從混音到母帶的超級音色塑造')
     .ar('تسوية نِغم ممتازة،من الميكس إِلَى الماستر')
-    .he('טון-שייפינג קצה עליון, ממיקס למאסטר')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='G\nA\nI\nN')
@@ -90,8 +85,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('增\n益')
     .zhHant('增\n益')
     .ar('الربح')
-    .he('גיין')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='R\nA\nN\nG\nE')
@@ -105,8 +99,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('范\n围')
     .zhHant('範\n圍')
     .ar('المدى')
-    .he('טווח')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='R\nA\nN\nG\nE')
@@ -120,8 +113,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('范\n围')
     .zhHant('範\n圍')
     .ar('المدى')
-    .he('טווח')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='FILTER')
@@ -134,8 +126,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('滤波')
     .zhHant('濾波')
     .ar('الفلتر')
-    .he('פילטר')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Loudness')
@@ -148,8 +139,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('响度')
     .zhHant('響度')
     .ar('مستوَى الصوت')
-    .he('לאודנס')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Output Gain')
@@ -162,8 +152,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('输出增益')
     .zhHant('輸出增益')
     .ar('رِبح إشارة الإخراج')
-    .he('גיין יציאה')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='ADV FILTER')
@@ -176,8 +165,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('高級濾波調節')
     .zhHant('進階濾波調節')
     .ar('فلتر مُفصَّل')
-    .he('פילטר ועוד')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='LOW')
@@ -190,8 +178,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('低频')
     .zhHant('低頻')
     .ar('منخفض')
-    .he('נמוכים')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='HIGH')
@@ -204,8 +191,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('高频')
     .zhHant('高頻')
     .ar('مرتفع')
-    .he('גבוהים')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Slope')
@@ -218,8 +204,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('坡度')
     .zhHant('坡度')
     .ar('الميل')
-    .he('מדרון')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Resonance')
@@ -232,8 +217,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('谐振')
     .zhHant('諧振')
     .ar('الرنين')
-    .he('רסונאנס')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Slope')
@@ -246,8 +230,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('坡度')
     .zhHant('坡度')
     .ar('الميل')
-    .he('מדרון')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Resonance')
@@ -260,6 +243,5 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('谐振')
     .zhHant('諧振')
     .ar('الرنين')
-    .he('רסונאנס')
-)
+    )
 

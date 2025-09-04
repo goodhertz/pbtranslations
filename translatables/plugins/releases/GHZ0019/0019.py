@@ -15,8 +15,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('BPM同步')
     .zhHant('BPM同步')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TempoMode",
@@ -30,8 +29,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('BPM 自由')
     .zhHant('BPM 自由')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TempoMode",
@@ -45,8 +43,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="AInputMode",
@@ -60,8 +57,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('左')
     .zhHant('左')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="AInputMode",
@@ -75,8 +71,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('右')
     .zhHant('右')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="AInputMode",
@@ -90,8 +85,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('和')
     .zhHant('和')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="BInputMode",
@@ -105,8 +99,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('右')
     .zhHant('右')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="BInputMode",
@@ -120,8 +113,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('左')
     .zhHant('左')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="BInputMode",
@@ -135,8 +127,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('和')
     .zhHant('和')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="GlideMode",
@@ -150,8 +141,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('相对的')
     .zhHant('相對的')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="GlideMode",
@@ -165,8 +155,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('绝对的')
     .zhHant('絕對的')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="SpringDecayMode",
@@ -180,8 +169,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('自动')
     .zhHant('自動')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="SpringDecayMode",
@@ -195,8 +183,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('手动')
     .zhHant('手動')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Tagline",
     text='A weird little delay concept')
@@ -209,8 +196,7 @@ ts.append(T(tag="Tagline",
     .zhHans('一个奇怪的小延迟概念')
     .zhHant('一個奇怪的小延遲概念')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='SYNC')
@@ -223,8 +209,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('同步')
     .zhHant('同步')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='Free')
@@ -237,8 +222,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('自由')
     .zhHant('自由')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/bgtext",
     text='Spring')
@@ -251,8 +235,7 @@ ts.append(T(tag="ParamLabel/bgtext",
     .zhHans('弹簧')
     .zhHant('彈簧')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/bgtext",
     text='Feedback')
@@ -265,8 +248,7 @@ ts.append(T(tag="ParamLabel/bgtext",
     .zhHans('反馈')
     .zhHant('反饋')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/bgtext",
     text='Output')
@@ -279,8 +261,7 @@ ts.append(T(tag="ParamLabel/bgtext",
     .zhHans('输出')
     .zhHant('輸出')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Mix')
@@ -293,8 +274,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('混合')
     .zhHant('混合')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='Kill All')
@@ -307,8 +287,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('全部停止')
     .zhHant('全部停止')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='Kill Feedback')
@@ -321,8 +300,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('消除反馈')
     .zhHant('消除回饋')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='Infinite Hold')
@@ -335,8 +313,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('无限保持')
     .zhHant('無限保持')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='Spring Hold')
@@ -349,8 +326,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('弹簧保持')
     .zhHant('彈簧保持')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Tape')
@@ -363,8 +339,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('磁带')
     .zhHant('磁帶')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Lofi')
@@ -377,8 +352,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('低保真度')
     .zhHant('低傳真度')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Wobble')
@@ -391,8 +365,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('摇晃')
     .zhHant('搖晃')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Filter')
@@ -405,8 +378,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('滤波')
     .zhHant('濾波')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Freq')
@@ -419,8 +391,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('频率')
     .zhHant('頻率')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Binaural')
@@ -433,8 +404,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('双耳')
     .zhHant('雙耳')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Spread')
@@ -447,8 +417,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('传播')
     .zhHant('傳播')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Glide')
@@ -461,8 +430,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('滑移')
     .zhHant('滑移')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Time')
@@ -475,8 +443,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('时间')
     .zhHant('時間')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Spring')
@@ -489,8 +456,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('弹簧')
     .zhHant('彈簧')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Decay')
@@ -503,8 +469,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('衰减')
     .zhHant('衰減')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='+DRY')
@@ -517,6 +482,5 @@ ts.append(T(tag="Parameter/option",
     .zhHans('+干声')
     .zhHant('+乾聲')
     .ar(0)
-    .he(0)
-)
+    )
 

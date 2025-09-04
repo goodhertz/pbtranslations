@@ -14,8 +14,7 @@ ts.append(T(tag="Tagline",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TubeTapeOrder",
@@ -29,8 +28,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('真空管 -> 磁带')
     .zhHant('真空管 -> 磁帶')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TubeTapeOrder",
@@ -44,8 +42,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('磁帶 -> 真空管')
     .zhHant('磁帶 -> 真空管')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="OptoMode",
@@ -59,8 +56,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('压缩')
     .zhHant('壓縮')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="OptoMode",
@@ -74,8 +70,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('限幅')
     .zhHant('限幅')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="OptoPosition",
@@ -89,8 +84,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('前')
     .zhHant('前')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="OptoPosition",
@@ -104,8 +98,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('中间')
     .zhHant('中間')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="OptoPosition",
@@ -119,8 +112,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('后')
     .zhHant('後')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="OptoPosition",
@@ -134,8 +126,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('饱和')
     .zhHant('飽和')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="FilterPosition",
@@ -149,8 +140,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('前')
     .zhHant('前')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="FilterPosition",
@@ -164,8 +154,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('中间')
     .zhHant('中間')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="FilterPosition",
@@ -179,8 +168,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('后')
     .zhHant('後')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="AdvPage",
@@ -194,8 +182,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('滤波+校准')
     .zhHant('濾波+校準')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="AdvPage",
@@ -209,8 +196,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('加重')
     .zhHant('加重')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Drive')
@@ -223,8 +209,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('输入')
     .zhHant('輸入')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='Bias')
@@ -237,8 +222,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('磁带偏差')
     .zhHant('磁帶偏差')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='Noise')
@@ -251,8 +235,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('噪声')
     .zhHant('噪聲')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Output')
@@ -265,8 +248,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('輸出')
     .zhHant('输出')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='DRY')
@@ -279,8 +261,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('干声')
     .zhHant('乾聲')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='FILTER')
@@ -293,8 +274,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('滤波')
     .zhHant('濾波')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='EMPHASIS')
@@ -307,8 +287,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('加重')
     .zhHant('加重')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='~')
@@ -321,8 +300,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='FILTER')
@@ -335,8 +313,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('滤波')
     .zhHant('濾波')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Tilt')
@@ -349,8 +326,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('倾斜')
     .zhHant('傾斜')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Trim')
@@ -363,8 +339,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('调整')
     .zhHant('調整')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='CAL\nTRIM')
@@ -378,8 +353,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('校准修剪')
     .zhHant('校準修剪')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='EMPHASIS')
@@ -392,8 +366,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('加重')
     .zhHant('加重')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Tilt')
@@ -406,8 +379,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('倾斜')
     .zhHant('傾斜')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Trim')
@@ -420,8 +392,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('调整')
     .zhHant('調整')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='TUBE RIPPLE')
@@ -434,8 +405,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='AC Frequency')
@@ -448,8 +418,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='DC Filter')
@@ -462,8 +431,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='TAPE WOW')
@@ -476,8 +444,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Speed Adjustment')
@@ -490,8 +457,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Stereo Phase')
@@ -504,8 +470,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Randomization')
@@ -518,8 +483,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Wet/Dry Mix')
@@ -532,6 +496,5 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans(0)
     .zhHant(0)
     .ar(0)
-    .he(0)
-)
+    )
 

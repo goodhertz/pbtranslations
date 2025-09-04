@@ -14,6 +14,5 @@ ts.append(T(tag="HUD/state",
     .zhHans('噪声')
     .zhHant('雜訊')
     .ar('الضجيج')
-    .he(0)
-)
+    )
 

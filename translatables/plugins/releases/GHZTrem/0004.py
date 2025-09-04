@@ -15,8 +15,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('يَدَوِي')
-    .he('ידני')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TempoSync",
@@ -30,8 +29,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('متزامن')
-    .he('מסונכרן לטמפו')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TremType",
@@ -45,8 +43,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('عادي')
-    .he('סטנדרט')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TremType",
@@ -60,8 +57,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('ايقاعي')
-    .he('הרמוני')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TremType",
@@ -75,8 +71,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('ايقاعي عميق')
-    .he(0)
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TremType",
@@ -90,8 +85,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('الباس')
-    .he('בס')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TremType",
@@ -105,8 +99,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('الصوت العالي')
-    .he('טרבל')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TremType",
@@ -120,8 +113,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('هواء')
-    .he('אוויר')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TremType",
@@ -135,8 +127,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('ميد/سايد')
-    .he('אמצע/צד')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TremType",
@@ -150,8 +141,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('الميد فقط')
-    .he('רק אמצע')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="TremType",
@@ -165,8 +155,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('السايد فقط')
-    .he('רק צד')
-)
+    )
 
 ts.append(T(tag="Tagline",
     text='Classic tremolo for the 21st century')
@@ -179,8 +168,7 @@ ts.append(T(tag="Tagline",
     .zhHans('21世纪的经典颤音')
     .zhHant('21世紀的經典顫音')
     .ar('ارتعاش كلاسيكي للقرن الحادي والعشرين')
-    .he('טרמולו קלאסי למאה ה-21')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='RATE')
@@ -193,8 +181,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('速度/比率')
     .zhHant('速度/比率')
     .ar('المعدل')
-    .he('תדירות')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='BPM')
@@ -207,8 +194,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans(1)
     .zhHant(1)
     .ar(1)
-    .he(1)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='BPM Sync')
@@ -221,8 +207,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('BPM同步')
     .zhHant('BPM同步')
     .ar('BPMتزامن ال')
-    .he('BPM סינק')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Rate')
@@ -235,8 +220,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('比率')
     .zhHant('比率')
     .ar('المعدل')
-    .he('תדירות')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Multiplier')
@@ -249,8 +233,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('乘数')
     .zhHant('乘數')
     .ar('معامل الضرب')
-    .he('מכפיל')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='SHAPE')
@@ -263,8 +246,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('形状')
     .zhHant('形狀')
     .ar('الشكل')
-    .he('צורה')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Depth')
@@ -277,8 +259,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('深度')
     .zhHant('深度')
     .ar('العمق')
-    .he('עומק')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Wave')
@@ -291,8 +272,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('波形')
     .zhHant('波形')
     .ar('الموجة')
-    .he('גל')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Bias')
@@ -305,8 +285,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('交流偏磁')
     .zhHant('交流偏磁')
     .ar('الانحياز')
-    .he('הטייה')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Symmetry')
@@ -319,8 +298,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('对称')
     .zhHant('對稱')
     .ar('التماثل')
-    .he('סימטריה')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='VIBE')
@@ -333,8 +311,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('氛围')
     .zhHant('氛圍')
     .ar('الجو')
-    .he('וייב')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Tube Color')
@@ -347,8 +324,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('真空管染色')
     .zhHant('真空管染色')
     .ar('لون الأنبوب')
-    .he('צבע מנורות')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Trem Type')
@@ -361,8 +337,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('颤音类型')
     .zhHant('顫音類型')
     .ar('نوع الارتعاش')
-    .he('סוג טרמולו')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='ADV SHAPE')
@@ -375,8 +350,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('高级形状调节')
     .zhHant('進階型狀調節')
     .ar('+الشكل')
-    .he('צורה ועוד')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Phase Offset')
@@ -389,8 +363,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('相位偏移')
     .zhHant('相位偏移')
     .ar('فرق الطور')
-    .he('פאזה אוף-סט')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Stereo Phase')
@@ -403,8 +376,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('立体声相位')
     .zhHant('立體聲相位')
     .ar('طور إستريو')
-    .he('פאזה סטריאופונית')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='MISC')
@@ -417,8 +389,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('杂项')
     .zhHant('雜項')
     .ar('متنوعات')
-    .he('שונות')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Trem Volume\nComp')
@@ -431,8 +402,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('颤音音量\n补偿')
     .zhHant('顫音音量\n補償')
     .ar('الإرتعاش\nتعويض علو صوت')
-    .he('פיצוי ווליום טרמולו')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Tube Noise\nGain')
@@ -445,8 +415,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('真空管\n噪声')
     .zhHant('真空管\n噪聲')
     .ar('الانبوب\nربح ضجيج')
-    .he('רעש מנורות')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='ADV RATE')
@@ -459,8 +428,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('高级速度调节')
     .zhHant('進階速度調節')
     .ar('+المعدل')
-    .he('תדירות ועוד')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Swing')
@@ -473,8 +441,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('摇摆')
     .zhHant('搖擺')
     .ar('الإيقاع')
-    .he('סווינג')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='TRIM')
@@ -487,8 +454,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('调整')
     .zhHant('調整')
     .ar('المُوازَنةٌ')
-    .he('טרים')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Input')
@@ -501,8 +467,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('输入')
     .zhHant('輸入')
     .ar('إشارة الإدخال')
-    .he('כניסה')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Output')
@@ -515,6 +480,5 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('输出')
     .zhHant('輸出')
     .ar('إشارة الإخراج')
-    .he('יציאה')
-)
+    )
 

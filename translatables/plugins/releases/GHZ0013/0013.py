@@ -15,8 +15,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('عادي')
-    .he('סטנדרט')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="StereoWidthMode",
@@ -30,8 +29,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('طبيعي')
-    .he('טבעי')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="StereoWidthMode",
@@ -45,8 +43,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('A الملخبط')
-    .he('שאפל א׳')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="StereoWidthMode",
@@ -60,8 +57,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('B الملخبط')
-    .he('שאפל ב׳')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="StereoWidthMode",
@@ -75,8 +71,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('C الملخبط')
-    .he('שאפל ג׳')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="StereoWidthMode",
@@ -90,8 +85,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('M/S مزج ال')
-    .he('מיקס אמצע/צדדים')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="InputMode",
@@ -105,8 +99,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('L | R')
-    .he('ימין|שמאל')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="InputMode",
@@ -120,8 +113,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('ميد-سايد')
-    .he('אמצע|צדדים')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="FlipLR",
@@ -135,8 +127,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('L | R')
-    .he('ימין|שמאל')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="FlipLR",
@@ -150,8 +141,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('R | L')
-    .he('שמאל|ימין')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="MidTiltLoudnessMode",
@@ -165,8 +155,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('تلقائي')
-    .he('אוטומטי')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="MidTiltLoudnessMode",
@@ -180,8 +169,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('عادي')
-    .he('סטנדרט')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="MidTiltLoudnessMode",
@@ -195,8 +183,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('الصوت العالي')
-    .he('טרבל')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="MidTiltLoudnessMode",
@@ -210,8 +197,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('الباس')
-    .he('בס')
-)
+    )
 
 ts.append(T(tag="Tagline",
     text='Expressive stereo imaging')
@@ -224,8 +210,7 @@ ts.append(T(tag="Tagline",
     .zhHans('生动的立体声')
     .zhHant('生動的立體聲')
     .ar('تصوير إستيريو مُعَبِّر')
-    .he('סטריאו אימג׳ינג אקספרסיבי')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='MID')
@@ -238,8 +223,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('中')
     .zhHant('中')
     .ar('ميد')
-    .he('אמצע')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='SOLO')
@@ -252,8 +236,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('صولو')
-    .he('סולו')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='MUTE')
@@ -266,8 +249,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('كتم الصوت')
-    .he('השתק')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='SIDE')
@@ -280,8 +262,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('侧')
     .zhHant('側')
     .ar('سايد')
-    .he('צדדים')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='SOLO')
@@ -294,8 +275,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('صولو')
-    .he('סולו')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='MUTE')
@@ -308,8 +288,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('كتم الصوت')
-    .he('השתק')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Stereo Width')
@@ -322,8 +301,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('立体声宽度')
     .zhHant('立體聲寬度')
     .ar('وُسع الإشَارة إستِيريُو')
-    .he('רוחב סטריאו')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Width Mode')
@@ -336,8 +314,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('宽度模式')
     .zhHant('寬度模式')
     .ar('وضع الوُسع')
-    .he('מצב רוחב')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='MONO BELOW')
@@ -350,8 +327,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('低频单声道化')
     .zhHant('低頻單聲道化')
     .ar('خرج أحادي تحت')
-    .he('מונו')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Strength')
@@ -364,8 +340,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('强度')
     .zhHant('強度')
     .ar('الشدة')
-    .he('עוצמה')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Frequency')
@@ -378,8 +353,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('频率')
     .zhHant('頻率')
     .ar('التردد')
-    .he('תדר')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Bass Makeup')
@@ -392,8 +366,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('低频增益补充')
     .zhHant('低頻增益補充')
     .ar('تعويض الباس')
-    .he('פיצוי בס')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Input Mode')
@@ -406,8 +379,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('输入模式')
     .zhHant('輸入模式')
     .ar('وضع إشارة الإدخال')
-    .he('מצב כניסה')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Output Mode')
@@ -420,8 +392,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('输出模式')
     .zhHant('輸出模式')
     .ar('وضع إشارة الإخراج')
-    .he('מצב יציאה')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Flip L/R')
@@ -434,8 +405,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('L/R翻转')
     .zhHant('L/R翻轉')
     .ar('L/R عَكّس')
-    .he('היפוך ימין/שמאל')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='MID PAN')
@@ -448,8 +418,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('中声像')
     .zhHant('中聲像')
     .ar('تدوير ميد')
-    .he('פאנינג אמצע')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='SIDE PAN')
@@ -462,8 +431,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('侧声像')
     .zhHant('側聲像')
     .ar('تدوير سايد')
-    .he('פאנינג צדדים')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='MID TILT')
@@ -476,8 +444,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('中信号倾斜')
     .zhHant('中信號傾斜')
     .ar('إمالة الميد')
-    .he('טילט אמצע')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Range')
@@ -490,8 +457,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('范围')
     .zhHant('範圍')
     .ar('المدَى')
-    .he('טווח')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Loudness\nMode')
@@ -504,8 +470,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('响度模式')
     .zhHant('響度模式')
     .ar('مستوَى الصوت\nوضع')
-    .he('לאודנס')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='SIDE TILT')
@@ -518,8 +483,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('侧信号倾斜')
     .zhHant('側信號傾斜')
     .ar('إمالة السايد')
-    .he('טילט צדדים')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Range')
@@ -532,8 +496,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('范围')
     .zhHant('範圍')
     .ar('المدَى')
-    .he('טווח')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Loudness\nMode')
@@ -546,6 +509,5 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('响度模式')
     .zhHant('響度模式')
     .ar('مستوَى الصوت\nوضع')
-    .he('לאודנס')
-)
+    )
 

@@ -15,8 +15,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('不变')
     .zhHant('不變')
     .ar('تجَاوز')
-    .he('ביט-דפט׳')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="DitherAmount",
@@ -30,8 +29,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('无')
     .zhHant('無')
     .ar('لا شيء')
-    .he('בלי')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="DitherAmount",
@@ -45,8 +43,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('低')
     .zhHant('低')
     .ar('منخفض')
-    .he('מעט')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="DitherAmount",
@@ -60,8 +57,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('最佳')
     .zhHant('最佳')
     .ar('مثالي')
-    .he('כמה דיט׳ר')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="DitherAmount",
@@ -75,8 +71,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('高')
     .zhHant('高')
     .ar('مرتفع')
-    .he('הרבה')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="NoiseShaping",
@@ -90,8 +85,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('最佳')
     .zhHant('最佳')
     .ar('مثالي')
-    .he('אופיטמלי')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="NoiseShaping",
@@ -105,8 +99,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('无')
     .zhHant('無')
     .ar('لا شيء')
-    .he('בלי')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="NoiseShaping",
@@ -120,8 +113,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('低')
     .zhHant('低')
     .ar('منخفض')
-    .he('מעט')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="NoiseShaping",
@@ -135,8 +127,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('中')
     .zhHant('中')
     .ar('متوسط')
-    .he('מספיק')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="NoiseShaping",
@@ -150,8 +141,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('高')
     .zhHant('高')
     .ar('مرتفع')
-    .he('הרבה')
-)
+    )
 
 ts.append(T(tag="Tagline",
     text='World-class dither, simple controls')
@@ -164,8 +154,7 @@ ts.append(T(tag="Tagline",
     .zhHans('世界级的抖动处理, 超简易的控制')
     .zhHant('世界級的抖動處理, 超簡易的控制')
     .ar('ديثرعالمي،كنترولز بسيطة')
-    .he('דיט׳ר איכותי, בעיצוב פשוט')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Bit\nDepth')
@@ -178,8 +167,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('位元深度')
     .zhHant('位元深度')
     .ar('عمق البِت')
-    .he('ביט-דפט׳')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Dither\nAmount')
@@ -192,8 +180,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('抖动量')
     .zhHant('抖動量')
     .ar('كمية الديثر')
-    .he('דיט׳ר מיקס')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Auto\nBlanking')
@@ -206,8 +193,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('自动空白')
     .zhHant('自動空白')
     .ar('المسح التلقائي')
-    .he('אוטו-בלאנקינג')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Noise\nShaping')
@@ -220,6 +206,5 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('杂讯整形')
     .zhHant('雜訊整形')
     .ar('تشكيل الضجيج')
-    .he('נויז-שייפינג')
-)
+    )
 

@@ -15,8 +15,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('البوابة')
-    .he('גייט')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="GateMode",
@@ -30,8 +29,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('التَّمَلص')
-    .he('דאקינג')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="GateDetection",
@@ -45,8 +43,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('الترَانْزيْنت')
-    .he('טרנזיאנט')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="GateDetection",
@@ -60,8 +57,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('تقليدي')
-    .he('קלאסי')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="GateDetection",
@@ -75,8 +71,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('ديناميكي')
-    .he('דינאמי')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="GateTarget",
@@ -90,8 +85,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('رطب')
-    .he('רטוב')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="GateTarget",
@@ -105,8 +99,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('(رطب (ما قبل')
-    .he('רטוב פרה פיידר')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="GateTarget",
@@ -120,8 +113,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('جاف')
-    .he('יבש')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="GateTarget",
@@ -135,8 +127,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('جاف + رطب')
-    .he('יבש+רטוב')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="GateTarget",
@@ -150,8 +141,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans(1)
     .zhHant(1)
     .ar('(جاف + رطب (ما قبل')
-    .he('יבש+רטוב פרה פיידר')
-)
+    )
 
 ts.append(T(tag="Tagline",
     text='Incredibly good bad reverb')
@@ -164,8 +154,7 @@ ts.append(T(tag="Tagline",
     .zhHans('混响史上的最好与最坏')
     .zhHant('混響史上的最好與最壞')
     .ar('صدى جيد وسيء، بشكلٍ لا يصدق')
-    .he('ריוורב שהוא גם מדהים וגם גרוע שזה לא ייאמן')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='REVERB')
@@ -178,8 +167,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('混响')
     .zhHant('混響')
     .ar('الصدى')
-    .he('ריוורב')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Decay')
@@ -192,8 +180,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('衰减')
     .zhHant('衰減')
     .ar('التَّضَاؤُلِ')
-    .he('דיקאיי')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Predelay')
@@ -206,8 +193,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('预先延迟')
     .zhHant('預先延遲')
     .ar('ما قبل التأخير الزمني')
-    .he('פרה-דיליי')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Predelay')
@@ -220,8 +206,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('预先延迟')
     .zhHant('預先延遲')
     .ar('ما قبل التأخير الزمني')
-    .he('פרה-דיליי')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Damping')
@@ -234,8 +219,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('阻尼')
     .zhHant('阻尼')
     .ar('التخميد')
-    .he('דעיכה')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Mode')
@@ -248,8 +232,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('模式')
     .zhHant('模式')
     .ar('الوضع')
-    .he('מצב')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='FILTER')
@@ -262,8 +245,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('滤波')
     .zhHant('濾波')
     .ar('الفِلتر')
-    .he('פילטר')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='LOFI')
@@ -276,8 +258,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('低保真度')
     .zhHant('低傳真度')
     .ar(1)
-    .he('לו-פיי')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Analog')
@@ -290,8 +271,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('模拟')
     .zhHant('類比')
     .ar('أنالوج')
-    .he('אנלוג')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Digital')
@@ -304,8 +284,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('数位')
     .zhHant('數位')
     .ar('رقمي')
-    .he('דיגיטל')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='GATE')
@@ -318,8 +297,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('门限')
     .zhHant('門限')
     .ar('بوابة')
-    .he('גייט')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='DRY')
@@ -332,8 +310,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('干声')
     .zhHant('乾聲')
     .ar('جاف')
-    .he('מיקס')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='GAIN+')
@@ -346,8 +323,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('增益+')
     .zhHant('增益+')
     .ar('+ربح')
-    .he('גיין ועוד')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Dry Gain')
@@ -360,8 +336,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('干声增益')
     .zhHant('乾聲增益')
     .ar('الجاف')
-    .he('גיין')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Wet Gain')
@@ -374,8 +349,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('混响增益')
     .zhHant('混響增益')
     .ar('الربح الرطب')
-    .he('גיין אפקט')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='STEREO')
@@ -388,8 +362,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('立体声')
     .zhHant('立體聲')
     .ar('إستريو')
-    .he('סטריאו')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Crosstalk')
@@ -402,8 +375,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('声道串扰')
     .zhHant('聲道串擾')
     .ar('تَشْوِيشٌ تَدَاخُلِيٌّ')
-    .he('קרוס-טוק')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Bias')
@@ -416,8 +388,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('交流偏磁')
     .zhHant('交流偏磁')
     .ar('الانحياز')
-    .he('ביאס')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Bass Width')
@@ -430,8 +401,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('低频宽度')
     .zhHant('低頻寬度')
     .ar('وسع الباس')
-    .he('רוחב בס')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Treble Width')
@@ -444,8 +414,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('高频宽度')
     .zhHant('高頻寬度')
     .ar('وسع الصوت العالي')
-    .he('רוחב טרבל')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='GATE+')
@@ -458,8 +427,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('门限+')
     .zhHant('門限+')
     .ar('+بوابة')
-    .he('גייט ועוד')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Sensitivity')
@@ -472,8 +440,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('感度')
     .zhHant('感度')
     .ar('الحساسية')
-    .he('רגישות')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Attack')
@@ -486,8 +453,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('起动')
     .zhHant('起動')
     .ar('زمن التطبيق')
-    .he('זמן התקף')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Release')
@@ -500,8 +466,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('释放')
     .zhHant('釋放')
     .ar('التحرير')
-    .he('זמן שחרור')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Range')
@@ -514,8 +479,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('范围')
     .zhHant('範圍')
     .ar('المدَى')
-    .he('טווח')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Detection')
@@ -528,8 +492,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('侦测')
     .zhHant('偵測')
     .ar('الكشف')
-    .he('דיטקשין')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Target')
@@ -542,8 +505,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('目标')
     .zhHant('目標')
     .ar('الهدف')
-    .he('מטרה')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Sidechain Source')
@@ -556,6 +518,5 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('旁链声源')
     .zhHant('旁鏈聲源')
     .ar('منبع السايدشين')
-    .he('מקור סייד-צ׳יין')
-)
+    )
 

@@ -15,8 +15,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('超现实')
     .zhHant('超現實')
     .ar('اكثرُ واقعيةٌ')
-    .he('הייפר-ריאליסטי')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="CrossfeedRealism",
@@ -30,8 +29,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('真实')
     .zhHant('真實')
     .ar('واقعي')
-    .he('ריאליסטי')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="CrossfeedRealism",
@@ -45,8 +43,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('标准')
     .zhHant('標準')
     .ar('عادي')
-    .he('סטנדרט')
-)
+    )
 
 ts.append(T(tag="Tagline",
     text='Conjure speakers from your headphones')
@@ -59,8 +56,7 @@ ts.append(T(tag="Tagline",
     .zhHans('用耳机营造出音箱般的音响效果')
     .zhHant('用耳機營造出喇叭般的音響效果')
     .ar('حول سماعات الرأس إلى مكبرات صوت')
-    .he(1)
-)
+    )
 
 ts.append(T(tag="HUD/state",
     text='Safe')
@@ -73,8 +69,7 @@ ts.append(T(tag="HUD/state",
     .zhHans('安全')
     .zhHant('安全')
     .ar('الحذَرِ')
-    .he('סייף')
-)
+    )
 
 ts.append(T(tag="HUD/state",
     text='Safe')
@@ -87,8 +82,7 @@ ts.append(T(tag="HUD/state",
     .zhHans('安全')
     .zhHant('安全')
     .ar('الحذَرِ')
-    .he('סייף')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='CROSSFEED')
@@ -101,8 +95,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('互馈效果')
     .zhHant('互饋效果')
     .ar('الكروسفِيد')
-    .he('קרוס-פיד')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Amount')
@@ -115,8 +108,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('量')
     .zhHant('量')
     .ar('الكمية')
-    .he('מיקס')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Angle')
@@ -129,8 +121,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('角度')
     .zhHant('角度')
     .ar('الزاوية')
-    .he('זווית')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='EQUALIZATION')
@@ -143,8 +134,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('频率均衡器')
     .zhHant('頻率均衡器')
     .ar('موازنة الترددات')
-    .he('איקווליזציה')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Bass')
@@ -157,8 +147,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('低频')
     .zhHant('低頻')
     .ar('الباس')
-    .he('בס')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Treble')
@@ -171,8 +160,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('高频')
     .zhHant('高頻')
     .ar('الصوتُ العالي')
-    .he('טרבל')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='L/R Balance')
@@ -185,8 +173,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('左/右平衡')
     .zhHant('左/右平衡')
     .ar('L/R توازن')
-    .he('בלאנס ימין/שמאל')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='Mono')
@@ -199,8 +186,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('单声道')
     .zhHant('单声道')
     .ar('مونو')
-    .he('מונו')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='Flip L/R')
@@ -213,8 +199,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('左/右翻转')
     .zhHant('左/右翻轉')
     .ar('L/R عَكّس')
-    .he('היפוך ימין/שמאל')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='Polarity')
@@ -227,8 +212,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('极性')
     .zhHant('極性')
     .ar('القطبية')
-    .he('קוטביות')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     text='Dim')
@@ -241,8 +225,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('衰减')
     .zhHant('衰減')
     .ar('التخفيف')
-    .he('דים')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Output')
@@ -255,8 +238,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('输出')
     .zhHant('輸出')
     .ar('إشارة الإخراج')
-    .he('יציאה')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Compensation')
@@ -269,8 +251,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('补偿')
     .zhHant('補償')
     .ar('التعويض')
-    .he('פיצוי')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Crossfeed Realism')
@@ -283,8 +264,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('互馈真实度')
     .zhHant('互饋真實度')
     .ar('واقِعيةُ الكروسفِيد')
-    .he('קרוס-פיד ריאליזם')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Bass Frequency')
@@ -297,8 +277,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('低频')
     .zhHant('低頻')
     .ar('تردد الباس')
-    .he('תדר בס')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Treble Frequency')
@@ -311,8 +290,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('高频')
     .zhHant('高頻')
     .ar('تردد الصوتُ العالي')
-    .he('תדר טרבל')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Mid Gain')
@@ -325,8 +303,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('中信号增益')
     .zhHant('中信號增益')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Side Gain')
@@ -339,8 +316,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('侧信号增益')
     .zhHant('側信號增益')
     .ar(0)
-    .he(0)
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Soft Start Time')
@@ -353,8 +329,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('淡入时间')
     .zhHant('淡入時間')
     .ar('وَقتُ التضاؤُل')
-    .he('פייד-אין')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Dim Level')
@@ -367,8 +342,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('衰减程度')
     .zhHant('衰減程度')
     .ar('مستوَى التخفيف')
-    .he('דים')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Safe Gain')
@@ -381,8 +355,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('安全增益')
     .zhHant('安全增益')
     .ar('ربحُ الحذَرِ')
-    .he('גיין סייף')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Dither')
@@ -395,6 +368,5 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('抖动')
     .zhHant('抖動')
     .ar('الديثر')
-    .he('דיט׳ר')
-)
+    )
 

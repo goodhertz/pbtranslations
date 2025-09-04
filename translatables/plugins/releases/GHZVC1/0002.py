@@ -15,8 +15,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('模拟')
     .zhHant('類比')
     .ar('أنالوج')
-    .he('אנלוג')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="LoFiType",
@@ -30,8 +29,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('1990数位')
     .zhHant('1990數位')
     .ar('رقمي: سنوات ال90')
-    .he('ניינטיז דיגיטל')
-)
+    )
 
 ts.append(T(tag="Parameter/option",
     context="LoFiType",
@@ -45,8 +43,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('1980数位')
     .zhHant('1980數位')
     .ar('رقمي: سنوات ال80')
-    .he('אייטיז דיגיטל')
-)
+    )
 
 ts.append(T(tag="Tagline",
     text='Beastly compression, by Vulf')
@@ -59,8 +56,7 @@ ts.append(T(tag="Tagline",
     .zhHans('野兽般强而有力的压缩')
     .zhHant('野獸般強而有力的壓縮')
     .ar('Vulf ضغط وَحْشِيّ، بواسطة')
-    .he('קומפרסיה מפלצתית וולף סטייל')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='IN')
@@ -73,8 +69,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('输入')
     .zhHant('輸入')
     .ar('دَخْل')
-    .he('כניסה')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='COMP')
@@ -87,8 +82,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('压缩')
     .zhHant('壓縮')
     .ar('الضغط')
-    .he('קומפרשן')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='WOW')
@@ -101,8 +95,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('抖晃')
     .zhHant('抖晃')
     .ar('الواو')
-    .he('ואוו')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='LOFI')
@@ -115,8 +108,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('低保真度')
     .zhHant('低傳真度')
     .ar('اللٌُوفَاي')
-    .he('לו-פיי')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='OUT')
@@ -129,8 +121,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('输出')
     .zhHant('輸出')
     .ar('خَرْج')
-    .he('יציאה')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='dry')
@@ -143,8 +134,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('干声')
     .zhHant('乾聲')
     .ar('جاف')
-    .he('מיקס')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='COMP ADV')
@@ -157,8 +147,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('高级压缩设定')
     .zhHant('進階動態設定')
     .ar('+ الضغط')
-    .he('קומפרשן ועוד')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Attack')
@@ -171,8 +160,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('起动时间')
     .zhHant('起動時間')
     .ar('زمن التطبيق')
-    .he('זמן התקף')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Release')
@@ -185,8 +173,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('释放时间')
     .zhHant('釋放時間')
     .ar('التحرير')
-    .he('זמן שחרור')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Stereo Link')
@@ -199,8 +186,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('双声道连结')
     .zhHant('雙聲道連結')
     .ar('الوصل إستيريو')
-    .he('קישור סטריאו')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='WOW ADV')
@@ -213,8 +199,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('高级抖晃低')
     .zhHant('進階抖晃設定')
     .ar('+ الواو')
-    .he('ואוו ועוד')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Mix')
@@ -227,8 +212,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('混合')
     .zhHant('混合')
     .ar('الميكس')
-    .he('מיקס')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Phase')
@@ -241,8 +225,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('相位')
     .zhHant('相位')
     .ar('الطور')
-    .he('פאזה')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Speed')
@@ -255,8 +238,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('速度')
     .zhHant('速度')
     .ar('السرعة')
-    .he('מהירות')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='LOFI ADV')
@@ -269,8 +251,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('高级低保真设定')
     .zhHant('進階低傳真度設定')
     .ar('+ اللٌُوفَاي')
-    .he('לו-פיי ועוד')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Noise')
@@ -283,8 +264,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('噪声')
     .zhHant('雜訊')
     .ar('الضجيج')
-    .he('רעש')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Crunch')
@@ -297,8 +277,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('摩擦声')
     .zhHant('摩擦聲')
     .ar('القرمَشة')
-    .he('קראנצ׳')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Type')
@@ -311,8 +290,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('类型')
     .zhHant('類型')
     .ar('النوع')
-    .he('סוג')
-)
+    )
 
 ts.append(T(tag="ClumpLabel/text",
     text='SIDE\nCHAIN')
@@ -325,8 +303,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('旁链')
     .zhHant('旁鏈')
     .ar('شين\nالسايد')
-    .he('סייד-צ׳יין')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='External Sidechain')
@@ -339,8 +316,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('外部旁链')
     .zhHant('外部旁鏈')
     .ar('سايدشين خارجي')
-    .he('סייד-צ׳יין חיצוני')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='Sidechain Tilt')
@@ -353,8 +329,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('旁链倾斜')
     .zhHant('旁鏈傾斜')
     .ar('إمالةُ السايدشين')
-    .he('סייד-צ׳יין טילט')
-)
+    )
 
 ts.append(T(tag="ParamLabel/text",
     text='DIGITAL\nREF\nLEVEL')
@@ -367,6 +342,5 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('数字\n参考\n电平')
     .zhHant('數位\n參考\n電平')
     .ar('مستوى\nالمَرْجِع\nالرقمي')
-    .he('רפרנס דיגיטלי')
-)
+    )
 
