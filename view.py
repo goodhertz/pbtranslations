@@ -44,11 +44,11 @@ shim = {"DATPenSet":P, "DATPen":P, "bw":bw, "P":P}
 def add_data(self:P, data): return self.data(**data)
 P.add_data = add_data
 
-#try:
-#    pens = eval(pickle.loads(__VERSION__["layout"].read_bytes()), shim)
-#except pickle.UnpicklingError:
+try:
+    pens = eval(pickle.loads(__VERSION__["layout"].read_bytes()), shim)
+except pickle.UnpicklingError:
+    pens = eval(__VERSION__["layout"].read_text(), shim)
 
-pens = eval(__VERSION__["layout"].read_text(), shim)
 data = SourceReader(__VERSION__["config"])
 ts = data.program["ts"]
 

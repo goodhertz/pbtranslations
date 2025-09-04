@@ -12,6 +12,8 @@ for config in configs:
     catalog = config.stem
     layout = ººsiblingºº("layouts") / f"{catalog}_layout.py"
     if not layout.exists():
+        layout = ººsiblingºº("layouts") / f"{catalog}_layout.pkl"
+    if not layout.exists():
         layout = None
 
     VERSIONS[str(int(catalog))] = dict(
