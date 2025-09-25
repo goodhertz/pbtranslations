@@ -3,6 +3,19 @@ from pbtranslations.translations import *
 
 ts = TranslationSet()
 
+ts.append(T(tag="Tagline",
+    text='The soft clip from VCME')
+    .es(0)
+    .pt(0)
+    .fr('Le soft clip de VCME')
+    .it(0)
+    .ja('VCMEのソフトクリップ')
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+)
+
 ts.append(T(tag="Parameter/option",
     context="SoftClipReadout",
     text='LMTR GR')
@@ -102,7 +115,7 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    context="SidechainSource",
+    context="EmphasisSource",
     text='internal')
     .es('interna')
     .pt('interna')
@@ -116,7 +129,7 @@ ts.append(T(tag="Parameter/option",
 )
 
 ts.append(T(tag="Parameter/option",
-    context="SidechainSource",
+    context="EmphasisSource",
     text='external')
     .es('externa')
     .pt('externa')
@@ -201,30 +214,16 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="AdvPage",
-    text='Soft Clip')
-    .es(0)
-    .pt(0)
-    .fr(1)
-    .it(0)
-    .ja('ソフトクリップ')
-    .ko(0)
-    .zhHans(0)
-    .zhHant(0)
+    text='Emphasis')
+    .es('Énfasis')
+    .pt('Ênfase')
+    .fr('Accent.')
+    .it('Enfasi')
+    .ja('エンファシス')
+    .ko('엠퍼시스')
+    .zhHans('加重')
+    .zhHant('加重')
     .ar(0)
-)
-
-ts.append(T(tag="Parameter/option",
-    context="AdvPage",
-    text='Sidechain')
-    .es(1)
-    .pt(1)
-    .fr(1)
-    .it(1)
-    .ja('サイドチェイン')
-    .ko('사이드체인')
-    .zhHans('旁链')
-    .zhHant('旁鏈')
-    .ar('السايدشين')
 )
 
 ts.append(T(tag="Parameter/option",
@@ -239,162 +238,6 @@ ts.append(T(tag="Parameter/option",
     .zhHans('连结')
     .zhHant('連結')
     .ar('الوصل')
-)
-
-ts.append(T(tag="Tagline",
-    text='Vulf Compressor Mastering Edition')
-    .es(0)
-    .pt(0)
-    .fr('Compresseur Vulf Édition Mastering')
-    .it(0)
-    .ja('Vulf Compressor マスタリングバージョン')
-    .ko(0)
-    .zhHans(0)
-    .zhHant(0)
-    .ar(0)
-)
-
-ts.append(T(tag="ClumpLabel/text",
-    text='ratio')
-    .es('proporción')
-    .pt('proporção')
-    .fr(1)
-    .it('rapporto')
-    .ja('比率')
-    .ko('비율')
-    .zhHans('比率')
-    .zhHant('比率')
-    .ar('نسبة الضغط')
-)
-
-ts.append(T(tag="ClumpLabel/text",
-    text='thresh')
-    .es('umbral')
-    .pt('limite')
-    .fr('seuil')
-    .it('soglia')
-    .ja('スレッショルド')
-    .ko('기준 레벨')
-    .zhHans('阈')
-    .zhHant('閾')
-    .ar('حد العتبة')
-)
-
-ts.append(T(tag="ClumpLabel/text",
-    text='makeup')
-    .es('compensación')
-    .pt('compensação')
-    .fr('compensation')
-    .it('compensazione')
-    .ja('補償')
-    .ko('보상')
-    .zhHans('补偿')
-    .zhHant('補償')
-    .ar(0)
-)
-
-ts.append(T(tag="Parameter/option",
-    text='apply')
-    .es('aplicar')
-    .pt('aplicar')
-    .fr('appliquer')
-    .it('applica')
-    .ja('適用する')
-    .ko('적용')
-    .zhHans('应用')
-    .zhHant('應用')
-    .ar(0)
-)
-
-ts.append(T(tag="ClumpLabel/text",
-    text='attack')
-    .es('ataque')
-    .pt('ataque')
-    .fr('attaque')
-    .it('attacco')
-    .ja('アタック')
-    .ko('어택 타임')
-    .zhHans('起动时间')
-    .zhHant('起動時間')
-    .ar('زمن التطبيق')
-)
-
-ts.append(T(tag="ClumpLabel/text",
-    text='release')
-    .es('relajación')
-    .pt('repouso')
-    .fr('retour')
-    .it('rilascio')
-    .ja('リリース')
-    .ko('릴리즈 타임')
-    .zhHans('释放时间')
-    .zhHant('釋放時間')
-    .ar('التحرير')
-)
-
-ts.append(T(tag="ClumpLabel/text",
-    text='style')
-    .es('estilo')
-    .pt('estilo')
-    .fr(1)
-    .it('stile')
-    .ja('スタイル')
-    .ko('스타일')
-    .zhHans('样式')
-    .zhHant('類型')
-    .ar(0)
-)
-
-ts.append(T(tag="ClumpLabel/text",
-    text='dry')
-    .es(1)
-    .pt(1)
-    .fr(1)
-    .it('orig')
-    .ja('原音')
-    .ko('원음')
-    .zhHans('干声')
-    .zhHant('乾聲')
-    .ar('جاف')
-)
-
-ts.append(T(tag="ClumpLabel/text",
-    text='vcme')
-    .es(1)
-    .pt(1)
-    .fr(1)
-    .it(1)
-    .ja(1)
-    .ko(1)
-    .zhHans(1)
-    .zhHant(1)
-    .ar(0)
-)
-
-ts.append(T(tag="Parameter/option",
-    text='comp')
-    .es(1)
-    .pt(1)
-    .fr(1)
-    .it(1)
-    .ja('コンプ')
-    .ko('컴프')
-    .zhHans('压缩')
-    .zhHant('壓縮')
-    .ar('الضغط')
-)
-
-ts.append(T(tag="Parameter/option",
-    text='soft clip')
-    .es(0)
-    .pt(0)
-    .fr(1)
-    .it(0)
-    .ja('ソフトクリップ')
-    .ko(0)
-    .zhHans(0)
-    .zhHant(0)
-    .ar(0)
 )
 
 ts.append(T(tag="Parameter/option",
@@ -551,84 +394,6 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans(1)
     .zhHant(1)
     .ar('مزج ال')
-)
-
-ts.append(T(tag="ClumpLabel/text",
-    text='Comp')
-    .es(1)
-    .pt(1)
-    .fr(1)
-    .it(1)
-    .ja('コンプ')
-    .ko('컴프')
-    .zhHans('压缩')
-    .zhHant('壓縮')
-    .ar('الضغط')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='mode')
-    .es('modo')
-    .pt('modo')
-    .fr(1)
-    .it('modalità')
-    .ja('モード')
-    .ko('모드')
-    .zhHans('模式')
-    .zhHant('模式')
-    .ar('الوضع')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='side trim')
-    .es(0)
-    .pt(0)
-    .fr('volume de side')
-    .it(0)
-    .ja('サイドトリム')
-    .ko(0)
-    .zhHans(0)
-    .zhHant(0)
-    .ar(0)
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='stereo link')
-    .es('link estéreo')
-    .pt('link estéreo')
-    .fr('couplage stéréo')
-    .it('accoppiamento stereo')
-    .ja('ステレオリンク')
-    .ko('스테레오 링크')
-    .zhHans('双声道连结')
-    .zhHant('雙聲道連結')
-    .ar('الوصل إستيريو')
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='left/right link')
-    .es(0)
-    .pt(0)
-    .fr('couplage gauche/droite')
-    .it(0)
-    .ja('左右リンク')
-    .ko(0)
-    .zhHans(0)
-    .zhHant(0)
-    .ar(0)
-)
-
-ts.append(T(tag="ParamLabel/text",
-    text='front/back link')
-    .es(0)
-    .pt(0)
-    .fr('couplage avant/arrière')
-    .it(0)
-    .ja('前後リンク')
-    .ko(0)
-    .zhHans(0)
-    .zhHant(0)
-    .ar(0)
 )
 
 ts.append(T(tag="ClumpLabel/text",
