@@ -19,8 +19,6 @@ def best_font_name(lang):
         return "NotoSansCJKsc-Bold.otf"
     elif lang in ["zh-Hant"]:
         return "NotoSansCJKtc-Bold.otf"
-    elif lang in ["he"]:
-        return "NotoSansHebrew-Bold.ttf"
     elif lang in ["ar"]:
         return "NotoSansArabic-Bold.ttf"
     else:

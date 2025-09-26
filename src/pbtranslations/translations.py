@@ -1,7 +1,7 @@
 from functools import wraps
 from textwrap import dedent
 
-LANGUAGE_SORT_ORDER = order = ["en", "es", "pt", "fr", "it", "ja", "ko", "zhHans", "zhHant", "ar", "he"]
+LANGUAGE_SORT_ORDER = order = ["en", "es", "pt", "fr", "it", "ja", "ko", "zhHans", "zhHant", "ar"]
 
 def strip_whitespace(s):
     if isinstance(s, str):

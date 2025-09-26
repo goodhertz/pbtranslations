@@ -42,7 +42,6 @@ ko Korean
 zh-Hans Chinese (Simplified)
 zh-Hant Chinese (Traditional)
 ar Arabic
-he Hebrew
 ```
 
 #### Colors

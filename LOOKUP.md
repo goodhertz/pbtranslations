@@ -55,3 +55,6 @@
 - 0066
     - VCME
     - translatables/plugins/GHZ0066/0066.py
+- 0067
+    - VCME Soft Clip
+    - translatables/plugins/GHZ0067/0067.py
