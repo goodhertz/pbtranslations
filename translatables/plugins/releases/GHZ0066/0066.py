@@ -7,7 +7,7 @@ ts.append(T(tag="Parameter/option",
     context="SoftClipReadout",
     text='LMTR GR')
     .es(0)
-    .pt(0)
+    .pt('LMTR RG')
     .fr(1)
     .it(0)
     .ja('リミターGR')
@@ -35,7 +35,7 @@ ts.append(T(tag="Parameter/option",
     context="SoftClipReadout",
     text='LRA')
     .es(0)
-    .pt(0)
+    .pt(1)
     .fr(1)
     .it(0)
     .ja(1)
@@ -49,7 +49,7 @@ ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterBrickwall",
     text='Follows Mix')
     .es(0)
-    .pt(0)
+    .pt('Seguir Mix')
     .fr('Suivre Mix')
     .it(0)
     .ja('ミックスに従う')
@@ -63,7 +63,7 @@ ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterBrickwall",
     text='Brickwall')
     .es(0)
-    .pt(0)
+    .pt(1)
     .fr(1)
     .it(0)
     .ja('ブリックウォール')
@@ -175,7 +175,7 @@ ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterLink",
     text='Hybrid')
     .es(0)
-    .pt(0)
+    .pt('Híbrido')
     .fr('Hybride')
     .it(0)
     .ja('ハイブリッド')
@@ -189,7 +189,7 @@ ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterLink",
     text='Full')
     .es(0)
-    .pt(0)
+    .pt('Total')
     .fr('Complet')
     .it(0)
     .ja('フル')
@@ -203,7 +203,7 @@ ts.append(T(tag="Parameter/option",
     context="AdvPage",
     text='Soft Clip')
     .es(0)
-    .pt(0)
+    .pt('Clipping Suave')
     .fr(1)
     .it(0)
     .ja('ソフトクリップ')
@@ -231,7 +231,7 @@ ts.append(T(tag="Parameter/option",
     context="AdvPage",
     text='Linking')
     .es('Vínculo')
-    .pt(1)
+    .pt('Vínculo')
     .fr('Couplage')
     .it('Accoppiamento')
     .ja('リンク')
@@ -244,7 +244,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Tagline",
     text='Vulf Compressor Mastering Edition')
     .es(0)
-    .pt(0)
+    .pt('Vulf Compressor Edição de Masterização')
     .fr('Compresseur Vulf Édition Mastering')
     .it(0)
     .ja('Vulf Compressor マスタリングバージョン')
@@ -387,7 +387,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     text='soft clip')
     .es(0)
-    .pt(0)
+    .pt('clipping suave')
     .fr(1)
     .it(0)
     .ja('ソフトクリップ')
@@ -400,7 +400,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     text='saturation')
     .es('saturación')
-    .pt('saturar')
+    .pt('saturação')
     .fr(1)
     .it('saturazione')
     .ja('サチュレーション')
@@ -426,7 +426,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="Parameter/option",
     text='limiter')
     .es(0)
-    .pt(0)
+    .pt(1)
     .fr('limiteur')
     .it(0)
     .ja('リミター')
@@ -582,7 +582,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='side trim')
     .es(0)
-    .pt(0)
+    .pt('volume dos lados')
     .fr('volume de side')
     .it(0)
     .ja('サイドトリム')
@@ -608,7 +608,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='left/right link')
     .es(0)
-    .pt(0)
+    .pt('link direita/esquerda')
     .fr('couplage gauche/droite')
     .it(0)
     .ja('左右リンク')
@@ -621,7 +621,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='front/back link')
     .es(0)
-    .pt(0)
+    .pt('link frente/fundo')
     .fr('couplage avant/arrière')
     .it(0)
     .ja('前後リンク')
@@ -634,7 +634,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='Soft Clip')
     .es(0)
-    .pt(0)
+    .pt('Clipping Suave')
     .fr(1)
     .it(0)
     .ja('ソフトクリップ')
@@ -647,7 +647,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='limiter link')
     .es(0)
-    .pt(0)
+    .pt('link do limiter')
     .fr('couplage du limiteur')
     .it(0)
     .ja('リミターリンク')
@@ -660,7 +660,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='sat side trim')
     .es(0)
-    .pt(0)
+    .pt('volume de saturação dos lados')
     .fr('volume du side de saturation')
     .it(0)
     .ja('サチュレーションサイドトリム')
@@ -673,7 +673,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='LFE')
     .es(0)
-    .pt(0)
+    .pt(1)
     .fr(1)
     .it(0)
     .ja('低域効果')
@@ -712,7 +712,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='Center')
     .es(0)
-    .pt(0)
+    .pt('Centro')
     .fr('Centre')
     .it(0)
     .ja('センター')
