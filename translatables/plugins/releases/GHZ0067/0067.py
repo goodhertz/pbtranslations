@@ -6,7 +6,7 @@ ts = TranslationSet()
 ts.append(T(tag="Tagline",
     text='The soft clip from VCME')
     .es(0)
-    .pt(0)
+    .pt('O clipping suave do VCME')
     .fr('Le soft clip de VCME')
     .it(0)
     .ja('VCMEのソフトクリップ')
@@ -20,7 +20,7 @@ ts.append(T(tag="Parameter/option",
     context="SoftClipReadout",
     text='LMTR GR')
     .es(0)
-    .pt(0)
+    .pt('LMTR RG')
     .fr(1)
     .it(0)
     .ja('リミターGR')
@@ -48,7 +48,7 @@ ts.append(T(tag="Parameter/option",
     context="SoftClipReadout",
     text='LRA')
     .es(0)
-    .pt(0)
+    .pt(1)
     .fr(1)
     .it(0)
     .ja(1)
@@ -62,7 +62,7 @@ ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterBrickwall",
     text='Follows Mix')
     .es(0)
-    .pt(0)
+    .pt('Seguir Mix')
     .fr('Suivre Mix')
     .it(0)
     .ja('ミックスに従う')
@@ -76,7 +76,7 @@ ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterBrickwall",
     text='Brickwall')
     .es(0)
-    .pt(0)
+    .pt(1)
     .fr(1)
     .it(0)
     .ja('ブリックウォール')
@@ -188,7 +188,7 @@ ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterLink",
     text='Hybrid')
     .es(0)
-    .pt(0)
+    .pt('Híbrido')
     .fr('Hybride')
     .it(0)
     .ja('ハイブリッド')
@@ -202,7 +202,7 @@ ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterLink",
     text='Full')
     .es(0)
-    .pt(0)
+    .pt('Total')
     .fr('Complet')
     .it(0)
     .ja('フル')
@@ -269,7 +269,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="Parameter/option",
     text='limiter')
     .es(0)
-    .pt(0)
+    .pt(1)
     .fr('limiteur')
     .it(0)
     .ja('リミター')
@@ -399,7 +399,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='Soft Clip')
     .es(0)
-    .pt(0)
+    .pt('Clipping Suave')
     .fr(1)
     .it(0)
     .ja('ソフトクリップ')
@@ -412,7 +412,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='limiter link')
     .es(0)
-    .pt(0)
+    .pt('link do limiter')
     .fr('couplage du limiteur')
     .it(0)
     .ja('リミターリンク')
@@ -425,7 +425,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='sat side trim')
     .es(0)
-    .pt(0)
+    .pt('volume de saturação dos lados')
     .fr('volume du side de saturation')
     .it(0)
     .ja('サチュレーションサイドトリム')
@@ -438,7 +438,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='LFE')
     .es(0)
-    .pt(0)
+    .pt(1)
     .fr(1)
     .it(0)
     .ja('低域効果')
@@ -477,7 +477,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='Center')
     .es(0)
-    .pt(0)
+    .pt('Meio')
     .fr('Centre')
     .it(0)
     .ja('センター')
