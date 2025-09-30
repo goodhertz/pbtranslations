@@ -299,7 +299,7 @@ ts.append(T(tag="Parameter/option",
     .pt('aplicar')
     .fr('appliquer')
     .it('applica')
-    .ja('適用する')
+    .ja('適用する', vertical=True)
     .ko('적용')
     .zhHans('应用')
     .zhHant('應用')

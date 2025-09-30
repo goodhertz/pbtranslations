@@ -230,7 +230,7 @@ ts.append(T(tag="Parameter/option",
     context="AdvPage",
     text='Linking')
     .es('Vínculo')
-    .pt(1)
+    .pt('Vínculo')
     .fr('Couplage')
     .it('Accoppiamento')
     .ja('リンク')
@@ -243,7 +243,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     text='saturation')
     .es('saturación')
-    .pt('saturar')
+    .pt('saturação')
     .fr(1)
     .it('saturazione')
     .ja('サチュレーション')
@@ -477,7 +477,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='Center')
     .es(0)
-    .pt('Meio')
+    .pt('Centro')
     .fr('Centre')
     .it(0)
     .ja('センター')
