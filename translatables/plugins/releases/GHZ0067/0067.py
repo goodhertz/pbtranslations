@@ -295,7 +295,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='in')
     .es('entrada')
-    .pt(1)
+    .pt('entrada')
     .fr('entrée')
     .it('ingr')
     .ja('イン')
@@ -334,7 +334,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='out')
     .es('salida')
-    .pt(1)
+    .pt('saída')
     .fr('sortie')
     .it('uscita')
     .ja('アウト')
@@ -425,10 +425,10 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='sat side trim')
     .es(0)
-    .pt('volume de saturação dos lados')
-    .fr('volume du side de saturation')
+    .pt('volume dos lados')
+    .fr('volume de side')
     .it(0)
-    .ja('サチュレーションサイドトリム')
+    .ja('サイドトリム')
     .ko('새츄 사이드 트림')
     .zhHans('饱和侧声道调节')
     .zhHant('飽和側聲道調節')
