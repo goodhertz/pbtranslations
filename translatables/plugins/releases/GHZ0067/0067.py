@@ -6,7 +6,7 @@ ts = TranslationSet()
 ts.append(T(tag="Tagline",
     text='The soft clip from VCME')
     .es(0)
-    .pt('O clipping suave do VCME')
+    .pt('O soft clip do VCME')
     .fr('Le soft clip de VCME')
     .it(0)
     .ja('VCMEのソフトクリップ')
@@ -230,7 +230,7 @@ ts.append(T(tag="Parameter/option",
     context="AdvPage",
     text='Linking')
     .es('Vínculo')
-    .pt('Vínculo')
+    .pt(1)
     .fr('Couplage')
     .it('Accoppiamento')
     .ja('リンク')
@@ -256,7 +256,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="ClumpLabel/text",
     text='slew')
     .es(0)
-    .pt(0)
+    .pt(1)
     .fr('balayage')
     .it(0)
     .ja('スルー')
@@ -282,7 +282,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="ClumpLabel/text",
     text='slew')
     .es(0)
-    .pt(0)
+    .pt(1)
     .fr('balayage')
     .it(0)
     .ja('スルー')
@@ -347,7 +347,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='tilt')
     .es('incl')
-    .pt('incl')
+    .pt('incl.')
     .fr('incl')
     .it('pend')
     .ja('チルト')
@@ -399,7 +399,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='Soft Clip')
     .es(0)
-    .pt('Clipping Suave')
+    .pt(1)
     .fr(1)
     .it(0)
     .ja('ソフトクリップ')
@@ -425,7 +425,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='sat side trim')
     .es(0)
-    .pt('volume de saturação dos lados')
+    .pt('sat. lados')
     .fr('volume du side de saturation')
     .it(0)
     .ja('サチュレーションサイドトリム')
@@ -490,7 +490,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='amount')
     .es('intensidad')
-    .pt('quantidade')
+    .pt('intensidade')
     .fr('intensité')
     .it('quantità')
     .ja('量')
