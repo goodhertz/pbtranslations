@@ -256,7 +256,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="ClumpLabel/text",
     text='slew')
     .es(0)
-    .pt(1)
+    .pt('variação')
     .fr('balayage')
     .it(0)
     .ja('スルー')
@@ -282,7 +282,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="ClumpLabel/text",
     text='slew')
     .es(0)
-    .pt(1)
+    .pt('variação')
     .fr('balayage')
     .it(0)
     .ja('スルー')
@@ -295,7 +295,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='in')
     .es('entrada')
-    .pt('entrada')
+    .pt(1)
     .fr('entrée')
     .it('ingr')
     .ja('イン')
@@ -334,7 +334,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='out')
     .es('salida')
-    .pt('saída')
+    .pt(1)
     .fr('sortie')
     .it('uscita')
     .ja('アウト')
@@ -425,7 +425,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='sat side trim')
     .es(0)
-    .pt('sat. lados')
+    .pt('volume de saturação dos lados')
     .fr('volume du side de saturation')
     .it(0)
     .ja('サチュレーションサイドトリム')
@@ -451,7 +451,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='amount')
     .es('intensidad')
-    .pt('quantidade')
+    .pt('intensidade')
     .fr('intensité')
     .it('quantità')
     .ja('量')
