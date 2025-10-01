@@ -203,7 +203,7 @@ ts.append(T(tag="Parameter/option",
     context="AdvPage",
     text='Soft Clip')
     .es(0)
-    .pt('Clipping Suave')
+    .pt(1)
     .fr(1)
     .it(0)
     .ja('ソフトクリップ')
@@ -231,7 +231,7 @@ ts.append(T(tag="Parameter/option",
     context="AdvPage",
     text='Linking')
     .es('Vínculo')
-    .pt('Vínculo')
+    .pt(1)
     .fr('Couplage')
     .it('Accoppiamento')
     .ja('リンク')
@@ -387,7 +387,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     text='soft clip')
     .es(0)
-    .pt('clipping suave')
+    .pt(1)
     .fr(1)
     .it(0)
     .ja('ソフトクリップ')
@@ -413,7 +413,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="ClumpLabel/text",
     text='slew')
     .es(0)
-    .pt(0)
+    .pt(1)
     .fr('balayage')
     .it(0)
     .ja('スルー')
@@ -439,7 +439,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="ClumpLabel/text",
     text='slew')
     .es(0)
-    .pt(0)
+    .pt(1)
     .fr('balayage')
     .it(0)
     .ja('スルー')
@@ -452,7 +452,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='in')
     .es('entrada')
-    .pt('entrada')
+    .pt(1)
     .fr('entrée')
     .it('ingr')
     .ja('イン')
@@ -491,7 +491,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='out')
     .es('salida')
-    .pt('saída')
+    .pt(1)
     .fr('sortie')
     .it('uscita')
     .ja('アウト')
@@ -504,7 +504,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='tilt')
     .es('incl')
-    .pt('incl')
+    .pt('incl.')
     .fr('incl')
     .it('pend')
     .ja('チルト')
@@ -608,7 +608,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='left/right link')
     .es(0)
-    .pt('link direita/esquerda')
+    .pt('link L/R')
     .fr('couplage gauche/droite')
     .it(0)
     .ja('左右リンク')
@@ -634,7 +634,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='Soft Clip')
     .es(0)
-    .pt('Clipping Suave')
+    .pt(1)
     .fr(1)
     .it(0)
     .ja('ソフトクリップ')
@@ -660,7 +660,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='sat side trim')
     .es(0)
-    .pt('volume de saturação dos lados')
+    .pt('sat. lados')
     .fr('volume du side de saturation')
     .it(0)
     .ja('サチュレーションサイドトリム')
@@ -686,7 +686,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='amount')
     .es('intensidad')
-    .pt('quantidade')
+    .pt('intensidade')
     .fr('intensité')
     .it('quantità')
     .ja('量')
@@ -725,7 +725,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='amount')
     .es('intensidad')
-    .pt('quantidade')
+    .pt('intensidade')
     .fr('intensité')
     .it('quantità')
     .ja('量')
