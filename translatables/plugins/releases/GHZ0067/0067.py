@@ -22,7 +22,7 @@ ts.append(T(tag="Parameter/option",
     .es(0)
     .pt('LMTR RG')
     .fr(1)
-    .it('LMTR RV')
+    .it('RV LMTR')
     .ja('リミターGR')
     .ko('리미터 GR')
     .zhHans('限幅GR')
