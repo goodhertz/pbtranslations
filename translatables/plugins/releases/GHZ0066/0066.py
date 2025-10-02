@@ -748,3 +748,16 @@ ts.append(T(tag="ParamLabel/text",
     .ar(0)
 )
 
+ts.append(T(tag="Sketch/custom",
+    text='comp gr')
+    .es(0)
+    .pt(0)
+    .fr(0)
+    .it(0)
+    .ja(0)
+    .ko(0)
+    .zhHans(0)
+    .zhHant(0)
+    .ar(0)
+)
+
