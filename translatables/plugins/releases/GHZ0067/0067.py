@@ -310,7 +310,7 @@ ts.append(T(tag="ClumpLabel/text",
     .es(1)
     .pt(1)
     .fr(1)
-    .it('spinta')
+    .it(1)
     .ja('ドライブ')
     .ko('드라이브')
     .zhHans('驱动')
