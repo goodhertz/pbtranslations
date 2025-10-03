@@ -20,7 +20,7 @@ ts.append(T(tag="Parameter/option",
     context="SoftClipReadout",
     text='LMTR GR')
     .es(0)
-    .pt('LMTR RG')
+    .pt(1)
     .fr(1)
     .it(0)
     .ja('リミターGR')
@@ -297,7 +297,7 @@ ts.append(T(tag="ClumpLabel/text",
     .es('entrada')
     .pt('entrada')
     .fr('entrée')
-    .it('ingr')
+    .it('ingresso')
     .ja('イン')
     .ko('인풋')
     .zhHans('输入')
