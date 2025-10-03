@@ -608,7 +608,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ParamLabel/text",
     text='left/right link')
     .es(0)
-    .pt('link direita/esquerda')
+    .pt('link esquerda/direita')
     .fr('couplage gauche/droite')
     .it(0)
     .ja('左右リンク')
