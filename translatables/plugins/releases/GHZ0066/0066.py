@@ -748,7 +748,7 @@ ts.append(T(tag="ParamLabel/text",
     .ar(0)
 )
 
-ts.append(T(tag="Sketch/custom",
+ts.append(T(tag="ClumpLabel/text",
     text='comp gr')
     .es(1)
     .pt(1)
