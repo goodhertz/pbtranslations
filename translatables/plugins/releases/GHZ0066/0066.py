@@ -6,7 +6,7 @@ ts = TranslationSet()
 ts.append(T(tag="Parameter/option",
     context="SoftClipReadout",
     text='LMTR GR')
-    .es(0)
+    .es(1)
     .pt(1)
     .fr(1)
     .it(1)
@@ -34,7 +34,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="SoftClipReadout",
     text='LRA')
-    .es(0)
+    .es(1)
     .pt(1)
     .fr(1)
     .it(1)
@@ -48,7 +48,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterBrickwall",
     text='Follows Mix')
-    .es(0)
+    .es('Seguir Mezcla')
     .pt('Seguir Mix')
     .fr('Suivre Mix')
     .it('Segue Miscela')
@@ -62,7 +62,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterBrickwall",
     text='Brickwall')
-    .es(0)
+    .es(1)
     .pt(1)
     .fr(1)
     .it('Muro')
@@ -146,7 +146,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="CompLinkMode",
     text='Mid/Side')
-    .es(1)
+    .es('Central/Lateral')
     .pt('Meio/Lados')
     .fr(1)
     .it('Centro/Lati')
@@ -160,7 +160,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterLink",
     text='Off')
-    .es(1)
+    .es('Des.')
     .pt('Des.')
     .fr(1)
     .it('Spento')
@@ -174,7 +174,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterLink",
     text='Hybrid')
-    .es(0)
+    .es('Híbrido')
     .pt('Híbrido')
     .fr('Hybride')
     .it('Ibrido')
@@ -188,7 +188,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterLink",
     text='Full')
-    .es(0)
+    .es('Completo')
     .pt('Total')
     .fr('Complet')
     .it('Totale')
@@ -202,7 +202,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="AdvPage",
     text='Soft Clip')
-    .es(0)
+    .es('Clip Suave')
     .pt(1)
     .fr(1)
     .it('Clip Lieve')
@@ -230,7 +230,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="AdvPage",
     text='Linking')
-    .es('Vínculo')
+    .es('Enlace')
     .pt(1)
     .fr('Couplage')
     .it('Accoppiamento')
@@ -243,7 +243,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Tagline",
     text='Vulf Compressor Mastering Edition')
-    .es(0)
+    .es('Vulf Compressor Edición de Masterización')
     .pt('Vulf Compressor Edição de Masterização')
     .fr('Vulf Compressor Édition Mastering')
     .it('Vulf Compressor Versione Mastering')
@@ -399,7 +399,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     text='soft clip')
-    .es(0)
+    .es('clip suave')
     .pt(1)
     .fr(1)
     .it('clip lieve')
@@ -425,7 +425,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="ClumpLabel/text",
     text='slew')
-    .es(0)
+    .es(1)
     .pt('variação')
     .fr('balayage')
     .it('viscosità')
@@ -438,7 +438,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="Parameter/option",
     text='limiter')
-    .es(0)
+    .es('limitador')
     .pt(1)
     .fr('limiteur')
     .it('limitatore')
@@ -451,7 +451,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="ClumpLabel/text",
     text='slew')
-    .es(0)
+    .es(1)
     .pt('variação')
     .fr('balayage')
     .it('viscosità')
@@ -594,7 +594,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='side trim')
-    .es(0)
+    .es('ajuste lateral')
     .pt('volume dos lados')
     .fr('volume du side')
     .it('volume lati')
@@ -620,7 +620,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='left/right link')
-    .es(0)
+    .es('enlace izquierda/derecha')
     .pt('link esquerda/direita')
     .fr('couplage gauche/droite')
     .it('accoppiamento sinistra/destra')
@@ -633,7 +633,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='front/back link')
-    .es(0)
+    .es('enlace delante/atrás')
     .pt('link frente/fundo')
     .fr('couplage avant/arrière')
     .it('accoppiamento fronte/retro')
@@ -646,7 +646,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='Soft Clip')
-    .es(0)
+    .es('Clip suave')
     .pt(1)
     .fr(1)
     .it('Clip Lieve')
@@ -659,7 +659,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='limiter link')
-    .es(0)
+    .es('enlace de limitador')
     .pt('link do limiter')
     .fr('couplage du limiteur')
     .it('accoppiamento limitatore')
@@ -672,7 +672,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='saturation\nside trim')
-    .es(0)
+    .es('ajuste de\nsaturación lateral')
     .pt('volume de\nsaturação dos lados')
     .fr('volume de\nsaturation du side')
     .it('volume\nsaturazione lati')
@@ -685,7 +685,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='LFE')
-    .es(0)
+    .es(1)
     .pt(1)
     .fr(1)
     .it(1)
@@ -724,7 +724,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='Center')
-    .es(0)
+    .es('Centro')
     .pt('Centro')
     .fr('Centre')
     .it('Centro')
@@ -763,7 +763,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='multichannel\nonly')
-    .es(0)
+    .es('multicanal\nsolamente')
     .pt(0)
     .fr('multicanal\nseulement')
     .it(0)
@@ -776,7 +776,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='multichannel\nonly')
-    .es(0)
+    .es('multicanal\nsolamente')
     .pt(0)
     .fr('multicanal\nseulement')
     .it(0)
@@ -789,7 +789,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='surround\nonly')
-    .es(0)
+    .es('surround\nsolamente')
     .pt(0)
     .fr('surround\nseulement')
     .it(0)
@@ -802,7 +802,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='surround\nonly')
-    .es(0)
+    .es('surround\nsolamente')
     .pt(0)
     .fr('surround\nseulement')
     .it(0)
