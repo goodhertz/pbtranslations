@@ -5,7 +5,7 @@ ts = TranslationSet()
 
 ts.append(T(tag="Tagline",
     text='The soft clip from VCME')
-    .es('El clipping suave de VCME')
+    .es('El clip suave de VCME')
     .pt('O soft clip do VCME')
     .fr('Le soft clip de VCME')
     .it('Il clip dolce dal VCME')
@@ -398,7 +398,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='Soft Clip')
-    .es('Clipping suave')
+    .es('Clip Suave')
     .pt(1)
     .fr(1)
     .it('Clip Lieve')
