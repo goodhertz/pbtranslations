@@ -5,7 +5,7 @@ ts = TranslationSet()
 
 ts.append(T(tag="Tagline",
     text='The soft clip from VCME')
-    .es(0)
+    .es('El clip suave de VCME')
     .pt('O soft clip do VCME')
     .fr('Le soft clip de VCME')
     .it('Il clip dolce dal VCME')
@@ -19,7 +19,7 @@ ts.append(T(tag="Tagline",
 ts.append(T(tag="Parameter/option",
     context="SoftClipReadout",
     text='LMTR GR')
-    .es(0)
+    .es(1)
     .pt(1)
     .fr(1)
     .it(1)
@@ -47,7 +47,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="SoftClipReadout",
     text='LRA')
-    .es(0)
+    .es(1)
     .pt(1)
     .fr(1)
     .it(1)
@@ -61,7 +61,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterBrickwall",
     text='Follows Mix')
-    .es(0)
+    .es('Seguir Mezcla')
     .pt('Seguir Mix')
     .fr('Suivre Mix')
     .it('Segue Miscela')
@@ -75,7 +75,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterBrickwall",
     text='Brickwall')
-    .es(0)
+    .es(1)
     .pt(1)
     .fr(1)
     .it('Muro')
@@ -159,7 +159,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="CompLinkMode",
     text='Mid/Side')
-    .es(1)
+    .es('Central/Lateral')
     .pt('Meio/Lados')
     .fr(1)
     .it('Centro/Lati')
@@ -173,7 +173,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterLink",
     text='Off')
-    .es(1)
+    .es('Des.')
     .pt('Des.')
     .fr(1)
     .it('Spento')
@@ -187,7 +187,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterLink",
     text='Hybrid')
-    .es(0)
+    .es('Híbrido')
     .pt('Híbrido')
     .fr('Hybride')
     .it('Ibrido')
@@ -201,7 +201,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="SoftClipLimiterLink",
     text='Full')
-    .es(0)
+    .es('Completo')
     .pt('Total')
     .fr('Complet')
     .it('Totale')
@@ -229,7 +229,7 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="AdvPage",
     text='Linking')
-    .es('Vínculo')
+    .es('Enlace')
     .pt(1)
     .fr('Couplage')
     .it('Accoppiamento')
@@ -255,7 +255,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="ClumpLabel/text",
     text='slew')
-    .es(0)
+    .es(1)
     .pt('variação')
     .fr('balayage')
     .it('viscosità')
@@ -268,7 +268,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="Parameter/option",
     text='limiter')
-    .es(0)
+    .es('limitador')
     .pt(1)
     .fr('limiteur')
     .it('limitatore')
@@ -281,7 +281,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="ClumpLabel/text",
     text='slew')
-    .es(0)
+    .es(1)
     .pt('variação')
     .fr('balayage')
     .it('viscosità')
@@ -398,7 +398,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='Soft Clip')
-    .es(0)
+    .es('Clip Suave')
     .pt(1)
     .fr(1)
     .it('Clip Lieve')
@@ -411,7 +411,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='limiter link')
-    .es(0)
+    .es('enlace de limitador')
     .pt('link do limiter')
     .fr('couplage du limiteur')
     .it('accoppiamento limitatore')
@@ -424,7 +424,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ParamLabel/text",
     text='saturation\nside trim')
-    .es(0)
+    .es('ajuste de\nsaturación lateral')
     .pt('volume de\nsaturação dos lados')
     .fr('volume de\nsaturation du side')
     .it('volume\nsaturazione lati')
@@ -437,7 +437,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='LFE')
-    .es(0)
+    .es(1)
     .pt(1)
     .fr(1)
     .it(1)
@@ -476,7 +476,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='Center')
-    .es(0)
+    .es('Centro')
     .pt('Centro')
     .fr('Centre')
     .it('Centro')
@@ -515,7 +515,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='multichannel\nonly')
-    .es(0)
+    .es('multicanal\nsolamente')
     .pt(0)
     .fr('multicanal\nseulement')
     .it(0)
@@ -528,7 +528,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='surround\nonly')
-    .es(0)
+    .es('surround\nsolamente')
     .pt(0)
     .fr('surround\nseulement')
     .it(0)
@@ -541,7 +541,7 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='surround\nonly')
-    .es(0)
+    .es('surround\nsolamente)
     .pt(0)
     .fr('surround\nseulement')
     .it(0)
