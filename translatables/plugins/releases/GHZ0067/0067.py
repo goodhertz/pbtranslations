@@ -516,7 +516,7 @@ ts.append(T(tag="ParamLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='multichannel\nonly')
     .es('multicanal\nsolamente')
-    .pt(0)
+    .pt('multipista\nsomente')
     .fr('multicanal\nseulement')
     .it(0)
     .ja('マルチチャンネル\nのみ')
@@ -529,7 +529,7 @@ ts.append(T(tag="ClumpLabel/text",
 ts.append(T(tag="ClumpLabel/text",
     text='surround\nonly')
     .es('surround\nsolamente')
-    .pt(0)
+    .pt('surround\nsomente')
     .fr('surround\nseulement')
     .it(0)
     .ja('サラウンド\nのみ')
@@ -541,8 +541,8 @@ ts.append(T(tag="ClumpLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='surround\nonly')
-    .es('surround\nsolamente)
-    .pt(0)
+    .es('surround\nsolamente')
+    .pt('surround\nsomente')
     .fr('surround\nseulement')
     .it(0)
     .ja('サラウンド\nのみ')

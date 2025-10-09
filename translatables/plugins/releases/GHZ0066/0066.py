@@ -646,7 +646,7 @@ ts.append(T(tag="ParamLabel/text",
 
 ts.append(T(tag="ClumpLabel/text",
     text='Soft Clip')
-    .es('Clip suave')
+    .es('Clip Suave')
     .pt(1)
     .fr(1)
     .it('Clip Lieve')
