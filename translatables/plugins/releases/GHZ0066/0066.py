@@ -103,7 +103,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="SidechainSource",
-    text='internal')
+    text='Internal')
     .es('interna')
     .pt('interna')
     .fr('interne')
@@ -117,7 +117,7 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="SidechainSource",
-    text='external')
+    text='External')
     .es('externa')
     .pt('externa')
     .fr('externe')
