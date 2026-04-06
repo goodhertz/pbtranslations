@@ -300,7 +300,7 @@ wheels = [
 
 [[package]]
 name = "coldtype"
-version = "0.13.0"
+version = "0.13.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "coldtype-core" },
@@ -316,14 +316,14 @@ dependencies = [
     { name = "tqdm" },
     { name = "ufo2ft" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/7a/18/35fdb6146fda1f21f6360b9b008faa3f73d5e55ea535e54b741991c7b254/coldtype-0.13.0.tar.gz", hash = "sha256:cfff858690ca839529fc7b8d40e4fd9f47b1b23e57f19a8195221365bb7cbbee", size = 1242 }
+sdist = { url = "https://files.pythonhosted.org/packages/84/82/c785464ccbac844a656694b0da1b68ef37197d6bcad2d2f11ab8d783318a/coldtype-0.13.2.tar.gz", hash = "sha256:46634992a4ab0bf58417f8e6195572579b8408ef3b64a923eb201260d71af87f", size = 2516 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f5/20/e5c3a6348f09ca109f40cebf28a36a17abe4f11e66c764b9b014d5c201ee/coldtype-0.13.0-py2.py3-none-any.whl", hash = "sha256:97b83769601e6566c0f7b20281b184292c1924ffb2b00ce75db3819de1773f7e", size = 1098 },
+    { url = "https://files.pythonhosted.org/packages/ec/63/4e062627c48cceb6ddedf4278b658d5b4a42c10b44661bfb1253c6696e18/coldtype-0.13.2-py2.py3-none-any.whl", hash = "sha256:3a1c5c85186c7c7ab5be907fc3218cec7a94eb70c94ab5715237b4ddccaed3bf", size = 1494 },
 ]
 
 [[package]]
 name = "coldtype-core"
-version = "0.13.0"
+version = "0.13.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "b3denv" },
@@ -336,9 +336,9 @@ dependencies = [
     { name = "skia-pathops" },
     { name = "uharfbuzz" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/fc/04/21fb725b4b1a37b05c4006fe007a5972f888a900ba402c3b2aa6d3747b11/coldtype_core-0.13.0.tar.gz", hash = "sha256:5647b53ab44b0ab4cc63c9e44c7c4838df7454a4d99e7e6635eefaca985489fd", size = 598358 }
+sdist = { url = "https://files.pythonhosted.org/packages/21/10/c4225ba51fe34524b0233bb52fb0b8b94cf95994989adc95062e9c94c278/coldtype_core-0.13.2.tar.gz", hash = "sha256:6ba5064b12bfc669ed68a05a0f93274f11cbe18c1f92f9fae09f03d17acc8b8a", size = 598840 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/be/ad/a32c860526f7866f3724adb12397d15104b8b8e4571f0554f16d9760e4ea/coldtype_core-0.13.0-py3-none-any.whl", hash = "sha256:a13cf38e4f56fb4319902468ec9e9e718563d023996f976eca07f2706388ed5e", size = 641768 },
+    { url = "https://files.pythonhosted.org/packages/32/f8/704bd1621d15a99a3bef53f74b1cd1e348629637172ae5a3148d8bde5cbf/coldtype_core-0.13.2-py3-none-any.whl", hash = "sha256:22365cc5280dd3fe740c51908ac764731cb8bb95a66c7890c693305166a5631f", size = 641938 },
 ]
 
 [[package]]
@@ -735,7 +735,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "coldtype", specifier = ">=0.13.0" }]
+requires-dist = [{ name = "coldtype", specifier = ">=0.13.2" }]
 
 [[package]]
 name = "potracer"

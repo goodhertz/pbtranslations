@@ -4,11 +4,11 @@ version = "0.1.0"
 description = "Audio plugin translations"
 readme = "README.md"
 authors = [
-    { name = "Rob Stenson", email = "rob.stenson@gmail.com" }
+    { name = "Rob Stenson", email = "rob@goodhertz.com" }
 ]
 requires-python = ">=3.11"
 dependencies = [
-    "coldtype>=0.13.0",
+    "coldtype>=0.13.2",
 ]
 
 [project.scripts]
