@@ -8,7 +8,7 @@ authors = [
 ]
 requires-python = ">=3.11"
 dependencies = [
-    "coldtype[viewer]",
+    "coldtype>=0.13.0",
 ]
 
 [project.scripts]
@@ -17,6 +17,3 @@ pbtranslations = "pbtranslations:main"
 [build-system]
 requires = ["setuptools >= 61.0", "wheel", "setuptools-scm >= 8.0"]
 build-backend = "setuptools.build_meta"
-
-[tool.uv.sources]
-coldtype = { path = "../coldtype", editable = true }
