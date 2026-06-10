@@ -200,7 +200,7 @@ ts.append(T(tag="Parameter/option",
     )
 
 ts.append(T(tag="Parameter/option",
-    context="LoudnessMeteringUnits",
+    context="MeteringUnits",
     text='Absolute')
     .es('Absoluto')
     .pt('Absoluto')
@@ -214,7 +214,7 @@ ts.append(T(tag="Parameter/option",
     )
 
 ts.append(T(tag="Parameter/option",
-    context="LoudnessMeteringUnits",
+    context="MeteringUnits",
     text='Relative')
     .es('Relativo')
     .pt('Relativo')
@@ -224,6 +224,34 @@ ts.append(T(tag="Parameter/option",
     .ko('상대적')
     .zhHans('相对的')
     .zhHant('相對的')
+    .ar(0)
+    )
+
+ts.append(T(tag="Parameter/option",
+    context="CrestFactorUnits",
+    text='Ratio')
+    .es('Proporción')
+    .pt('Proporção')
+    .fr(1)
+    .it('Rapporto')
+    .ja('比率')
+    .ko('비율')
+    .zhHans('比率')
+    .zhHant('比率')
+    .ar(0)
+    )
+
+ts.append(T(tag="Parameter/option",
+    context="CrestFactorUnits",
+    text='dB (AES17)')
+    .es(1)
+    .pt(1)
+    .fr(1)
+    .it(1)
+    .ja(1)
+    .ko(1)
+    .zhHans(1)
+    .zhHant(1)
     .ar(0)
     )
 
@@ -617,6 +645,19 @@ ts.append(T(tag="ParamLabel/text",
     .ko('단위')
     .zhHans('单位')
     .zhHant('單位')
+    .ar(0)
+    )
+
+ts.append(T(tag="ParamLabel/text",
+    text='Crest\nFactor')
+    .es('Factor\nde Cresta')
+    .pt('Fator\nde Crista')
+    .fr('Facteur\nde Crête')
+    .it('Fattore\nCresta')
+    .ja('クレスト\nファクタ')
+    .ko('크래스트\n팩터')
+    .zhHans('波峰\n因数')
+    .zhHant('波峰\n因數')
     .ar(0)
     )
 
