@@ -1,30 +1,30 @@
 - 0001
     - CanOpener Studio
-    - translatables/plugins/GHZCrossfeed/0001.py
+    - translatables/plugins/GHZ0001/0001.py
 - 0002
     - Vulf Compressor
-    - translatables/plugins/GHZVC1/0002.py
+    - translatables/plugins/GHZ0002/0002.py
 - 0003
     - Tone Control
-    - translatables/plugins/GHZTC1/0003.py
+    - translatables/plugins/GHZ0003/0003.py
 - 0004
     - Trem Control
-    - translatables/plugins/GHZTrem/0004.py
+    - translatables/plugins/GHZ0004/0004.py
 - 0005
     - Lossy
-    - translatables/plugins/GHZLossy/0005.py
+    - translatables/plugins/GHZ0005/0005.py
 - 0006
     - Lohi
-    - translatables/plugins/GHZSweep/0006.py
+    - translatables/plugins/GHZ0006/0006.py
 - 0007
     - Faraday Limiter
-    - translatables/plugins/GHZLimsat/0007.py
+    - translatables/plugins/GHZ0007/0007.py
 - 0009
     - Panpot
-    - translatables/plugins/GHZPanPot/0009.py
+    - translatables/plugins/GHZ0009/0009.py
 - 0012
     - Good Dither
-    - translatables/plugins/GHZGDither/0012.py
+    - translatables/plugins/GHZ0012/0012.py
 - 0013
     - Midside
     - translatables/plugins/GHZ0013/0013.py
