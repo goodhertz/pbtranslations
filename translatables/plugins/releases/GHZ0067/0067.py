@@ -116,11 +116,11 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="EmphasisSource",
-    text='internal')
-    .es('interna')
-    .pt('interna')
-    .fr('interne')
-    .it('interna')
+    text='Internal')
+    .es('Interna')
+    .pt('Interna')
+    .fr('Interne')
+    .it('Interna')
     .ja('内部')
     .ko('인터널')
     .zhHans('内部')
@@ -130,11 +130,11 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="EmphasisSource",
-    text='external')
-    .es('externa')
-    .pt('externa')
-    .fr('externe')
-    .it('esterna')
+    text='External')
+    .es('Externa')
+    .pt('Externa')
+    .fr('Externe')
+    .it('Esterna')
     .ja('外部')
     .ko('엑스터널')
     .zhHans('外部')

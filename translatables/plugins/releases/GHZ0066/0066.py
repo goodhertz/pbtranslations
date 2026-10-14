@@ -104,10 +104,10 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="SidechainSource",
     text='Internal')
-    .es('interna')
-    .pt('interna')
-    .fr('interne')
-    .it('interna')
+    .es('Interna')
+    .pt('Interna')
+    .fr('Interne')
+    .it('Interna')
     .ja('内部')
     .ko('인터널')
     .zhHans('内部')
@@ -118,10 +118,10 @@ ts.append(T(tag="Parameter/option",
 ts.append(T(tag="Parameter/option",
     context="SidechainSource",
     text='External')
-    .es('externa')
-    .pt('externa')
-    .fr('externe')
-    .it('esterna')
+    .es('Externa')
+    .pt('Externa')
+    .fr('Externe')
+    .it('Esterna')
     .ja('外部')
     .ko('엑스터널')
     .zhHans('外部')
