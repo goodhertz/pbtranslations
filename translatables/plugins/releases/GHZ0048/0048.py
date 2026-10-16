@@ -45,6 +45,20 @@ ts.append(T(tag="Parameter/option",
     )
 
 ts.append(T(tag="Parameter/option",
+    context="TapeMode",
+    text='Wow Only')
+    .es('Solo Wow')
+    .pt('Solo: Wow')
+    .fr('Wow Seul')
+    .it('Solo Wow')
+    .ja('ワウのみ')
+    .ko('와우 전용')
+    .zhHans('仅限抖晃')
+    .zhHant('僅限抖晃')
+    .ar(0)
+    )
+
+ts.append(T(tag="Parameter/option",
     context="OptoMode",
     text='COMP')
     .es(1)
