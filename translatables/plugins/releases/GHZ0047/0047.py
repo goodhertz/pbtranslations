@@ -15,7 +15,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('真空管 -> 磁带')
     .zhHant('真空管 -> 磁帶')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="Parameter/option",
     context="TubeTapeOrder",
@@ -29,7 +29,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('磁带 -> 真空管')
     .zhHant('磁帶 -> 真空管')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="Parameter/option",
     context="OptoMode",
@@ -43,7 +43,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('压缩')
     .zhHant('壓縮')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="Parameter/option",
     context="OptoMode",
@@ -57,7 +57,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('限幅')
     .zhHant('限幅')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="Parameter/option",
     context="OptoPosition",
@@ -71,7 +71,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('前')
     .zhHant('前')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="Parameter/option",
     context="OptoPosition",
@@ -85,7 +85,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('中间')
     .zhHant('中間')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="Parameter/option",
     context="OptoPosition",
@@ -99,7 +99,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('后')
     .zhHant('後')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="Parameter/option",
     context="OptoPosition",
@@ -113,7 +113,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('饱和')
     .zhHant('飽和')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="Parameter/option",
     context="FilterPosition",
@@ -127,7 +127,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('前')
     .zhHant('前')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="Parameter/option",
     context="FilterPosition",
@@ -141,7 +141,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('中间')
     .zhHant('中間')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="Parameter/option",
     context="FilterPosition",
@@ -155,7 +155,35 @@ ts.append(T(tag="Parameter/option",
     .zhHans('后')
     .zhHant('後')
     .ar(0)
-    )
+)
+
+ts.append(T(tag="Parameter/option",
+    context="OutputGainPosition",
+    text='POST')
+    .es(1)
+    .pt('PÓS')
+    .fr(1)
+    .it(1)
+    .ja('ポスト')
+    .ko('포스트')
+    .zhHans('后')
+    .zhHant('後')
+    .ar(0)
+)
+
+ts.append(T(tag="Parameter/option",
+    context="OutputGainPosition",
+    text='PRE')
+    .es(1)
+    .pt('PRÉ')
+    .fr('PRÉ')
+    .it(1)
+    .ja('プリ')
+    .ko('프리')
+    .zhHans('前')
+    .zhHant('前')
+    .ar(0)
+)
 
 ts.append(T(tag="Parameter/option",
     context="AdvPage",
@@ -169,7 +197,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('滤波+校准')
     .zhHant('濾波+校準')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="Parameter/option",
     context="AdvPage",
@@ -183,7 +211,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('加重')
     .zhHant('加重')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="Tagline",
     text='Tube + Tape = Tupe')
@@ -196,7 +224,7 @@ ts.append(T(tag="Tagline",
     .zhHans('真空管 + 磁带 = 磁管')
     .zhHant('真空管 + 磁帶 = 磁管')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="ParamLabel/text",
     text='Drive')
@@ -209,7 +237,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('驱动')
     .zhHant('驅動')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="ClumpLabel/text",
     text='Bias')
@@ -222,7 +250,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('磁带偏磁')
     .zhHant('磁帶偏磁')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="ClumpLabel/text",
     text='Noise')
@@ -235,7 +263,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('噪声')
     .zhHant('噪聲')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="ParamLabel/text",
     text='Output')
@@ -248,7 +276,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('输出')
     .zhHant('輸出')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="ParamLabel/text",
     text='DRY')
@@ -261,7 +289,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('干声')
     .zhHant('乾聲')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="Parameter/option",
     text='FILTER')
@@ -274,7 +302,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('滤波')
     .zhHant('濾波')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="Parameter/option",
     text='EMPHASIS')
@@ -287,7 +315,7 @@ ts.append(T(tag="Parameter/option",
     .zhHans('加重')
     .zhHant('加重')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="ClumpLabel/text",
     text='FILTER')
@@ -300,7 +328,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('滤波')
     .zhHant('濾波')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="ParamLabel/text",
     text='Tilt')
@@ -313,7 +341,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('倾斜')
     .zhHant('傾斜')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="ParamLabel/text",
     text='Trim')
@@ -326,7 +354,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('调整')
     .zhHant('調整')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="ParamLabel/text",
     text='CAL\nTRIM')
@@ -340,7 +368,20 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('校准调整')
     .zhHant('校準調整')
     .ar(0)
-    )
+)
+
+ts.append(T(tag="ParamLabel/text",
+    text='OUTPUT\nGAIN')
+    .es('GANANCIA DE\nSALIDA')
+    .pt('GANHO DE\nSAÍDA')
+    .fr('GAIN DE\nSORTIE')
+    .it('GUADAGNO\nUSCITA')
+    .ja('アウトプット\nゲイン')
+    .ko('아웃풋\n게인')
+    .zhHans('输出\n增益')
+    .zhHant('輸出\n增益')
+    .ar(0)
+)
 
 ts.append(T(tag="ClumpLabel/text",
     text='EMPHASIS')
@@ -353,7 +394,7 @@ ts.append(T(tag="ClumpLabel/text",
     .zhHans('加重')
     .zhHant('加重')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="ParamLabel/text",
     text='Tilt')
@@ -366,7 +407,7 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('倾斜')
     .zhHant('傾斜')
     .ar(0)
-    )
+)
 
 ts.append(T(tag="ParamLabel/text",
     text='Trim')
@@ -379,5 +420,5 @@ ts.append(T(tag="ParamLabel/text",
     .zhHans('调整')
     .zhHant('調整')
     .ar(0)
-    )
+)
 
