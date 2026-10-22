@@ -517,6 +517,19 @@ ts.append(T(tag="ClumpLabel/text",
     .ar(0)
 )
 
+ts.append(T(tag="ParamLabel/text",
+    text='Ripple Filter')
+    .es('Filtro de Ripple')
+    .pt('Filtro de Ripple')
+    .fr('Filtre de Ripple')
+    .it('Filtro di Ripple')
+    .ja('リップルフィルター')
+    .ko('리플 필터')
+    .zhHans('纹波滤波')
+    .zhHant('漣波濾波')
+    .ar(0)
+)
+
 ts.append(T(tag="ClumpLabel/text",
     text='TAPE\nWOW')
     .es('WOW DE\nCINTA')
