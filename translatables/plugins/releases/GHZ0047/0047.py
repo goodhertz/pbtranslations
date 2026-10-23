@@ -213,6 +213,20 @@ ts.append(T(tag="Parameter/option",
     .ar(0)
 )
 
+ts.append(T(tag="Parameter/option",
+    context="ACPowerFrequency",
+    text='Auto')
+    .es(1)
+    .pt(1)
+    .fr(1)
+    .it(1)
+    .ja('自動')
+    .ko('자동')
+    .zhHans('自动')
+    .zhHant('自動')
+    .ar(0)
+)
+
 ts.append(T(tag="Tagline",
     text='Tube + Tape = Tupe')
     .es('Bulbo + Cinta = Tupe')
