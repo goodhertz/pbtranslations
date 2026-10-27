@@ -256,15 +256,15 @@ ts.append(T(tag="Parameter/option",
 
 ts.append(T(tag="Parameter/option",
     context="TapeWowSpeedMode",
-    text='Auto')
-    .es(1)
-    .pt(1)
+    text='Tape')
+    .es('Cinta')
+    .pt('Fita')
     .fr(1)
-    .it(1)
-    .ja('自動')
-    .ko('자동')
-    .zhHans('自动')
-    .zhHant('自動')
+    .it('Nastro')
+    .ja('テープ')
+    .ko('테이프')
+    .zhHans('磁带')
+    .zhHant('磁帶')
     .ar(0)
 )
 
@@ -453,15 +453,15 @@ ts.append(T(tag="ParamLabel/text",
 )
 
 ts.append(T(tag="ParamLabel/text",
-    text='OUTPUT\nGAIN')
-    .es('GANANCIA DE\nSALIDA')
-    .pt('GANHO DE\nSAÍDA')
-    .fr('GAIN DE\nSORTIE')
-    .it('GUADAGNO\nUSCITA')
-    .ja('アウトプット\nゲイン')
-    .ko('아웃풋\n게인')
-    .zhHans('输出\n增益')
-    .zhHant('輸出\n增益')
+    text='OUTPUT')
+    .es('SALIDA')
+    .pt('SAÍDA')
+    .fr('SORTIE')
+    .it('USCITA')
+    .ja('アウトプット')
+    .ko('아웃풋')
+    .zhHans('输出')
+    .zhHant('輸出')
     .ar(0)
 )
 
